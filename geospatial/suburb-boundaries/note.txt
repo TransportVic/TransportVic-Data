@@ -1,0 +1,2 @@
+Data is sourced from https://data.gov.au/data/dataset/vic-suburb-locality-boundaries-geoscape-administrative-boundaries
+Last updated: May 2024
