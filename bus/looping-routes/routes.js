@@ -32,6 +32,17 @@ module.exports = {
 
       if (tudor >= 0 && tarrawarra >= 0 && tarrawarra > tudor) return 'Clockwise'
       else return 'Anti-Clockwise'
-    },
+    }
+  },
+  'regional': {
+    'mildura': {
+      '400': 'Clockwise',
+      '501': 'Clockwise',
+
+      '500': 'Anti-Clockwise',
+      '401': 'Anti-Clockwise',
+
+      '600': 'Clockwise'
+    }
   }
 }
