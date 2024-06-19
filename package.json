@@ -11,5 +11,9 @@
   "devDependencies": {
     "chai": "^5.1.1",
     "mocha": "^10.4.0"
+  },
+  "dependencies": {
+    "@tmcw/togeojson": "^5.8.1",
+    "@xmldom/xmldom": "^0.8.10"
   }
 }
