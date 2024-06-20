@@ -47,10 +47,12 @@ const interTownOutput = interTownOperators.slice(1).reduce((acc, row) => {
 const oddColourIndex = operatorDetails[0].indexOf('Colour (Odd)')
 const evenColourIndex = operatorDetails[0].indexOf('Colour (Even)')
 const textColourIndex = operatorDetails[0].indexOf('Text Colour')
-const operatorColours = operatorDetails.slice(1).reduce((acc, row) => {
+const defaultOdd = 'd7832c', defaultEven = 'c47625', defaultText = '1e1e1e'
+const operatorColours = operatorDetails.slice(2).reduce((acc, row) => {
   const operator = row[0]
-  const oddColour = row[oddColourIndex], evenColour = row[evenColourIndex]
-  const textColour = row[textColourIndex]
+  const oddColour = row[oddColourIndex] || defaultOdd
+  const evenColour = row[evenColourIndex] || defaultEven
+  const textColour = oddColour === defaultOdd ? defaultText : row[textColourIndex]
 
   const simpleOperatorName = operator.replace(/[^\w]/g, '-').replace(/--+/g, '-').replace(/-$/, '').toLowerCase()
 
