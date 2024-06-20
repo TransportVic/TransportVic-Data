@@ -1,0 +1,1713 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": "7881",
+        "stopName": "Castella St/Maroondah Hwy (Lilydale)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.35285,
+          -37.75747
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": "11561",
+        "stopName": "Taylors Lane/Eildon Pde (Rowville)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.24628,
+          -37.91807
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": "12538",
+        "stopName": "Wentworth Ave/Dandelion Dr (Rowville)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.26803,
+          -37.92314
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": "12818",
+        "stopName": "Maroondah Hwy/Anderson St (Lilydale)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.35514,
+          -37.75651
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": "12819",
+        "stopName": "The Eyrie/Anderson St (Lilydale)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.35561,
+          -37.75463
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": "12820",
+        "stopName": "Gardiner St/Anderson St (Lilydale)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.35633,
+          -37.75196
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": "12821",
+        "stopName": "Quarry Rd/Nelson Rd (Lilydale)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.36116,
+          -37.74844
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": "12822",
+        "stopName": "Trafalgar Cres/Nelson Rd (Lilydale)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.36347,
+          -37.74868
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": "12823",
+        "stopName": "Britannia Way/Nelson Rd (Lilydale)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.36534,
+          -37.75005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": "12824",
+        "stopName": "Lilydale International Club/Nelson Rd (Lilydale)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.36553,
+          -37.75248
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": "13339",
+        "stopName": "Rowville Community Centre"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.24044,
+          -37.91882
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": "13346",
+        "stopName": "Erie Ave/Bridgewater Way (Rowville)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.2447,
+          -37.91506
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": "13876",
+        "stopName": "Ormonde Rd/Blackwood Park Rd (Ferntree Gully)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.28359,
+          -37.896
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": "13878",
+        "stopName": "Goulburn Dr/Kellets Rd (Rowville)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.25179,
+          -37.91254
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": "13882",
+        "stopName": "Karoo Rd/Kelletts Rd (Rowville)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.25382,
+          -37.91257
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": "13883",
+        "stopName": "St Lawrance Way/Kelletts Rd (Rowville)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.25786,
+          -37.91304
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": "13884",
+        "stopName": "Valleyview Dr/Karoo Rd (Rowville)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.2531,
+          -37.90913
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": "13886",
+        "stopName": "Wyandra Way/Murrindal Dr (Rowville)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.26433,
+          -37.90989
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": "13887",
+        "stopName": "Stephanie Cl/Allora Ave (Ferntree Gully)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.285,
+          -37.89874
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": "13888",
+        "stopName": "Coowarra Ct/Ormonde Rd (Ferntree Gully)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.28383,
+          -37.89612
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": "13890",
+        "stopName": "Mayfair Dr/Blackwood Park Rd (Ferntree Gully)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.28407,
+          -37.89412
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": "13891",
+        "stopName": "Mayfair Dr/Blackwood Park Rd (Ferntree Gully)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.28452,
+          -37.89398
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": "13892",
+        "stopName": "Bales St/Roberts St (Ferntree Gully)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.28861,
+          -37.89549
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": "13893",
+        "stopName": "Nathan St/Norman St (Ferntree Gully)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.29239,
+          -37.89545
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": "13894",
+        "stopName": "Nathan St/Norman St (Ferntree Gully)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.29245,
+          -37.89553
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": "13909",
+        "stopName": "Bellfield Dr/Lakesfield Dr (Lysterfield)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.27593,
+          -37.9158
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": "13910",
+        "stopName": "Napoleon Rd/Lakesfield Dr (Lysterfield)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.27593,
+          -37.91063
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": "13915",
+        "stopName": "Blucher St/Allora Ave (Ferntree Gully)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.28833,
+          -37.89967
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": "13916",
+        "stopName": "Blucher St/Allora Ave (Ferntree Gully)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.28843,
+          -37.89962
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": "13928",
+        "stopName": "Buckingham Dr/Bergins Rd (Rowville)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.2345,
+          -37.93109
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": "13929",
+        "stopName": "Heany Park Primary School/Buckingham Dr (Rowville)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.24415,
+          -37.93417
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": "13932",
+        "stopName": "Magdalena Pl/Clauscen Dr (Rowville)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.24613,
+          -37.93033
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": "15184",
+        "stopName": "Rowville Community Centre"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.24027,
+          -37.919
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": "15185",
+        "stopName": "Erie Ave/Bridgewater Way (Rowville)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.24471,
+          -37.91517
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": "15186",
+        "stopName": "Kelletts Rd/Taylors Lane (Rowville)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.24724,
+          -37.91112
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": "15189",
+        "stopName": "Kellbourne Dr/Landsborough Ave (Rowville)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.2606,
+          -37.90566
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": "15206",
+        "stopName": "Major Cres"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.27677,
+          -37.91857
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": "15213",
+        "stopName": "Peregrine Reserve/Dandelion Dr (Rowville)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.25927,
+          -37.92669
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": "15214",
+        "stopName": "Armstrong Dr/Dandelion Dr (Rowville)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.25425,
+          -37.92559
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": "15227",
+        "stopName": "Kelletts Rd/Taylors Lane (Rowville)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.24713,
+          -37.91116
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": "15242",
+        "stopName": "Valleyview Dr/Karoo Rd (Rowville)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.25309,
+          -37.90892
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": "15244",
+        "stopName": "Kellbourne Dr/Landsborough Ave (Rowville)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.26049,
+          -37.90553
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": "15251",
+        "stopName": "Lakesfield Dr/Napoleon Rd (Lysterfield)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.27472,
+          -37.91115
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": "15252",
+        "stopName": "Kelletts Rd"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.27561,
+          -37.91622
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": "15261",
+        "stopName": "Major Cres/Sullivan Ave (Lysterfield)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.27677,
+          -37.91857
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": "15267",
+        "stopName": "Wetherby Ct/Dandelion Dr (Rowville)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.26447,
+          -37.92648
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": "15268",
+        "stopName": "Peregrine Reserve/Dandelion Dr (Rowville)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.25842,
+          -37.92673
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": "15269",
+        "stopName": "Armstrong Dr/Dandelion Dr (Rowville)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.25412,
+          -37.9258
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": "15283",
+        "stopName": "Taylors Lane/Bernard Hamilton Way (Rowville)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.24429,
+          -37.9232
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": "15685",
+        "stopName": "Hull Rd/Allendale Rd (Croydon)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.29583,
+          -37.79447
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": "15686",
+        "stopName": "Yallambee Way/Allendale Rd (Croydon)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.29677,
+          -37.78949
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": "15687",
+        "stopName": "Lincoln Rd/Lionel Cres (Croydon)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.30282,
+          -37.78916
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": "15688",
+        "stopName": "Hull Rd/Sabato St (Croydon)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.30276,
+          -37.79238
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": "15689",
+        "stopName": "Ervin Rd/Kiloran Ave (Kilsyth)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.30695,
+          -37.79466
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": "15690",
+        "stopName": "Greenbank Dr/Partridge Way (Mooroolbark)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.31941,
+          -37.76197
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": "15691",
+        "stopName": "Bimbadeen Dr/Hayrick Lane (Mooroolbark)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.32111,
+          -37.77244
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": "15693",
+        "stopName": "Rolling Hills Primary School/Landscape Dr (Mooroolbark)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.32648,
+          -37.76707
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": "15694",
+        "stopName": "Mooroolbark Rd/Hull Rd (Mooroolbark)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.33072,
+          -37.7751
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": "15695",
+        "stopName": "Grace Ave/Carronvale Rd (Mooroolbark)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.3319,
+          -37.77851
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": "15696",
+        "stopName": "May Rd/Blackburn Rd (Mooroolbark)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.33286,
+          -37.78147
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": "15697",
+        "stopName": "Cardigan Rd/Pembroke Rd (Mooroolbark)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.32906,
+          -37.78883
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": "15698",
+        "stopName": "Longfellow Ave/Pembroke Rd (Mooroolbark)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.32807,
+          -37.79399
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": "15700",
+        "stopName": "Holmes Rd/Dryden Con (Mooroolbark)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.32007,
+          -37.79221
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": "15701",
+        "stopName": "Chirnside Dr/Country Club Dr (Chirnside Park)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.32524,
+          -37.75616
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": "15702",
+        "stopName": "The Wallaby Run/Chirnside Dr (Chirnside Park)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.31964,
+          -37.75266
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": "15703",
+        "stopName": "Gilda Ct/Trisha Dr (Rowville)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.24797,
+          -37.93395
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": "15711",
+        "stopName": "Taylors Lane/Bernard Hamilton Way (Rowville)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.24423,
+          -37.92311
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": "16503",
+        "stopName": "Taylors Lane/Eildon Pde (Rowville)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.24632,
+          -37.91822
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": "16600",
+        "stopName": "Hull Rd/Allendale Rd (Croydon)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.29605,
+          -37.79429
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": "16601",
+        "stopName": "Yallambee Way/Allendale Rd (Croydon)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.297,
+          -37.78952
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": "16603",
+        "stopName": "Hull Rd/Sabato St (Croydon)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.30284,
+          -37.79234
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": "16605",
+        "stopName": "Greenbank Dr/Partridge Way (Mooroolbark)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.31932,
+          -37.76205
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": "16606",
+        "stopName": "Bimbadeen Dr/Hayrick Lane (Mooroolbark)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.32095,
+          -37.77241
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": "16607",
+        "stopName": "Bellara Dr/Wandana St (Mooroolbark)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.30622,
+          -37.77332
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": "16608",
+        "stopName": "Chevalier Cres/Landscape Dr (Mooroolbark)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.32641,
+          -37.76748
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": "16609",
+        "stopName": "Mooroolbark Rd/Hull Rd (Mooroolbark)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.33197,
+          -37.775
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": "16611",
+        "stopName": "May Rd/Blackburn Rd (Mooroolbark)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.3329,
+          -37.78138
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": "16612",
+        "stopName": "Cardigan Rd/Pembroke Rd (Mooroolbark)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.32895,
+          -37.78881
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": "16613",
+        "stopName": "Longfellow Ave/Pembroke Rd (Mooroolbark)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.32789,
+          -37.79432
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": "16614",
+        "stopName": "Cambridge Rd/Lawson Rd (Mooroolbark)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.3249,
+          -37.79595
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": "16615",
+        "stopName": "Holmes Rd/Dryden Con (Mooroolbark)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.32025,
+          -37.79192
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": "16616",
+        "stopName": "Chirnside Dr/Country Club Dr (Chirnside Park)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.3254,
+          -37.75612
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": "16617",
+        "stopName": "The Wallaby Run/Chirnside Dr (Chirnside Park)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.31949,
+          -37.75225
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": "16669",
+        "stopName": "Switchback Rd/Polaris Way (Chirnside Park)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.32583,
+          -37.74476
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": "16670",
+        "stopName": "Peden St/Victoria Rd (Chirnside Park)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.33617,
+          -37.75216
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": "20387",
+        "stopName": "Manchester Rd/Batterbee Dr (Mooroolbark)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.31527,
+          -37.76658
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": "21002",
+        "stopName": "Ferntree Gully Railway Station/Station St (Ferntree Gully)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.2948,
+          -37.88195
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": "21286",
+        "stopName": "Tudor Village/Maroondah Hwy (Lilydale)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.3708,
+          -37.7512
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": "42982",
+        "stopName": "Mooroolbark Railway Station/Brice Ave (Mooroolbark)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.312341,
+          -37.784961
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": "21296",
+        "stopName": "Chirnside Park Shopping Centre/Maroondah Hwy (Chirnside Park)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.312627037024,
+          -37.757886478907
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": "21315",
+        "stopName": "Stud Park Shopping Centre (Rowville)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.23716,
+          -37.9194
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": "21784",
+        "stopName": "Wyandra Way/Murrindal Dr (Rowville)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.26426,
+          -37.90978
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": "22113",
+        "stopName": "Summit Rd/Queen Rd (Lilydale)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.36172,
+          -37.76004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": "22114",
+        "stopName": "57 Old Gippsland Rd (Lilydale)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.36624,
+          -37.763
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": "22115",
+        "stopName": "Old Gippsland Rd/Mangans Rd (Lilydale)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.37163,
+          -37.76368
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": "22116",
+        "stopName": "Pisces Ct/Summit Rd (Lilydale)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.36996,
+          -37.76178
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": "22117",
+        "stopName": "Bastow Rd/Summit Rd (Lilydale)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.36888,
+          -37.76176
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": "22118",
+        "stopName": "26 Summit Rd (Lilydale)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.3652,
+          -37.76183
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": "22119",
+        "stopName": "Alexandra Rd/Albert Rd (Lilydale)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.36199,
+          -37.7591
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": "22130",
+        "stopName": "North Rd/Alexandra Rd (Lilydale)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.36531,
+          -37.75682
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": "22131",
+        "stopName": "49 Alexandra Rd (Lilydale)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.36748,
+          -37.75732
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": "22132",
+        "stopName": "Altair Ct/Alexandra Rd (Lilydale)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.36837,
+          -37.75865
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": "22133",
+        "stopName": "111 Mangans Rd (Lilydale)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.37251,
+          -37.75547
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": "22134",
+        "stopName": "Olinda Park Rise/Maroondah Hwy (Lilydale)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.36847,
+          -37.75202
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": "22154",
+        "stopName": "Lilydale Post Office/Maroondah Hwy (Lilydale)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.35244,
+          -37.75766
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": "22279",
+        "stopName": "Taurus Ct/Alexandra Rd (Lilydale)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.36998,
+          -37.75936
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": "22280",
+        "stopName": "North Rd/Mangans Rd (Lilydale)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.37231,
+          -37.75705
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": "22477",
+        "stopName": "Lincoln Rd/Lionel Cres (Croydon)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.30304,
+          -37.78906
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": "22478",
+        "stopName": "St Lawrence Way/Kellets Rd (Rowville)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.25763,
+          -37.91327
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": "22497",
+        "stopName": "Manchester Rd/Batterbee Dr (Mooroolbark)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.31516,
+          -37.7664
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": "23522",
+        "stopName": "Bellara Dr/Wandana St (Croydon)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.30637,
+          -37.77332
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": "23523",
+        "stopName": "Peden St/Victoria Rd (Chirnside Park)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.33607,
+          -37.75223
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": "23524",
+        "stopName": "Switchback Rd/Polaris Way (Chirnside Park)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.3259,
+          -37.74466
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": "23525",
+        "stopName": "Ervin Rd/Kiloran Ave (Kilsyth)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.3071,
+          -37.79468
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": "23526",
+        "stopName": "Cambridge Rd/Lawson Rd (Mooroolbark)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.32479,
+          -37.79591
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": "23527",
+        "stopName": "Grace Ave/Carronvale Rd (Mooroolbark)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.33176,
+          -37.7784
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": "23570",
+        "stopName": "Pitfield Cres/Dandelion Dr (Rowville)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.2554,
+          -37.9211
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": "23571",
+        "stopName": "Vista Cres/Dandelion Dr (Rowville)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.25515,
+          -37.92128
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": "23572",
+        "stopName": "Wentworth Ave/Dandelion Dr (Rowville)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.26795,
+          -37.92326
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": "23610",
+        "stopName": "Bales St/Roberts St (Ferntree Gully)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.28869,
+          -37.89578
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": "23611",
+        "stopName": "Stephanie Cl/Allora Ave (Ferntree Gully)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.28507,
+          -37.8987
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": "40202",
+        "stopName": "Croydon Railway Station/Railway Gr (Croydon)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.28029,
+          -37.79571
+        ]
+      }
+    }
+  ]
+}
