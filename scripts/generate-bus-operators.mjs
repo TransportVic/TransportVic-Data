@@ -19,6 +19,7 @@ async function readSheet(sheet) {
 const metroOperators = await readSheet('Metro')
 const numberedRegionalOperators = await readSheet('Regional - Numbered')
 const interTownOperators = await readSheet('Regional - Inter Town Link')
+const operatorDetails = await readSheet('Operator Details')
 
 const metroOutput = metroOperators.slice(1).reduce((acc, row) => {
   acc[row[0]] = row[1]
@@ -43,6 +44,30 @@ const interTownOutput = interTownOperators.slice(1).reduce((acc, row) => {
   return acc
 }, {})
 
+const oddColourIndex = operatorDetails[0].indexOf('Colour (Odd)')
+const evenColourIndex = operatorDetails[0].indexOf('Colour (Even)')
+const textColourIndex = operatorDetails[0].indexOf('Text Colour')
+const operatorColours = operatorDetails.slice(1).reduce((acc, row) => {
+  const operator = row[0]
+  const oddColour = row[oddColourIndex], evenColour = row[evenColourIndex]
+  const textColour = row[textColourIndex]
+
+  const simpleOperatorName = operator.replace(/[^\w]/g, '-').replace(/--+/g, '-').replace(/-$/, '').toLowerCase()
+
+  const css = `--${simpleOperatorName}-odd: #${oddColour};
+--${simpleOperatorName}-even: #${evenColour};
+--${simpleOperatorName}-text: #${textColour};`.toLowerCase()
+
+  acc.push(css)
+
+  return acc
+}, []).join('\n')
+
+const coloursCss = `:root {
+${operatorColours}
+}`
+
 await writeFile(path.join(operatorsDir, 'metro-operators.json'), JSON.stringify(metroOutput))
 await writeFile(path.join(operatorsDir, 'regional-numbered-operators.json'), JSON.stringify(regionalNumberedOutput))
 await writeFile(path.join(operatorsDir, 'regional-inter-town-operators.json'), JSON.stringify(interTownOutput))
+await writeFile(path.join(operatorsDir, 'bus-operators.css'), coloursCss)
