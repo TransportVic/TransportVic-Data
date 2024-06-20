@@ -14,6 +14,7 @@
   },
   "dependencies": {
     "@tmcw/togeojson": "^5.8.1",
-    "@xmldom/xmldom": "^0.8.10"
+    "@xmldom/xmldom": "^0.8.10",
+    "geojson-validation": "^1.0.2"
   }
 }
