@@ -1,4 +1,4 @@
-import * as toGeoJSON from '@tmcw/togeojson' 
+import * as toGeoJSON from '@tmcw/togeojson'
 import { readFile, writeFile } from 'fs/promises'
 import { DOMParser } from '@xmldom/xmldom'
 import path from 'path'
@@ -7,6 +7,8 @@ import { walkDir } from '../util.mjs'
 
 const __filename = url.fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
+
+const droppedProperties = ["styleUrl", "fill-opacity", "fill", "stroke-opacity", "stroke", "stroke-width"]
 
 async function readFileAsGeoJSON(inputFile) {
   const kml = new DOMParser().parseFromString(await readFile(inputFile, 'utf8'))
@@ -19,6 +21,13 @@ async function convertFile(inputFile) {
   const outputFile = path.join(pathData.dir, baseName + '.geojson')
 
   const geoJSON = await readFileAsGeoJSON(inputFile)
+  for (let feature of geoJSON.features) {
+    for (let prop of droppedProperties) delete feature.properties[prop]
+    for (let prop of Object.keys(feature.properties)) {
+      feature.properties[prop] = feature.properties[prop].trim()
+    }
+  }
+
   await writeFile(outputFile, JSON.stringify(geoJSON))
 }
 
