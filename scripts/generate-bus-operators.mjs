@@ -22,7 +22,8 @@ const interTownOperators = await readSheet('Regional - Inter Town Link')
 const operatorDetails = await readSheet('Operator Details')
 
 const metroOutput = metroOperators.slice(1).reduce((acc, row) => {
-  acc[row[0]] = row[1]
+  acc[row[0]] = [row[1]]
+  if (!!row[2]) acc[row[0]].push(row[2])
   return acc
 }, {})
 
