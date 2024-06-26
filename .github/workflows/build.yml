@@ -48,6 +48,9 @@ jobs:
     - name: Generate bus operator data
       run: node scripts/generate-bus-operators.mjs
 
+    - name: Generate platform data
+      run: node scripts/generate-rail-platforms.mjs
+
     - name: Generate geospatial data
       run: node scripts/kml-to-geojson.mjs
 
