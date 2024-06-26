@@ -51,6 +51,9 @@ jobs:
     - name: Generate platform data
       run: node scripts/generate-rail-platforms.mjs
 
+    - name: Generate station codes
+      run: node scripts/generate-rail-station-codes.mjs
+
     - name: Generate geospatial data
       run: node scripts/kml-to-geojson.mjs
 
