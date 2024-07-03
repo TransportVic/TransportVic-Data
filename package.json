@@ -15,6 +15,7 @@
   "dependencies": {
     "@tmcw/togeojson": "^5.8.1",
     "@xmldom/xmldom": "^0.8.10",
+    "csv-reader": "^1.0.12",
     "geojson-validation": "^1.0.2",
     "read-excel-file": "^5.8.2"
   }

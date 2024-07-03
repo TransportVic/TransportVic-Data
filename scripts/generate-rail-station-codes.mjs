@@ -1,19 +1,20 @@
-import readXLSXFile from 'read-excel-file/node'
 import { createReadStream } from 'fs'
 import { writeFile } from 'fs/promises'
 import path from 'path'
 import url from 'url'
+import CsvReadableStream from 'csv-reader'
 
 const __filename = url.fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
 
 const stationsDir = path.join(__dirname, '..', 'excel', 'rail', 'station-codes')
-const stream = createReadStream(path.join(stationsDir, 'Stations.xlsx'))
+const stream = createReadStream(path.join(stationsDir, 'Stations.csv'), 'utf-8')
 
-const rows = await readXLSXFile(stream)
-const output = rows.slice(1).reduce((acc, row) => {
-  acc[row[0]] = row[1]
-  return acc
-}, {})
+let acc = {}
 
-await writeFile(path.join(stationsDir, 'station-codes.json'), JSON.stringify(output))
+stream.pipe(new CsvReadableStream())
+  .on('data', row => {
+    acc[row[0]] = row[1]
+  }).on('end', async () => {
+    await writeFile(path.join(stationsDir, 'station-codes.json'), JSON.stringify(acc))
+  })
