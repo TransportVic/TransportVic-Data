@@ -8,7 +8,11 @@ import { walkDir } from '../util.mjs'
 const __filename = url.fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
 
-const droppedProperties = ["styleUrl", "fill-opacity", "fill", "stroke-opacity", "stroke", "stroke-width"]
+const droppedProperties = [
+  "styleUrl", "fill-opacity", "fill", "stroke-opacity",
+  "stroke", "stroke-width", "label-scale", "icon-opacity",
+  "icon", "icon-scale", "icon-color", "icon-offset", "icon-offset-units"
+]
 
 async function readFileAsGeoJSON(inputFile) {
   const kml = new DOMParser().parseFromString(await readFile(inputFile, 'utf8'))
@@ -23,6 +27,7 @@ async function convertFile(inputFile) {
   const geoJSON = await readFileAsGeoJSON(inputFile)
   for (let feature of geoJSON.features) {
     for (let prop of droppedProperties) delete feature.properties[prop]
+    if ((typeof feature.description) !== 'string') delete feature.properties.description
     for (let prop of Object.keys(feature.properties)) {
       feature.properties[prop] = feature.properties[prop].trim()
     }
