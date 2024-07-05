@@ -13551,12 +13551,11 @@ STATION: Glenhuntly</value>
           <LinearRing>
             <tessellate>1</tessellate>
             <coordinates>
-              145.042324,-37.889704,0
-              145.042254,-37.889694,0
-              145.04213,-37.89032,0
-              145.042011,-37.890967,0
-              145.042075,-37.890973,0
-              145.042324,-37.889704,0
+              145.0425406,-37.8885922,0
+              145.0424692,-37.8885843,0
+              145.0422229,-37.8898808,0
+              145.0422869,-37.8898892,0
+              145.0425406,-37.8885922,0
             </coordinates>
           </LinearRing>
         </outerBoundaryIs>
@@ -13584,12 +13583,11 @@ STATION: Glenhuntly</value>
           <LinearRing>
             <tessellate>1</tessellate>
             <coordinates>
-              145.041921,-37.891012,0
-              145.042169,-37.889716,0
-              145.042126,-37.889712,0
-              145.041984,-37.890456,0
-              145.041898,-37.891009,0
-              145.041921,-37.891012,0
+              145.0421557,-37.889871,0
+              145.0424158,-37.8885761,0
+              145.0423419,-37.8885679,0
+              145.0420777,-37.8898596,0
+              145.0421557,-37.889871,0
             </coordinates>
           </LinearRing>
         </outerBoundaryIs>
@@ -13617,15 +13615,11 @@ STATION: Glenhuntly</value>
           <LinearRing>
             <tessellate>1</tessellate>
             <coordinates>
-              145.041984,-37.890456,0
-              145.042126,-37.889712,0
-              145.042064,-37.889703,0
-              145.042006,-37.890006,0
-              145.04196,-37.890292,0
-              145.041922,-37.890579,0
-              145.041874,-37.891007,0
-              145.041898,-37.891009,0
-              145.041984,-37.890456,0
+              145.0423419,-37.8885679,0
+              145.0422632,-37.8885594,0
+              145.0420061,-37.889851,0
+              145.0420777,-37.8898596,0
+              145.0423419,-37.8885679,0
             </coordinates>
           </LinearRing>
         </outerBoundaryIs>
@@ -23987,6 +23981,96 @@ STATION: Sydney Central</value>
               139.2741277,-35.1158734,0
               139.2736744,-35.1156847,0
               139.2733686,-35.1155717,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Union</name>
+      <description><![CDATA[description: <br>PLATFORM: 1<br>STATION: Union]]></description>
+      <styleUrl>#poly-000000-1200-77</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value/>
+        </Data>
+        <Data name="PLATFORM">
+          <value>1</value>
+        </Data>
+        <Data name="STATION">
+          <value>Union</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              145.102075,-37.8219696,0
+              145.100684,-37.8229241,0
+              145.1007036,-37.8229413,0
+              145.102097,-37.821987,0
+              145.102075,-37.8219696,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Union</name>
+      <description><![CDATA[description: <br>PLATFORM: 2<br>STATION: Union]]></description>
+      <styleUrl>#poly-000000-1200-77</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value/>
+        </Data>
+        <Data name="PLATFORM">
+          <value>2</value>
+        </Data>
+        <Data name="STATION">
+          <value>Union</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              145.100684,-37.8229241,0
+              145.102075,-37.8219696,0
+              145.1020537,-37.8219528,0
+              145.1006636,-37.8229069,0
+              145.100684,-37.8229241,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Union</name>
+      <description><![CDATA[description: <br>PLATFORM: 3<br>STATION: Union]]></description>
+      <styleUrl>#poly-000000-1200-77</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value/>
+        </Data>
+        <Data name="PLATFORM">
+          <value>3</value>
+        </Data>
+        <Data name="STATION">
+          <value>Union</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              145.1006468,-37.822887,0
+              145.1020251,-37.8219349,0
+              145.101999,-37.821914,0
+              145.1006202,-37.8228624,0
+              145.1006468,-37.822887,0
             </coordinates>
           </LinearRing>
         </outerBoundaryIs>
