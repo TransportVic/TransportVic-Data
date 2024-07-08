@@ -1,0 +1,64 @@
+{
+  "runData": {
+    "runRef": "948801",
+    "destination": "Flinders Street",
+    "direction": {
+      "directionID": 1,
+      "directionName": "City (Flinders Street)",
+      "railDirection": "Down"
+    },
+    "position": null,
+    "vehicle": null,
+    "tdn": "0801",
+    "isRailBus": false,
+    "viaCityLoop": true,
+    "formedBy": null,
+    "forming": null
+  },
+  "routeData": {
+    "ptvRouteID": 99,
+    "routeName": "City Circle",
+    "routeNumber": null,
+    "gtfsRouteID": "2-CCL"
+  },
+  "stops": [
+    {
+      "stationName": "Flinders Street",
+      "platform": "2",
+      "scheduledDeparture": "2024-07-08T01:59:00.000Z",
+      "estimatedDeparture": "2024-07-08T01:58:40.000Z"
+    },
+    {
+      "stationName": "Southern Cross",
+      "platform": "9",
+      "scheduledDeparture": "2024-07-08T02:02:00.000Z",
+      "estimatedDeparture": "2024-07-08T02:03:00.000Z"
+    },
+    {
+      "stationName": "Flagstaff",
+      "platform": "1",
+      "scheduledDeparture": "2024-07-08T02:04:00.000Z",
+      "estimatedDeparture": "2024-07-08T02:05:03.000Z"
+    },
+    {
+      "stationName": "Melbourne Central",
+      "platform": "1",
+      "scheduledDeparture": "2024-07-08T02:06:00.000Z",
+      "estimatedDeparture": "2024-07-08T02:06:00.000Z"
+    },
+    {
+      "stationName": "Parliament",
+      "platform": "1",
+      "scheduledDeparture": "2024-07-08T02:08:00.000Z",
+      "estimatedDeparture": "2024-07-08T02:09:00.000Z"
+    },
+    {
+      "stationName": "Flinders Street",
+      "platform": "2",
+      "scheduledDeparture": "2024-07-08T02:11:00.000Z",
+      "estimatedDeparture": "2024-07-08T02:12:40.000Z"
+    }
+  ],
+  "formedByStops": [],
+  "formingStops": []
+}

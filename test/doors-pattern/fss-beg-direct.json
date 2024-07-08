@@ -1,0 +1,167 @@
+{
+  "runData": {
+    "runRef": "951027",
+    "destination": "Belgrave",
+    "direction": {
+      "directionID": 3,
+      "directionName": "Belgrave",
+      "railDirection": "Down"
+    },
+    "position": null,
+    "vehicle": null,
+    "tdn": "3027",
+    "isRailBus": false,
+    "viaCityLoop": false,
+    "formedBy": {
+      "tdn": "3928",
+      "runRef": "951928"
+    },
+    "forming": {
+      "tdn": "3002",
+      "runRef": "951002"
+    }
+  },
+  "routeData": {
+    "ptvRouteID": 2,
+    "routeName": "Belgrave",
+    "routeNumber": null,
+    "gtfsRouteID": "2-BEL"
+  },
+  "stops": [
+    {
+      "stationName": "Flinders Street",
+      "platform": "2",
+      "scheduledDeparture": "2024-07-08T01:26:00.000Z",
+      "estimatedDeparture": "2024-07-08T01:25:40.000Z"
+    },
+    {
+      "stationName": "Richmond",
+      "platform": "9",
+      "scheduledDeparture": "2024-07-08T01:29:00.000Z",
+      "estimatedDeparture": "2024-07-08T01:29:00.000Z"
+    },
+    {
+      "stationName": "Glenferrie",
+      "platform": "3",
+      "scheduledDeparture": "2024-07-08T01:34:00.000Z",
+      "estimatedDeparture": "2024-07-08T01:36:00.000Z"
+    },
+    {
+      "stationName": "Camberwell",
+      "platform": "3",
+      "scheduledDeparture": "2024-07-08T01:38:00.000Z",
+      "estimatedDeparture": "2024-07-08T01:39:00.000Z"
+    },
+    {
+      "stationName": "Box Hill",
+      "platform": "4",
+      "scheduledDeparture": "2024-07-08T01:46:00.000Z",
+      "estimatedDeparture": "2024-07-08T01:46:00.000Z"
+    },
+    {
+      "stationName": "Blackburn",
+      "platform": "3",
+      "scheduledDeparture": "2024-07-08T01:50:00.000Z",
+      "estimatedDeparture": "2024-07-08T01:50:00.000Z"
+    },
+    {
+      "stationName": "Nunawading",
+      "platform": "2",
+      "scheduledDeparture": "2024-07-08T01:53:00.000Z",
+      "estimatedDeparture": "2024-07-08T01:53:00.000Z"
+    },
+    {
+      "stationName": "Mitcham",
+      "platform": "2",
+      "scheduledDeparture": "2024-07-08T01:55:00.000Z",
+      "estimatedDeparture": "2024-07-08T01:56:00.000Z"
+    },
+    {
+      "stationName": "Heatherdale",
+      "platform": "2",
+      "scheduledDeparture": "2024-07-08T01:58:00.000Z",
+      "estimatedDeparture": "2024-07-08T01:58:00.000Z"
+    },
+    {
+      "stationName": "Ringwood",
+      "platform": "3",
+      "scheduledDeparture": "2024-07-08T02:01:00.000Z",
+      "estimatedDeparture": "2024-07-08T02:01:00.000Z"
+    },
+    {
+      "stationName": "Heathmont",
+      "platform": "2",
+      "scheduledDeparture": "2024-07-08T02:04:00.000Z",
+      "estimatedDeparture": "2024-07-08T02:04:00.000Z"
+    },
+    {
+      "stationName": "Bayswater",
+      "platform": "2",
+      "scheduledDeparture": "2024-07-08T02:07:00.000Z",
+      "estimatedDeparture": "2024-07-08T02:07:00.000Z"
+    },
+    {
+      "stationName": "Boronia",
+      "platform": "2",
+      "scheduledDeparture": "2024-07-08T02:10:00.000Z",
+      "estimatedDeparture": "2024-07-08T02:11:00.000Z"
+    },
+    {
+      "stationName": "Ferntree Gully",
+      "platform": "2",
+      "scheduledDeparture": "2024-07-08T02:13:00.000Z",
+      "estimatedDeparture": "2024-07-08T02:14:00.000Z"
+    },
+    {
+      "stationName": "Upper Ferntree Gully",
+      "platform": "2",
+      "scheduledDeparture": "2024-07-08T02:17:00.000Z",
+      "estimatedDeparture": "2024-07-08T02:17:00.000Z"
+    },
+    {
+      "stationName": "Upwey",
+      "platform": "2",
+      "scheduledDeparture": "2024-07-08T02:21:00.000Z",
+      "estimatedDeparture": "2024-07-08T02:21:00.000Z"
+    },
+    {
+      "stationName": "Tecoma",
+      "platform": "1",
+      "scheduledDeparture": "2024-07-08T02:23:00.000Z",
+      "estimatedDeparture": "2024-07-08T02:23:00.000Z"
+    },
+    {
+      "stationName": "Belgrave",
+      "platform": "2",
+      "scheduledDeparture": "2024-07-08T02:26:00.000Z",
+      "estimatedDeparture": null
+    }
+  ],
+  "formedByStops": [
+    {
+      "stationName": "Parliament",
+      "platform": "4",
+      "scheduledDeparture": "2024-07-08T01:07:00.000Z",
+      "estimatedDeparture": "2024-07-08T01:09:00.000Z"
+    },
+    {
+      "stationName": "Melbourne Central",
+      "platform": "4",
+      "scheduledDeparture": "2024-07-08T01:09:00.000Z",
+      "estimatedDeparture": "2024-07-08T01:11:00.000Z"
+    },
+    {
+      "stationName": "Flagstaff",
+      "platform": "4",
+      "scheduledDeparture": "2024-07-08T01:10:00.000Z",
+      "estimatedDeparture": "2024-07-08T01:12:27.000Z"
+    },
+    {
+      "stationName": "Southern Cross",
+      "platform": "10",
+      "scheduledDeparture": "2024-07-08T01:12:00.000Z",
+      "estimatedDeparture": "2024-07-08T01:16:00.000Z"
+    }
+  ],
+  "formingStops": []
+}

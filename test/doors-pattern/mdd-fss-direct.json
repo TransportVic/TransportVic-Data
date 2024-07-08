@@ -1,0 +1,209 @@
+{
+  "runData": {
+    "runRef": "949082",
+    "destination": "Flinders Street",
+    "direction": {
+      "directionID": 1,
+      "directionName": "City (Flinders Street)",
+      "railDirection": "Up"
+    },
+    "position": null,
+    "vehicle": null,
+    "tdn": "1082",
+    "isRailBus": false,
+    "viaCityLoop": false,
+    "formedBy": {
+      "tdn": "1679",
+      "runRef": "949679"
+    },
+    "forming": {
+      "tdn": "1879",
+      "runRef": "949879"
+    }
+  },
+  "routeData": {
+    "ptvRouteID": 5,
+    "routeName": "Mernda",
+    "routeNumber": null,
+    "gtfsRouteID": "2-MER"
+  },
+  "stops": [
+    {
+      "stationName": "Mernda",
+      "platform": "1",
+      "scheduledDeparture": "2024-07-08T02:04:00.000Z",
+      "estimatedDeparture": "2024-07-08T02:04:00.000Z"
+    },
+    {
+      "stationName": "Hawkstowe",
+      "platform": "1",
+      "scheduledDeparture": "2024-07-08T02:07:00.000Z",
+      "estimatedDeparture": "2024-07-08T02:07:00.000Z"
+    },
+    {
+      "stationName": "Middle Gorge",
+      "platform": "1",
+      "scheduledDeparture": "2024-07-08T02:10:00.000Z",
+      "estimatedDeparture": "2024-07-08T02:10:00.000Z"
+    },
+    {
+      "stationName": "South Morang",
+      "platform": "1",
+      "scheduledDeparture": "2024-07-08T02:12:00.000Z",
+      "estimatedDeparture": "2024-07-08T02:13:00.000Z"
+    },
+    {
+      "stationName": "Epping",
+      "platform": "1",
+      "scheduledDeparture": "2024-07-08T02:16:00.000Z",
+      "estimatedDeparture": "2024-07-08T02:17:00.000Z"
+    },
+    {
+      "stationName": "Lalor",
+      "platform": "1",
+      "scheduledDeparture": "2024-07-08T02:19:00.000Z",
+      "estimatedDeparture": "2024-07-08T02:20:00.000Z"
+    },
+    {
+      "stationName": "Thomastown",
+      "platform": "1",
+      "scheduledDeparture": "2024-07-08T02:21:00.000Z",
+      "estimatedDeparture": "2024-07-08T02:23:00.000Z"
+    },
+    {
+      "stationName": "Keon Park",
+      "platform": "1",
+      "scheduledDeparture": "2024-07-08T02:23:00.000Z",
+      "estimatedDeparture": "2024-07-08T02:25:00.000Z"
+    },
+    {
+      "stationName": "Ruthven",
+      "platform": "1",
+      "scheduledDeparture": "2024-07-08T02:26:00.000Z",
+      "estimatedDeparture": "2024-07-08T02:27:00.000Z"
+    },
+    {
+      "stationName": "Reservoir",
+      "platform": "1",
+      "scheduledDeparture": "2024-07-08T02:27:00.000Z",
+      "estimatedDeparture": "2024-07-08T02:29:00.000Z"
+    },
+    {
+      "stationName": "Regent",
+      "platform": "1",
+      "scheduledDeparture": "2024-07-08T02:30:00.000Z",
+      "estimatedDeparture": "2024-07-08T02:31:00.000Z"
+    },
+    {
+      "stationName": "Preston",
+      "platform": "1",
+      "scheduledDeparture": "2024-07-08T02:32:00.000Z",
+      "estimatedDeparture": "2024-07-08T02:33:00.000Z"
+    },
+    {
+      "stationName": "Bell",
+      "platform": "1",
+      "scheduledDeparture": "2024-07-08T02:34:00.000Z",
+      "estimatedDeparture": "2024-07-08T02:35:00.000Z"
+    },
+    {
+      "stationName": "Thornbury",
+      "platform": "1",
+      "scheduledDeparture": "2024-07-08T02:35:00.000Z",
+      "estimatedDeparture": "2024-07-08T02:37:00.000Z"
+    },
+    {
+      "stationName": "Croxton",
+      "platform": "1",
+      "scheduledDeparture": "2024-07-08T02:37:00.000Z",
+      "estimatedDeparture": "2024-07-08T02:39:00.000Z"
+    },
+    {
+      "stationName": "Northcote",
+      "platform": "1",
+      "scheduledDeparture": "2024-07-08T02:39:00.000Z",
+      "estimatedDeparture": "2024-07-08T02:40:00.000Z"
+    },
+    {
+      "stationName": "Merri",
+      "platform": "1",
+      "scheduledDeparture": "2024-07-08T02:41:00.000Z",
+      "estimatedDeparture": "2024-07-08T02:42:00.000Z"
+    },
+    {
+      "stationName": "Rushall",
+      "platform": "1",
+      "scheduledDeparture": "2024-07-08T02:42:00.000Z",
+      "estimatedDeparture": "2024-07-08T02:44:00.000Z"
+    },
+    {
+      "stationName": "Clifton Hill",
+      "platform": "1",
+      "scheduledDeparture": "2024-07-08T02:45:00.000Z",
+      "estimatedDeparture": "2024-07-08T02:45:00.000Z"
+    },
+    {
+      "stationName": "Victoria Park",
+      "platform": "1",
+      "scheduledDeparture": "2024-07-08T02:47:00.000Z",
+      "estimatedDeparture": "2024-07-08T02:48:00.000Z"
+    },
+    {
+      "stationName": "Collingwood",
+      "platform": "1",
+      "scheduledDeparture": "2024-07-08T02:48:00.000Z",
+      "estimatedDeparture": "2024-07-08T02:49:00.000Z"
+    },
+    {
+      "stationName": "North Richmond",
+      "platform": "1",
+      "scheduledDeparture": "2024-07-08T02:50:00.000Z",
+      "estimatedDeparture": null
+    },
+    {
+      "stationName": "West Richmond",
+      "platform": "1",
+      "scheduledDeparture": "2024-07-08T02:51:00.000Z",
+      "estimatedDeparture": null
+    },
+    {
+      "stationName": "Jolimont",
+      "platform": "1",
+      "scheduledDeparture": "2024-07-08T02:53:00.000Z",
+      "estimatedDeparture": null
+    },
+    {
+      "stationName": "Flinders Street",
+      "platform": "1",
+      "scheduledDeparture": "2024-07-08T02:59:00.000Z",
+      "estimatedDeparture": null
+    }
+  ],
+  "formedByStops": [],
+  "formingStops": [
+    {
+      "stationName": "Southern Cross",
+      "platform": "9",
+      "scheduledDeparture": "2024-07-08T03:02:00.000Z",
+      "estimatedDeparture": null
+    },
+    {
+      "stationName": "Flagstaff",
+      "platform": "1",
+      "scheduledDeparture": "2024-07-08T03:04:00.000Z",
+      "estimatedDeparture": null
+    },
+    {
+      "stationName": "Melbourne Central",
+      "platform": "1",
+      "scheduledDeparture": "2024-07-08T03:06:00.000Z",
+      "estimatedDeparture": null
+    },
+    {
+      "stationName": "Parliament",
+      "platform": "1",
+      "scheduledDeparture": "2024-07-08T03:08:00.000Z",
+      "estimatedDeparture": null
+    }
+  ]
+}

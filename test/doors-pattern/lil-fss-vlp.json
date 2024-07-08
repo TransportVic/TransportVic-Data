@@ -1,0 +1,136 @@
+{
+  "runData": {
+    "runRef": "951846",
+    "destination": "Flinders Street",
+    "direction": {
+      "directionID": 1,
+      "directionName": "City (Flinders Street)",
+      "railDirection": "Up"
+    },
+    "position": null,
+    "vehicle": null,
+    "tdn": "3846",
+    "isRailBus": false,
+    "viaCityLoop": true,
+    "formedBy": {
+      "tdn": "3227",
+      "runRef": "951227"
+    },
+    "forming": {
+      "tdn": "3033",
+      "runRef": "951033"
+    }
+  },
+  "routeData": {
+    "ptvRouteID": 9,
+    "routeName": "Lilydale",
+    "routeNumber": null,
+    "gtfsRouteID": "2-LIL"
+  },
+  "stops": [
+    {
+      "stationName": "Lilydale",
+      "platform": "2",
+      "scheduledDeparture": "2024-07-08T01:39:00.000Z",
+      "estimatedDeparture": "2024-07-08T01:39:00.000Z"
+    },
+    {
+      "stationName": "Mooroolbark",
+      "platform": "1",
+      "scheduledDeparture": "2024-07-08T01:44:00.000Z",
+      "estimatedDeparture": "2024-07-08T01:44:00.000Z"
+    },
+    {
+      "stationName": "Ringwood East",
+      "platform": "1",
+      "scheduledDeparture": "2024-07-08T01:52:00.000Z",
+      "estimatedDeparture": "2024-07-08T01:52:00.000Z"
+    },
+    {
+      "stationName": "Ringwood",
+      "platform": "2",
+      "scheduledDeparture": "2024-07-08T01:55:00.000Z",
+      "estimatedDeparture": "2024-07-08T01:55:00.000Z"
+    },
+    {
+      "stationName": "Heatherdale",
+      "platform": "1",
+      "scheduledDeparture": "2024-07-08T01:57:00.000Z",
+      "estimatedDeparture": "2024-07-08T01:57:00.000Z"
+    },
+    {
+      "stationName": "Mitcham",
+      "platform": "1",
+      "scheduledDeparture": "2024-07-08T01:59:00.000Z",
+      "estimatedDeparture": "2024-07-08T02:00:00.000Z"
+    },
+    {
+      "stationName": "Nunawading",
+      "platform": "1",
+      "scheduledDeparture": "2024-07-08T02:02:00.000Z",
+      "estimatedDeparture": "2024-07-08T02:02:00.000Z"
+    },
+    {
+      "stationName": "Blackburn",
+      "platform": "1",
+      "scheduledDeparture": "2024-07-08T02:05:00.000Z",
+      "estimatedDeparture": "2024-07-08T02:05:00.000Z"
+    },
+    {
+      "stationName": "Box Hill",
+      "platform": "3",
+      "scheduledDeparture": "2024-07-08T02:09:00.000Z",
+      "estimatedDeparture": "2024-07-08T02:09:00.000Z"
+    },
+    {
+      "stationName": "Camberwell",
+      "platform": "2",
+      "scheduledDeparture": "2024-07-08T02:15:00.000Z",
+      "estimatedDeparture": "2024-07-08T02:16:00.000Z"
+    },
+    {
+      "stationName": "Glenferrie",
+      "platform": "1",
+      "scheduledDeparture": "2024-07-08T02:18:00.000Z",
+      "estimatedDeparture": "2024-07-08T02:19:00.000Z"
+    },
+    {
+      "stationName": "Richmond",
+      "platform": "8",
+      "scheduledDeparture": "2024-07-08T02:24:00.000Z",
+      "estimatedDeparture": "2024-07-08T02:26:00.000Z"
+    },
+    {
+      "stationName": "Parliament",
+      "platform": "4",
+      "scheduledDeparture": "2024-07-08T02:27:00.000Z",
+      "estimatedDeparture": "2024-07-08T02:30:00.000Z"
+    },
+    {
+      "stationName": "Melbourne Central",
+      "platform": "4",
+      "scheduledDeparture": "2024-07-08T02:29:00.000Z",
+      "estimatedDeparture": "2024-07-08T02:32:00.000Z"
+    },
+    {
+      "stationName": "Flagstaff",
+      "platform": "4",
+      "scheduledDeparture": "2024-07-08T02:30:00.000Z",
+      "estimatedDeparture": "2024-07-08T02:34:00.000Z"
+    },
+    {
+      "stationName": "Southern Cross",
+      "platform": "10",
+      "scheduledDeparture": "2024-07-08T02:32:00.000Z",
+      "estimatedDeparture": "2024-07-08T02:36:00.000Z"
+    },
+    {
+      "stationName": "Flinders Street",
+      "platform": "2",
+      "scheduledDeparture": "2024-07-08T02:37:00.000Z",
+      "estimatedDeparture": null
+    }
+  ],
+  "formedByStops": [],
+  "formingStops": []
+}
