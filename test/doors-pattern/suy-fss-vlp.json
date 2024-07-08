@@ -1,0 +1,133 @@
+{
+  "runData": {
+    "runRef": "954600",
+    "destination": "Flinders Street",
+    "direction": {
+      "directionID": 1,
+      "directionName": "City (Flinders Street)",
+      "railDirection": "Up"
+    },
+    "position": null,
+    "vehicle": null,
+    "tdn": "6600",
+    "isRailBus": false,
+    "viaCityLoop": true,
+    "formedBy": null,
+    "forming": {
+      "tdn": "5003",
+      "runRef": "953003"
+    }
+  },
+  "routeData": {
+    "ptvRouteID": 14,
+    "routeName": "Sunbury",
+    "routeNumber": null,
+    "gtfsRouteID": "2-SYM"
+  },
+  "stops": [
+    {
+      "stationName": "Sunbury",
+      "platform": "2",
+      "scheduledDeparture": "2024-07-07T18:38:00.000Z",
+      "estimatedDeparture": null
+    },
+    {
+      "stationName": "Diggers Rest",
+      "platform": "1",
+      "scheduledDeparture": "2024-07-07T18:42:00.000Z",
+      "estimatedDeparture": null
+    },
+    {
+      "stationName": "Watergardens",
+      "platform": "1",
+      "scheduledDeparture": "2024-07-07T18:49:00.000Z",
+      "estimatedDeparture": null
+    },
+    {
+      "stationName": "Keilor Plains",
+      "platform": "1",
+      "scheduledDeparture": "2024-07-07T18:53:00.000Z",
+      "estimatedDeparture": null
+    },
+    {
+      "stationName": "St. Albans",
+      "platform": "1",
+      "scheduledDeparture": "2024-07-07T18:55:00.000Z",
+      "estimatedDeparture": null
+    },
+    {
+      "stationName": "Ginifer",
+      "platform": "1",
+      "scheduledDeparture": "2024-07-07T18:57:00.000Z",
+      "estimatedDeparture": null
+    },
+    {
+      "stationName": "Albion",
+      "platform": "1",
+      "scheduledDeparture": "2024-07-07T19:01:00.000Z",
+      "estimatedDeparture": null
+    },
+    {
+      "stationName": "Sunshine",
+      "platform": "1",
+      "scheduledDeparture": "2024-07-07T19:03:00.000Z",
+      "estimatedDeparture": null
+    },
+    {
+      "stationName": "Tottenham",
+      "platform": "1",
+      "scheduledDeparture": "2024-07-07T19:06:00.000Z",
+      "estimatedDeparture": null
+    },
+    {
+      "stationName": "West Footscray",
+      "platform": "1",
+      "scheduledDeparture": "2024-07-07T19:08:00.000Z",
+      "estimatedDeparture": null
+    },
+    {
+      "stationName": "Middle Footscray",
+      "platform": "1",
+      "scheduledDeparture": "2024-07-07T19:10:00.000Z",
+      "estimatedDeparture": null
+    },
+    {
+      "stationName": "Footscray",
+      "platform": "1",
+      "scheduledDeparture": "2024-07-07T19:12:00.000Z",
+      "estimatedDeparture": null
+    },
+    {
+      "stationName": "North Melbourne",
+      "platform": "3",
+      "scheduledDeparture": "2024-07-07T19:17:00.000Z",
+      "estimatedDeparture": null
+    },
+    {
+      "stationName": "Flagstaff",
+      "platform": "3",
+      "scheduledDeparture": "2024-07-07T19:19:00.000Z",
+      "estimatedDeparture": null
+    },
+    {
+      "stationName": "Melbourne Central",
+      "platform": "3",
+      "scheduledDeparture": "2024-07-07T19:21:00.000Z",
+      "estimatedDeparture": null
+    },
+    {
+      "stationName": "Parliament",
+      "platform": "3",
+      "scheduledDeparture": "2024-07-07T19:23:00.000Z",
+      "estimatedDeparture": null
+    },
+    {
+      "stationName": "Flinders Street",
+      "platform": "5",
+      "scheduledDeparture": "2024-07-07T19:26:00.000Z",
+      "estimatedDeparture": null
+    }
+  ],
+  "formedByStops": [],
+  "formingStops": []
+}
