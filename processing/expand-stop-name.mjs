@@ -1,4 +1,4 @@
-export default function expandStopName(stopName) {
+export function expandStopName(stopName) {
   return stopName.replace(/ St St$/, ' Street')
     .replace(/St$/, 'Street')
     .replace(/St S(th)?$/, 'Street South')
@@ -61,4 +61,26 @@ export default function expandStopName(stopName) {
     .replace(/Rec Res\w*(\b)/g, 'Recreation Reserve$1')
     .replace(/ SC(\b)/, ' Shopping Centre$1')
     .replace('Ret Village', 'Retirement Village')
+}
+
+export function expandStation(stopName) {
+  let isSpecialStation = (
+    stopName.includes('Police Station') || stopName.includes('Service Station')
+    || stopName.includes('Fire Station') || stopName.includes('Petrol Station')
+    || stopName.includes('Caltex Station') || stopName.match(/Station (St|Rd|Av|Pde)/)
+    || stopName.match(/CFA (Fire )?Station/) || stopName.match(/[\d]+\w? Station/)
+    || stopName.includes('Bus Station') || stopName.includes('Railway Station')
+  )
+
+  if (isSpecialStation) return stopName
+
+  return stopName.replace(' Station', ' Railway Station')
+}
+
+export function cleanupMCG(stopName) {
+  if (stopName.includes('Jolimont') && stopName.includes('MCG')) {
+    return stopName.replace('-MCG', '')
+  }
+
+  return stopName
 }

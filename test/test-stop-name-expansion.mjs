@@ -1,7 +1,7 @@
-import expandStopName from '../processing/expand-stop-name.mjs'
+import { expandStopName, expandStation, cleanupMCG } from '../processing/expand-stop-name.mjs'
 import { expect } from 'chai'
 
-describe('The road type expansion', () => {
+describe('The stop name expansion', () => {
   describe('The expansion of St', () => {
     it('Should expand St to Street only at the end of a name', () => {
       expect(expandStopName('James St')).to.equal('James Street')
@@ -91,5 +91,36 @@ describe('The road type expansion', () => {
     it('Should expand just Rec Res', () => {
       expect(expandStopName('Pakenham Rec Res')).to.equal('Pakenham Recreation Reserve')
     })
+  })
+})
+
+describe('The expansion of Station to Railway Station', () => {
+  it('Should not expand things like Police Station, Service Station etc', () => {
+    expect(expandStation('Police Station')).to.equal('Police Station')
+    expect(expandStation('CFA Station')).to.equal('CFA Station')
+    expect(expandStation('Service Station')).to.equal('Service Station')
+    expect(expandStation('Caltex Station')).to.equal('Caltex Station')
+  })
+
+  it('Should not expand Station if there is a number in front of it', () => {
+    expect(expandStation('opp 18 Station Lake Rd')).to.equal('opp 18 Station Lake Rd')
+  })
+
+  it('Should not re-expand Railway Station', () => {
+    expect(expandStation('Huntingdale Railway Station')).to.equal('Huntingdale Railway Station')
+  })
+
+  it('Should expand Station in all other cases', () => {
+    expect(expandStation('Oakleigh Station')).to.equal('Oakleigh Railway Station')
+  })
+})
+
+describe('The cleanup of Jolimont-MCG', () => {
+  it('Should clean up Jolimont-MCG', () => {
+    expect(cleanupMCG('Jolimont-MCG Railway Station')).to.equal('Jolimont Railway Station')
+  })
+
+  it('Should clean up Jolimont Station-MCG', () => {
+    expect(cleanupMCG('Jolimont Station-MCG')).to.equal('Jolimont Station')
   })
 })
