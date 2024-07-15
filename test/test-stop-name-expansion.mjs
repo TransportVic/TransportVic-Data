@@ -72,4 +72,24 @@ describe('The road type expansion', () => {
       expect(expandStopName('Ward St Sth')).to.equal('Ward Street South')
     })
   })
+
+  describe('The expansion of Rec Reserve', () => {
+    it('Should expand just Rec Reserve', () => {
+      expect(expandStopName('Edithvale Rec Reserve')).to.equal('Edithvale Recreation Reserve')
+    })
+    
+    it('Should expand just Rec Res', () => {
+      expect(expandStopName('Pakenham Rec Res')).to.equal('Pakenham Recreation Reserve')
+    })
+  })
+
+  describe('The expansion of SC', () => {
+    it('Should expand just Rec Reserve', () => {
+      expect(expandStopName('Edithvale Rec Reserve')).to.equal('Edithvale Recreation Reserve')
+    })
+    
+    it('Should expand just Rec Res', () => {
+      expect(expandStopName('Pakenham Rec Res')).to.equal('Pakenham Recreation Reserve')
+    })
+  })
 })
