@@ -1,7 +1,7 @@
 import processName, { expandRoadType, expandStation, cleanupMCG, expandStopName } from '../processing/expand-stop-name.mjs'
 import { expect } from 'chai'
 
-describe('The stop name expansion', () => {
+describe('The road name expansion', () => {
   describe('The expansion of St', () => {
     it('Should expand St to Street only at the end of a name', () => {
       expect(expandRoadType('James St')).to.equal('James Street')
@@ -73,6 +73,15 @@ describe('The stop name expansion', () => {
     })
   })
 
+  it('Should work on the generic test cases', () => {
+    expect(expandRoadType('Tom Gr')).to.equal('Tom Grove')
+    expect(expandRoadType('Creswick Blvd')).to.equal('Creswick Boulevard')
+    expect(expandRoadType('Pakenham Rd')).to.equal('Pakenham Road')
+    expect(expandRoadType('Creswick Blvd')).to.equal('Creswick Boulevard')
+  })
+})
+
+describe('The stop name expansion', () => {
   describe('The expansion of Rec Reserve', () => {
     it('Should expand just Rec Reserve', () => {
       expect(expandStopName('Edithvale Rec Reserve')).to.equal('Edithvale Recreation Reserve')

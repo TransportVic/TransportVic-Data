@@ -1,51 +1,59 @@
+let roadTypes = {
+  'Rd Rd': 'Road',
+  'Rd': 'Road',
+  'Pde': 'Parade',
+  'Cl': 'Close',
+  'Dr': 'Drive',
+  'Gr': 'Grove',
+  'Ct': 'Court',
+  'Hwy': 'Highway',
+  'Fwy': 'Freeway',
+  'Tce': 'Terrace',
+  'Crst': 'Crescent',
+  'Cr': 'Crescent',
+  'Cres': 'Crescent',
+  'Pl': 'Place',
+  'Blvd': 'Boulevard',
+  'Bvd': 'Boulevard',
+  'Ctr': 'Centre',
+  'Prom': 'Promenade',
+  'Esp': 'Esplanade',
+  'Cct': 'Circuit',
+  'Sq': 'Square',
+  'Cir': 'Circle',
+  'Con': 'Concourse',
+  'Ch': 'Chase',
+  'Gra': 'Grange',
+  'Grn': 'Green',
+  'Gtwy': 'Gateway',
+  'Psge': 'Passage',
+  'Rdge': 'Ridge',
+  'Strp': 'Strip',
+  'Trk': 'Track',
+  'Vsta': 'Vista',
+  'Pkwy': 'Parkway',
+  'Devn': 'Deviation',
+}
+
 export function expandRoadType(stopName) {
+  for (let name of Object.keys(roadTypes)) {
+    stopName = stopName.replace(new RegExp(name + '$'), roadTypes[name])
+  }
+
   return stopName.replace(/ St St$/, ' Street')
     .replace(/St$/, 'Street')
     .replace(/St S(th)?$/, 'Street South')
     .replace(/St N$/, 'Street North')
     .replace(/St -/g, 'Street -')
-    .replace(/Rd Rd$/, 'Road')
-    .replace(/Rd$/g, 'Road')
     .replace(/Mt\.? /g, 'Mount ')
-    .replace(/Pde$/g, 'Parade')
-    .replace(/Cl$/g, 'Close')
-    .replace(/Dr$/g, 'Drive')
     .replace(/ Ave?(\b)/g, ' Avenue$1') // Cannot be at the start of a stop name, eg Ave Maria College
-    .replace(/Gr$/g, 'Grove')
-    .replace(/Ct$/g, 'Court')
-    .replace(/Cr$/g, 'Crescent')
-    .replace(/Hwy$/g, 'Highway')
-    .replace(/Fwy$/g, 'Freeway')
-    .replace(/Tce$/g, 'Terrace')
-    .replace(/Crst$/g, 'Crescent')
-    .replace(/Pl$/g, 'Place')
-    .replace(/Bl?vd$/g, 'Boulevard')
-    .replace(/Cres$/g, 'Crescent')
-    .replace(/Ctr$/g, 'Centre')
     .replace(/Lt$/g, 'Little')
     .replace(/Lwr$/g, 'Lower')
-    .replace(/Prom$/g, 'Promenade')
-    .replace(/Esp$/g, 'Esplanade')
-    .replace(/Cct$/g, 'Circuit')
-    .replace(/Sq$/g, 'Square')
     .replace(/Sth$/g, 'South')
     .replace(/Nth$/g, 'North')
     .replace(/Gdn(s?)$/g, 'Garden$1')
-    .replace(/Cir$/g, 'Circle')
-    .replace(/Con$/g, 'Concourse')
-    .replace(/Ch$/g, 'Chase')
-    .replace(/Gra$/g, 'Grange')
-    .replace(/Grn$/g, 'Green')
-    .replace(/Gtwy$/g, 'Gateway')
     .replace(/Plza$/g, 'Plaza')
-    .replace(/Psge$/g, 'Passage')
-    .replace(/Rdge$/g, 'Ridge')
-    .replace(/Strp$/g, 'Strip')
     .replace(/Tafe$/g, 'TAFE')
-    .replace(/Trk$/g, 'Track')
-    .replace(/Vsta$/g, 'Vista')
-    .replace(/Pkwy$/g, 'Parkway')
-    .replace(/Devn$/g, 'Deviation')
     .replace(/Cresent/g, 'Crescent')
     .replace(/([\w ]*?) ?- ?([\w ]*?) Road/g, '$1-$2 Road')
     .replace(/^(\d* ?)St /, '$1St. ')
