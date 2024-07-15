@@ -1,4 +1,4 @@
-export function expandStopName(stopName) {
+export function expandRoadType(stopName) {
   return stopName.replace(/ St St$/, ' Street')
     .replace(/St$/, 'Street')
     .replace(/St S(th)?$/, 'Street South')
@@ -47,11 +47,14 @@ export function expandStopName(stopName) {
     .replace(/Pkwy$/g, 'Parkway')
     .replace(/Devn$/g, 'Deviation')
     .replace(/Cresent/g, 'Crescent')
-
-    .replace(/ PS$/g, ' Primary School')
-    .replace(/Uni$/g, 'University')
     .replace(/([\w ]*?) ?- ?([\w ]*?) Road/g, '$1-$2 Road')
     .replace(/^(\d* ?)St /, '$1St. ')
+}
+
+export function expandStopName(stopName) {
+  return stopName
+    .replace(/ PS$/g, ' Primary School')
+    .replace(/Uni$/g, 'University')
     .replace(/ HS$/g, ' High School')
     .replace(/Repat(\b)/g, 'Repatriation$1')
     .replace(/(\b)MC(\b)/g, '$1Medical Centre$2')
@@ -83,4 +86,13 @@ export function cleanupMCG(stopName) {
   }
 
   return stopName
+}
+
+export default function processName(stopName) {
+  let cleanedMCG = cleanupMCG(stopName)
+  let stationExpanded = expandStation(cleanedMCG)
+  let roadExpanded = expandRoadType(stationExpanded)
+  let nameExpanded = expandStopName(roadExpanded)
+
+  return nameExpanded
 }
