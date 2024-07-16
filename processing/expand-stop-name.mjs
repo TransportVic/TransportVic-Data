@@ -61,8 +61,20 @@ export function cleanupMCG(stopName) {
   return stopName
 }
 
+export function amendStopDirection(stopName) {
+  return stopName.replace(/(.*?) +\( *(\w+)(?: +Side)?\) +(.+)/i, (match, name, direction, road) => {
+    // Handles the format "Name (Direction) Rd"
+    return `${name} ${road} - ${direction[0].toUpperCase()}${direction.slice(1).toLowerCase()}`
+  }).replace(/(.*?) +\( *(\w+)(?: +Side)?\)/i, (match, road, direction) => {
+    return `${road} - ${direction[0].toUpperCase()}${direction.slice(1).toLowerCase()}`
+  }).replace(/^(\w+) of (.+)/, (match, direction, road) => {
+    return `${road} - ${direction[0].toUpperCase()}${direction.slice(1).toLowerCase()}`
+  })
+}
+
 export default function processName(stopName) {
-  let cleanedMCG = cleanupMCG(stopName)
+  let directionAmended = amendStopDirection(stopName)
+  let cleanedMCG = cleanupMCG(directionAmended)
   let stationExpanded = expandStation(cleanedMCG)
   let roadExpanded = expandRoadType(stationExpanded)
   let nameExpanded = expandStopName(roadExpanded)
