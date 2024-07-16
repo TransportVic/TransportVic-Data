@@ -20,6 +20,5 @@ export function getSecondaryStopName(stopName) {
 
 export function isStreetStop(stopName) {
   let primaryStopName = getPrimaryStopName(stopName)
-  console.log(primaryStopName)
   return roadTypes.some(type => primaryStopName.endsWith(type))
 }
