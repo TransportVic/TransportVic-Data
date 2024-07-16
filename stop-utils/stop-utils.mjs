@@ -22,3 +22,7 @@ export function isStreetStop(stopName) {
   let primaryStopName = getPrimaryStopName(stopName)
   return roadTypes.some(type => primaryStopName.endsWith(type))
 }
+
+export function sanitiseName(stopName) {
+  return stopName.toLowerCase().replace(/[^\w\d ]/g, '-').replace(/  */g, '-').replace(/--+/g, '-').replace(/-$/, '').replace(/^-/, '')
+}
