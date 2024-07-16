@@ -2,7 +2,7 @@ import roadTypes from './road-types.json' assert { type: 'json' }
 
 export function expandRoadType(stopName) {
   for (let name of Object.keys(roadTypes)) {
-    stopName = stopName.replace(new RegExp(name + '$'), roadTypes[name])
+    stopName = stopName.replace(new RegExp('(\\b)' + name + '(\\b)'), '$1' + roadTypes[name] + '$2')
   }
 
   return stopName.replace(/ St St$/, ' Street')

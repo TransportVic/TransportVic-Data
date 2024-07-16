@@ -73,6 +73,10 @@ describe('The road name expansion', () => {
     })
   })
 
+  it('Should work even with a direction specified', () => {
+    expect(expandRoadType('Tom Gr - North')).to.equal('Tom Grove - North')
+  })
+
   it('Should work on the generic test cases', () => {
     expect(expandRoadType('Tom Gr')).to.equal('Tom Grove')
     expect(expandRoadType('Creswick Blvd')).to.equal('Creswick Boulevard')
