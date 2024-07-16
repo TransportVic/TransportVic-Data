@@ -15,7 +15,6 @@
   "Pl": "Place",
   "Blvd": "Boulevard",
   "Bvd": "Boulevard",
-  "Ctr": "Centre",
   "Prom": "Promenade",
   "Esp": "Esplanade",
   "Cct": "Circuit",
@@ -32,5 +31,6 @@
   "Trk": "Track",
   "Vsta": "Vista",
   "Pkwy": "Parkway",
-  "Devn": "Deviation"
+  "Devn": "Deviation",
+  "Ln": "Lane"
 }

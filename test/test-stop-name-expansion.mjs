@@ -1,4 +1,4 @@
-import processName, { expandRoadType, expandStation, cleanupMCG, expandStopName, amendStopDirection } from '../processing/expand-stop-name.mjs'
+import processName, { expandRoadType, expandStation, cleanupMCG, expandStopName, amendStopDirection } from '../stop-utils/expand-stop-name.mjs'
 import { expect } from 'chai'
 
 describe('The road name expansion', () => {
