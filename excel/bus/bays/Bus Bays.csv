@@ -163,16 +163,17 @@
 21026,3,Fountain Gate SC/Overland Dr (Narre Warren),
 21027,4,Fountain Gate SC/Overland Dr (Narre Warren),
 38064,5,Fountain Gate SC/Overland Dr (Narre Warren),
-40396,A,Frankston Railway Station/Young St (Frankston),need to check
-21208,C,Frankston Railway Station/Young St (Frankston),need to check
-21209,D,Frankston Railway Station/Young St (Frankston),need to check
-21210,E,Frankston Railway Station/Young St (Frankston),need to check
-21212,F,Frankston Railway Station/Young St (Frankston),need to check
-21214,H,Frankston Railway Station/Young St (Frankston),need to check
-21216,I,Frankston Railway Station/Young St (Frankston),need to check
-21217,J,Frankston Railway Station/Young St (Frankston),need to check
-21218,K,Frankston Railway Station/Young St (Frankston),need to check
-21213,M,Frankston Railway Station/Young St (Frankston),need to check
+21215,J,Frankston Railway Station/Fletcher Rd (Frankston),
+40396,A,Frankston Railway Station/Young St (Frankston),A
+21208,B,Frankston Railway Station/Young St (Frankston),C
+21209,C,Frankston Railway Station/Young St (Frankston),D
+21213,D,Frankston Railway Station/Young St (Frankston),M
+21212,E,Frankston Railway Station/Young St (Frankston),F
+21214,F,Frankston Railway Station/Young St (Frankston),H
+21216,G,Frankston Railway Station/Young St (Frankston),I
+21210,H,Frankston Railway Station/Young St (Frankston),E
+21218,I,Frankston Railway Station/Young St (Frankston),K
+21217,K,Frankston Railway Station/Young St (Frankston),J
 3252,2,Geelong Railway Station (Geelong),
 30309,1,Geelong Station/Railway Tce (Geelong),
 45539,4,Geelong Station/Railway Tce (Geelong),
@@ -323,9 +324,9 @@
 47166,9,Northland SC/Murray Rd (Preston),
 47167,10,Northland SC/Murray Rd (Preston),
 12964,E,Oakleigh Station/Johnson St (Oakleigh),
-19803,A,Oakleigh Station/Portman St (Oakleigh),
+19805,A,Oakleigh Station/Portman St (Oakleigh),
 19804,B,Oakleigh Station/Portman St (Oakleigh),
-19805,C,Oakleigh Station/Portman St (Oakleigh),
+19803,C,Oakleigh Station/Portman St (Oakleigh),
 19800,D,Oakleigh Station/Portman St (Oakleigh),
 19231,1,Reservoir Station/High St (Reservoir),
 18864,2,Reservoir Station/High St (Reservoir),
