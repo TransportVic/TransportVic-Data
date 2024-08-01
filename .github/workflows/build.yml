@@ -54,8 +54,11 @@ jobs:
     - name: Generate station codes
       run: node scripts/generate-rail-station-codes.mjs
 
-    - name: Generate station codes
+    - name: Generate stop overrides
       run: node scripts/generate-stop-overrides.mjs
+
+    - name: Generate unique stop names
+      run: node scripts/generate-unique-stops.mjs
 
     - name: Generate geospatial data
       run: node scripts/kml-to-geojson.mjs
