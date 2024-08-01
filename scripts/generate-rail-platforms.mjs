@@ -13,11 +13,14 @@ const stream = createReadStream(path.join(platformsDir, 'Platforms.csv'), 'utf-8
 let acc = {}
 stream.pipe(new CsvReadableStream())
   .on('data', row => {
+    let stationName = row[0]
+    if (stationName == 'Station/Platform') return
+
     let platforms = row.slice(1)
 
     let i = platforms.length - 1
     for (; i > 0 && platforms[i] === ''; i--);
-    acc[row[0]] = platforms.slice(0, i + 1)  
+    acc[stationName] = platforms.slice(0, i + 1)  
   }).on('end', async () => {
     await writeFile(path.join(platformsDir, 'platforms.json'), JSON.stringify(acc))
   })

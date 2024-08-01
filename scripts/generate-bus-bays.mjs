@@ -11,9 +11,9 @@ const busBaysDir = path.join(__dirname, '..', 'excel', 'bus', 'bays')
 const stream = createReadStream(path.join(busBaysDir, 'Bus Bays.csv'), 'utf-8')
 
 let acc = {}
-stream.pipe(new CsvReadableStream())
+stream.pipe(new CsvReadableStream({ asObject: true }))
   .on('data', row => {
-    acc[row[0]] = row[1]
+    acc[row.stop_id] = row.bay
   }).on('end', async () => {
     await writeFile(path.join(busBaysDir, 'bus-bays.json'), JSON.stringify(acc))
   })

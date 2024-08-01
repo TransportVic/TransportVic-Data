@@ -12,9 +12,9 @@ const stream = createReadStream(path.join(stationsDir, 'Stations.csv'), 'utf-8')
 
 let acc = {}
 
-stream.pipe(new CsvReadableStream())
+stream.pipe(new CsvReadableStream({ asObject: true }))
   .on('data', row => {
-    acc[row[0]] = row[1]
+    acc[row.station_name] = row.code
   }).on('end', async () => {
     await writeFile(path.join(stationsDir, 'station-codes.json'), JSON.stringify(acc))
   })
