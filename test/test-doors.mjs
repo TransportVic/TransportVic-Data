@@ -1,12 +1,12 @@
 import { expect } from 'chai'
-import LIL_FSS_VLP from './doors-pattern/lil-fss-vlp.json' assert { type: 'json' }
-import MDD_FSS_DIR from './doors-pattern/mdd-fss-direct.json' assert { type: 'json' }
-import FSS_BEG_DIR from './doors-pattern/fss-beg-direct.json' assert { type: 'json' }
-import SUY_FSS_SSS from './doors-pattern/suy-fss-sss.json' assert { type: 'json' }
-import SUY_FSS_VLP from './doors-pattern/suy-fss-vlp.json' assert { type: 'json' }
-import FSS_HBE_VLP from './doors-pattern/fss-hbe-vlp.json' assert { type: 'json' }
-import CCL_VLP from './doors-pattern/ccl-vlp.json' assert { type: 'json' }
-import FSS_SUY_VLP from './doors-pattern/fss-suy-vlp.json' assert { type: 'json' }
+import LIL_FSS_VLP from './doors-pattern/lil-fss-vlp.json' with { type: 'json' }
+import MDD_FSS_DIR from './doors-pattern/mdd-fss-direct.json' with { type: 'json' }
+import FSS_BEG_DIR from './doors-pattern/fss-beg-direct.json' with { type: 'json' }
+import SUY_FSS_SSS from './doors-pattern/suy-fss-sss.json' with { type: 'json' }
+import SUY_FSS_VLP from './doors-pattern/suy-fss-vlp.json' with { type: 'json' }
+import FSS_HBE_VLP from './doors-pattern/fss-hbe-vlp.json' with { type: 'json' }
+import CCL_VLP from './doors-pattern/ccl-vlp.json' with { type: 'json' }
+import FSS_SUY_VLP from './doors-pattern/fss-suy-vlp.json' with { type: 'json' }
 
 import appendDoorsData from '../sample/get-doors.mjs'
 

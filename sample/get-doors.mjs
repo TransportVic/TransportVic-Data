@@ -1,4 +1,4 @@
-import doors from '../excel/rail/platform-side/platforms.json' assert { type: 'json' }
+import doors from '../excel/rail/platform-side/platforms.json' with { type: 'json' }
 
 let easternLines = [
   "Alamein", "Belgrave", "Glen Waverley", "Lilydale",

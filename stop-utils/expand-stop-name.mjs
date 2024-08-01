@@ -1,4 +1,4 @@
-import roadTypes from './road-types.json' assert { type: 'json' }
+import roadTypes from './road-types.json' with { type: 'json' }
 
 export function expandRoadType(stopName) {
   for (let name of Object.keys(roadTypes)) {

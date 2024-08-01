@@ -1,4 +1,4 @@
-import roadTypesList from './road-types.json' assert { type: 'json' }
+import roadTypesList from './road-types.json' with { type: 'json' }
 const roadTypes = Object.values(roadTypesList).concat([
   'Street',
   'Avenue',

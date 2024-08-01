@@ -1,21 +1,21 @@
 import { expect } from 'chai'
-import stops380CFull from './bus-looping-routes/380/clockwise-full.json' assert { type: 'json' }
-import stops380ACCroydon from './bus-looping-routes/380/anticlockwise-start-croydon.json' assert { type: 'json' }
-import stops380ACFull from './bus-looping-routes/380/anticlockwise-start-croydon.json' assert { type: 'json' }
+import stops380CFull from './bus-looping-routes/380/clockwise-full.json' with { type: 'json' }
+import stops380ACCroydon from './bus-looping-routes/380/anticlockwise-start-croydon.json' with { type: 'json' }
+import stops380ACFull from './bus-looping-routes/380/anticlockwise-start-croydon.json' with { type: 'json' }
 
-import stops443ACFull from './bus-looping-routes/443/anticlockwise.json' assert { type: 'json' }
-import stops443CFull from './bus-looping-routes/443/clockwise.json' assert { type: 'json' }
+import stops443ACFull from './bus-looping-routes/443/anticlockwise.json' with { type: 'json' }
+import stops443CFull from './bus-looping-routes/443/clockwise.json' with { type: 'json' }
 
-import stops558ACDredge from './bus-looping-routes/558/anticlockwise-dredge.json' assert { type: 'json' }
-import stops558ACFull from './bus-looping-routes/558/anticlockwise-full.json' assert { type: 'json' }
-import stops558ACDeviation from './bus-looping-routes/558/anticlockwise-deviation.json' assert { type: 'json' }
+import stops558ACDredge from './bus-looping-routes/558/anticlockwise-dredge.json' with { type: 'json' }
+import stops558ACFull from './bus-looping-routes/558/anticlockwise-full.json' with { type: 'json' }
+import stops558ACDeviation from './bus-looping-routes/558/anticlockwise-deviation.json' with { type: 'json' }
 
-import stops558CDeviation from './bus-looping-routes/558/clockwise-deviation.json' assert { type: 'json' }
-import stops558CFull from './bus-looping-routes/558/clockwise-full.json' assert { type: 'json' }
-import stops558CCotchin from './bus-looping-routes/558/clockwise-cotchin.json' assert { type: 'json' }
+import stops558CDeviation from './bus-looping-routes/558/clockwise-deviation.json' with { type: 'json' }
+import stops558CFull from './bus-looping-routes/558/clockwise-full.json' with { type: 'json' }
+import stops558CCotchin from './bus-looping-routes/558/clockwise-cotchin.json' with { type: 'json' }
 
-import stops965C from './bus-looping-routes/965/clockwise.json' assert { type: 'json' }
-import stops965AC from './bus-looping-routes/965/anticlockwise.json' assert { type: 'json' }
+import stops965C from './bus-looping-routes/965/clockwise.json' with { type: 'json' }
+import stops965AC from './bus-looping-routes/965/anticlockwise.json' with { type: 'json' }
 
 import routes from '../bus/looping-routes/routes.js'
 
