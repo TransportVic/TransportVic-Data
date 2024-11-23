@@ -79,7 +79,7 @@ stop_id,bay,name,notes
 27745,A,Chelsea Railway Station/Station St (Chelsea),
 27746,B,Chelsea Railway Station/Station St (Chelsea),
 27747,C,Chelsea Railway Station/Station St (Chelsea),
-3348,1,Cheltenham Railway Station/Charman Rd,"note, 3615 828 stop has no bay",
+3348,1,Cheltenham Railway Station/Charman Rd,note 3615 828 stop has no bay
 48878,2,Cheltenham Railway Station/Charman Rd,
 48879,3,Cheltenham Railway Station/Charman Rd,
 48880,4,Cheltenham Railway Station/Charman Rd,
@@ -138,8 +138,8 @@ stop_id,bay,name,notes
 21326,13,Dandenong Station/Foster St (Dandenong),
 19817,14,Dandenong Station/Foster St (Dandenong),
 51295,15,Dandenong Station/Foster St (Dandenong),
-20018,10-11,Dandenong Station/Foster St (Dandenong),TRBS and coach stop
-22250,10-11,Dandenong Station/Foster St (Dandenong),
+20018,10&11,Dandenong Station/Foster St (Dandenong),TRBS and coach stop
+22250,10&11,Dandenong Station/Foster St (Dandenong),
 51132,1,Diamond Creek Station/Station St (Diamond Creek),
 51133,2,Diamond Creek Station/Station St (Diamond Creek),
 51134,3,Diamond Creek Station/Station St (Diamond Creek),
@@ -332,7 +332,7 @@ stop_id,bay,name,notes
 18742,3,Newport Interchange/Mason St (Newport),
 18741,5,Newport Interchange/Mason St (Newport),
 21176,5,Nicholson St/Paisley St (Footscray),need to check
-47158,1,Northland SC/Murray Rd (Preston),"Incorrectly signed as Bay 1. Was not updated to letters along with the rest of the bays"
+47158,1,Northland SC/Murray Rd (Preston),Incorrectly signed as Bay 1. Was not updated to letters along with the rest of the bays
 47159,B,Northland SC/Murray Rd (Preston),
 47160,C,Northland SC/Murray Rd (Preston),
 47161,D,Northland SC/Murray Rd (Preston),
@@ -352,16 +352,16 @@ stop_id,bay,name,notes
 18865,3,Reservoir Station/High St (Reservoir),
 19228,4,Reservoir Station/High St (Reservoir),
 19229,5,Reservoir Station/High St (Reservoir),
-21270,A,Ringwood Station/Maroondah Hwy (Ringwood),Former bay 6,
-21269,B,Ringwood Station/Maroondah Hwy (Ringwood),Former bay 5,
-21261,C,Ringwood Station/Maroondah Hwy (Ringwood),Former bay 4,
-21260,D,Ringwood Station/Maroondah Hwy (Ringwood),Former bay 3,
-21257,E,Ringwood Station/Maroondah Hwy (Ringwood),Former bay 2,
-21256,F,Ringwood Station/Maroondah Hwy (Ringwood),Former bay 1,
-21005,G,Ringwood Station/Maroondah Hwy (Ringwood),Former bay 11,
-21318,H,Ringwood Station/Maroondah Hwy (Ringwood),Former bay 10,
-49468,I,Ringwood Station/Maroondah Hwy (Ringwood),Former bay 9,
-47252,J,Ringwood Station/Maroondah Hwy (Ringwood),Former bay 8,
+21270,A,Ringwood Station/Maroondah Hwy (Ringwood),Former bay 6
+21269,B,Ringwood Station/Maroondah Hwy (Ringwood),Former bay 5
+21261,C,Ringwood Station/Maroondah Hwy (Ringwood),Former bay 4
+21260,D,Ringwood Station/Maroondah Hwy (Ringwood),Former bay 3
+21257,E,Ringwood Station/Maroondah Hwy (Ringwood),Former bay 2
+21256,F,Ringwood Station/Maroondah Hwy (Ringwood),Former bay 1
+21005,G,Ringwood Station/Maroondah Hwy (Ringwood),Former bay 11
+21318,H,Ringwood Station/Maroondah Hwy (Ringwood),Former bay 10
+49468,I,Ringwood Station/Maroondah Hwy (Ringwood),Former bay 9
+47252,J,Ringwood Station/Maroondah Hwy (Ringwood),Former bay 8
 46393,1,South Morang Station/Civic Dr (South Morang),
 46395,2,South Morang Station/Civic Dr (South Morang),
 46396,3,South Morang Station/Civic Dr (South Morang),
@@ -431,6 +431,12 @@ stop_id,bay,name,notes
 28538,G,Tarneit Station (Tarneit),
 28537,H,Tarneit Station (Tarneit),
 19555,2,Tattersalls Lane/Lonsdale St (Melbourne City),"swanston st stop, need to check bay 1"
+44914,1,The Pines SC,
+44913,2,The Pines SC,
+20450,3,The Pines SC,
+44916,4,The Pines SC,
+49915,5,The Pines SC,
+20448,6,The Pines SC,
 47668,1,Warragul Station/Alfred St (Warragul),
 47669,2,Warragul Station/Alfred St (Warragul),
 47670,3,Warragul Station/Alfred St (Warragul),
@@ -469,9 +475,3 @@ stop_id,bay,name,notes
 50265,5,Wyndham Vale Station/Armstrong Rd (Manor Lakes),
 50266,6,Wyndham Vale Station/Armstrong Rd (Manor Lakes),
 50267,7,Wyndham Vale Station/Armstrong Rd (Manor Lakes),
-3348,1,Cheltenham Railway Station/Charman Rd,"note, 3615 828 stop has no bay"
-48878,2,Cheltenham Railway Station/Charman Rd,
-48879,3,Cheltenham Railway Station/Charman Rd,
-48880,4,Cheltenham Railway Station/Charman Rd,
-3515,5,Cheltenham Railway Station/Charman Rd,
-48881,6,Cheltenham Railway Station/Charman Rd,
