@@ -11290,11 +11290,11 @@ STATION: Croydon</value>
           <LinearRing>
             <tessellate>1</tessellate>
             <coordinates>
-              145.28124,-37.79494,0
-              145.281227,-37.794925,0
-              145.279771,-37.795766,0
-              145.279784,-37.795782,0
-              145.28124,-37.79494,0
+              145.2813017,-37.7947683,0
+              145.2812645,-37.7947332,0
+              145.2796154,-37.7956876,0
+              145.2796579,-37.7957322,0
+              145.2813017,-37.7947683,0
             </coordinates>
           </LinearRing>
         </outerBoundaryIs>
@@ -11322,11 +11322,11 @@ STATION: Croydon</value>
           <LinearRing>
             <tessellate>1</tessellate>
             <coordinates>
-              145.280008,-37.795765,0
-              145.281393,-37.794964,0
-              145.28138,-37.794949,0
-              145.279995,-37.79575,0
-              145.280008,-37.795765,0
+              145.2797679,-37.7958689,0
+              145.2814185,-37.7949047,0
+              145.28138,-37.7948642,0
+              145.2797348,-37.7958305,0
+              145.2797679,-37.7958689,0
             </coordinates>
           </LinearRing>
         </outerBoundaryIs>
@@ -11462,14 +11462,11 @@ STATION: Ringwood East</value>
           <LinearRing>
             <tessellate>1</tessellate>
             <coordinates>
-              145.250015,-37.811906,0
-              145.250359,-37.81181,0
-              145.250368,-37.811829,0
-              145.251013,-37.811643,0
-              145.251717,-37.81141,0
-              145.251709,-37.811393,0
-              145.250007,-37.811889,0
-              145.250015,-37.811906,0
+              145.248643,-37.8120776,0
+              145.2504966,-37.8115414,0
+              145.2504765,-37.8114968,0
+              145.2486257,-37.8120405,0
+              145.248643,-37.8120776,0
             </coordinates>
           </LinearRing>
         </outerBoundaryIs>
@@ -11497,19 +11494,11 @@ STATION: Ringwood East</value>
           <LinearRing>
             <tessellate>1</tessellate>
             <coordinates>
-              145.251717,-37.81141,0
-              145.251013,-37.811643,0
-              145.250368,-37.811829,0
-              145.250374,-37.811855,0
-              145.250048,-37.811948,0
-              145.250055,-37.811965,0
-              145.250259,-37.811911,0
-              145.250452,-37.811858,0
-              145.250643,-37.811801,0
-              145.250812,-37.811748,0
-              145.251063,-37.811665,0
-              145.251732,-37.811436,0
-              145.251717,-37.81141,0
+              145.2505489,-37.8116357,0
+              145.2486935,-37.8121769,0
+              145.2487139,-37.8122108,0
+              145.2505733,-37.8116818,0
+              145.2505489,-37.8116357,0
             </coordinates>
           </LinearRing>
         </outerBoundaryIs>
@@ -15097,11 +15086,11 @@ STATION: Narre Warren</value>
           <LinearRing>
             <tessellate>1</tessellate>
             <coordinates>
-              145.3030934,-38.027215,0
-              145.3046414,-38.0280223,0
-              145.3046691,-38.0279952,0
-              145.3031191,-38.0271882,0
-              145.3030934,-38.027215,0
+              145.3030947,-38.0272499,0
+              145.3046213,-38.0280466,0
+              145.304649,-38.0280195,0
+              145.3031218,-38.0272199,0
+              145.3030947,-38.0272499,0
             </coordinates>
           </LinearRing>
         </outerBoundaryIs>
@@ -15129,11 +15118,11 @@ STATION: Narre Warren</value>
           <LinearRing>
             <tessellate>1</tessellate>
             <coordinates>
-              145.3031756,-38.0271169,0
-              145.3047067,-38.0279002,0
-              145.304722,-38.0278768,0
-              145.3032003,-38.0270866,0
-              145.3031756,-38.0271169,0
+              145.3031863,-38.0271444,0
+              145.3047027,-38.0279329,0
+              145.3047233,-38.0279011,0
+              145.3032124,-38.0271141,0
+              145.3031863,-38.0271444,0
             </coordinates>
           </LinearRing>
         </outerBoundaryIs>
@@ -15161,11 +15150,11 @@ STATION: Hallam</value>
           <LinearRing>
             <tessellate>1</tessellate>
             <coordinates>
-              145.2694269,-38.0177379,0
-              145.2712339,-38.0179309,0
-              145.2712399,-38.0179039,0
-              145.2694339,-38.0177119,0
-              145.2694269,-38.0177379,0
+              145.2694081,-38.0177791,0
+              145.2712527,-38.0179594,0
+              145.2712587,-38.0179324,0
+              145.2694178,-38.0177351,0
+              145.2694081,-38.0177791,0
             </coordinates>
           </LinearRing>
         </outerBoundaryIs>
@@ -15193,11 +15182,11 @@ STATION: Hallam</value>
           <LinearRing>
             <tessellate>1</tessellate>
             <coordinates>
-              145.2694082,-38.0178418,0
-              145.2694012,-38.0178708,0
-              145.2712112,-38.0180618,0
-              145.2712162,-38.0180338,0
-              145.2694082,-38.0178418,0
+              145.2693961,-38.0178724,0
+              145.2693891,-38.0179088,0
+              145.27123,-38.0180988,0
+              145.271235,-38.0180708,0
+              145.2693961,-38.0178724,0
             </coordinates>
           </LinearRing>
         </outerBoundaryIs>
@@ -21395,16 +21384,11 @@ STATION: Pakenham</value>
           <LinearRing>
             <tessellate>1</tessellate>
             <coordinates>
-              145.487409,-38.080577,0
-              145.486921,-38.080473,0
-              145.486268,-38.080349,0
-              145.485484,-38.080214,0
-              145.485479,-38.080234,0
-              145.485832,-38.080299,0
-              145.485824,-38.080328,0
-              145.487308,-38.080616,0
-              145.487398,-38.080634,0
-              145.487409,-38.080577,0
+              145.4869892,-38.0806477,0
+              145.485205,-38.0802985,0
+              145.485196,-38.0803375,0
+              145.4869796,-38.0806826,0
+              145.4869892,-38.0806477,0
             </coordinates>
           </LinearRing>
         </outerBoundaryIs>
@@ -21432,13 +21416,11 @@ STATION: Pakenham</value>
           <LinearRing>
             <tessellate>1</tessellate>
             <coordinates>
-              145.487294,-38.080668,0
-              145.487308,-38.080616,0
-              145.485824,-38.080328,0
-              145.485816,-38.08036,0
-              145.485467,-38.080296,0
-              145.485461,-38.080319,0
-              145.487294,-38.080668,0
+              145.4869547,-38.0808168,0
+              145.4869633,-38.0807807,0
+              145.4851545,-38.0804301,0
+              145.4851378,-38.0804689,0
+              145.4869547,-38.0808168,0
             </coordinates>
           </LinearRing>
         </outerBoundaryIs>
@@ -24071,6 +24053,71 @@ STATION: Sydney Central</value>
               145.101999,-37.821914,0
               145.1006202,-37.8228624,0
               145.1006468,-37.822887,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>East Pakenham
+</name>
+      <description><![CDATA[description: <br>PLATFORM: 1<br><br>STATION: East Pakenham<br>]]></description>
+      <styleUrl>#poly-000000-1200-77</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value/>
+        </Data>
+        <Data name="PLATFORM">
+          <value>1
+</value>
+        </Data>
+        <Data name="STATION">
+          <value>East Pakenham
+</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              145.505904,-38.0841663,0
+              145.5058906,-38.084208,0
+              145.5076997,-38.0845542,0
+              145.5077091,-38.0845125,0
+              145.505904,-38.0841663,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>East Pakenham
+</name>
+      <description><![CDATA[description: <br>PLATFORM: 2<br>STATION: East Pakenham<br>]]></description>
+      <styleUrl>#poly-000000-1200-77</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value/>
+        </Data>
+        <Data name="PLATFORM">
+          <value>2</value>
+        </Data>
+        <Data name="STATION">
+          <value>East Pakenham
+</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              145.5059197,-38.0841225,0
+              145.505904,-38.0841663,0
+              145.5077091,-38.0845125,0
+              145.5077208,-38.0844635,0
+              145.5059197,-38.0841225,0
             </coordinates>
           </LinearRing>
         </outerBoundaryIs>
