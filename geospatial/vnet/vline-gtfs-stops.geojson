@@ -9064,15 +9064,30 @@
       {
           "type": "Feature",
           "properties": {
-              "name": "BP Roadhouse/Homburg Terrace",
+              "name": "BP Roadhouse/Homburg Terrace // to ADE",
               "suburb": "Pinnaroo, SA",
               "stopGTFSID": "20847"
           },
           "geometry": {
               "type": "Point",
               "coordinates": [
-                  140.913709925439,
-                  -35.2605676115899
+                140.913709925439,
+                -35.2605676115899
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "BP Roadhouse/Homburg Terrace // from ADE",
+              "suburb": "Pinnaroo, SA",
+              "stopGTFSID": "47784"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                140.913720019159,
+                -35.2604331204611
               ]
           }
       },
