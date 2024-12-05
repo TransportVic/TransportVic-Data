@@ -154,7 +154,7 @@
       {
           "type": "Feature",
           "properties": {
-              "name": "Webster Street/Dunlop Street",
+              "name": "Webster Street/Dunlop Street // to warrnambool 1518, mortlake 1, old state school",
               "suburb": "Mortlake",
               "stopGTFSID": "1613"
           },
@@ -169,7 +169,7 @@
       {
           "type": "Feature",
           "properties": {
-              "name": "Webster Street/Dunlop Street",
+              "name": "Webster Street/Dunlop Street // to ballarat, mortlake 2, elders",
               "suburb": "Mortlake",
               "stopGTFSID": "1937"
           },
@@ -6034,7 +6034,7 @@
       {
           "type": "Feature",
           "properties": {
-              "name": "Information Centre/Grampians Road",
+              "name": "Information Centre/Grampians Road // final, info 1",
               "suburb": "Halls Gap",
               "stopGTFSID": "17806"
           },
@@ -6079,7 +6079,7 @@
       {
           "type": "Feature",
           "properties": {
-              "name": "McDonald Street/Marma Street",
+              "name": "McDonald Street/Marma Street // to MEL",
               "suburb": "Murtoa",
               "stopGTFSID": "17809"
           },
@@ -10369,7 +10369,7 @@
       {
           "type": "Feature",
           "properties": {
-              "name": "Everton General Store/Great Alpine Road",
+              "name": "Everton General Store/Great Alpine Road // to wherever",
               "suburb": "Everton",
               "stopGTFSID": "22624"
           },
@@ -10849,7 +10849,7 @@
       {
           "type": "Feature",
           "properties": {
-              "name": "Information Centre/Grampians Road",
+              "name": "Information Centre/Grampians Road // 0825 info 2",
               "suburb": "Halls Gap",
               "stopGTFSID": "30992"
           },
@@ -11314,7 +11314,7 @@
       {
           "type": "Feature",
           "properties": {
-              "name": "Everton General Store/Great Alpine Road",
+              "name": "Everton General Store/Great Alpine Road // to wang, opp",
               "suburb": "Everton",
               "stopGTFSID": "37634"
           },
@@ -11839,7 +11839,7 @@
       {
           "type": "Feature",
           "properties": {
-              "name": "Pinjarra Drive/Bendigo-Maldon Road",
+              "name": "Pinjarra Drive/Bendigo-Maldon Road // To ballarat",
               "suburb": "Lockwood South",
               "stopGTFSID": "40742"
           },
@@ -12169,7 +12169,7 @@
       {
           "type": "Feature",
           "properties": {
-              "name": "Sutton Road",
+              "name": "Sutton Road // Maryborough 5",
               "suburb": "Maryborough",
               "stopGTFSID": "42320"
           },
@@ -12439,7 +12439,7 @@
       {
           "type": "Feature",
           "properties": {
-              "name": "Broomfield Road/Clunes-Creswick Road",
+              "name": "Broomfield Road/Clunes-Creswick Road // Creswick North ",
               "suburb": "Creswick North",
               "stopGTFSID": "44852"
           },
@@ -13279,7 +13279,7 @@
       {
           "type": "Feature",
           "properties": {
-              "name": "Pinjarra Drive/Bendigo-Maldon Road",
+              "name": "Pinjarra Drive/Bendigo-Maldon Road // to bendigo",
               "suburb": "Lockwood South",
               "stopGTFSID": "47916"
           },
@@ -13339,7 +13339,7 @@
       {
           "type": "Feature",
           "properties": {
-              "name": "McDonald Street/Marma Street",
+              "name": "McDonald Street/Marma Street // to ADE",
               "suburb": "Murtoa",
               "stopGTFSID": "48039"
           },
@@ -13834,7 +13834,7 @@
       {
           "type": "Feature",
           "properties": {
-              "name": "Brambuk the National Park and Cultural Centre/Grampians Road",
+              "name": "Brambuk the National Park and Cultural Centre/Grampians Road // 0829 to info centre, brambuk 2 ",
               "suburb": "Halls Gap",
               "stopGTFSID": "51744"
           },
@@ -13849,7 +13849,7 @@
       {
           "type": "Feature",
           "properties": {
-              "name": "Brambuk the National Park and Cultural Centre/Grampians Road",
+              "name": "Brambuk the National Park and Cultural Centre/Grampians Road // brambuk 1",
               "suburb": "Halls Gap",
               "stopGTFSID": "51745"
           },

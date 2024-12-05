@@ -56,8 +56,8 @@
           "geometry": {
               "type": "Point",
               "coordinates": [
-                  138.595749,
-                  -34.927481
+                138.58115730326966,
+                -34.93814247814983
               ]
           }
       },
@@ -551,23 +551,8 @@
           "geometry": {
               "type": "Point",
               "coordinates": [
-                  145.466367,
-                  -38.483983
-              ]
-          }
-      },
-      {
-          "type": "Feature",
-          "properties": {
-              "name": "Bass: to Cowes or Inverloch",
-              "type": "Coach",
-              "code": "BAS"
-          },
-          "geometry": {
-              "type": "Point",
-              "coordinates": [
-                  145.72745,
-                  -38.6312833
+                145.466364609109,
+                -38.4839798334544
               ]
           }
       },
@@ -581,23 +566,8 @@
           "geometry": {
               "type": "Point",
               "coordinates": [
-                  145.72745,
-                  -38.6312833
-              ]
-          }
-      },
-      {
-          "type": "Feature",
-          "properties": {
-              "name": "Bass: to Melbourne",
-              "type": "Coach",
-              "code": "BAS"
-          },
-          "geometry": {
-              "type": "Point",
-              "coordinates": [
-                  145.466367,
-                  -38.483983
+                145.466918571494,
+                -38.4832661730918
               ]
           }
       },
@@ -746,8 +716,8 @@
           "geometry": {
               "type": "Point",
               "coordinates": [
-                  144.257786135122,
-                  -38.349558874593
+                144.257786135122,
+                -38.349558874593
               ]
           }
       },
@@ -776,8 +746,8 @@
           "geometry": {
               "type": "Point",
               "coordinates": [
-                  144.257787,
-                  -38.349557
+                  144.263575523649,
+                  -38.3383146117051
               ]
           }
       },
@@ -1064,8 +1034,8 @@
           "geometry": {
               "type": "Point",
               "coordinates": [
-                  149.23611,
-                  -36.90806
+                  149.240323395165,
+                  -36.911212130714
               ]
           }
       },
@@ -1124,8 +1094,8 @@
           "geometry": {
               "type": "Point",
               "coordinates": [
-                  140.7729827,
-                  -36.30833471
+                140.77747975560968,
+                -36.31064885235974
               ]
           }
       },
@@ -1498,21 +1468,6 @@
               "coordinates": [
                   144.959464,
                   -37.68699
-              ]
-          }
-      },
-      {
-          "type": "Feature",
-          "properties": {
-              "name": "Campbellfield",
-              "type": "Coach",
-              "code": "CMF"
-          },
-          "geometry": {
-              "type": "Point",
-              "coordinates": [
-                  144.9577881,
-                  -37.6886013
               ]
           }
       },
@@ -2111,53 +2066,8 @@
           "geometry": {
               "type": "Point",
               "coordinates": [
-                  145.23907,
-                  -38.45905
-              ]
-          }
-      },
-      {
-          "type": "Feature",
-          "properties": {
-              "name": "Cowes Transit Centre 56-58 Church Street",
-              "type": "Coach",
-              "code": "COE"
-          },
-          "geometry": {
-              "type": "Point",
-              "coordinates": [
                   145.2402574,
                   -38.4520547
-              ]
-          }
-      },
-      {
-          "type": "Feature",
-          "properties": {
-              "name": "Cowes: Bus Zone, Chapel St near Thompson Ave - not in use after 7 Sep 2019",
-              "type": "Coach",
-              "code": "COE"
-          },
-          "geometry": {
-              "type": "Point",
-              "coordinates": [
-                  145.2402574,
-                  -38.4520547
-              ]
-          }
-      },
-      {
-          "type": "Feature",
-          "properties": {
-              "name": "Cowes: Bus Zone, Chapel St near Thompson Ave - not in use after 7 Sep 2019",
-              "type": "Coach",
-              "code": "COE"
-          },
-          "geometry": {
-              "type": "Point",
-              "coordinates": [
-                  145.23907,
-                  -38.45905
               ]
           }
       },
@@ -2171,8 +2081,8 @@
           "geometry": {
               "type": "Point",
               "coordinates": [
-                  145.2384,
-                  -38.45022
+                145.239067535684,
+                -38.4590475109216
               ]
           }
       },
@@ -2554,21 +2464,6 @@
       {
           "type": "Feature",
           "properties": {
-              "name": "Dimboola",
-              "type": "Coach",
-              "code": "DIM"
-          },
-          "geometry": {
-              "type": "Point",
-              "coordinates": [
-                  142.026418,
-                  -36.454105
-              ]
-          }
-      },
-      {
-          "type": "Feature",
-          "properties": {
               "name": "Dimboola Station",
               "type": "Coach",
               "code": "DIM"
@@ -2576,23 +2471,8 @@
           "geometry": {
               "type": "Point",
               "coordinates": [
-                  142.026418,
-                  -36.454105
-              ]
-          }
-      },
-      {
-          "type": "Feature",
-          "properties": {
-              "name": "Dimboola Station",
-              "type": "Coach",
-              "code": "DIM"
-          },
-          "geometry": {
-              "type": "Point",
-              "coordinates": [
-                  142.026792,
-                  -36.453662
+                142.03085469363484,
+                -36.452057852525755
               ]
           }
       },
@@ -2713,21 +2593,6 @@
               "coordinates": [
                   143.920787,
                   -36.125723
-              ]
-          }
-      },
-      {
-          "type": "Feature",
-          "properties": {
-              "name": "Eaglehawk Station",
-              "type": "Coach",
-              "code": "EAG"
-          },
-          "geometry": {
-              "type": "Point",
-              "coordinates": [
-                  144.25484,
-                  -36.719371
               ]
           }
       },
@@ -2891,8 +2756,8 @@
           "geometry": {
               "type": "Point",
               "coordinates": [
-                  144.607757568359,
-                  -36.4950180053711
+                  144.607640354662,
+                  -36.4948374127521
               ]
           }
       },
@@ -2906,8 +2771,8 @@
           "geometry": {
               "type": "Point",
               "coordinates": [
-                  144.607757568359,
-                  -36.4950180053711
+                  144.607893680669,
+                  -36.4953111645647
               ]
           }
       },
@@ -2921,8 +2786,8 @@
           "geometry": {
               "type": "Point",
               "coordinates": [
-                  144.607757568359,
-                  -36.4950180053711
+                  144.608115689275,
+                  -36.4953516695044
               ]
           }
       },
@@ -3026,8 +2891,8 @@
           "geometry": {
               "type": "Point",
               "coordinates": [
-                  146.540926,
-                  -36.432807
+                  146.540927299666,
+                  -36.4328095769821
               ]
           }
       },
@@ -3041,8 +2906,8 @@
           "geometry": {
               "type": "Point",
               "coordinates": [
-                  146.540926,
-                  -36.432807
+                  146.540925760138,
+                  -36.4330710119915
               ]
           }
       },
@@ -3131,8 +2996,8 @@
           "geometry": {
               "type": "Point",
               "coordinates": [
-                  145.287902,
-                  -37.320335
+                145.287902,
+                -37.320335
               ]
           }
       },
@@ -3146,8 +3011,8 @@
           "geometry": {
               "type": "Point",
               "coordinates": [
-                  145.288326565696,
-                  -37.3206971209694
+                145.280249947774,
+                -37.373980928812
               ]
           }
       },
@@ -3266,8 +3131,8 @@
           "geometry": {
               "type": "Point",
               "coordinates": [
-                  144.361148,
-                  -38.147422
+                  144.360369327844,
+                  -38.1472285263851
               ]
           }
       },
@@ -3281,8 +3146,8 @@
           "geometry": {
               "type": "Point",
               "coordinates": [
-                  144.361148,
-                  -38.147422
+                144.36047682211375,
+                -38.14811977114217
               ]
           }
       },
@@ -3671,23 +3536,8 @@
           "geometry": {
               "type": "Point",
               "coordinates": [
-                  142.518975,
-                  -37.14062
-              ]
-          }
-      },
-      {
-          "type": "Feature",
-          "properties": {
-              "name": "Halls Gap Information Centre 1",
-              "type": "Coach",
-              "code": "HAG"
-          },
-          "geometry": {
-              "type": "Point",
-              "coordinates": [
-                  142.518975,
-                  -37.14062
+                142.518978383991,
+                -37.1406229714533
               ]
           }
       },
@@ -3701,8 +3551,8 @@
           "geometry": {
               "type": "Point",
               "coordinates": [
-                  142.52887,
-                  -37.15672
+                142.528716905105,
+                -37.1567172333336
               ]
           }
       },
@@ -3716,23 +3566,8 @@
           "geometry": {
               "type": "Point",
               "coordinates": [
-                  142.52887,
-                  -37.15672
-              ]
-          }
-      },
-      {
-          "type": "Feature",
-          "properties": {
-              "name": "Halls Gap: Brambuk Cultural Centre 2",
-              "type": "Coach",
-              "code": "HA5"
-          },
-          "geometry": {
-              "type": "Point",
-              "coordinates": [
-                  142.54041,
-                  -37.1773
+                142.528874093824,
+                -37.1567231756313
               ]
           }
       },
@@ -3761,23 +3596,8 @@
           "geometry": {
               "type": "Point",
               "coordinates": [
-                  142.518975,
-                  -37.14062
-              ]
-          }
-      },
-      {
-          "type": "Feature",
-          "properties": {
-              "name": "Halls Gap: Information Centre 2",
-              "type": "Coach",
-              "code": "HAG"
-          },
-          "geometry": {
-              "type": "Point",
-              "coordinates": [
-                  142.518975,
-                  -37.14062
+                142.519194778604,
+                -37.1403879873906
               ]
           }
       },
@@ -3793,21 +3613,6 @@
               "coordinates": [
                   142.54041,
                   -37.1773
-              ]
-          }
-      },
-      {
-          "type": "Feature",
-          "properties": {
-              "name": "Halls Gap: Lake Bellfield",
-              "type": "Coach",
-              "code": "HA5"
-          },
-          "geometry": {
-              "type": "Point",
-              "coordinates": [
-                  142.52887,
-                  -37.15672
               ]
           }
       },
@@ -4553,8 +4358,8 @@
           "geometry": {
               "type": "Point",
               "coordinates": [
-                  142.362514,
-                  -38.291654
+                142.362509425367,
+                -38.2916577240939
               ]
           }
       },
@@ -4568,8 +4373,8 @@
           "geometry": {
               "type": "Point",
               "coordinates": [
-                  142.362514,
-                  -38.291654
+                142.362537498166,
+                -38.2912175633909
               ]
           }
       },
@@ -5093,8 +4898,8 @@
           "geometry": {
               "type": "Point",
               "coordinates": [
-                  144.244218,
-                  -36.79508
+                144.155714279327,
+                -36.8388402219618
               ]
           }
       },
@@ -5138,8 +4943,8 @@
           "geometry": {
               "type": "Point",
               "coordinates": [
-                  143.974318,
-                  -38.537247
+                143.976035773067,
+                -38.5427325546048
               ]
           }
       },
@@ -5153,8 +4958,8 @@
           "geometry": {
               "type": "Point",
               "coordinates": [
-                  143.975385,
-                  -38.538837
+                143.974522317703,
+                -38.5372428320013
               ]
           }
       },
@@ -5468,8 +5273,8 @@
           "geometry": {
               "type": "Point",
               "coordinates": [
-                  143.742399,
-                  -37.050912
+                143.74129489117,
+                -37.0384347724462
               ]
           }
       },
@@ -5483,8 +5288,8 @@
           "geometry": {
               "type": "Point",
               "coordinates": [
-                  143.72977,
-                  -37.053922
+                  143.736069517237,
+                  -37.0525723509048
               ]
           }
       },
@@ -5498,8 +5303,8 @@
           "geometry": {
               "type": "Point",
               "coordinates": [
-                  143.73623,
-                  -37.047125
+                143.751748359824,
+                -37.0484348859367
               ]
           }
       },
@@ -5837,8 +5642,8 @@
           "geometry": {
               "type": "Point",
               "coordinates": [
-                  142.80477,
-                  -38.080688
+                142.804804193522,
+                -38.0809541365325
               ]
           }
       },
@@ -5852,8 +5657,8 @@
           "geometry": {
               "type": "Point",
               "coordinates": [
-                  142.80477,
-                  -38.080688
+                142.804773626341,
+                -38.0806918415259
               ]
           }
       },
@@ -6141,13 +5946,14 @@
           "properties": {
               "name": "Murtoa: Marma St near toilet block",
               "type": "Coach",
-              "code": "MUA"
+              "code": "MUA",
+              "_": "MUA2 to city"
           },
           "geometry": {
               "type": "Point",
               "coordinates": [
-                  142.4699275,
-                  -36.6202665
+                142.470228673137,
+                -36.6201158187634
               ]
           }
       },
@@ -6156,13 +5962,14 @@
           "properties": {
               "name": "Murtoa: Marma St opposite toilet block",
               "type": "Coach",
-              "code": "MUA"
+              "code": "MUA",
+              "_": "MUA1 to ADE"
           },
           "geometry": {
               "type": "Point",
               "coordinates": [
-                  142.4699275,
-                  -36.6202665
+                142.46998138105,
+                -36.6203315689031
               ]
           }
       },
@@ -6455,8 +6262,8 @@
           "geometry": {
               "type": "Point",
               "coordinates": [
-                  144.055126,
-                  -37.11245
+                144.061487169328,
+                -37.1066834874358
               ]
           }
       },
@@ -6815,8 +6622,8 @@
           "geometry": {
               "type": "Point",
               "coordinates": [
-                  149.88889,
-                  -36.92972
+                  149.87521399625,
+                  -36.9305076518793
               ]
           }
       },
@@ -6913,21 +6720,6 @@
       {
           "type": "Feature",
           "properties": {
-              "name": "Piangil",
-              "type": "Coach",
-              "code": "PGL"
-          },
-          "geometry": {
-              "type": "Point",
-              "coordinates": [
-                  143.31057739257812,
-                  -35.05421829223633
-              ]
-          }
-      },
-      {
-          "type": "Feature",
-          "properties": {
               "name": "Picola",
               "type": "Coach",
               "code": "PIA"
@@ -6959,36 +6751,6 @@
           "type": "Feature",
           "properties": {
               "name": "Pinnaroo (SA): From Adelaide",
-              "type": "Coach",
-              "code": "PNO"
-          },
-          "geometry": {
-              "type": "Point",
-              "coordinates": [
-                  140.9137201,
-                  -35.26043575
-              ]
-          }
-      },
-      {
-          "type": "Feature",
-          "properties": {
-              "name": "Pinnaroo (SA): From Adelaide",
-              "type": "Coach",
-              "code": "PNO"
-          },
-          "geometry": {
-              "type": "Point",
-              "coordinates": [
-                  140.9137201,
-                  -35.26043575
-              ]
-          }
-      },
-      {
-          "type": "Feature",
-          "properties": {
-              "name": "Pinnaroo (SA): To Adelaide",
               "type": "Coach",
               "code": "PNO"
           },
@@ -7664,8 +7426,8 @@
           "geometry": {
               "type": "Point",
               "coordinates": [
-                  145.404774,
-                  -36.362534
+                145.399465844225,
+                -36.3798388541311
               ]
           }
       },
@@ -7869,13 +7631,14 @@
           "properties": {
               "name": "Spring Creek: Cnr Bendigo Maldon and McGlashens Rd",
               "type": "Coach",
-              "code": "SPK"
+              "code": "SPK",
+              "_": "SPK1 to Bendigo"
           },
           "geometry": {
               "type": "Point",
               "coordinates": [
-                  144.155712,
-                  -36.838836
+                144.149442263463,
+                -36.8694461219642
               ]
           }
       },
@@ -7884,13 +7647,14 @@
           "properties": {
               "name": "Spring Creek: Cnr Bendigo Maldon Rd and Pinjarra Dve",
               "type": "Coach",
-              "code": "SPK"
+              "code": "SPK",
+              "_": "SPK2 to Ballarat"
           },
           "geometry": {
               "type": "Point",
               "coordinates": [
-                  144.155712,
-                  -36.838836
+                144.146659779776,
+                -36.8776067703285
               ]
           }
       },
@@ -7981,21 +7745,6 @@
               "coordinates": [
                   144.982585,
                   -36.445718
-              ]
-          }
-      },
-      {
-          "type": "Feature",
-          "properties": {
-              "name": "Stawell Station",
-              "type": "Coach",
-              "code": "SWC"
-          },
-          "geometry": {
-              "type": "Point",
-              "coordinates": [
-                  142.773542,
-                  -37.05924
               ]
           }
       },
@@ -8294,8 +8043,8 @@
           "geometry": {
               "type": "Point",
               "coordinates": [
-                  147.7360953,
-                  -35.2774836
+                147.736095420336,
+                -35.2774835489588
               ]
           }
       },
@@ -8309,8 +8058,8 @@
           "geometry": {
               "type": "Point",
               "coordinates": [
-                  147.7360953,
-                  -35.2774836
+                147.737550730848,
+                -35.2766992420666
               ]
           }
       },
@@ -9458,8 +9207,8 @@
           "geometry": {
               "type": "Point",
               "coordinates": [
-                  145.582936947077,
-                  -38.5898820862541
+                145.592145415919,
+                -38.5957515089082
               ]
           }
       },
