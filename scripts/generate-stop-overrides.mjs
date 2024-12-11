@@ -11,14 +11,11 @@ const stopsDir = path.join(__dirname, '..', 'excel', 'stops')
 const stream = createReadStream(path.join(stopsDir, 'Name Overrides.csv'), 'utf-8')
 
 let acc = {
-  bus: {},
-  tram: {},
-  "regional coach": {}
 }
 
 stream.pipe(new CsvReadableStream({ asObject: true }))
   .on('data', row => {
-    acc[row.mode][row.original_name] = row.updated_name
+    acc[row.original_name] = row.updated_name
   }).on('end', async () => {
-    await writeFile(path.join(stopsDir, 'name-overrides.json'), JSON.stringify(acc))
+    await writeFile(path.join(stopsDir, 'name-overrides.json'), JSON.stringify(acc, null, 1))
   })
