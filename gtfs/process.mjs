@@ -38,6 +38,8 @@ export async function createTripProcessor(database) {
       trip.stopTimings.forEach(stop => {
         stop.vnetName = vnetMapping[stop.stopGTFSID]
       })
+
+      return trip
     },
     6: async function processTrip(trip) {
       if (trip.routeGTFSID === '6-WGT') {
