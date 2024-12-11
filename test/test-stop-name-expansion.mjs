@@ -12,6 +12,10 @@ describe('The road name expansion', () => {
       expect(expandRoadType('Gillies St N')).to.equal('Gillies Street North')
     })
 
+    it('Should expand St if it is followed by a full direction such as North or South', () => {
+      expect(expandRoadType('Railway St South')).to.equal('Railway Street South')
+    })
+
     it('Should expand St if it is followed by a dash for a direction', () => {
       expect(expandRoadType('Prince St - East')).to.equal('Prince Street - East')
     })

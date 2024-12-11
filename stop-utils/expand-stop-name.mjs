@@ -7,8 +7,8 @@ export function expandRoadType(stopName) {
 
   return stopName.replace(/ St St$/, ' Street')
     .replace(/St$/, 'Street')
-    .replace(/St S(th)?$/, 'Street South')
-    .replace(/St N$/, 'Street North')
+    .replace(/St S((ou)?th)?$/, 'Street South')
+    .replace(/St N((or)?th)?$/, 'Street North')
     .replace(/St -/g, 'Street -')
     .replace(/Mt\.? /g, 'Mount ')
     .replace(/ Ave?(\b)/g, ' Avenue$1') // Cannot be at the start of a stop name, eg Ave Maria College
