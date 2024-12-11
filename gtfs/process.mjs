@@ -1,4 +1,6 @@
 import { default as distance } from '@turf/distance'
+import { TRANSIT_MODES } from './constants.mjs'
+import vnetMapping from '../geospatial/vnet/vnet-mapping.json' with { type: 'json' }
 
 /**
  * Processes GTFS route data
@@ -31,18 +33,25 @@ const PAKENHAM = {
 export async function createTripProcessor(database) {
   let stops = await database.getCollection('stops')
 
-  return async function processTrip(trip) {
-    if (trip.routeGTFSID === '6-WGT') {
-      let originStop = await stops.findDocument({ 'bays.stopGTFSID': trip.stopTimings[0].stopGTFSID })
-      let destStop = await stops.findDocument({ 'bays.stopGTFSID': trip.stopTimings.slice(-1)[0].stopGTFSID })
+  return {
+    5: function processTrip(trip) {
+      trip.stopTimings.forEach(stop => {
+        stop.vnetName = vnetMapping[stop.stopGTFSID]
+      })
+    },
+    6: async function processTrip(trip) {
+      if (trip.routeGTFSID === '6-WGT') {
+        let originStop = await stops.findDocument({ 'bays.stopGTFSID': trip.stopTimings[0].stopGTFSID })
+        let destStop = await stops.findDocument({ 'bays.stopGTFSID': trip.stopTimings.slice(-1)[0].stopGTFSID })
 
-      let originDist = distance(PAKENHAM, originStop.bays[0].location)
-      let destDist = distance(PAKENHAM, destStop.bays[0].location)
+        let originDist = distance(PAKENHAM, originStop.bays[0].location)
+        let destDist = distance(PAKENHAM, destStop.bays[0].location)
 
-      // Origin closer to Pakenham than destination: Down trip
-      trip.gtfsDirection = originDist < destDist ? 0 : 1
+        // Origin closer to Pakenham than destination: Down trip
+        trip.gtfsDirection = originDist < destDist ? 0 : 1
+      }
+
+      return trip
     }
-
-    return trip
   }
 }
