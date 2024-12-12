@@ -30,11 +30,64 @@ const PAKENHAM = {
   ]
 }
 
+const VLINE_COACH_DUPLICATES = [
+  // West Gippsland Transit trips
+  {
+    origin: 'Drouin Railway Station/Princes Way',
+    destination: 'Traralgon Railway Station/Princes Street',
+    departureTime: '05:45'
+  },
+  {
+    origin: 'Garfield Railway Station/Nar Nar Goon-Longwarry Road',
+    destination: 'Traralgon Plaza Shopping Centre/Franklin Street',
+    departureTime: '06:45'
+  },
+  {
+    origin: 'Pakenham Railway Station/Railway Avenue',
+    destination: 'Garfield Railway Station/Nar Nar Goon-Longwarry Road',
+    departureTime: '17:25'
+  },
+  {
+    origin: 'Warragul Railway Station/Alfred Street',
+    destination: 'Moe Railway Station/Lloyd Street',
+    departureTime: '18:45'
+  },
+  {
+    origin: 'Warragul Railway Station/Queen Street',
+    destination: 'Pakenham Railway Station/Railway Avenue',
+    departureTime: '16:35'
+  },
+  {
+    origin: 'Garfield Railway Station/Nar Nar Goon-Longwarry Road',
+    destination: 'Nar Nar Goon Railway Station/Carney Street',
+    departureTime: '18:25'
+  },
+
+  // Duplicate trips from Cowes - Anderson - Wonthaggi
+  {
+    origin: 'Cowes Transit Centre/Church Street',
+    destination: 'Anderson Bus Interchange/Bass Highway'
+  },
+]
+
+VLINE_COACH_DUPLICATES.forEach(trip => trip.timesUsed = 0)
+
 export async function createTripProcessor(database) {
   let stops = await database.getCollection('stops')
 
   return {
     5: function processTrip(trip) {
+      let tripRule = VLINE_COACH_DUPLICATES.find(rule => {
+        let stopsMatch = trip.origin === rule.origin && trip.destination === rule.destination
+        if (rule.departureTime) return trip.departureTime === rule.departureTime && stopsMatch
+        return stopsMatch
+      })
+
+      if (tripRule) {
+        tripRule.timesUsed++
+        return null
+      }
+
       trip.stopTimings.forEach(stop => {
         stop.vnetName = vnetMapping[stop.stopGTFSID]
       })
@@ -56,4 +109,8 @@ export async function createTripProcessor(database) {
       return trip
     }
   }
+}
+
+export function getVLineRuleStats() {
+  return VLINE_COACH_DUPLICATES
 }
