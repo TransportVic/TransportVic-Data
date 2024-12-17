@@ -1,0 +1,4592 @@
+[{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C001",
+  "origin": "Woodend Railway Station/Corinella Road",
+  "destination": "CFA/Bridport Street",
+  "departureTime": "08:13",
+  "arrivalTime": "08:58"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C001",
+  "origin": "Woodend Railway Station/Corinella Road",
+  "destination": "CFA/Bridport Street",
+  "departureTime": "10:14",
+  "arrivalTime": "10:59"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C002",
+  "origin": "CFA/Bridport Street",
+  "destination": "Woodend Railway Station/Corinella Road",
+  "departureTime": "06:18",
+  "arrivalTime": "07:03"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C002",
+  "origin": "CFA/Bridport Street",
+  "destination": "Woodend Railway Station/Corinella Road",
+  "departureTime": "09:22",
+  "arrivalTime": "10:07"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C002",
+  "origin": "CFA/Bridport Street",
+  "destination": "Woodend Railway Station/Corinella Road",
+  "departureTime": "09:22",
+  "arrivalTime": "10:07"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C003",
+  "origin": "Woodend Railway Station/Corinella Road",
+  "destination": "CFA/Bridport Street",
+  "departureTime": "18:33",
+  "arrivalTime": "19:18"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C003",
+  "origin": "Woodend Railway Station/Corinella Road",
+  "destination": "CFA/Bridport Street",
+  "departureTime": "19:15",
+  "arrivalTime": "20:00"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C003",
+  "origin": "Woodend Railway Station/Corinella Road",
+  "destination": "CFA/Bridport Street",
+  "departureTime": "10:14",
+  "arrivalTime": "10:59"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C004",
+  "origin": "CFA/Bridport Street",
+  "destination": "Woodend Railway Station/Corinella Road",
+  "departureTime": "17:23",
+  "arrivalTime": "18:08"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C004",
+  "origin": "CFA/Bridport Street",
+  "destination": "Woodend Railway Station/Corinella Road",
+  "departureTime": "17:18",
+  "arrivalTime": "18:03"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C005",
+  "origin": "Woodend Railway Station/Corinella Road",
+  "destination": "CFA/Bridport Street",
+  "departureTime": "11:15",
+  "arrivalTime": "12:00"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C006",
+  "origin": "CFA/Bridport Street",
+  "destination": "Woodend Railway Station/Corinella Road",
+  "departureTime": "10:23",
+  "arrivalTime": "11:08"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C007",
+  "origin": "Woodend Railway Station/Corinella Road",
+  "destination": "CFA/Bridport Street",
+  "departureTime": "16:16",
+  "arrivalTime": "17:01"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C007",
+  "origin": "Woodend Railway Station/Corinella Road",
+  "destination": "CFA/Bridport Street",
+  "departureTime": "16:15",
+  "arrivalTime": "17:00"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C007",
+  "origin": "Woodend Railway Station/Corinella Road",
+  "destination": "CFA/Bridport Street",
+  "departureTime": "16:15",
+  "arrivalTime": "17:00"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C008",
+  "origin": "CFA/Bridport Street",
+  "destination": "Woodend Railway Station/Corinella Road",
+  "departureTime": "15:18",
+  "arrivalTime": "16:03"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C008",
+  "origin": "CFA/Bridport Street",
+  "destination": "Woodend Railway Station/Corinella Road",
+  "departureTime": "14:18",
+  "arrivalTime": "15:03"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C008",
+  "origin": "CFA/Bridport Street",
+  "destination": "Woodend Railway Station/Corinella Road",
+  "departureTime": "14:18",
+  "arrivalTime": "15:03"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C010",
+  "origin": "Mildura Railway Station/Seventh Street",
+  "destination": "Swan Hill Railway Station/Curlewis Street",
+  "departureTime": "03:59",
+  "arrivalTime": "06:39"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C010",
+  "origin": "Mildura Railway Station/Seventh Street",
+  "destination": "Swan Hill Railway Station/Curlewis Street",
+  "departureTime": "03:59",
+  "arrivalTime": "06:39"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C010",
+  "origin": "Mildura Railway Station/Seventh Street",
+  "destination": "Swan Hill Railway Station/Curlewis Street",
+  "departureTime": "03:59",
+  "arrivalTime": "06:39"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C011",
+  "origin": "Bendigo Railway Station/Railway Place",
+  "destination": "Mildura Railway Station/Seventh Street",
+  "departureTime": "12:17",
+  "arrivalTime": "18:04"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C011",
+  "origin": "Bendigo Railway Station/Railway Place",
+  "destination": "Mildura Railway Station/Seventh Street",
+  "departureTime": "12:17",
+  "arrivalTime": "18:04"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C011",
+  "origin": "Bendigo Railway Station/Railway Place",
+  "destination": "Mildura Railway Station/Seventh Street",
+  "departureTime": "12:17",
+  "arrivalTime": "18:04"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C012",
+  "origin": "Mildura Railway Station/Seventh Street",
+  "destination": "Bendigo Railway Station/Railway Place",
+  "departureTime": "07:14",
+  "arrivalTime": "12:57"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C012",
+  "origin": "Mildura Railway Station/Seventh Street",
+  "destination": "Bendigo Railway Station/Railway Place",
+  "departureTime": "06:14",
+  "arrivalTime": "11:57"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C012",
+  "origin": "Mildura Railway Station/Seventh Street",
+  "destination": "Bendigo Railway Station/Railway Place",
+  "departureTime": "09:14",
+  "arrivalTime": "15:07"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C013",
+  "origin": "Swan Hill Railway Station/Curlewis Street",
+  "destination": "Mildura Railway Station/Seventh Street",
+  "departureTime": "13:02",
+  "arrivalTime": "15:42"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C013",
+  "origin": "Swan Hill Railway Station/Curlewis Street",
+  "destination": "Mildura Railway Station/Seventh Street",
+  "departureTime": "13:02",
+  "arrivalTime": "15:42"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C013",
+  "origin": "Swan Hill Railway Station/Curlewis Street",
+  "destination": "Mildura Railway Station/Seventh Street",
+  "departureTime": "13:02",
+  "arrivalTime": "15:42"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C014",
+  "origin": "Mildura Railway Station/Seventh Street",
+  "destination": "Swan Hill Railway Station/Curlewis Street",
+  "departureTime": "10:00",
+  "arrivalTime": "12:40"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C014",
+  "origin": "Mildura Railway Station/Seventh Street",
+  "destination": "Swan Hill Railway Station/Curlewis Street",
+  "departureTime": "10:00",
+  "arrivalTime": "12:40"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C014",
+  "origin": "Mildura Railway Station/Seventh Street",
+  "destination": "Swan Hill Railway Station/Curlewis Street",
+  "departureTime": "13:43",
+  "arrivalTime": "16:23"
+},
+{
+  "operationDays": [ "Fri" ],
+  "runID": "C015",
+  "origin": "Bendigo Railway Station/Railway Place",
+  "destination": "Swan Hill Railway Station/Curlewis Street",
+  "departureTime": "21:10",
+  "arrivalTime": "24:04"
+},
+{
+  "operationDays": [ "Fri" ],
+  "runID": "C016",
+  "origin": "Mildura Railway Station/Seventh Street",
+  "destination": "Bendigo Railway Station/Railway Place",
+  "departureTime": "12:30",
+  "arrivalTime": "18:45"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C019",
+  "origin": "Swan Hill Railway Station/Curlewis Street",
+  "destination": "Mildura Railway Station/Seventh Street",
+  "departureTime": "23:00",
+  "arrivalTime": "25:40"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C019",
+  "origin": "Swan Hill Railway Station/Curlewis Street",
+  "destination": "Mildura Railway Station/Seventh Street",
+  "departureTime": "23:31",
+  "arrivalTime": "26:11"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C019",
+  "origin": "Swan Hill Railway Station/Curlewis Street",
+  "destination": "Mildura Railway Station/Seventh Street",
+  "departureTime": "23:31",
+  "arrivalTime": "26:11"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C020",
+  "origin": "Murray River Council/Cobb Highway",
+  "destination": "Murchison East Railway Station/Cassidys Road",
+  "departureTime": "05:10",
+  "arrivalTime": "06:40"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C020",
+  "origin": "Murray River Council/Cobb Highway",
+  "destination": "Murchison East Railway Station/Cassidys Road",
+  "departureTime": "05:52",
+  "arrivalTime": "07:22"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C020",
+  "origin": "Murray River Council/Cobb Highway",
+  "destination": "Murchison East Railway Station/Cassidys Road",
+  "departureTime": "05:52",
+  "arrivalTime": "07:22"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C021",
+  "origin": "Murchison East Railway Station/Cassidys Road",
+  "destination": "Murray River Council/Cobb Highway",
+  "departureTime": "11:48",
+  "arrivalTime": "13:18"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C021",
+  "origin": "Murchison East Railway Station/Cassidys Road",
+  "destination": "Murray River Council/Cobb Highway",
+  "departureTime": "11:30",
+  "arrivalTime": "13:00"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C021",
+  "origin": "Murchison East Railway Station/Cassidys Road",
+  "destination": "Murray River Council/Cobb Highway",
+  "departureTime": "11:30",
+  "arrivalTime": "13:00"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C022",
+  "origin": "Murray River Council/Cobb Highway",
+  "destination": "Bendigo Railway Station/Railway Place",
+  "departureTime": "08:45",
+  "arrivalTime": "10:15"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C022",
+  "origin": "Murray River Council/Cobb Highway",
+  "destination": "Bendigo Railway Station/Railway Place",
+  "departureTime": "08:45",
+  "arrivalTime": "10:15"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C023",
+  "origin": "Bendigo Railway Station/Railway Place",
+  "destination": "Murray River Council/Cobb Highway",
+  "departureTime": "08:30",
+  "arrivalTime": "09:55"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C024",
+  "origin": "Murray River Council/Cobb Highway",
+  "destination": "Bendigo Railway Station/Railway Place",
+  "departureTime": "12:35",
+  "arrivalTime": "14:10"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C024",
+  "origin": "Murray River Council/Cobb Highway",
+  "destination": "Bendigo Railway Station/Railway Place",
+  "departureTime": "12:35",
+  "arrivalTime": "14:10"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C025",
+  "origin": "Bendigo Railway Station/Railway Place",
+  "destination": "Murray River Council/Cobb Highway",
+  "departureTime": "14:20",
+  "arrivalTime": "15:45"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C025",
+  "origin": "Bendigo Railway Station/Railway Place",
+  "destination": "Murray River Council/Cobb Highway",
+  "departureTime": "14:20",
+  "arrivalTime": "15:45"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C025",
+  "origin": "Bendigo Railway Station/Railway Place",
+  "destination": "Murray River Council/Cobb Highway",
+  "departureTime": "14:20",
+  "arrivalTime": "15:45"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C026",
+  "origin": "Murray River Council/Cobb Highway",
+  "destination": "Murchison East Railway Station/Cassidys Road",
+  "departureTime": "14:51",
+  "arrivalTime": "16:21"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C026",
+  "origin": "Murray River Council/Cobb Highway",
+  "destination": "Murchison East Railway Station/Cassidys Road",
+  "departureTime": "14:52",
+  "arrivalTime": "16:22"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C026",
+  "origin": "Murray River Council/Cobb Highway",
+  "destination": "Murchison East Railway Station/Cassidys Road",
+  "departureTime": "14:52",
+  "arrivalTime": "16:22"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C027",
+  "origin": "Murchison East Railway Station/Cassidys Road",
+  "destination": "Murray River Council/Cobb Highway",
+  "departureTime": "20:45",
+  "arrivalTime": "22:15"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C027",
+  "origin": "Murchison East Railway Station/Cassidys Road",
+  "destination": "Murray River Council/Cobb Highway",
+  "departureTime": "20:45",
+  "arrivalTime": "22:15"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C028",
+  "origin": "Murray River Council/Cobb Highway",
+  "destination": "Seymour Railway Station/Railway Place",
+  "departureTime": "08:20",
+  "arrivalTime": "12:00"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C029",
+  "origin": "Murchison East Railway Station/Cassidys Road",
+  "destination": "Murray River Council/Cobb Highway",
+  "departureTime": "21:18",
+  "arrivalTime": "22:48"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C029",
+  "origin": "Shepparton Railway Station/Purcell Street",
+  "destination": "Murray River Council/Cobb Highway",
+  "departureTime": "19:44",
+  "arrivalTime": "21:11"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Thu" ],
+  "runID": "C030",
+  "origin": "Newsagency/Best Street",
+  "destination": "Bendigo Railway Station/Railway Place",
+  "departureTime": "08:13",
+  "arrivalTime": "11:13"
+},
+{
+  "operationDays": [ "Wed", "Fri" ],
+  "runID": "C030",
+  "origin": "Newsagency/Best Street",
+  "destination": "Bendigo Railway Station/Railway Place",
+  "departureTime": "05:50",
+  "arrivalTime": "09:05"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C030",
+  "origin": "Newsagency/Best Street",
+  "destination": "Bendigo Railway Station/Railway Place",
+  "departureTime": "15:32",
+  "arrivalTime": "18:47"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Thu" ],
+  "runID": "C031",
+  "origin": "Bendigo Railway Station/Railway Place",
+  "destination": "Newsagency/Best Street",
+  "departureTime": "15:07",
+  "arrivalTime": "17:57"
+},
+{
+  "operationDays": [ "Wed", "Fri" ],
+  "runID": "C031",
+  "origin": "Bendigo Railway Station/Railway Place",
+  "destination": "Newsagency/Best Street",
+  "departureTime": "20:31",
+  "arrivalTime": "23:36"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C031",
+  "origin": "Bendigo Railway Station/Railway Place",
+  "destination": "Newsagency/Best Street",
+  "departureTime": "20:09",
+  "arrivalTime": "22:59"
+},
+{
+  "operationDays": [ "Mon", "Wed", "Fri" ],
+  "runID": "C040",
+  "origin": "Swan Hill Railway Station/Curlewis Street",
+  "destination": "Bendigo Railway Station/Railway Place",
+  "departureTime": "08:56",
+  "arrivalTime": "12:11"
+},
+{
+  "operationDays": [ "Mon", "Wed", "Fri" ],
+  "runID": "C041",
+  "origin": "Bendigo Railway Station/Railway Place",
+  "destination": "Swan Hill Railway Station/Curlewis Street",
+  "departureTime": "15:07",
+  "arrivalTime": "18:17"
+},
+{
+  "operationDays": [ "Tue" ],
+  "runID": "C042",
+  "origin": "Swan Hill Railway Station/Curlewis Street",
+  "destination": "Bendigo Railway Station/Railway Place",
+  "departureTime": "08:56",
+  "arrivalTime": "12:11"
+},
+{
+  "operationDays": [ "Thu" ],
+  "runID": "C042",
+  "origin": "Swan Hill Railway Station/Curlewis Street",
+  "destination": "Bendigo Railway Station/Railway Place",
+  "departureTime": "08:56",
+  "arrivalTime": "12:11"
+},
+{
+  "operationDays": [ "Thu" ],
+  "runID": "C043",
+  "origin": "Bendigo Railway Station/Railway Place",
+  "destination": "Mildura Railway Station/Seventh Street",
+  "departureTime": "15:10",
+  "arrivalTime": "21:35"
+},
+{
+  "operationDays": [ "Tue" ],
+  "runID": "C043",
+  "origin": "Bendigo Railway Station/Railway Place",
+  "destination": "Swan Hill Railway Station/Curlewis Street",
+  "departureTime": "15:09",
+  "arrivalTime": "18:14"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C047",
+  "origin": "Southern Cross Coach Terminal/Spencer Street",
+  "destination": "Bendigo Railway Station/Railway Place",
+  "departureTime": "25:05",
+  "arrivalTime": "28:15"
+},
+{
+  "operationDays": [ "Fri" ],
+  "runID": "C047",
+  "origin": "Southern Cross Coach Terminal/Spencer Street",
+  "destination": "Bendigo Railway Station/Railway Place",
+  "departureTime": "25:05",
+  "arrivalTime": "28:15"
+},
+{
+  "operationDays": [ "Fri" ],
+  "runID": "C048",
+  "origin": "Bendigo Railway Station/Railway Place",
+  "destination": "Southern Cross Coach Terminal/Spencer Street",
+  "departureTime": "22:20",
+  "arrivalTime": "24:55"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C048",
+  "origin": "Bendigo Railway Station/Railway Place",
+  "destination": "Southern Cross Coach Terminal/Spencer Street",
+  "departureTime": "22:20",
+  "arrivalTime": "24:55"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C050",
+  "origin": "Havelock Street/Clarendon Street",
+  "destination": "Castlemaine Railway Station/Kennedy Street",
+  "departureTime": "05:39",
+  "arrivalTime": "06:36"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C050",
+  "origin": "Havelock Street/Clarendon Street",
+  "destination": "Castlemaine Railway Station/Kennedy Street",
+  "departureTime": "08:17",
+  "arrivalTime": "09:14"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C051",
+  "origin": "Castlemaine Railway Station/Kennedy Street",
+  "destination": "Havelock Street/Clarendon Street",
+  "departureTime": "07:57",
+  "arrivalTime": "08:49"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C052",
+  "origin": "Havelock Street/Clarendon Street",
+  "destination": "Castlemaine Railway Station/Kennedy Street",
+  "departureTime": "09:23",
+  "arrivalTime": "10:23"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C053",
+  "origin": "Castlemaine Railway Station/Kennedy Street",
+  "destination": "Havelock Street/Clarendon Street",
+  "departureTime": "12:59",
+  "arrivalTime": "13:54"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C053",
+  "origin": "Castlemaine Railway Station/Kennedy Street",
+  "destination": "Havelock Street/Clarendon Street",
+  "departureTime": "09:36",
+  "arrivalTime": "10:31"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C054",
+  "origin": "Havelock Street/Clarendon Street",
+  "destination": "Castlemaine Railway Station/Kennedy Street",
+  "departureTime": "15:15",
+  "arrivalTime": "16:22"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C055",
+  "origin": "Castlemaine Railway Station/Kennedy Street",
+  "destination": "Havelock Street/Clarendon Street",
+  "departureTime": "19:41",
+  "arrivalTime": "20:36"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C055",
+  "origin": "Castlemaine Railway Station/Kennedy Street",
+  "destination": "Havelock Street/Clarendon Street",
+  "departureTime": "19:42",
+  "arrivalTime": "20:37"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C055",
+  "origin": "Castlemaine Railway Station/Kennedy Street",
+  "destination": "Havelock Street/Clarendon Street",
+  "departureTime": "19:42",
+  "arrivalTime": "20:28"
+},
+{
+  "operationDays": [ "Fri" ],
+  "runID": "C056",
+  "origin": "Havelock Street/Clarendon Street",
+  "destination": "Castlemaine Railway Station/Kennedy Street",
+  "departureTime": "18:23",
+  "arrivalTime": "19:11"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C056",
+  "origin": "Havelock Street/Clarendon Street",
+  "destination": "Castlemaine Railway Station/Kennedy Street",
+  "departureTime": "17:25",
+  "arrivalTime": "18:22"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C056",
+  "origin": "Havelock Street/Clarendon Street",
+  "destination": "Castlemaine Railway Station/Kennedy Street",
+  "departureTime": "18:26",
+  "arrivalTime": "19:14"
+},
+{
+  "operationDays": [ "Fri" ],
+  "runID": "C057",
+  "origin": "Castlemaine Railway Station/Kennedy Street",
+  "destination": "Havelock Street/Clarendon Street",
+  "departureTime": "16:42",
+  "arrivalTime": "17:28"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C058",
+  "origin": "Havelock Street/Clarendon Street",
+  "destination": "Castlemaine Railway Station/Kennedy Street",
+  "departureTime": "06:44",
+  "arrivalTime": "07:44"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C059",
+  "origin": "Castlemaine Railway Station/Kennedy Street",
+  "destination": "Havelock Street/Clarendon Street",
+  "departureTime": "18:05",
+  "arrivalTime": "18:51"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Thu", "Fri" ],
+  "runID": "C060",
+  "origin": "Post Office/Sunraysia Highway",
+  "destination": "Ballarat Railway Station/Lydiard Street",
+  "departureTime": "05:57",
+  "arrivalTime": "08:50"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C060",
+  "origin": "Post Office/Sunraysia Highway",
+  "destination": "Ballarat Railway Station/Lydiard Street",
+  "departureTime": "07:15",
+  "arrivalTime": "10:08"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Thu" ],
+  "runID": "C061",
+  "origin": "Ballarat Railway Station/Lydiard Street",
+  "destination": "Post Office/Sunraysia Highway",
+  "departureTime": "14:51",
+  "arrivalTime": "17:44"
+},
+{
+  "operationDays": [ "Fri" ],
+  "runID": "C061",
+  "origin": "Ballarat Railway Station/Lydiard Street",
+  "destination": "Post Office/Sunraysia Highway",
+  "departureTime": "18:24",
+  "arrivalTime": "21:17"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C061",
+  "origin": "Ballarat Railway Station/Lydiard Street",
+  "destination": "Post Office/Sunraysia Highway",
+  "departureTime": "10:56",
+  "arrivalTime": "13:49"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C062",
+  "origin": "Mildura Railway Station/Seventh Street",
+  "destination": "Southern Cross Coach Terminal/Spencer Street",
+  "departureTime": "22:05",
+  "arrivalTime": "31:05"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C062",
+  "origin": "Mildura Railway Station/Seventh Street",
+  "destination": "Southern Cross Coach Terminal/Spencer Street",
+  "departureTime": "22:05",
+  "arrivalTime": "31:05"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C063",
+  "origin": "Southern Cross Coach Terminal/Spencer Street",
+  "destination": "Mildura Railway Station/Seventh Street",
+  "departureTime": "21:10",
+  "arrivalTime": "30:19"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C063",
+  "origin": "Southern Cross Coach Terminal/Spencer Street",
+  "destination": "Mildura Railway Station/Seventh Street",
+  "departureTime": "21:10",
+  "arrivalTime": "30:19"
+},
+{
+  "operationDays": [ "Wed" ],
+  "runID": "C070",
+  "origin": "Post Office/Sunraysia Highway",
+  "destination": "Bendigo Railway Station/Railway Place",
+  "departureTime": "08:00",
+  "arrivalTime": "10:15"
+},
+{
+  "operationDays": [ "Wed" ],
+  "runID": "C071",
+  "origin": "Bendigo Railway Station/Railway Place",
+  "destination": "Post Office/Sunraysia Highway",
+  "departureTime": "15:07",
+  "arrivalTime": "17:17"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C080",
+  "origin": "344 Whitelock Street",
+  "destination": "Southern Cross Coach Terminal/Spencer Street",
+  "departureTime": "07:10",
+  "arrivalTime": "11:20"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C080",
+  "origin": "344 Whitelock Street",
+  "destination": "Southern Cross Coach Terminal/Spencer Street",
+  "departureTime": "07:10",
+  "arrivalTime": "11:20"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C081",
+  "origin": "Southern Cross Coach Terminal/Spencer Street",
+  "destination": "Murray River Council/Cobb Highway",
+  "departureTime": "12:40",
+  "arrivalTime": "15:40"
+},
+{
+  "operationDays": [ "Mon" ],
+  "runID": "C081",
+  "origin": "Southern Cross Coach Terminal/Spencer Street",
+  "destination": "Murray River Council/Cobb Highway",
+  "departureTime": "12:40",
+  "arrivalTime": "15:40"
+},
+{
+  "operationDays": [ "Fri" ],
+  "runID": "C082",
+  "origin": "344 Whitelock Street",
+  "destination": "Southern Cross Coach Terminal/Spencer Street",
+  "departureTime": "16:40",
+  "arrivalTime": "20:40"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C082",
+  "origin": "344 Whitelock Street",
+  "destination": "Southern Cross Coach Terminal/Spencer Street",
+  "departureTime": "13:30",
+  "arrivalTime": "17:17"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C083",
+  "origin": "Southern Cross Coach Terminal/Spencer Street",
+  "destination": "344 Whitelock Street",
+  "departureTime": "18:01",
+  "arrivalTime": "22:00"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C083",
+  "origin": "Southern Cross Coach Terminal/Spencer Street",
+  "destination": "344 Whitelock Street",
+  "departureTime": "17:00",
+  "arrivalTime": "21:05"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C083",
+  "origin": "Southern Cross Coach Terminal/Spencer Street",
+  "destination": "344 Whitelock Street",
+  "departureTime": "18:50",
+  "arrivalTime": "22:35"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C084",
+  "origin": "Murray River Council/Cobb Highway",
+  "destination": "Southern Cross Coach Terminal/Spencer Street",
+  "departureTime": "17:35",
+  "arrivalTime": "20:35"
+},
+{
+  "operationDays": [ "Mon" ],
+  "runID": "C084",
+  "origin": "Murray River Council/Cobb Highway",
+  "destination": "Southern Cross Coach Terminal/Spencer Street",
+  "departureTime": "16:35",
+  "arrivalTime": "19:35"
+},
+{
+  "operationDays": [ "Fri" ],
+  "runID": "C085",
+  "origin": "Southern Cross Coach Terminal/Spencer Street",
+  "destination": "344 Whitelock Street",
+  "departureTime": "11:50",
+  "arrivalTime": "15:50"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C090",
+  "origin": "Border Service Station/Murray Street",
+  "destination": "Southern Cross Coach Terminal/Spencer Street",
+  "departureTime": "07:00",
+  "arrivalTime": "11:20"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C090",
+  "origin": "Border Service Station/Murray Street",
+  "destination": "Southern Cross Coach Terminal/Spencer Street",
+  "departureTime": "07:00",
+  "arrivalTime": "11:20"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C090",
+  "origin": "Border Service Station/Murray Street",
+  "destination": "Southern Cross Coach Terminal/Spencer Street",
+  "departureTime": "13:29",
+  "arrivalTime": "17:36"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C091",
+  "origin": "Southern Cross Coach Terminal/Spencer Street",
+  "destination": "Border Service Station/Murray Street",
+  "departureTime": "15:32",
+  "arrivalTime": "19:53"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C091",
+  "origin": "Southern Cross Coach Terminal/Spencer Street",
+  "destination": "Border Service Station/Murray Street",
+  "departureTime": "12:35",
+  "arrivalTime": "16:40"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C091",
+  "origin": "Southern Cross Coach Terminal/Spencer Street",
+  "destination": "Border Service Station/Murray Street",
+  "departureTime": "18:46",
+  "arrivalTime": "22:46"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C092",
+  "origin": "Barmah Hotel/Maloney Street",
+  "destination": "Shepparton Railway Station/Purcell Street",
+  "departureTime": "11:37",
+  "arrivalTime": "12:42"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C095",
+  "origin": "Shepparton Railway Station/Purcell Street",
+  "destination": "Barmah Hotel/Maloney Street",
+  "departureTime": "15:25",
+  "arrivalTime": "16:25"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C096",
+  "origin": "Barmah Hotel/Maloney Street",
+  "destination": "Southern Cross Coach Terminal/Spencer Street",
+  "departureTime": "05:10",
+  "arrivalTime": "11:30"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C096",
+  "origin": "Barmah Hotel/Maloney Street",
+  "destination": "Southern Cross Coach Terminal/Spencer Street",
+  "departureTime": "05:40",
+  "arrivalTime": "11:30"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C096",
+  "origin": "Barmah Hotel/Maloney Street",
+  "destination": "Southern Cross Coach Terminal/Spencer Street",
+  "departureTime": "05:40",
+  "arrivalTime": "11:25"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C097",
+  "origin": "Southern Cross Coach Terminal/Spencer Street",
+  "destination": "Barmah Hotel/Maloney Street",
+  "departureTime": "15:20",
+  "arrivalTime": "21:15"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C097",
+  "origin": "Southern Cross Coach Terminal/Spencer Street",
+  "destination": "Barmah Hotel/Maloney Street",
+  "departureTime": "17:00",
+  "arrivalTime": "22:35"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C097",
+  "origin": "Southern Cross Coach Terminal/Spencer Street",
+  "destination": "Barmah Hotel/Maloney Street",
+  "departureTime": "17:00",
+  "arrivalTime": "22:35"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C098",
+  "origin": "Barmah Hotel/Maloney Street",
+  "destination": "Shepparton Railway Station/Purcell Street",
+  "departureTime": "14:59",
+  "arrivalTime": "15:59"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C099",
+  "origin": "Southern Cross Coach Terminal/Spencer Street",
+  "destination": "Bendigo Railway Station/Railway Place",
+  "departureTime": "02:05",
+  "arrivalTime": "05:15"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C099",
+  "origin": "Southern Cross Coach Terminal/Spencer Street",
+  "destination": "Bendigo Railway Station/Railway Place",
+  "departureTime": "02:05",
+  "arrivalTime": "05:15"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C102",
+  "origin": "Wendouree Railway Station",
+  "destination": "Southern Cross Coach Terminal/Spencer Street",
+  "departureTime": "16:00",
+  "arrivalTime": "18:10"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C110",
+  "origin": "Hamilton Railway Station/Station Street",
+  "destination": "Ballarat Railway Station/Lydiard Street",
+  "departureTime": "06:35",
+  "arrivalTime": "08:55"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C110",
+  "origin": "Hamilton Railway Station/Station Street",
+  "destination": "Ballarat Railway Station/Lydiard Street",
+  "departureTime": "07:48",
+  "arrivalTime": "10:08"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C110",
+  "origin": "Hamilton Railway Station/Station Street",
+  "destination": "Ballarat Railway Station/Lydiard Street",
+  "departureTime": "07:48",
+  "arrivalTime": "10:08"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C111",
+  "origin": "Ballarat Railway Station/Lydiard Street",
+  "destination": "Tourist Information Centre/Jubilee Highway East",
+  "departureTime": "10:11",
+  "arrivalTime": "14:21"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C111",
+  "origin": "Ballarat Railway Station/Lydiard Street",
+  "destination": "Hamilton Railway Station/Station Street",
+  "departureTime": "10:56",
+  "arrivalTime": "13:16"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C111",
+  "origin": "Ballarat Railway Station/Lydiard Street",
+  "destination": "Hamilton Railway Station/Station Street",
+  "departureTime": "10:56",
+  "arrivalTime": "13:16"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C112",
+  "origin": "Tourist Information Centre/Jubilee Highway East",
+  "destination": "Ballarat Railway Station/Lydiard Street",
+  "departureTime": "15:10",
+  "arrivalTime": "19:20"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C113",
+  "origin": "Ballarat Railway Station/Lydiard Street",
+  "destination": "Hamilton Railway Station/Station Street",
+  "departureTime": "20:21",
+  "arrivalTime": "22:41"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C113",
+  "origin": "Ballarat Railway Station/Lydiard Street",
+  "destination": "Hamilton Railway Station/Station Street",
+  "departureTime": "19:56",
+  "arrivalTime": "22:16"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C113",
+  "origin": "Ballarat Railway Station/Lydiard Street",
+  "destination": "Hamilton Railway Station/Station Street",
+  "departureTime": "19:56",
+  "arrivalTime": "22:16"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C114",
+  "origin": "Hamilton Railway Station/Station Street",
+  "destination": "Ballarat Railway Station/Lydiard Street",
+  "departureTime": "16:48",
+  "arrivalTime": "19:08"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C114",
+  "origin": "Hamilton Railway Station/Station Street",
+  "destination": "Ballarat Railway Station/Lydiard Street",
+  "departureTime": "16:48",
+  "arrivalTime": "19:08"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C120",
+  "origin": "Ouyen Community Park/Oke Street",
+  "destination": "Ballarat Railway Station/Lydiard Street",
+  "departureTime": "06:10",
+  "arrivalTime": "11:42"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C121",
+  "origin": "Ballarat Railway Station/Lydiard Street",
+  "destination": "Ouyen Community Park/Oke Street",
+  "departureTime": "14:10",
+  "arrivalTime": "19:35"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C122",
+  "origin": "Ouyen Community Park/Oke Street",
+  "destination": "Ballarat Railway Station/Lydiard Street",
+  "departureTime": "06:25",
+  "arrivalTime": "11:57"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C123",
+  "origin": "Ballarat Railway Station/Lydiard Street",
+  "destination": "Ouyen Community Park/Oke Street",
+  "departureTime": "13:55",
+  "arrivalTime": "19:20"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C124",
+  "origin": "McDonald Street/Marma Street",
+  "destination": "Walter Street/Cromie Street",
+  "departureTime": "08:55",
+  "arrivalTime": "09:05"
+},
+{
+  "operationDays": [ "Fri" ],
+  "runID": "C125",
+  "origin": "Ararat Railway Station/High Street",
+  "destination": "Ouyen Community Park/Oke Street",
+  "departureTime": "20:45",
+  "arrivalTime": "24:20"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C140",
+  "origin": "Information Centre/Grampians Road",
+  "destination": "Stawell Town Hall/Main Street",
+  "departureTime": "15:23",
+  "arrivalTime": "16:21"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C140",
+  "origin": "Information Centre/Grampians Road",
+  "destination": "Stawell Town Hall/Main Street",
+  "departureTime": "14:22",
+  "arrivalTime": "15:20"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C140",
+  "origin": "Information Centre/Grampians Road",
+  "destination": "Stawell Town Hall/Main Street",
+  "departureTime": "14:22",
+  "arrivalTime": "15:20"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C141",
+  "origin": "Stawell Town Hall/Main Street",
+  "destination": "Information Centre/Grampians Road",
+  "departureTime": "12:37",
+  "arrivalTime": "13:37"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C141",
+  "origin": "Stawell Town Hall/Main Street",
+  "destination": "Information Centre/Grampians Road",
+  "departureTime": "11:25",
+  "arrivalTime": "12:25"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C141",
+  "origin": "Stawell Town Hall/Main Street",
+  "destination": "Information Centre/Grampians Road",
+  "departureTime": "11:25",
+  "arrivalTime": "12:25"
+},
+{
+  "operationDays": [ "Tue", "Fri" ],
+  "runID": "C143",
+  "origin": "Barkly Street/Ingor Street",
+  "destination": "Lava Street Interchange/Lava Street",
+  "departureTime": "13:50",
+  "arrivalTime": "18:05"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C143",
+  "origin": "Barkly Street/Ingor Street",
+  "destination": "Lava Street Interchange/Lava Street",
+  "departureTime": "14:50",
+  "arrivalTime": "19:05"
+},
+{
+  "operationDays": [ "Tue", "Fri" ],
+  "runID": "C144",
+  "origin": "Lava Street Interchange/Lava Street",
+  "destination": "Ararat Railway Station/High Street",
+  "departureTime": "07:25",
+  "arrivalTime": "11:30"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C144",
+  "origin": "Lava Street Interchange/Lava Street",
+  "destination": "Ararat Railway Station/High Street",
+  "departureTime": "07:55",
+  "arrivalTime": "12:00"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C145",
+  "origin": "Stawell Town Hall/Main Street",
+  "destination": "Information Centre/Grampians Road",
+  "departureTime": "07:45",
+  "arrivalTime": "08:45"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C145",
+  "origin": "Stawell Town Hall/Main Street",
+  "destination": "Information Centre/Grampians Road",
+  "departureTime": "07:00",
+  "arrivalTime": "08:00"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C145",
+  "origin": "Stawell Town Hall/Main Street",
+  "destination": "Information Centre/Grampians Road",
+  "departureTime": "08:15",
+  "arrivalTime": "09:15"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C146",
+  "origin": "Information Centre/Grampians Road",
+  "destination": "Stawell Town Hall/Main Street",
+  "departureTime": "09:15",
+  "arrivalTime": "09:53"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C146",
+  "origin": "Information Centre/Grampians Road",
+  "destination": "Stawell Town Hall/Main Street",
+  "departureTime": "08:30",
+  "arrivalTime": "09:08"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C146",
+  "origin": "Information Centre/Grampians Road",
+  "destination": "Stawell Town Hall/Main Street",
+  "departureTime": "09:30",
+  "arrivalTime": "10:08"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C150",
+  "origin": "Coach Terminal/24 Roberts Avenue",
+  "destination": "Ararat Railway Station/High Street",
+  "departureTime": "04:41",
+  "arrivalTime": "05:58"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C150",
+  "origin": "Coach Terminal/24 Roberts Avenue",
+  "destination": "Ballarat Railway Station/Lydiard Street",
+  "departureTime": "07:58",
+  "arrivalTime": "11:08"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C150",
+  "origin": "Coach Terminal/24 Roberts Avenue",
+  "destination": "Ararat Railway Station/High Street",
+  "departureTime": "14:04",
+  "arrivalTime": "16:01"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C152",
+  "origin": "Information Centre/Western Highway",
+  "destination": "Ballarat Railway Station/Lydiard Street",
+  "departureTime": "05:08",
+  "arrivalTime": "08:55"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C152",
+  "origin": "Information Centre/Western Highway",
+  "destination": "Ararat Railway Station/High Street",
+  "departureTime": "04:40",
+  "arrivalTime": "07:00"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C152",
+  "origin": "Information Centre/Western Highway",
+  "destination": "Ararat Railway Station/High Street",
+  "departureTime": "05:38",
+  "arrivalTime": "08:00"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C153",
+  "origin": "Ballarat Railway Station/Lydiard Street",
+  "destination": "Coach Terminal/24 Roberts Avenue",
+  "departureTime": "10:21",
+  "arrivalTime": "12:56"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C153",
+  "origin": "Cuibitt Street/Western Highway",
+  "destination": "Car Park Rear Toilet Block/Lloyd Street",
+  "departureTime": "11:09",
+  "arrivalTime": "13:10"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C153",
+  "origin": "Cuibitt Street/Western Highway",
+  "destination": "Car Park Rear Toilet Block/Lloyd Street",
+  "departureTime": "11:09",
+  "arrivalTime": "13:10"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C155",
+  "origin": "Ararat Railway Station/High Street",
+  "destination": "Information Centre/Western Highway",
+  "departureTime": "20:45",
+  "arrivalTime": "22:55"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C156",
+  "origin": "Coach Terminal/24 Roberts Avenue",
+  "destination": "Ararat Railway Station/High Street",
+  "departureTime": "15:38",
+  "arrivalTime": "16:55"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C157",
+  "origin": "Ballarat Railway Station/Lydiard Street",
+  "destination": "Coach Terminal/24 Roberts Avenue",
+  "departureTime": "13:56",
+  "arrivalTime": "16:28"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C158",
+  "origin": "Car Park Rear Toilet Block/Lloyd Street",
+  "destination": "Ballarat Railway Station/Lydiard Street",
+  "departureTime": "13:20",
+  "arrivalTime": "16:35"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C158",
+  "origin": "Car Park Rear Toilet Block/Lloyd Street",
+  "destination": "Ararat Railway Station/High Street",
+  "departureTime": "13:34",
+  "arrivalTime": "16:01"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C158",
+  "origin": "Car Park Rear Toilet Block/Lloyd Street",
+  "destination": "Ballarat Railway Station/Lydiard Street",
+  "departureTime": "15:23",
+  "arrivalTime": "19:08"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C159",
+  "origin": "Ararat Railway Station/High Street",
+  "destination": "Car Park Rear Toilet Block/Lloyd Street",
+  "departureTime": "17:12",
+  "arrivalTime": "18:57"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C159",
+  "origin": "Ararat Railway Station/High Street",
+  "destination": "Information Centre/Western Highway",
+  "departureTime": "20:55",
+  "arrivalTime": "23:33"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C159",
+  "origin": "Ararat Railway Station/High Street",
+  "destination": "Coach Terminal/24 Roberts Avenue",
+  "departureTime": "20:55",
+  "arrivalTime": "22:40"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C160",
+  "origin": "Coach Terminal/24 Roberts Avenue",
+  "destination": "Ararat Railway Station/High Street",
+  "departureTime": "05:39",
+  "arrivalTime": "06:56"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C161",
+  "origin": "Ararat Railway Station/High Street",
+  "destination": "Car Park Rear Toilet Block/Lloyd Street",
+  "departureTime": "10:32",
+  "arrivalTime": "12:17"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C162",
+  "origin": "Coach Terminal/24 Roberts Avenue",
+  "destination": "Ararat Railway Station/High Street",
+  "departureTime": "10:16",
+  "arrivalTime": "11:33"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C163",
+  "origin": "Ararat Railway Station/High Street",
+  "destination": "Coach Terminal/24 Roberts Avenue",
+  "departureTime": "13:52",
+  "arrivalTime": "15:05"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C163",
+  "origin": "Ballarat Railway Station/Lydiard Street",
+  "destination": "Information Centre/Western Highway",
+  "departureTime": "20:50",
+  "arrivalTime": "24:12"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C164",
+  "origin": "Coach Terminal/24 Roberts Avenue",
+  "destination": "Ararat Railway Station/High Street",
+  "departureTime": "12:56",
+  "arrivalTime": "14:13"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C164",
+  "origin": "Coach Terminal/24 Roberts Avenue",
+  "destination": "Hotel/Western Highway",
+  "departureTime": "12:34",
+  "arrivalTime": "14:10"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C165",
+  "origin": "Ballarat Railway Station/Lydiard Street",
+  "destination": "Ararat Railway Station/High Street",
+  "departureTime": "17:00",
+  "arrivalTime": "18:21"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C165",
+  "origin": "Ballarat Railway Station/Lydiard Street",
+  "destination": "Coach Terminal/24 Roberts Avenue",
+  "departureTime": "11:56",
+  "arrivalTime": "14:27"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C165",
+  "origin": "Ballarat Railway Station/Lydiard Street",
+  "destination": "Ararat Railway Station/High Street",
+  "departureTime": "11:56",
+  "arrivalTime": "13:11"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C166",
+  "origin": "Coach Terminal/24 Roberts Avenue",
+  "destination": "Hotel/Western Highway",
+  "departureTime": "07:34",
+  "arrivalTime": "09:10"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C166",
+  "origin": "Coach Terminal/24 Roberts Avenue",
+  "destination": "Hotel/Western Highway",
+  "departureTime": "08:34",
+  "arrivalTime": "10:10"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C167",
+  "origin": "Ararat Railway Station/High Street",
+  "destination": "Coach Terminal/24 Roberts Avenue",
+  "departureTime": "19:25",
+  "arrivalTime": "21:11"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C167",
+  "origin": "Ballarat Railway Station/Lydiard Street",
+  "destination": "Ararat Railway Station/High Street",
+  "departureTime": "17:05",
+  "arrivalTime": "18:20"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C167",
+  "origin": "Ballarat Railway Station/Lydiard Street",
+  "destination": "Ararat Railway Station/High Street",
+  "departureTime": "17:05",
+  "arrivalTime": "18:20"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C168",
+  "origin": "Ararat Railway Station/High Street",
+  "destination": "Ballarat Railway Station/Lydiard Street",
+  "departureTime": "13:51",
+  "arrivalTime": "15:08"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C197",
+  "origin": "Southern Cross Coach Terminal/Spencer Street",
+  "destination": "Wendouree Railway Station",
+  "departureTime": "25:10",
+  "arrivalTime": "27:00"
+},
+{
+  "operationDays": [ "Fri" ],
+  "runID": "C197",
+  "origin": "Southern Cross Coach Terminal/Spencer Street",
+  "destination": "Wendouree Railway Station",
+  "departureTime": "25:10",
+  "arrivalTime": "27:00"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C199",
+  "origin": "Southern Cross Coach Terminal/Spencer Street",
+  "destination": "Wendouree Railway Station",
+  "departureTime": "02:10",
+  "arrivalTime": "04:00"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C199",
+  "origin": "Southern Cross Coach Terminal/Spencer Street",
+  "destination": "Wendouree Railway Station",
+  "departureTime": "02:10",
+  "arrivalTime": "04:00"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C210",
+  "origin": "Visitor Information Centre/Great Ocean Road",
+  "destination": "Geelong Railway Station/Railway Terrace",
+  "departureTime": "05:51",
+  "arrivalTime": "08:35"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C210",
+  "origin": "Visitor Information Centre/Great Ocean Road",
+  "destination": "Geelong Railway Station/Railway Terrace",
+  "departureTime": "05:51",
+  "arrivalTime": "08:35"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C210",
+  "origin": "Visitor Information Centre/Great Ocean Road",
+  "destination": "Geelong Railway Station/Railway Terrace",
+  "departureTime": "06:36",
+  "arrivalTime": "09:20"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C211",
+  "origin": "Moorabool Street/Malop Street",
+  "destination": "Visitor Information Centre/Great Ocean Road",
+  "departureTime": "10:11",
+  "arrivalTime": "13:10"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C211",
+  "origin": "Moorabool Street/Malop Street",
+  "destination": "Visitor Information Centre/Great Ocean Road",
+  "departureTime": "10:11",
+  "arrivalTime": "13:10"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C211",
+  "origin": "Moorabool Street/Malop Street",
+  "destination": "Visitor Information Centre/Great Ocean Road",
+  "departureTime": "10:11",
+  "arrivalTime": "13:10"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C212",
+  "origin": "Visitor Information Centre/Great Ocean Road",
+  "destination": "Geelong Railway Station/Railway Terrace",
+  "departureTime": "09:46",
+  "arrivalTime": "12:40"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C212",
+  "origin": "Visitor Information Centre/Great Ocean Road",
+  "destination": "Geelong Railway Station/Railway Terrace",
+  "departureTime": "09:46",
+  "arrivalTime": "12:40"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C212",
+  "origin": "Visitor Information Centre/Great Ocean Road",
+  "destination": "Geelong Railway Station/Railway Terrace",
+  "departureTime": "09:46",
+  "arrivalTime": "12:40"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C213",
+  "origin": "Moorabool Street/Malop Street",
+  "destination": "Lorne Hotel/Great Ocean Road",
+  "departureTime": "11:26",
+  "arrivalTime": "13:19"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C213",
+  "origin": "Moorabool Street/Malop Street",
+  "destination": "Lorne Hotel/Great Ocean Road",
+  "departureTime": "11:26",
+  "arrivalTime": "13:19"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C213",
+  "origin": "Moorabool Street/Malop Street",
+  "destination": "Lorne Hotel/Great Ocean Road",
+  "departureTime": "11:26",
+  "arrivalTime": "13:19"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C214",
+  "origin": "Lorne Hotel/Great Ocean Road",
+  "destination": "Geelong Railway Station/Railway Terrace",
+  "departureTime": "13:25",
+  "arrivalTime": "15:15"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C214",
+  "origin": "Lorne Hotel/Great Ocean Road",
+  "destination": "Geelong Railway Station/Railway Terrace",
+  "departureTime": "13:30",
+  "arrivalTime": "15:20"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C214",
+  "origin": "Lorne Hotel/Great Ocean Road",
+  "destination": "Geelong Railway Station/Railway Terrace",
+  "departureTime": "13:30",
+  "arrivalTime": "15:20"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C215",
+  "origin": "Moorabool Street/Malop Street",
+  "destination": "Visitor Information Centre/Great Ocean Road",
+  "departureTime": "14:31",
+  "arrivalTime": "17:25"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C215",
+  "origin": "Moorabool Street/Malop Street",
+  "destination": "Visitor Information Centre/Great Ocean Road",
+  "departureTime": "14:51",
+  "arrivalTime": "17:45"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C215",
+  "origin": "Moorabool Street/Malop Street",
+  "destination": "Visitor Information Centre/Great Ocean Road",
+  "departureTime": "14:51",
+  "arrivalTime": "17:45"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C216",
+  "origin": "Visitor Information Centre/Great Ocean Road",
+  "destination": "Geelong Railway Station/Railway Terrace",
+  "departureTime": "14:40",
+  "arrivalTime": "17:34"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C216",
+  "origin": "Visitor Information Centre/Great Ocean Road",
+  "destination": "Geelong Railway Station/Railway Terrace",
+  "departureTime": "15:06",
+  "arrivalTime": "18:00"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C216",
+  "origin": "Visitor Information Centre/Great Ocean Road",
+  "destination": "Geelong Railway Station/Railway Terrace",
+  "departureTime": "16:28",
+  "arrivalTime": "19:12"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C217",
+  "origin": "Moorabool Street/Malop Street",
+  "destination": "Visitor Information Centre/Great Ocean Road",
+  "departureTime": "17:52",
+  "arrivalTime": "20:44"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C217",
+  "origin": "Moorabool Street/Malop Street",
+  "destination": "Visitor Information Centre/Great Ocean Road",
+  "departureTime": "20:17",
+  "arrivalTime": "23:09"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C217",
+  "origin": "Moorabool Street/Malop Street",
+  "destination": "Visitor Information Centre/Great Ocean Road",
+  "departureTime": "20:17",
+  "arrivalTime": "23:09"
+},
+{
+  "operationDays": [ "Fri" ],
+  "runID": "C219",
+  "origin": "Geelong Railway Station/Railway Terrace",
+  "destination": "Lorne Hotel/Great Ocean Road",
+  "departureTime": "21:05",
+  "arrivalTime": "22:53"
+},
+{
+  "operationDays": [ "Mon", "Wed", "Fri" ],
+  "runID": "C220",
+  "origin": "Warrnambool Railway Station/Merri Street",
+  "destination": "Visitor Information Centre/Great Ocean Road",
+  "departureTime": "08:30",
+  "arrivalTime": "12:00"
+},
+{
+  "operationDays": [ "Mon", "Wed", "Fri" ],
+  "runID": "C221",
+  "origin": "Visitor Information Centre/Great Ocean Road",
+  "destination": "Warrnambool Railway Station/Merri Street",
+  "departureTime": "13:20",
+  "arrivalTime": "16:50"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C222",
+  "origin": "Lorne Hotel/Great Ocean Road",
+  "destination": "Munday Street/Bell Street",
+  "departureTime": "23:18",
+  "arrivalTime": "24:20"
+},
+{
+  "operationDays": [ "Fri" ],
+  "runID": "C222",
+  "origin": "Lorne Hotel/Great Ocean Road",
+  "destination": "Geelong Railway Station/Railway Terrace",
+  "departureTime": "23:18",
+  "arrivalTime": "25:09"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C230",
+  "origin": "Ballarat Railway Station/Lydiard Street",
+  "destination": "Geelong Railway Station/Railway Terrace",
+  "departureTime": "06:00",
+  "arrivalTime": "07:30"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C230",
+  "origin": "Ballarat Railway Station/Lydiard Street",
+  "destination": "Geelong Railway Station/Railway Terrace",
+  "departureTime": "06:24",
+  "arrivalTime": "07:54"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C230",
+  "origin": "Ballarat Railway Station/Lydiard Street",
+  "destination": "Geelong Railway Station/Railway Terrace",
+  "departureTime": "08:27",
+  "arrivalTime": "09:57"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C231",
+  "origin": "Geelong Railway Station/Railway Terrace",
+  "destination": "Ballarat Railway Station/Lydiard Street",
+  "departureTime": "07:40",
+  "arrivalTime": "09:15"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C231",
+  "origin": "Geelong Railway Station/Railway Terrace",
+  "destination": "Ballarat Railway Station/Lydiard Street",
+  "departureTime": "08:17",
+  "arrivalTime": "09:52"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C231",
+  "origin": "Geelong Railway Station/Railway Terrace",
+  "destination": "Ballarat Railway Station/Lydiard Street",
+  "departureTime": "10:21",
+  "arrivalTime": "11:56"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C232",
+  "origin": "Ballarat Railway Station/Lydiard Street",
+  "destination": "Geelong Railway Station/Railway Terrace",
+  "departureTime": "11:15",
+  "arrivalTime": "12:40"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C233",
+  "origin": "Geelong Railway Station/Railway Terrace",
+  "destination": "Ballarat Railway Station/Lydiard Street",
+  "departureTime": "13:01",
+  "arrivalTime": "14:31"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C234",
+  "origin": "Ballarat Railway Station/Lydiard Street",
+  "destination": "Geelong Railway Station/Railway Terrace",
+  "departureTime": "15:04",
+  "arrivalTime": "16:39"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C234",
+  "origin": "Ballarat Railway Station/Lydiard Street",
+  "destination": "Geelong Railway Station/Railway Terrace",
+  "departureTime": "15:45",
+  "arrivalTime": "17:20"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C234",
+  "origin": "Ballarat Railway Station/Lydiard Street",
+  "destination": "Geelong Railway Station/Railway Terrace",
+  "departureTime": "18:02",
+  "arrivalTime": "19:42"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C235",
+  "origin": "Geelong Railway Station/Railway Terrace",
+  "destination": "Ballarat Railway Station/Lydiard Street",
+  "departureTime": "17:54",
+  "arrivalTime": "19:24"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C235",
+  "origin": "Geelong Railway Station/Railway Terrace",
+  "destination": "Ballarat Railway Station/Lydiard Street",
+  "departureTime": "17:41",
+  "arrivalTime": "19:11"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C235",
+  "origin": "Geelong Railway Station/Railway Terrace",
+  "destination": "Ballarat Railway Station/Lydiard Street",
+  "departureTime": "20:21",
+  "arrivalTime": "21:46"
+},
+{
+  "operationDays": [ "Fri" ],
+  "runID": "C236",
+  "origin": "Ballarat Railway Station/Lydiard Street",
+  "destination": "Geelong Railway Station/Railway Terrace",
+  "departureTime": "19:45",
+  "arrivalTime": "21:15"
+},
+{
+  "operationDays": [ "Fri" ],
+  "runID": "C237",
+  "origin": "Geelong Railway Station/Railway Terrace",
+  "destination": "Ballarat Railway Station/Lydiard Street",
+  "departureTime": "21:25",
+  "arrivalTime": "22:50"
+},
+{
+  "operationDays": [ "Tue", "Thu" ],
+  "runID": "C240",
+  "origin": "Warrnambool Railway Station/Merri Street",
+  "destination": "Ballarat Railway Station/Lydiard Street",
+  "departureTime": "06:54",
+  "arrivalTime": "09:44"
+},
+{
+  "operationDays": [ "Mon", "Wed", "Fri" ],
+  "runID": "C240",
+  "origin": "Warrnambool Railway Station/Merri Street",
+  "destination": "Ballarat Railway Station/Lydiard Street",
+  "departureTime": "06:54",
+  "arrivalTime": "09:44"
+},
+{
+  "operationDays": [ "Tue", "Thu" ],
+  "runID": "C241",
+  "origin": "Ballarat Railway Station/Lydiard Street",
+  "destination": "Warrnambool Railway Station/Merri Street",
+  "departureTime": "12:51",
+  "arrivalTime": "16:08"
+},
+{
+  "operationDays": [ "Mon", "Wed", "Fri" ],
+  "runID": "C241",
+  "origin": "Ballarat Railway Station/Lydiard Street",
+  "destination": "Warrnambool Railway Station/Merri Street",
+  "departureTime": "12:51",
+  "arrivalTime": "15:58"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C250",
+  "origin": "Bendigo Railway Station/Railway Place",
+  "destination": "Geelong Railway Station/Railway Terrace",
+  "departureTime": "05:55",
+  "arrivalTime": "10:35"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C251",
+  "origin": "Geelong Railway Station/Railway Terrace",
+  "destination": "Bendigo Railway Station/Railway Place",
+  "departureTime": "10:50",
+  "arrivalTime": "15:20"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C260",
+  "origin": "Tourist Information Centre/Jubilee Highway East",
+  "destination": "Warrnambool Railway Station/Merri Street",
+  "departureTime": "04:30",
+  "arrivalTime": "07:25"
+},
+{
+  "operationDays": [ "Mon" ],
+  "runID": "C260",
+  "origin": "Tourist Information Centre/Jubilee Highway East",
+  "destination": "Warrnambool Railway Station/Merri Street",
+  "departureTime": "06:09",
+  "arrivalTime": "09:04"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C261",
+  "origin": "Warrnambool Railway Station/Merri Street",
+  "destination": "Lindsay Street/Princes Highway",
+  "departureTime": "10:59",
+  "arrivalTime": "12:54"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C261",
+  "origin": "Warrnambool Railway Station/Merri Street",
+  "destination": "Tourist Information Centre/Jubilee Highway East",
+  "departureTime": "11:27",
+  "arrivalTime": "14:18"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C261",
+  "origin": "Warrnambool Railway Station/Merri Street",
+  "destination": "Tourist Information Centre/Jubilee Highway East",
+  "departureTime": "11:27",
+  "arrivalTime": "14:18"
+},
+{
+  "operationDays": [ "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C262",
+  "origin": "Lindsay Street/Princes Highway",
+  "destination": "Warrnambool Railway Station/Merri Street",
+  "departureTime": "07:09",
+  "arrivalTime": "09:04"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C262",
+  "origin": "Henty Street Bus Interchange/Henty Street",
+  "destination": "Warrnambool Railway Station/Merri Street",
+  "departureTime": "06:00",
+  "arrivalTime": "07:25"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C263",
+  "origin": "Warrnambool Railway Station/Merri Street",
+  "destination": "Tourist Information Centre/Jubilee Highway East",
+  "departureTime": "16:47",
+  "arrivalTime": "19:38"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C264",
+  "origin": "Tourist Information Centre/Jubilee Highway East",
+  "destination": "Warrnambool Railway Station/Merri Street",
+  "departureTime": "09:04",
+  "arrivalTime": "11:59"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C264",
+  "origin": "Tourist Information Centre/Jubilee Highway East",
+  "destination": "Warrnambool Railway Station/Merri Street",
+  "departureTime": "07:50",
+  "arrivalTime": "11:00"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C264",
+  "origin": "Tourist Information Centre/Jubilee Highway East",
+  "destination": "Warrnambool Railway Station/Merri Street",
+  "departureTime": "07:50",
+  "arrivalTime": "11:00"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C265",
+  "origin": "Warrnambool Railway Station/Merri Street",
+  "destination": "Henty Street Bus Interchange/Henty Street",
+  "departureTime": "22:53",
+  "arrivalTime": "24:18"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C265",
+  "origin": "Warrnambool Railway Station/Merri Street",
+  "destination": "Lindsay Street/Princes Highway",
+  "departureTime": "22:38",
+  "arrivalTime": "24:23"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C266",
+  "origin": "Henty Street Bus Interchange/Henty Street",
+  "destination": "Warrnambool Railway Station/Merri Street",
+  "departureTime": "04:25",
+  "arrivalTime": "05:50"
+},
+{
+  "operationDays": [ "Fri" ],
+  "runID": "C267",
+  "origin": "Warrnambool Railway Station/Merri Street",
+  "destination": "Tourist Information Centre/Jubilee Highway East",
+  "departureTime": "20:48",
+  "arrivalTime": "23:33"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C267",
+  "origin": "Warrnambool Railway Station/Merri Street",
+  "destination": "Tourist Information Centre/Jubilee Highway East",
+  "departureTime": "22:38",
+  "arrivalTime": "25:22"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C268",
+  "origin": "Lindsay Street/Princes Highway",
+  "destination": "Warrnambool Railway Station/Merri Street",
+  "departureTime": "15:21",
+  "arrivalTime": "17:16"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C268",
+  "origin": "Lindsay Street/Princes Highway",
+  "destination": "Warrnambool Railway Station/Merri Street",
+  "departureTime": "15:02",
+  "arrivalTime": "17:07"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C269",
+  "origin": "Geelong Railway Station/Railway Terrace",
+  "destination": "Colac Railway Station/Gellibrand Street",
+  "departureTime": "16:42",
+  "arrivalTime": "18:09"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C270",
+  "origin": "Colac Railway Station/Gellibrand Street",
+  "destination": "Geelong Railway Station/Railway Terrace",
+  "departureTime": "06:00",
+  "arrivalTime": "07:30"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu" ],
+  "runID": "C273",
+  "origin": "Warrnambool Railway Station/Merri Street",
+  "destination": "Lindsay Street/Princes Highway",
+  "departureTime": "20:48",
+  "arrivalTime": "22:33"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C280",
+  "origin": "Casterton Memorial Hospital/Russell Street",
+  "destination": "Warrnambool Railway Station/Merri Street",
+  "departureTime": "09:18",
+  "arrivalTime": "11:53"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu" ],
+  "runID": "C281",
+  "origin": "Warrnambool Railway Station/Merri Street",
+  "destination": "Casterton Memorial Hospital/Russell Street",
+  "departureTime": "16:47",
+  "arrivalTime": "19:27"
+},
+{
+  "operationDays": [ "Fri" ],
+  "runID": "C281",
+  "origin": "Warrnambool Railway Station/Merri Street",
+  "destination": "Casterton Memorial Hospital/Russell Street",
+  "departureTime": "12:03",
+  "arrivalTime": "14:53"
+},
+{
+  "operationDays": [ "Fri" ],
+  "runID": "C282",
+  "origin": "Casterton Memorial Hospital/Russell Street",
+  "destination": "Warrnambool Railway Station/Merri Street",
+  "departureTime": "15:22",
+  "arrivalTime": "18:37"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C282",
+  "origin": "Casterton Memorial Hospital/Russell Street",
+  "destination": "Warrnambool Railway Station/Merri Street",
+  "departureTime": "15:13",
+  "arrivalTime": "18:28"
+},
+{
+  "operationDays": [ "Fri" ],
+  "runID": "C283",
+  "origin": "Warrnambool Railway Station/Merri Street",
+  "destination": "Casterton Memorial Hospital/Russell Street",
+  "departureTime": "19:19",
+  "arrivalTime": "22:49"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C283",
+  "origin": "Warrnambool Railway Station/Merri Street",
+  "destination": "Casterton Memorial Hospital/Russell Street",
+  "departureTime": "21:07",
+  "arrivalTime": "24:32"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C297",
+  "origin": "Southern Cross Coach Terminal/Spencer Street",
+  "destination": "Lara Railway Station/Hicks Street",
+  "departureTime": "02:15",
+  "arrivalTime": "03:30"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C297",
+  "origin": "Southern Cross Coach Terminal/Spencer Street",
+  "destination": "Lara Railway Station/Hicks Street",
+  "departureTime": "02:15",
+  "arrivalTime": "03:30"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C299",
+  "origin": "Southern Cross Coach Terminal/Spencer Street",
+  "destination": "Deakin University/Alfred Deakin Drive",
+  "departureTime": "02:15",
+  "arrivalTime": "04:08"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C299",
+  "origin": "Southern Cross Coach Terminal/Spencer Street",
+  "destination": "Deakin University/Alfred Deakin Drive",
+  "departureTime": "02:15",
+  "arrivalTime": "04:08"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C300",
+  "origin": "Albury Railway Station/Hume Highway",
+  "destination": "Seymour Railway Station/Railway Place",
+  "departureTime": "09:01",
+  "arrivalTime": "12:01"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C301",
+  "origin": "Seymour Railway Station/Railway Place",
+  "destination": "Albury Railway Station/Hume Highway",
+  "departureTime": "16:13",
+  "arrivalTime": "18:58"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C302",
+  "origin": "Albury Railway Station/Hume Highway",
+  "destination": "Wangaratta Railway Station/Norton Street",
+  "departureTime": "19:05",
+  "arrivalTime": "20:00"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C303",
+  "origin": "Wangaratta Railway Station/Norton Street",
+  "destination": "Albury Railway Station/Hume Highway",
+  "departureTime": "07:30",
+  "arrivalTime": "08:25"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C304",
+  "origin": "Deniliquin Road/Morris Street",
+  "destination": "Shepparton Railway Station/Purcell Street",
+  "departureTime": "03:32",
+  "arrivalTime": "05:02"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C305",
+  "origin": "Shepparton Railway Station/Purcell Street",
+  "destination": "Deniliquin Road/Morris Street",
+  "departureTime": "21:55",
+  "arrivalTime": "23:18"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C306",
+  "origin": "Albury Railway Station/Hume Highway",
+  "destination": "Seymour Railway Station/Railway Place",
+  "departureTime": "05:11",
+  "arrivalTime": "08:01"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C307",
+  "origin": "Seymour Railway Station/Railway Place",
+  "destination": "Albury Railway Station/Hume Highway",
+  "departureTime": "11:09",
+  "arrivalTime": "13:59"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C310",
+  "origin": "MMBL Depot/High Street",
+  "destination": "Southern Cross Coach Terminal/Spencer Street",
+  "departureTime": "07:30",
+  "arrivalTime": "10:30"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C310",
+  "origin": "MMBL Depot/High Street",
+  "destination": "Southern Cross Coach Terminal/Spencer Street",
+  "departureTime": "07:30",
+  "arrivalTime": "10:30"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C311",
+  "origin": "Southern Cross Coach Terminal/Spencer Street",
+  "destination": "MMBL Depot/High Street",
+  "departureTime": "08:30",
+  "arrivalTime": "11:50"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C311",
+  "origin": "Southern Cross Coach Terminal/Spencer Street",
+  "destination": "MMBL Depot/High Street",
+  "departureTime": "08:30",
+  "arrivalTime": "11:50"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C312",
+  "origin": "MMBL Depot/High Street",
+  "destination": "Southern Cross Coach Terminal/Spencer Street",
+  "departureTime": "13:15",
+  "arrivalTime": "16:35"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C312",
+  "origin": "MMBL Depot/High Street",
+  "destination": "Southern Cross Coach Terminal/Spencer Street",
+  "departureTime": "13:15",
+  "arrivalTime": "16:35"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C315",
+  "origin": "Southern Cross Coach Terminal/Spencer Street",
+  "destination": "MMBL Depot/High Street",
+  "departureTime": "18:01",
+  "arrivalTime": "20:55"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C315",
+  "origin": "Southern Cross Coach Terminal/Spencer Street",
+  "destination": "MMBL Depot/High Street",
+  "departureTime": "18:01",
+  "arrivalTime": "20:55"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C316",
+  "origin": "MMBL Depot/High Street",
+  "destination": "Southern Cross Coach Terminal/Spencer Street",
+  "departureTime": "18:00",
+  "arrivalTime": "21:05"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C317",
+  "origin": "Southern Cross Coach Terminal/Spencer Street",
+  "destination": "MMBL Depot/High Street",
+  "departureTime": "13:00",
+  "arrivalTime": "16:05"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Thu", "Fri" ],
+  "runID": "C318",
+  "origin": "Bayley Street/Nihil Street",
+  "destination": "Seymour Railway Station/Railway Place",
+  "departureTime": "08:58",
+  "arrivalTime": "10:03"
+},
+{
+  "operationDays": [ "Wed" ],
+  "runID": "C318",
+  "origin": "Bayley Street/Nihil Street",
+  "destination": "Seymour Railway Station/Railway Place",
+  "departureTime": "08:25",
+  "arrivalTime": "09:30"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C319",
+  "origin": "Seymour Railway Station/Railway Place",
+  "destination": "Bayley Street/Nihil Street",
+  "departureTime": "16:13",
+  "arrivalTime": "17:18"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C320",
+  "origin": "Visitors Centre/Jondaryan Avenue",
+  "destination": "Shepparton Railway Station/Purcell Street",
+  "departureTime": "02:17",
+  "arrivalTime": "06:12"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C320",
+  "origin": "Visitors Centre/Jondaryan Avenue",
+  "destination": "Shepparton Railway Station/Purcell Street",
+  "departureTime": "02:59",
+  "arrivalTime": "06:54"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C320",
+  "origin": "Visitors Centre/Jondaryan Avenue",
+  "destination": "Shepparton Railway Station/Purcell Street",
+  "departureTime": "12:04",
+  "arrivalTime": "15:54"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C321",
+  "origin": "Seymour Railway Station/Railway Place",
+  "destination": "Deniliquin Road/Morris Street",
+  "departureTime": "16:13",
+  "arrivalTime": "19:08"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C322",
+  "origin": "Shepparton Railway Station/Purcell Street",
+  "destination": "Seymour Railway Station/Railway Place",
+  "departureTime": "07:57",
+  "arrivalTime": "09:22"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C322",
+  "origin": "Shepparton Railway Station/Purcell Street",
+  "destination": "Seymour Railway Station/Railway Place",
+  "departureTime": "07:57",
+  "arrivalTime": "09:22"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C323",
+  "origin": "Seymour Railway Station/Railway Place",
+  "destination": "Family Store/Malaya Road",
+  "departureTime": "16:50",
+  "arrivalTime": "17:10"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C324",
+  "origin": "Cobram Railway Station/Punt Road",
+  "destination": "Shepparton Railway Station/Purcell Street",
+  "departureTime": "14:28",
+  "arrivalTime": "15:38"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C324",
+  "origin": "Cobram Railway Station/Punt Road",
+  "destination": "Shepparton Railway Station/Purcell Street",
+  "departureTime": "14:49",
+  "arrivalTime": "15:54"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C324",
+  "origin": "Cobram Railway Station/Punt Road",
+  "destination": "Shepparton Railway Station/Purcell Street",
+  "departureTime": "05:37",
+  "arrivalTime": "06:52"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C325",
+  "origin": "Shepparton Railway Station/Purcell Street",
+  "destination": "Cobram Railway Station/Punt Road",
+  "departureTime": "12:20",
+  "arrivalTime": "13:20"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C325",
+  "origin": "Shepparton Railway Station/Purcell Street",
+  "destination": "Cobram Railway Station/Punt Road",
+  "departureTime": "12:03",
+  "arrivalTime": "13:08"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C325",
+  "origin": "Shepparton Railway Station/Purcell Street",
+  "destination": "Cobram Railway Station/Punt Road",
+  "departureTime": "12:03",
+  "arrivalTime": "13:08"
+},
+{
+  "operationDays": [ "Fri" ],
+  "runID": "C326",
+  "origin": "Shepparton Railway Station/Purcell Street",
+  "destination": "Seymour Railway Station/Railway Place",
+  "departureTime": "18:13",
+  "arrivalTime": "19:38"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C327",
+  "origin": "Shepparton Railway Station/Purcell Street",
+  "destination": "Visitors Centre/Jondaryan Avenue",
+  "departureTime": "19:00",
+  "arrivalTime": "22:48"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C327",
+  "origin": "Shepparton Railway Station/Purcell Street",
+  "destination": "Visitors Centre/Jondaryan Avenue",
+  "departureTime": "21:18",
+  "arrivalTime": "25:02"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C327",
+  "origin": "Shepparton Railway Station/Purcell Street",
+  "destination": "Visitors Centre/Jondaryan Avenue",
+  "departureTime": "21:18",
+  "arrivalTime": "25:02"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C328",
+  "origin": "Shepparton Railway Station/Purcell Street",
+  "destination": "Seymour Railway Station/Railway Place",
+  "departureTime": "14:17",
+  "arrivalTime": "15:42"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C328",
+  "origin": "Shepparton Railway Station/Purcell Street",
+  "destination": "Seymour Railway Station/Railway Place",
+  "departureTime": "14:17",
+  "arrivalTime": "15:42"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C329",
+  "origin": "Seymour Railway Station/Railway Place",
+  "destination": "Shepparton Railway Station/Purcell Street",
+  "departureTime": "18:09",
+  "arrivalTime": "19:34"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C329",
+  "origin": "Seymour Railway Station/Railway Place",
+  "destination": "Shepparton Railway Station/Purcell Street",
+  "departureTime": "18:09",
+  "arrivalTime": "19:34"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C330",
+  "origin": "Melbourne Street/Inglis Street",
+  "destination": "Benalla Railway Station/Mackellar Street",
+  "departureTime": "06:33",
+  "arrivalTime": "07:53"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C330",
+  "origin": "Melbourne Street/Inglis Street",
+  "destination": "Benalla Railway Station/Mackellar Street",
+  "departureTime": "06:33",
+  "arrivalTime": "07:53"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C331",
+  "origin": "Benalla Railway Station/Mackellar Street",
+  "destination": "Melbourne Street/Inglis Street",
+  "departureTime": "09:32",
+  "arrivalTime": "10:42"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C331",
+  "origin": "Benalla Railway Station/Mackellar Street",
+  "destination": "Melbourne Street/Inglis Street",
+  "departureTime": "09:32",
+  "arrivalTime": "10:42"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C332",
+  "origin": "Melbourne Street/Inglis Street",
+  "destination": "Benalla Railway Station/Mackellar Street",
+  "departureTime": "17:10",
+  "arrivalTime": "18:30"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C332",
+  "origin": "Melbourne Street/Inglis Street",
+  "destination": "Benalla Railway Station/Mackellar Street",
+  "departureTime": "17:10",
+  "arrivalTime": "18:30"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C332",
+  "origin": "Melbourne Street/Inglis Street",
+  "destination": "Benalla Railway Station/Mackellar Street",
+  "departureTime": "17:10",
+  "arrivalTime": "18:30"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C333",
+  "origin": "Benalla Railway Station/Mackellar Street",
+  "destination": "Melbourne Street/Inglis Street",
+  "departureTime": "20:27",
+  "arrivalTime": "21:47"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C333",
+  "origin": "Benalla Railway Station/Mackellar Street",
+  "destination": "Melbourne Street/Inglis Street",
+  "departureTime": "20:27",
+  "arrivalTime": "21:47"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C333",
+  "origin": "Benalla Railway Station/Mackellar Street",
+  "destination": "Melbourne Street/Inglis Street",
+  "departureTime": "20:27",
+  "arrivalTime": "21:47"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C334",
+  "origin": "Melbourne Street/Inglis Street",
+  "destination": "Benalla Railway Station/Mackellar Street",
+  "departureTime": "12:39",
+  "arrivalTime": "13:59"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C335",
+  "origin": "Benalla Railway Station/Mackellar Street",
+  "destination": "Melbourne Street/Inglis Street",
+  "departureTime": "14:29",
+  "arrivalTime": "15:39"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C336",
+  "origin": "Shepparton Railway Station/Purcell Street",
+  "destination": "Seymour Railway Station/Railway Place",
+  "departureTime": "07:38",
+  "arrivalTime": "09:01"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C337",
+  "origin": "Seymour Railway Station/Railway Place",
+  "destination": "Shepparton Railway Station/Purcell Street",
+  "departureTime": "08:43",
+  "arrivalTime": "09:58"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C338",
+  "origin": "Deniliquin Road/Morris Street",
+  "destination": "Shepparton Railway Station/Purcell Street",
+  "departureTime": "07:07",
+  "arrivalTime": "08:47"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C340",
+  "origin": "Alpine Hotel/Anderson Street",
+  "destination": "Wangaratta Railway Station/Norton Street",
+  "departureTime": "06:18",
+  "arrivalTime": "07:23"
+},
+{
+  "operationDays": [ "Mon", "Wed", "Fri" ],
+  "runID": "C341",
+  "origin": "Wangaratta Railway Station/Norton Street",
+  "destination": "Alpine Hotel/Anderson Street",
+  "departureTime": "09:57",
+  "arrivalTime": "11:07"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C342",
+  "origin": "Ford Street/Camp Street",
+  "destination": "Wangaratta Railway Station/Norton Street",
+  "departureTime": "06:30",
+  "arrivalTime": "07:10"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C343",
+  "origin": "Wangaratta Railway Station/Norton Street",
+  "destination": "Ford Street/Camp Street",
+  "departureTime": "09:57",
+  "arrivalTime": "10:32"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C343",
+  "origin": "Wangaratta Railway Station/Norton Street",
+  "destination": "Alpine Hotel/Anderson Street",
+  "departureTime": "09:57",
+  "arrivalTime": "11:32"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C343",
+  "origin": "Wangaratta Railway Station/Norton Street",
+  "destination": "Alpine Hotel/Anderson Street",
+  "departureTime": "09:57",
+  "arrivalTime": "11:32"
+},
+{
+  "operationDays": [ "Mon", "Wed", "Fri" ],
+  "runID": "C344",
+  "origin": "Ford Street/Camp Street",
+  "destination": "Wangaratta Railway Station/Norton Street",
+  "departureTime": "09:17",
+  "arrivalTime": "09:57"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C345",
+  "origin": "Wangaratta Railway Station/Norton Street",
+  "destination": "Alpine Hotel/Anderson Street",
+  "departureTime": "14:54",
+  "arrivalTime": "16:29"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C346",
+  "origin": "Alpine Hotel/Anderson Street",
+  "destination": "Wangaratta Railway Station/Norton Street",
+  "departureTime": "11:54",
+  "arrivalTime": "13:29"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C347",
+  "origin": "Wangaratta Railway Station/Norton Street",
+  "destination": "Ford Street/Camp Street",
+  "departureTime": "15:30",
+  "arrivalTime": "16:35"
+},
+{
+  "operationDays": [ "Mon", "Wed", "Fri" ],
+  "runID": "C348",
+  "origin": "Falls Creek Coaches/233 Kiewa Valley Highway",
+  "destination": "Alpine Hotel/Anderson Street",
+  "departureTime": "10:55",
+  "arrivalTime": "11:40"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C349",
+  "origin": "Wangaratta Railway Station/Norton Street",
+  "destination": "Alpine Hotel/Anderson Street",
+  "departureTime": "20:52",
+  "arrivalTime": "22:12"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C350",
+  "origin": "Ford Street/Camp Street",
+  "destination": "Wangaratta Railway Station/Norton Street",
+  "departureTime": "07:43",
+  "arrivalTime": "08:35"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C351",
+  "origin": "Wangaratta Railway Station/Norton Street",
+  "destination": "Ford Street/Camp Street",
+  "departureTime": "07:10",
+  "arrivalTime": "07:43"
+},
+{
+  "operationDays": [ "Mon", "Wed", "Fri" ],
+  "runID": "C352",
+  "origin": "Alpine Hotel/Anderson Street",
+  "destination": "Wangaratta Railway Station/Norton Street",
+  "departureTime": "14:08",
+  "arrivalTime": "15:38"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C352",
+  "origin": "Alpine Hotel/Anderson Street",
+  "destination": "Wangaratta Railway Station/Norton Street",
+  "departureTime": "14:08",
+  "arrivalTime": "15:38"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C352",
+  "origin": "Alpine Hotel/Anderson Street",
+  "destination": "Wangaratta Railway Station/Norton Street",
+  "departureTime": "14:08",
+  "arrivalTime": "15:38"
+},
+{
+  "operationDays": [ "Mon", "Wed", "Fri" ],
+  "runID": "C353",
+  "origin": "Wangaratta Railway Station/Norton Street",
+  "destination": "Ford Street/Camp Street",
+  "departureTime": "08:35",
+  "arrivalTime": "09:15"
+},
+{
+  "operationDays": [ "Thu" ],
+  "runID": "C354",
+  "origin": "Alpine Hotel/Anderson Street",
+  "destination": "Wangaratta Railway Station/Norton Street",
+  "departureTime": "10:05",
+  "arrivalTime": "11:35"
+},
+{
+  "operationDays": [ "Mon", "Wed", "Fri" ],
+  "runID": "C355",
+  "origin": "Alpine Hotel/Anderson Street",
+  "destination": "Falls Creek Coaches/233 Kiewa Valley Highway",
+  "departureTime": "16:45",
+  "arrivalTime": "17:30"
+},
+{
+  "operationDays": [ "Thu" ],
+  "runID": "C356",
+  "origin": "Alpine Hotel/Anderson Street",
+  "destination": "Wangaratta Railway Station/Norton Street",
+  "departureTime": "15:55",
+  "arrivalTime": "17:00"
+},
+{
+  "operationDays": [ "Thu" ],
+  "runID": "C357",
+  "origin": "Wangaratta Railway Station/Norton Street",
+  "destination": "Alpine Hotel/Anderson Street",
+  "departureTime": "08:50",
+  "arrivalTime": "10:00"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C358",
+  "origin": "Ford Street/Camp Street",
+  "destination": "Wangaratta Railway Station/Norton Street",
+  "departureTime": "16:45",
+  "arrivalTime": "17:20"
+},
+{
+  "operationDays": [ "Thu" ],
+  "runID": "C359",
+  "origin": "Wangaratta Railway Station/Norton Street",
+  "destination": "Alpine Hotel/Anderson Street",
+  "departureTime": "14:20",
+  "arrivalTime": "15:50"
+},
+{
+  "operationDays": [ "Mon", "Wed", "Fri" ],
+  "runID": "C360",
+  "origin": "Sanger Street/River Street",
+  "destination": "Wangaratta Railway Station/Norton Street",
+  "departureTime": "06:28",
+  "arrivalTime": "07:23"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C361",
+  "origin": "Wangaratta Railway Station/Norton Street",
+  "destination": "Sanger Street/River Street",
+  "departureTime": "14:54",
+  "arrivalTime": "15:39"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C362",
+  "origin": "Sanger Street/River Street",
+  "destination": "Wangaratta Railway Station/Norton Street",
+  "departureTime": "07:40",
+  "arrivalTime": "08:30"
+},
+{
+  "operationDays": [ "Wed", "Fri" ],
+  "runID": "C363",
+  "origin": "Wangaratta Railway Station/Norton Street",
+  "destination": "Sanger Street/River Street",
+  "departureTime": "20:52",
+  "arrivalTime": "21:42"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C363",
+  "origin": "Wangaratta Railway Station/Norton Street",
+  "destination": "Sanger Street/River Street",
+  "departureTime": "20:52",
+  "arrivalTime": "21:42"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C364",
+  "origin": "Sanger Street/River Street",
+  "destination": "Wangaratta Railway Station/Norton Street",
+  "departureTime": "17:15",
+  "arrivalTime": "18:05"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C364",
+  "origin": "Sanger Street/River Street",
+  "destination": "Wangaratta Railway Station/Norton Street",
+  "departureTime": "17:15",
+  "arrivalTime": "18:05"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C365",
+  "origin": "Wangaratta Railway Station/Norton Street",
+  "destination": "Sanger Street/River Street",
+  "departureTime": "15:48",
+  "arrivalTime": "16:38"
+},
+{
+  "operationDays": [ "Tue", "Thu" ],
+  "runID": "C366",
+  "origin": "Sanger Street/River Street",
+  "destination": "Wangaratta Railway Station/Norton Street",
+  "departureTime": "11:05",
+  "arrivalTime": "11:55"
+},
+{
+  "operationDays": [ "Tue", "Thu" ],
+  "runID": "C367",
+  "origin": "Wangaratta Railway Station/Norton Street",
+  "destination": "Sanger Street/River Street",
+  "departureTime": "09:57",
+  "arrivalTime": "10:47"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C368",
+  "origin": "Shepparton Railway Station/Purcell Street",
+  "destination": "Seymour Railway Station/Railway Place",
+  "departureTime": "16:36",
+  "arrivalTime": "18:01"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C370",
+  "origin": "Shepparton Railway Station/Purcell Street",
+  "destination": "Seymour Railway Station/Railway Place",
+  "departureTime": "14:05",
+  "arrivalTime": "15:30"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C370",
+  "origin": "Family Store/Malaya Road",
+  "destination": "Seymour Railway Station/Railway Place",
+  "departureTime": "17:30",
+  "arrivalTime": "17:50"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C371",
+  "origin": "Shepparton Railway Station/Purcell Street",
+  "destination": "Murray River Council/Cobb Highway",
+  "departureTime": "15:25",
+  "arrivalTime": "17:00"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C379",
+  "origin": "Seymour Railway Station/Railway Place",
+  "destination": "Shepparton Railway Station/Purcell Street",
+  "departureTime": "19:21",
+  "arrivalTime": "20:46"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C381",
+  "origin": "Seymour Railway Station/Railway Place",
+  "destination": "Shepparton Railway Station/Purcell Street",
+  "departureTime": "12:09",
+  "arrivalTime": "13:34"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C384",
+  "origin": "Albury Railway Station/Hume Highway",
+  "destination": "Wangaratta Railway Station/Norton Street",
+  "departureTime": "18:29",
+  "arrivalTime": "19:24"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C384",
+  "origin": "Albury Railway Station/Hume Highway",
+  "destination": "Wangaratta Railway Station/Norton Street",
+  "departureTime": "21:09",
+  "arrivalTime": "22:04"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C385",
+  "origin": "Wangaratta Railway Station/Norton Street",
+  "destination": "Albury Railway Station/Hume Highway",
+  "departureTime": "09:26",
+  "arrivalTime": "10:21"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C385",
+  "origin": "Wangaratta Railway Station/Norton Street",
+  "destination": "Albury Railway Station/Hume Highway",
+  "departureTime": "08:07",
+  "arrivalTime": "09:02"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C386",
+  "origin": "Albury Railway Station/Hume Highway",
+  "destination": "Seymour Railway Station/Railway Place",
+  "departureTime": "10:31",
+  "arrivalTime": "13:21"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C386",
+  "origin": "Albury Railway Station/Hume Highway",
+  "destination": "Seymour Railway Station/Railway Place",
+  "departureTime": "09:12",
+  "arrivalTime": "12:02"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C387",
+  "origin": "Seymour Railway Station/Railway Place",
+  "destination": "Albury Railway Station/Hume Highway",
+  "departureTime": "15:29",
+  "arrivalTime": "18:19"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C387",
+  "origin": "Seymour Railway Station/Railway Place",
+  "destination": "Albury Railway Station/Hume Highway",
+  "departureTime": "18:09",
+  "arrivalTime": "20:59"
+},
+{
+  "operationDays": [ "Fri" ],
+  "runID": "C398",
+  "origin": "Seymour Railway Station/Railway Place",
+  "destination": "Southern Cross Coach Terminal/Spencer Street",
+  "departureTime": "23:00",
+  "arrivalTime": "24:40"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C398",
+  "origin": "Seymour Railway Station/Railway Place",
+  "destination": "Southern Cross Coach Terminal/Spencer Street",
+  "departureTime": "23:00",
+  "arrivalTime": "24:40"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C399",
+  "origin": "Southern Cross Coach Terminal/Spencer Street",
+  "destination": "Bridges Barracks/Morobe Road",
+  "departureTime": "02:00",
+  "arrivalTime": "04:10"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C399",
+  "origin": "Southern Cross Coach Terminal/Spencer Street",
+  "destination": "Bridges Barracks/Morobe Road",
+  "departureTime": "02:00",
+  "arrivalTime": "04:10"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C405",
+  "origin": "Traralgon Plaza Shopping Centre/Franklin Street",
+  "destination": "Gippsland Shopping Centre/Cunninghame Street",
+  "departureTime": "07:00",
+  "arrivalTime": "08:00"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C406",
+  "origin": "Bairnsdale Railway Station/Macleod Street",
+  "destination": "Traralgon Railway Station/Princes Street",
+  "departureTime": "04:27",
+  "arrivalTime": "06:17"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C407",
+  "origin": "Bairnsdale Railway Station/MacLeod Street",
+  "destination": "Barracouta Road/Lake Tyers Road",
+  "departureTime": "15:50",
+  "arrivalTime": "16:43"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C407",
+  "origin": "Bairnsdale Railway Station/MacLeod Street",
+  "destination": "Barracouta Road/Lake Tyers Road",
+  "departureTime": "09:50",
+  "arrivalTime": "10:40"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C408",
+  "origin": "Sale Railway Station/Pettit Drive",
+  "destination": "Traralgon Railway Station/Princes Street",
+  "departureTime": "09:22",
+  "arrivalTime": "10:12"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C409",
+  "origin": "Bairnsdale Railway Station/MacLeod Street",
+  "destination": "Marlo Primary School/Jorgensen Street",
+  "departureTime": "14:00",
+  "arrivalTime": "15:40"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C409",
+  "origin": "Bairnsdale Railway Station/MacLeod Street",
+  "destination": "Marlo Primary School/Jorgensen Street",
+  "departureTime": "11:54",
+  "arrivalTime": "13:29"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C411",
+  "origin": "Traralgon Railway Station/Princes Street",
+  "destination": "Bairnsdale Railway Station/Macleod Street",
+  "departureTime": "10:58",
+  "arrivalTime": "12:43"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C412",
+  "origin": "Marlo Primary School/Jorgensen Street",
+  "destination": "Bairnsdale Railway Station/MacLeod Street",
+  "departureTime": "13:55",
+  "arrivalTime": "15:40"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C412",
+  "origin": "Marlo Primary School/Jorgensen Street",
+  "destination": "Bairnsdale Railway Station/MacLeod Street",
+  "departureTime": "19:00",
+  "arrivalTime": "20:43"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C415",
+  "origin": "Traralgon Railway Station/Princes Street",
+  "destination": "Bairnsdale Railway Station/Macleod Street",
+  "departureTime": "19:27",
+  "arrivalTime": "21:12"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C415",
+  "origin": "Sale Railway Station/Pettit Drive",
+  "destination": "Marlo Primary School/Jorgensen Street",
+  "departureTime": "14:00",
+  "arrivalTime": "16:50"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C416",
+  "origin": "Marlo Primary School/Jorgensen Street",
+  "destination": "Bairnsdale Railway Station/MacLeod Street",
+  "departureTime": "14:20",
+  "arrivalTime": "16:38"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C417",
+  "origin": "Traralgon Railway Station/Princes Street",
+  "destination": "Sale Railway Station/Pettit Drive",
+  "departureTime": "07:45",
+  "arrivalTime": "08:30"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C418",
+  "origin": "Sale Railway Station/Pettit Drive",
+  "destination": "Traralgon Plaza Shopping Centre/Franklin Street",
+  "departureTime": "08:17",
+  "arrivalTime": "09:12"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C419",
+  "origin": "Traralgon Plaza Shopping Centre/Franklin Street",
+  "destination": "Gippsland Shopping Centre/Cunninghame Street",
+  "departureTime": "17:44",
+  "arrivalTime": "18:39"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C420",
+  "origin": "Marlo Primary School/Jorgensen Street",
+  "destination": "Bairnsdale Railway Station/MacLeod Street",
+  "departureTime": "03:59",
+  "arrivalTime": "05:59"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C420",
+  "origin": "Marlo Primary School/Jorgensen Street",
+  "destination": "Bairnsdale Railway Station/MacLeod Street",
+  "departureTime": "04:09",
+  "arrivalTime": "05:59"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C420",
+  "origin": "Marlo Primary School/Jorgensen Street",
+  "destination": "Bairnsdale Railway Station/MacLeod Street",
+  "departureTime": "05:34",
+  "arrivalTime": "07:19"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C421",
+  "origin": "Bairnsdale Railway Station/MacLeod Street",
+  "destination": "Barracouta Road/Lake Tyers Road",
+  "departureTime": "08:35",
+  "arrivalTime": "09:26"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C422",
+  "origin": "Barracouta Road/Lake Tyers Road",
+  "destination": "Bairnsdale Railway Station/MacLeod Street",
+  "departureTime": "11:34",
+  "arrivalTime": "12:39"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C422",
+  "origin": "Barracouta Road/Lake Tyers Road",
+  "destination": "Bairnsdale Railway Station/MacLeod Street",
+  "departureTime": "11:34",
+  "arrivalTime": "12:39"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C422",
+  "origin": "Middle Street/Princes Highway",
+  "destination": "Bairnsdale Railway Station/MacLeod Street",
+  "departureTime": "15:41",
+  "arrivalTime": "16:38"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C423",
+  "origin": "Bairnsdale Railway Station/MacLeod Street",
+  "destination": "Marlo Primary School/Jorgensen Street",
+  "departureTime": "11:25",
+  "arrivalTime": "13:19"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C423",
+  "origin": "Bairnsdale Railway Station/MacLeod Street",
+  "destination": "Marlo Primary School/Jorgensen Street",
+  "departureTime": "11:49",
+  "arrivalTime": "13:43"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C424",
+  "origin": "Barracouta Road/Lake Tyers Road",
+  "destination": "Bairnsdale Railway Station/MacLeod Street",
+  "departureTime": "16:56",
+  "arrivalTime": "17:51"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C425",
+  "origin": "Bairnsdale Railway Station/MacLeod Street",
+  "destination": "Barracouta Road/Lake Tyers Road",
+  "departureTime": "12:53",
+  "arrivalTime": "13:43"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C426",
+  "origin": "Barracouta Road/Lake Tyers Road",
+  "destination": "Traralgon Railway Station/Princes Street",
+  "departureTime": "14:17",
+  "arrivalTime": "17:05"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C427",
+  "origin": "Bairnsdale Railway Station/MacLeod Street",
+  "destination": "Marlo Primary School/Jorgensen Street",
+  "departureTime": "17:30",
+  "arrivalTime": "19:24"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C427",
+  "origin": "Bairnsdale Railway Station/MacLeod Street",
+  "destination": "Marlo Primary School/Jorgensen Street",
+  "departureTime": "16:29",
+  "arrivalTime": "18:20"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C428",
+  "origin": "Marlo Primary School/Jorgensen Street",
+  "destination": "Bairnsdale Railway Station/MacLeod Street",
+  "departureTime": "06:35",
+  "arrivalTime": "08:30"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C428",
+  "origin": "Marlo Primary School/Jorgensen Street",
+  "destination": "Bairnsdale Railway Station/MacLeod Street",
+  "departureTime": "06:35",
+  "arrivalTime": "08:30"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C429",
+  "origin": "Bairnsdale Railway Station/MacLeod Street",
+  "destination": "Marlo Primary School/Jorgensen Street",
+  "departureTime": "22:39",
+  "arrivalTime": "24:32"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C429",
+  "origin": "Bairnsdale Railway Station/MacLeod Street",
+  "destination": "Marlo Primary School/Jorgensen Street",
+  "departureTime": "22:27",
+  "arrivalTime": "24:24"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C429",
+  "origin": "Bairnsdale Railway Station/MacLeod Street",
+  "destination": "Marlo Primary School/Jorgensen Street",
+  "departureTime": "22:27",
+  "arrivalTime": "24:24"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C430",
+  "origin": "Raymond Island Ferry Terminal/Devon Road",
+  "destination": "Bairnsdale Railway Station/MacLeod Street",
+  "departureTime": "11:15",
+  "arrivalTime": "11:50"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C431",
+  "origin": "Bairnsdale Railway Station/MacLeod Street",
+  "destination": "Raymond Island Ferry Terminal/Devon Road",
+  "departureTime": "12:00",
+  "arrivalTime": "12:45"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C432",
+  "origin": "Raymond Island Ferry Terminal/Devon Road",
+  "destination": "Bairnsdale Railway Station/MacLeod Street",
+  "departureTime": "17:15",
+  "arrivalTime": "17:35"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C433",
+  "origin": "Bairnsdale Railway Station/MacLeod Street",
+  "destination": "Raymond Island Ferry Terminal/Devon Road",
+  "departureTime": "17:40",
+  "arrivalTime": "18:10"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C434",
+  "origin": "Marlo Primary School/Jorgensen Street",
+  "destination": "Sale Railway Station/Pettit Drive",
+  "departureTime": "10:34",
+  "arrivalTime": "13:54"
+},
+{
+  "operationDays": [ "Mon", "Fri" ],
+  "runID": "C439",
+  "origin": "Traralgon Railway Station/Princes Street",
+  "destination": "Gippsland Shopping Centre/Cunninghame Street",
+  "departureTime": "13:58",
+  "arrivalTime": "15:25"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C440",
+  "origin": "Gippsland Shopping Centre/Cunninghame Street",
+  "destination": "Traralgon Railway Station/Princes Street",
+  "departureTime": "07:39",
+  "arrivalTime": "09:07"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C440",
+  "origin": "Gippsland Shopping Centre/Cunninghame Street",
+  "destination": "Traralgon Railway Station/Princes Street",
+  "departureTime": "07:39",
+  "arrivalTime": "09:07"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C441",
+  "origin": "Traralgon Railway Station/Princes Street",
+  "destination": "Gippsland Shopping Centre/Cunninghame Street",
+  "departureTime": "05:51",
+  "arrivalTime": "06:58"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C441",
+  "origin": "Traralgon Railway Station/Princes Street",
+  "destination": "Gippsland Shopping Centre/Cunninghame Street",
+  "departureTime": "06:55",
+  "arrivalTime": "08:18"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C442",
+  "origin": "Gippsland Shopping Centre/Cunninghame Street",
+  "destination": "Traralgon Railway Station/Princes Street",
+  "departureTime": "16:26",
+  "arrivalTime": "17:49"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C442",
+  "origin": "Gippsland Shopping Centre/Cunninghame Street",
+  "destination": "Traralgon Plaza Shopping Centre/Franklin Street",
+  "departureTime": "08:49",
+  "arrivalTime": "10:17"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C442",
+  "origin": "Gippsland Shopping Centre/Cunninghame Street",
+  "destination": "Traralgon Plaza Shopping Centre/Franklin Street",
+  "departureTime": "08:49",
+  "arrivalTime": "10:17"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C443",
+  "origin": "Traralgon Plaza Shopping Centre/Franklin Street",
+  "destination": "Gippsland Shopping Centre/Cunninghame Street",
+  "departureTime": "11:43",
+  "arrivalTime": "13:16"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C443",
+  "origin": "Traralgon Railway Station/Princes Street",
+  "destination": "Gippsland Shopping Centre/Cunninghame Street",
+  "departureTime": "12:58",
+  "arrivalTime": "14:21"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C444",
+  "origin": "Sale Railway Station/Pettit Drive",
+  "destination": "Traralgon Railway Station/Princes Street",
+  "departureTime": "15:22",
+  "arrivalTime": "16:12"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C445",
+  "origin": "Traralgon Railway Station/Princes Street",
+  "destination": "Gippsland Shopping Centre/Cunninghame Street",
+  "departureTime": "17:54",
+  "arrivalTime": "19:12"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C445",
+  "origin": "Traralgon Railway Station/Princes Street",
+  "destination": "Gippsland Shopping Centre/Cunninghame Street",
+  "departureTime": "05:35",
+  "arrivalTime": "06:58"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C446",
+  "origin": "Gippsland Shopping Centre/Cunninghame Street",
+  "destination": "Traralgon Railway Station/Princes Street",
+  "departureTime": "18:27",
+  "arrivalTime": "19:40"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C446",
+  "origin": "Gippsland Shopping Centre/Cunninghame Street",
+  "destination": "Traralgon Railway Station/Princes Street",
+  "departureTime": "18:27",
+  "arrivalTime": "19:40"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C447",
+  "origin": "Traralgon Railway Station/Princes Street",
+  "destination": "Gippsland Shopping Centre/Cunninghame Street",
+  "departureTime": "16:58",
+  "arrivalTime": "17:53"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C447",
+  "origin": "Traralgon Railway Station/Princes Street",
+  "destination": "Gippsland Shopping Centre/Cunninghame Street",
+  "departureTime": "16:58",
+  "arrivalTime": "17:53"
+},
+{
+  "operationDays": [ "Mon", "Fri" ],
+  "runID": "C448",
+  "origin": "Gippsland Shopping Centre/Cunninghame Street",
+  "destination": "Traralgon Plaza Shopping Centre/Franklin Street",
+  "departureTime": "08:47",
+  "arrivalTime": "10:22"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C449",
+  "origin": "Traralgon Railway Station/Princes Street",
+  "destination": "Boisdale Street/Johnson Street",
+  "departureTime": "19:54",
+  "arrivalTime": "20:57"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C449",
+  "origin": "Traralgon Railway Station/Princes Street",
+  "destination": "Boisdale Street/Johnson Street",
+  "departureTime": "19:54",
+  "arrivalTime": "20:57"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C450",
+  "origin": "Leongatha Railway Station/Long Street",
+  "destination": "Southern Cross Coach Terminal/Spencer Street",
+  "departureTime": "05:40",
+  "arrivalTime": "08:15"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C451",
+  "origin": "Southern Cross Coach Terminal/Spencer Street",
+  "destination": "Leongatha Railway Station/Long Street",
+  "departureTime": "06:16",
+  "arrivalTime": "08:17"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C451",
+  "origin": "Southern Cross Coach Terminal/Spencer Street",
+  "destination": "Leongatha Railway Station/Long Street",
+  "departureTime": "11:01",
+  "arrivalTime": "13:06"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C451",
+  "origin": "Southern Cross Coach Terminal/Spencer Street",
+  "destination": "Leongatha Railway Station/Long Street",
+  "departureTime": "11:01",
+  "arrivalTime": "13:06"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C452",
+  "origin": "Leongatha Railway Station/Long Street",
+  "destination": "Southern Cross Coach Terminal/Spencer Street",
+  "departureTime": "06:55",
+  "arrivalTime": "09:30"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C452",
+  "origin": "Memorial Park/Grant Street",
+  "destination": "Southern Cross Coach Terminal/Spencer Street",
+  "departureTime": "10:25",
+  "arrivalTime": "14:10"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C452",
+  "origin": "Memorial Park/Grant Street",
+  "destination": "Southern Cross Coach Terminal/Spencer Street",
+  "departureTime": "10:25",
+  "arrivalTime": "14:10"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C453",
+  "origin": "Southern Cross Coach Terminal/Spencer Street",
+  "destination": "Leongatha Railway Station/Long Street",
+  "departureTime": "10:50",
+  "arrivalTime": "12:59"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C453",
+  "origin": "Southern Cross Coach Terminal/Spencer Street",
+  "destination": "Memorial Park/Grant Street",
+  "departureTime": "17:46",
+  "arrivalTime": "21:16"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C453",
+  "origin": "Southern Cross Coach Terminal/Spencer Street",
+  "destination": "Memorial Park/Grant Street",
+  "departureTime": "17:46",
+  "arrivalTime": "21:16"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C454",
+  "origin": "Leongatha Railway Station/Long Street",
+  "destination": "Southern Cross Coach Terminal/Spencer Street",
+  "departureTime": "10:38",
+  "arrivalTime": "13:03"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C454",
+  "origin": "Leongatha Railway Station/Long Street",
+  "destination": "Southern Cross Coach Terminal/Spencer Street",
+  "departureTime": "14:44",
+  "arrivalTime": "16:56"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C454",
+  "origin": "Leongatha Railway Station/Long Street",
+  "destination": "Southern Cross Coach Terminal/Spencer Street",
+  "departureTime": "14:44",
+  "arrivalTime": "16:56"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C455",
+  "origin": "Southern Cross Coach Terminal/Spencer Street",
+  "destination": "Leongatha Railway Station/Long Street",
+  "departureTime": "14:25",
+  "arrivalTime": "16:59"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C456",
+  "origin": "Leongatha Railway Station/Long Street",
+  "destination": "Southern Cross Coach Terminal/Spencer Street",
+  "departureTime": "14:38",
+  "arrivalTime": "17:08"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C457",
+  "origin": "Southern Cross Coach Terminal/Spencer Street",
+  "destination": "Leongatha Railway Station/Long Street",
+  "departureTime": "21:00",
+  "arrivalTime": "23:09"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C458",
+  "origin": "Leongatha Railway Station/Long Street",
+  "destination": "Southern Cross Coach Terminal/Spencer Street",
+  "departureTime": "18:55",
+  "arrivalTime": "21:00"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C459",
+  "origin": "Southern Cross Coach Terminal/Spencer Street",
+  "destination": "Memorial Park/Grant Street",
+  "departureTime": "16:40",
+  "arrivalTime": "20:55"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C460",
+  "origin": "Memorial Park/Grant Street",
+  "destination": "Southern Cross Coach Terminal/Spencer Street",
+  "departureTime": "06:26",
+  "arrivalTime": "10:21"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C460",
+  "origin": "Memorial Park/Grant Street",
+  "destination": "Southern Cross Coach Terminal/Spencer Street",
+  "departureTime": "06:25",
+  "arrivalTime": "10:15"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C460",
+  "origin": "Memorial Park/Grant Street",
+  "destination": "Southern Cross Coach Terminal/Spencer Street",
+  "departureTime": "06:25",
+  "arrivalTime": "10:15"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C461",
+  "origin": "Southern Cross Coach Terminal/Spencer Street",
+  "destination": "Memorial Park/Grant Street",
+  "departureTime": "09:02",
+  "arrivalTime": "12:42"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C462",
+  "origin": "Memorial Park/Grant Street",
+  "destination": "Southern Cross Coach Terminal/Spencer Street",
+  "departureTime": "11:08",
+  "arrivalTime": "15:03"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C462",
+  "origin": "Memorial Park/Grant Street",
+  "destination": "Southern Cross Coach Terminal/Spencer Street",
+  "departureTime": "16:33",
+  "arrivalTime": "20:15"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C462",
+  "origin": "Memorial Park/Grant Street",
+  "destination": "Southern Cross Coach Terminal/Spencer Street",
+  "departureTime": "16:33",
+  "arrivalTime": "20:15"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C463",
+  "origin": "Southern Cross Coach Terminal/Spencer Street",
+  "destination": "Memorial Park/Grant Street",
+  "departureTime": "12:57",
+  "arrivalTime": "16:42"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C463",
+  "origin": "Southern Cross Coach Terminal/Spencer Street",
+  "destination": "Memorial Park/Grant Street",
+  "departureTime": "15:00",
+  "arrivalTime": "18:36"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C463",
+  "origin": "Southern Cross Coach Terminal/Spencer Street",
+  "destination": "Memorial Park/Grant Street",
+  "departureTime": "15:00",
+  "arrivalTime": "18:36"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C464",
+  "origin": "Memorial Park/Grant Street",
+  "destination": "Southern Cross Coach Terminal/Spencer Street",
+  "departureTime": "15:08",
+  "arrivalTime": "19:08"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C465",
+  "origin": "Southern Cross Coach Terminal/Spencer Street",
+  "destination": "Memorial Park/Grant Street",
+  "departureTime": "09:03",
+  "arrivalTime": "12:39"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C465",
+  "origin": "Southern Cross Coach Terminal/Spencer Street",
+  "destination": "Memorial Park/Grant Street",
+  "departureTime": "09:03",
+  "arrivalTime": "12:39"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C467",
+  "origin": "Southern Cross Coach Terminal/Spencer Street",
+  "destination": "Memorial Park/Grant Street",
+  "departureTime": "19:00",
+  "arrivalTime": "22:40"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C470",
+  "origin": "Ramsay Boulevard/The Esplanade",
+  "destination": "Dandenong Railway Station/Foster Street",
+  "departureTime": "05:11",
+  "arrivalTime": "07:37"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C471",
+  "origin": "Dandenong Railway Station/Foster Street",
+  "destination": "Ramsay Boulevard/The Esplanade",
+  "departureTime": "09:18",
+  "arrivalTime": "11:32"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C471",
+  "origin": "Dandenong Railway Station/Foster Street",
+  "destination": "Ramsay Boulevard/The Esplanade",
+  "departureTime": "11:13",
+  "arrivalTime": "13:39"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C471",
+  "origin": "Dandenong Railway Station/Foster Street",
+  "destination": "Ramsay Boulevard/The Esplanade",
+  "departureTime": "11:13",
+  "arrivalTime": "13:39"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C472",
+  "origin": "Ramsay Boulevard/The Esplanade",
+  "destination": "Dandenong Railway Station/Foster Street",
+  "departureTime": "07:22",
+  "arrivalTime": "10:01"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C472",
+  "origin": "Ramsay Boulevard/The Esplanade",
+  "destination": "Dandenong Railway Station/Foster Street",
+  "departureTime": "07:25",
+  "arrivalTime": "09:57"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C472",
+  "origin": "Ramsay Boulevard/The Esplanade",
+  "destination": "Dandenong Railway Station/Foster Street",
+  "departureTime": "07:25",
+  "arrivalTime": "09:57"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C473",
+  "origin": "Dandenong Railway Station/Foster Street",
+  "destination": "Ramsay Boulevard/The Esplanade",
+  "departureTime": "13:18",
+  "arrivalTime": "15:32"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C473",
+  "origin": "Dandenong Railway Station/Foster Street",
+  "destination": "Ramsay Boulevard/The Esplanade",
+  "departureTime": "17:58",
+  "arrivalTime": "20:34"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C473",
+  "origin": "Dandenong Railway Station/Foster Street",
+  "destination": "Ramsay Boulevard/The Esplanade",
+  "departureTime": "17:58",
+  "arrivalTime": "20:34"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C474",
+  "origin": "Ramsay Boulevard/The Esplanade",
+  "destination": "Dandenong Railway Station/Foster Street",
+  "departureTime": "12:14",
+  "arrivalTime": "14:39"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C474",
+  "origin": "Ramsay Boulevard/The Esplanade",
+  "destination": "Dandenong Railway Station/Foster Street",
+  "departureTime": "14:07",
+  "arrivalTime": "16:41"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C474",
+  "origin": "Ramsay Boulevard/The Esplanade",
+  "destination": "Dandenong Railway Station/Foster Street",
+  "departureTime": "14:07",
+  "arrivalTime": "16:41"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C475",
+  "origin": "Dandenong Railway Station/Foster Street",
+  "destination": "Ramsay Boulevard/The Esplanade",
+  "departureTime": "17:31",
+  "arrivalTime": "19:57"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C476",
+  "origin": "Ramsay Boulevard/The Esplanade",
+  "destination": "Dandenong Railway Station/Foster Street",
+  "departureTime": "16:14",
+  "arrivalTime": "18:39"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C477",
+  "origin": "Dandenong Railway Station/Foster Street",
+  "destination": "Ramsay Boulevard/The Esplanade",
+  "departureTime": "21:16",
+  "arrivalTime": "23:42"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C480",
+  "origin": "Cowes Transit Centre/Church Street",
+  "destination": "Dandenong Railway Station/Foster Street",
+  "departureTime": "06:38",
+  "arrivalTime": "08:54"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C481",
+  "origin": "Dandenong Railway Station/Foster Street",
+  "destination": "Cowes Transit Centre/Church Street",
+  "departureTime": "06:25",
+  "arrivalTime": "08:46"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C481",
+  "origin": "Dandenong Railway Station/Foster Street",
+  "destination": "Cowes Transit Centre/Church Street",
+  "departureTime": "15:14",
+  "arrivalTime": "17:30"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C481",
+  "origin": "Dandenong Railway Station/Foster Street",
+  "destination": "Cowes Transit Centre/Church Street",
+  "departureTime": "15:14",
+  "arrivalTime": "17:30"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C482",
+  "origin": "Cowes Transit Centre/Church Street",
+  "destination": "Dandenong Railway Station/Foster Street",
+  "departureTime": "10:21",
+  "arrivalTime": "12:39"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C482",
+  "origin": "Cowes Transit Centre/Church Street",
+  "destination": "Dandenong Railway Station/Foster Street",
+  "departureTime": "11:43",
+  "arrivalTime": "13:56"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C482",
+  "origin": "Cowes Transit Centre/Church Street",
+  "destination": "Dandenong Railway Station/Foster Street",
+  "departureTime": "11:43",
+  "arrivalTime": "13:56"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C483",
+  "origin": "Dandenong Railway Station/Foster Street",
+  "destination": "Cowes Transit Centre/Church Street",
+  "departureTime": "11:07",
+  "arrivalTime": "13:23"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C483",
+  "origin": "Dandenong Railway Station/Foster Street",
+  "destination": "Cowes Transit Centre/Church Street",
+  "departureTime": "09:16",
+  "arrivalTime": "11:32"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C483",
+  "origin": "Dandenong Railway Station/Foster Street",
+  "destination": "Cowes Transit Centre/Church Street",
+  "departureTime": "09:16",
+  "arrivalTime": "11:32"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C484",
+  "origin": "Cowes Transit Centre/Church Street",
+  "destination": "Dandenong Railway Station/Foster Street",
+  "departureTime": "14:21",
+  "arrivalTime": "16:39"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C484",
+  "origin": "Cowes Transit Centre/Church Street",
+  "destination": "Dandenong Railway Station/Foster Street",
+  "departureTime": "17:51",
+  "arrivalTime": "20:02"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C484",
+  "origin": "Cowes Transit Centre/Church Street",
+  "destination": "Dandenong Railway Station/Foster Street",
+  "departureTime": "17:51",
+  "arrivalTime": "20:02"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C485",
+  "origin": "Dandenong Railway Station/Foster Street",
+  "destination": "Cowes Transit Centre/Church Street",
+  "departureTime": "14:44",
+  "arrivalTime": "17:23"
+},
+{
+  "operationDays": [ "Mon", "Thu", "Fri" ],
+  "runID": "C486",
+  "origin": "Bendigo Bank/Maurice Avenue",
+  "destination": "Genoa Hotel/Alexanders Road",
+  "departureTime": "14:25",
+  "arrivalTime": "14:55"
+},
+{
+  "operationDays": [ "Mon", "Thu", "Fri" ],
+  "runID": "C487",
+  "origin": "Genoa Hotel/Alexanders Road",
+  "destination": "Bendigo Bank/Maurice Avenue",
+  "departureTime": "09:00",
+  "arrivalTime": "09:30"
+},
+{
+  "operationDays": [ "Mon", "Thu", "Fri" ],
+  "runID": "C488",
+  "origin": "Bendigo Bank/Maurice Avenue",
+  "destination": "Genoa Hotel/Alexanders Road",
+  "departureTime": "08:05",
+  "arrivalTime": "08:40"
+},
+{
+  "operationDays": [ "Mon", "Thu", "Fri" ],
+  "runID": "C489",
+  "origin": "Genoa Hotel/Alexanders Road",
+  "destination": "Bendigo Bank/Maurice Avenue",
+  "departureTime": "15:15",
+  "arrivalTime": "15:45"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C490",
+  "origin": "Cowes Transit Centre/Church Street",
+  "destination": "Dandenong Railway Station/Foster Street",
+  "departureTime": "18:38",
+  "arrivalTime": "20:49"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C491",
+  "origin": "Dandenong Railway Station/Foster Street",
+  "destination": "Cowes Transit Centre/Church Street",
+  "departureTime": "19:17",
+  "arrivalTime": "21:33"
+},
+{
+  "operationDays": [ "Fri" ],
+  "runID": "C498",
+  "origin": "Traralgon Railway Station/Princes Street",
+  "destination": "Southern Cross Coach Terminal/Spencer Street",
+  "departureTime": "22:00",
+  "arrivalTime": "24:40"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C498",
+  "origin": "Traralgon Railway Station/Princes Street",
+  "destination": "Southern Cross Coach Terminal/Spencer Street",
+  "departureTime": "22:00",
+  "arrivalTime": "24:40"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C499",
+  "origin": "Southern Cross Coach Terminal/Spencer Street",
+  "destination": "Traralgon Railway Station/Princes Street",
+  "departureTime": "02:00",
+  "arrivalTime": "04:55"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C499",
+  "origin": "Southern Cross Coach Terminal/Spencer Street",
+  "destination": "Traralgon Railway Station/Princes Street",
+  "departureTime": "02:00",
+  "arrivalTime": "04:55"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C601",
+  "origin": "Wodonga Railway Station/Moloney Drive",
+  "destination": "Jolimont Centre/Northbourne Avenue",
+  "departureTime": "10:45",
+  "arrivalTime": "15:20"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C601",
+  "origin": "Wodonga Railway Station/Moloney Drive",
+  "destination": "Jolimont Centre/Northbourne Avenue",
+  "departureTime": "10:45",
+  "arrivalTime": "15:20"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C601",
+  "origin": "Wodonga Railway Station/Moloney Drive",
+  "destination": "Jolimont Centre/Northbourne Avenue",
+  "departureTime": "10:45",
+  "arrivalTime": "15:20"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C602",
+  "origin": "Jolimont Centre/Northbourne Avenue",
+  "destination": "Wodonga Railway Station/Moloney Drive",
+  "departureTime": "08:05",
+  "arrivalTime": "12:40"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C602",
+  "origin": "Jolimont Centre/Northbourne Avenue",
+  "destination": "Wodonga Railway Station/Moloney Drive",
+  "departureTime": "08:05",
+  "arrivalTime": "12:40"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C602",
+  "origin": "Jolimont Centre/Northbourne Avenue",
+  "destination": "Wodonga Railway Station/Moloney Drive",
+  "departureTime": "08:05",
+  "arrivalTime": "12:40"
+},
+{
+  "operationDays": [ "Mon", "Wed", "Thu" ],
+  "runID": "C610",
+  "origin": "Narooma Visitor Information Centre/Princes Highway",
+  "destination": "Post Office/Princes Highway",
+  "departureTime": "05:30",
+  "arrivalTime": "11:55"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C610",
+  "origin": "Narooma Visitor Information Centre/Princes Highway",
+  "destination": "Post Office/Princes Highway",
+  "departureTime": "05:30",
+  "arrivalTime": "11:55"
+},
+{
+  "operationDays": [ "Mon", "Thu" ],
+  "runID": "C611",
+  "origin": "Bairnsdale Railway Station/Macleod Street",
+  "destination": "Orient Street",
+  "departureTime": "11:41",
+  "arrivalTime": "18:55"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C611",
+  "origin": "Bairnsdale Railway Station/Macleod Street",
+  "destination": "Orient Street",
+  "departureTime": "11:56",
+  "arrivalTime": "19:10"
+},
+{
+  "operationDays": [ "Tue", "Fri" ],
+  "runID": "C612",
+  "origin": "Orient Street",
+  "destination": "Bairnsdale Railway Station/MacLeod Street",
+  "departureTime": "04:55",
+  "arrivalTime": "12:30"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C612",
+  "origin": "Orient Street",
+  "destination": "Bairnsdale Railway Station/MacLeod Street",
+  "departureTime": "08:55",
+  "arrivalTime": "16:30"
+},
+{
+  "operationDays": [ "Tue", "Wed", "Fri" ],
+  "runID": "C613",
+  "origin": "Bairnsdale Railway Station/Macleod Street",
+  "destination": "Narooma Visitor Information Centre/Princes Highway",
+  "departureTime": "11:41",
+  "arrivalTime": "18:15"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C613",
+  "origin": "Bairnsdale Railway Station/Macleod Street",
+  "destination": "Narooma Visitor Information Centre/Princes Highway",
+  "departureTime": "11:56",
+  "arrivalTime": "18:30"
+},
+{
+  "operationDays": [ "Mon", "Thu" ],
+  "runID": "C621",
+  "origin": "Bairnsdale Railway Station/Macleod Street",
+  "destination": "Jolimont Centre/Northbourne Avenue",
+  "departureTime": "11:25",
+  "arrivalTime": "18:05"
+},
+{
+  "operationDays": [ "Tue", "Fri" ],
+  "runID": "C622",
+  "origin": "Jolimont Centre/Northbourne Avenue",
+  "destination": "Traralgon Railway Station/Princes Street",
+  "departureTime": "08:10",
+  "arrivalTime": "17:00"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C701",
+  "origin": "Bendigo Railway Station/Railway Place",
+  "destination": "85 Franklin Street",
+  "departureTime": "09:25",
+  "arrivalTime": "19:05"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C701",
+  "origin": "Bendigo Railway Station/Railway Place",
+  "destination": "85 Franklin Street",
+  "departureTime": "09:25",
+  "arrivalTime": "19:05"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C701",
+  "origin": "Southern Cross Coach Terminal/Spencer Street",
+  "destination": "85 Franklin Street",
+  "departureTime": "07:15",
+  "arrivalTime": "19:05"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C702",
+  "origin": "85 Franklin Street",
+  "destination": "Bendigo Railway Station/Railway Place",
+  "departureTime": "07:05",
+  "arrivalTime": "16:50"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C702",
+  "origin": "85 Franklin Street",
+  "destination": "Bendigo Railway Station/Railway Place",
+  "departureTime": "07:05",
+  "arrivalTime": "16:50"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C702",
+  "origin": "85 Franklin Street",
+  "destination": "Bendigo Railway Station/Railway Place",
+  "departureTime": "07:05",
+  "arrivalTime": "16:50"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C705",
+  "origin": "85 Franklin Street",
+  "destination": "Albury Railway Station/Hume Highway",
+  "departureTime": "08:30",
+  "arrivalTime": "22:35"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C705",
+  "origin": "85 Franklin Street",
+  "destination": "Albury Railway Station/Hume Highway",
+  "departureTime": "08:30",
+  "arrivalTime": "22:35"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C705",
+  "origin": "85 Franklin Street",
+  "destination": "Albury Railway Station/Hume Highway",
+  "departureTime": "08:30",
+  "arrivalTime": "22:35"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C706",
+  "origin": "Albury Railway Station/Hume Highway",
+  "destination": "85 Franklin Street",
+  "departureTime": "04:25",
+  "arrivalTime": "18:25"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C706",
+  "origin": "Albury Railway Station/Hume Highway",
+  "destination": "85 Franklin Street",
+  "departureTime": "04:25",
+  "arrivalTime": "18:25"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C706",
+  "origin": "Albury Railway Station/Hume Highway",
+  "destination": "85 Franklin Street",
+  "departureTime": "04:25",
+  "arrivalTime": "18:25"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C801",
+  "origin": "Albury Railway Station/Hume Highway",
+  "destination": "Kerang Railway Station/Boundary Street",
+  "departureTime": "07:00",
+  "arrivalTime": "13:25"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C801",
+  "origin": "Albury Railway Station/Hume Highway",
+  "destination": "Kerang Railway Station/Boundary Street",
+  "departureTime": "07:00",
+  "arrivalTime": "13:25"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C801",
+  "origin": "Albury Railway Station/Hume Highway",
+  "destination": "Kerang Railway Station/Boundary Street",
+  "departureTime": "07:00",
+  "arrivalTime": "13:25"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C802",
+  "origin": "Kerang Railway Station/Boundary Street",
+  "destination": "Albury Railway Station/Hume Highway",
+  "departureTime": "14:40",
+  "arrivalTime": "20:50"
+},
+{
+  "operationDays": [ "Sat" ],
+  "runID": "C802",
+  "origin": "Kerang Railway Station/Boundary Street",
+  "destination": "Albury Railway Station/Hume Highway",
+  "departureTime": "14:40",
+  "arrivalTime": "20:50"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C802",
+  "origin": "Kerang Railway Station/Boundary Street",
+  "destination": "Albury Railway Station/Hume Highway",
+  "departureTime": "14:40",
+  "arrivalTime": "20:50"
+},
+{
+  "operationDays": [ "Fri" ],
+  "runID": "C811",
+  "origin": "Federation Uni Blainey Drive/University Drive",
+  "destination": "Castlemaine Railway Station/Kennedy Street",
+  "departureTime": "17:57",
+  "arrivalTime": "19:37"
+},
+{
+  "operationDays": [ "Fri" ],
+  "runID": "C812",
+  "origin": "Castlemaine Railway Station/Kennedy Street",
+  "destination": "Ballarat Railway Station/Lydiard Street",
+  "departureTime": "20:02",
+  "arrivalTime": "21:27"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C813",
+  "origin": "Ballarat Railway Station/Lydiard Street",
+  "destination": "Castlemaine Railway Station/Kennedy Street",
+  "departureTime": "17:54",
+  "arrivalTime": "19:14"
+},
+{
+  "operationDays": [ "Sun" ],
+  "runID": "C814",
+  "origin": "Castlemaine Railway Station/Kennedy Street",
+  "destination": "Gear Avenue/Warrenheip Street",
+  "departureTime": "19:42",
+  "arrivalTime": "21:22"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
+  "runID": "C815",
+  "origin": "Ballarat Railway Station/Lydiard Street",
+  "destination": "Bendigo Railway Station/Railway Place",
+  "departureTime": "10:05",
+  "arrivalTime": "11:53"
+},
+{
+  "operationDays": [ "Mon", "Tue", "Wed", "Thu" ],
+  "runID": "C816",
+  "origin": "Bendigo Railway Station/Railway Place",
+  "destination": "Ballarat Railway Station/Lydiard Street",
+  "departureTime": "12:25",
+  "arrivalTime": "14:10"
+},
+{
+  "operationDays": [ "Fri" ],
+  "runID": "C816",
+  "origin": "Bendigo Railway Station/Railway Place",
+  "destination": "Ballarat Railway Station/Lydiard Street",
+  "departureTime": "15:15",
+  "arrivalTime": "17:03"
+},
+{
+  "operationDays": [ "Mon" ],
+  "runID": "C821",
+  "origin": "Wangaratta Railway Station/Norton Street",
+  "destination": "Bendigo Railway Station/Railway Place",
+  "departureTime": "07:46",
+  "arrivalTime": "10:46"
+},
+{
+  "operationDays": [ "Mon", "Wed" ],
+  "runID": "C822",
+  "origin": "Bendigo Railway Station/Railway Place",
+  "destination": "Wangaratta Railway Station/Norton Street",
+  "departureTime": "11:26",
+  "arrivalTime": "14:31"
+},
+{
+  "operationDays": [ "Wed", "Fri" ],
+  "runID": "C823",
+  "origin": "Wangaratta Railway Station/Norton Street",
+  "destination": "Bendigo Railway Station/Railway Place",
+  "departureTime": "07:46",
+  "arrivalTime": "10:46"
+},
+{
+  "operationDays": [ "Fri" ],
+  "runID": "C824",
+  "origin": "La Trobe University/Sharon Street",
+  "destination": "Wangaratta Railway Station/Norton Street",
+  "departureTime": "16:59",
+  "arrivalTime": "20:29"
+}]
