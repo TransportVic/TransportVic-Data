@@ -45,6 +45,9 @@ jobs:
     - name: Generate bus bay data
       run: node scripts/generate-bus-bays.mjs
 
+    - name: Generate bus depot data
+      run: node scripts/generate-bus-depots.mjs
+
     - name: Generate bus operator data
       run: node scripts/generate-bus-operators.mjs
 
