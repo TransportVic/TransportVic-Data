@@ -1,5 +1,4 @@
 import { default as distance } from '@turf/distance'
-import { TRANSIT_MODES } from './constants.mjs'
 import vnetMapping from '../geospatial/vnet/vnet-mapping.json' with { type: 'json' }
 
 /**
