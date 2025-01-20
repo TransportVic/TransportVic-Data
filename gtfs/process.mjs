@@ -1,5 +1,6 @@
 import { default as distance } from '@turf/distance'
 import vnetMapping from '../geospatial/vnet/vnet-mapping.json' with { type: 'json' }
+import vlineRoutes from '../excel/rail/vline-route-names/routes.json' with { type: 'json' }
 
 /**
  * Processes GTFS route data
@@ -18,6 +19,9 @@ export function processRoute(route) {
   }
 
   if (route.routeGTFSID === '1-vPK') return null
+  if (vlineRoutes[route.routeGTFSID]) {
+    route.routeName = vlineRoutes[route.routeGTFSID]
+  }
 
   return route
 }
