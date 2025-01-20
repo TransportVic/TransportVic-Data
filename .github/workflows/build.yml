@@ -57,6 +57,9 @@ jobs:
     - name: Generate station codes
       run: node scripts/generate-rail-station-codes.mjs
 
+    - name: Generate vline route names
+      run: node scripts/generate-vline-route-names.mjs
+
     - name: Generate vnet codes
       run: node scripts/generate-vnet-stop-codes.mjs
 
