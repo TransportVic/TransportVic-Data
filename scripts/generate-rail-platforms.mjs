@@ -22,5 +22,5 @@ stream.pipe(new CsvReadableStream())
     for (; i > 0 && platforms[i] === ''; i--);
     acc[stationName] = platforms.slice(0, i + 1)  
   }).on('end', async () => {
-    await writeFile(path.join(platformsDir, 'platforms.json'), JSON.stringify(acc))
+    await writeFile(path.join(platformsDir, 'platforms.json'), JSON.stringify(acc, null, 1))
   })

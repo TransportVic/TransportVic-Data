@@ -15,5 +15,5 @@ stream.pipe(new CsvReadableStream({ asObject: true }))
   .on('data', row => {
     acc[row.stop_id] = row.bay
   }).on('end', async () => {
-    await writeFile(path.join(busBaysDir, 'bus-bays.json'), JSON.stringify(acc))
+    await writeFile(path.join(busBaysDir, 'bus-bays.json'), JSON.stringify(acc, null, 1))
   })

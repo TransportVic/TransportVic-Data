@@ -26,6 +26,6 @@ vnetOverridesStream.pipe(new CsvReadableStream({ asObject: true }))
         }
       })
       .on('end', async () => {
-        await writeFile(path.join(vnetDir, 'vnet-stop-codes.json'), JSON.stringify(acc))
+        await writeFile(path.join(vnetDir, 'vnet-stop-codes.json'), JSON.stringify(acc, null, 2))
       })
   })

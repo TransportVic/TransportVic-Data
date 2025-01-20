@@ -16,5 +16,5 @@ stream.pipe(new CsvReadableStream({ asObject: true }))
   .on('data', row => {
     acc[row.route_gtfs_id] = row.route_name
   }).on('end', async () => {
-    await writeFile(path.join(routesDir, 'routes.json'), JSON.stringify(acc, null, 2))
+    await writeFile(path.join(routesDir, 'routes.json'), JSON.stringify(acc, null, 1))
   })

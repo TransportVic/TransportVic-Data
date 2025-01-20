@@ -21,4 +21,4 @@ let mapping = gtfsStops.features.reduce((acc, gtfsStop) => {
   return acc
 }, {})
 
-await writeFile(path.join(vnetStopsDir, 'vnet-mapping.json'), JSON.stringify(mapping, null, 2))
+await writeFile(path.join(vnetStopsDir, 'vnet-mapping.json'), JSON.stringify(mapping, null, 1))

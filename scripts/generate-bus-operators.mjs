@@ -70,7 +70,7 @@ const coloursCss = `:root {
 ${operatorColours}
 }`
 
-await writeFile(path.join(operatorsDir, 'metro-operators.json'), JSON.stringify(metroOutput))
-await writeFile(path.join(operatorsDir, 'regional-numbered-operators.json'), JSON.stringify(regionalNumberedOutput))
-await writeFile(path.join(operatorsDir, 'regional-inter-town-operators.json'), JSON.stringify(interTownOutput))
+await writeFile(path.join(operatorsDir, 'metro-operators.json'), JSON.stringify(metroOutput, null, 1))
+await writeFile(path.join(operatorsDir, 'regional-numbered-operators.json'), JSON.stringify(regionalNumberedOutput, null, 1))
+await writeFile(path.join(operatorsDir, 'regional-inter-town-operators.json'), JSON.stringify(interTownOutput, null, 1))
 await writeFile(path.join(operatorsDir, 'bus-operators.css'), coloursCss)
