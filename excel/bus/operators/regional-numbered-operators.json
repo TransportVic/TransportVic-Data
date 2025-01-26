@@ -307,7 +307,11 @@
   "V63": "McKenzies Tourist Service"
  },
  "Gisborne": {
-  "473": "Gisborne Transit",
-  "474": "Gisborne Transit"
+  "73": "Gisborne Transit",
+  "74": "Gisborne Transit",
+  "77": "Gisborne Transit"
+ },
+ "Glenrowan": {
+  "H46": "Dysons (Wangaratta)"
  }
 }
