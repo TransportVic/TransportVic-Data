@@ -1,6 +1,7 @@
 import { default as distance } from '@turf/distance'
 import vnetMapping from '../geospatial/vnet/vnet-mapping.json' with { type: 'json' }
 import vlineRoutes from '../excel/rail/vline-route-names/routes.json' with { type: 'json' }
+import metroOperators from '../excel/bus/operators/metro-operators.json' with { type: 'json' }
 
 /**
  * Processes GTFS route data
@@ -12,18 +13,30 @@ import vlineRoutes from '../excel/rail/vline-route-names/routes.json' with { typ
  * @param {GTFSRoute} route Route data
  * @returns {GTFSRoute} Updated route data
  */
-export function processRoute(route) {
-  if (route.routeGTFSID.match(/6-w\d\d/)) {
-    route.routeGTFSID = '6-WGT'
-    route.routeName = 'West Gippsland Transit'
-  }
+export function createRouteProcessor() {
+  return {
+    1: function processRoute(route) {
+      if (route.routeGTFSID === '1-vPK') return null
+      if (vlineRoutes[route.routeGTFSID]) {
+        route.routeName = vlineRoutes[route.routeGTFSID]
+      }
 
-  if (route.routeGTFSID === '1-vPK') return null
-  if (vlineRoutes[route.routeGTFSID]) {
-    route.routeName = vlineRoutes[route.routeGTFSID]
-  }
+      return route
+    },
+    4: function processRoute(route) {
+      if (metroOperators[route.routeNumber]) route.operators = metroOperators[route.routeNumber]
+      else console.log('Could not map operator for metro route', route.routeNumber, route.routeName)
 
-  return route
+      return route
+    },
+    6: function processRoute(route) {
+      if (route.routeGTFSID.match(/6-w\d\d/)) {
+        route.routeGTFSID = '6-WGT'
+        route.routeName = 'West Gippsland Transit'
+      }
+      return route
+    }
+  }
 }
 
 const PAKENHAM = {
