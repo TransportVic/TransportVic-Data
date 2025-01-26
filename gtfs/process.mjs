@@ -33,17 +33,20 @@ export function createRouteProcessor() {
       return route
     },
     6: function processRoute(route) {
-      if (route.routeNumber.match(/^WN\d+/)) return null
-
+      
       if (route.routeGTFSID.match(/6-w\d\d/)) {
         route.routeGTFSID = '6-WGT'
         route.routeName = 'West Gippsland Transit'
       }
+      
+      if (route.routeNumber) {
+        let parts
 
-      let parts
-      if (parts = route.routeNumber.match(/^[A-Z][a-z]+ (\d+)$/)) route.routeNumber = parts[1]
-      else if (parts = route.routeNumber.match(/^NSW(\d+)$/)) route.routeNumber = parts[1]
-      else if (parts = route.routeNumber.match(/^Wallan (Link \w)$/)) route.routeNumber = parts[1]
+        if (route.routeNumber.match(/^WN\d+/)) return null
+        else if (parts = route.routeNumber.match(/^[A-Z][a-z]+ (\d+)$/)) route.routeNumber = parts[1]
+        else if (parts = route.routeNumber.match(/^NSW(\d+)$/)) route.routeNumber = parts[1]
+        else if (parts = route.routeNumber.match(/^Wallan (Link \w)$/)) route.routeNumber = parts[1]
+      }
 
       return route
     }
