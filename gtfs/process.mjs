@@ -9,6 +9,9 @@ import metroOperators from '../excel/bus/operators/metro-operators.json' with { 
  * The following alterations are applied:
  * - West Gippsland Transit routes are merged into a single 6-WGT route.
  * - V/Line Pakenham (1-vPK) is dropped from the data
+ * - White Night routes are dropped
+ * - Metro Bus operators are applied
+ * - Regional bus numbers are modified to remove any town names
  * 
  * @param {GTFSRoute} route Route data
  * @returns {GTFSRoute} Updated route data
@@ -30,10 +33,18 @@ export function createRouteProcessor() {
       return route
     },
     6: function processRoute(route) {
+      if (route.routeNumber.match(/^WN\d+/)) return null
+
       if (route.routeGTFSID.match(/6-w\d\d/)) {
         route.routeGTFSID = '6-WGT'
         route.routeName = 'West Gippsland Transit'
       }
+
+      let parts
+      if (parts = route.routeNumber.match(/^[A-Z][a-z]+ (\d+)$/)) route.routeNumber = parts[1]
+      else if (parts = route.routeNumber.match(/^NSW(\d+)$/)) route.routeNumber = parts[1]
+      else if (parts = route.routeNumber.match(/^Wallan (Link \w)$/)) route.routeNumber = parts[1]
+
       return route
     }
   }
