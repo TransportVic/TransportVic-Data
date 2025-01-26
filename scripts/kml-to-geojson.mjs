@@ -22,7 +22,7 @@ async function readFileAsGeoJSON(inputFile) {
 async function convertFile(inputFile) {
   const pathData = path.parse(inputFile)
   const baseName = pathData.name
-  const outputFile = path.join(pathData.dir, baseName + '.geojson')
+  const outputFile = path.join(pathData.dir, baseName.replace(/ /g, '-').toLowerCase() + '.geojson')
 
   const geoJSON = await readFileAsGeoJSON(inputFile)
   for (let feature of geoJSON.features) {
