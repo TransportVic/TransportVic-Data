@@ -45,7 +45,7 @@ export function createRouteProcessor() {
         if (route.routeNumber.match(/^WN\d+/)) return null
         else if (parts = route.routeNumber.match(/^[A-Z][a-z]+ (\d+)$/)) route.routeNumber = parts[1]
         else if (parts = route.routeNumber.match(/^NSW(\d+)$/)) route.routeNumber = parts[1]
-        else if (parts = route.routeNumber.match(/^Wallan (Link \w)$/)) route.routeNumber = parts[1]
+        else if (parts = route.routeNumber.match(/Link (\w)$/)) route.routeNumber = parts[1]
       }
 
       return route
