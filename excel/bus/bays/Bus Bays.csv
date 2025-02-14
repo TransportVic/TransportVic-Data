@@ -1,8 +1,8 @@
 stop_id,bay,name,notes
-37707,1,Bacchus Marsh Station/Station St (Maddingley),
-48833,2,Bacchus Marsh Station/Station St (Maddingley),
-48834,3,Bacchus Marsh Station/Station St (Maddingley),
-20912,4,Bacchus Marsh Station/Station St (Maddingley),coach and TRBS stop
+37707,A,Bacchus Marsh Station/Station St (Maddingley),Former Bay 1
+48834,B,Bacchus Marsh Station/Station St (Maddingley),Former Bay 3
+48833,C,Bacchus Marsh Station/Station St (Maddingley),Former Bay 2
+20912,D,Bacchus Marsh Station/Station St (Maddingley),Former Bay 4
 46443,2,Bairnsdale Railway Station/MacLeod St (Bairnsdale),
 46442,3,Bairnsdale Railway Station/MacLeod St (Bairnsdale),
 16309,4,Bairnsdale Railway Station/MacLeod St (Bairnsdale),
@@ -90,6 +90,7 @@ stop_id,bay,name,notes
 21300,3,Chirnside Park SC/Maroondah Hwy (Chirnside Park),
 21299,4,Chirnside Park SC/Maroondah Hwy (Chirnside Park),
 21296,5,Chirnside Park SC/Maroondah Hwy (Chirnside Park),Flexiride stop
+41924,2,Colac Library,
 51805,1,Cowes Transit Centre/Church St (Cowes),
 51806,3,Cowes Transit Centre/Church St (Cowes),coach stop
 51804,4,Cowes Transit Centre/Church St (Cowes),
@@ -271,7 +272,8 @@ stop_id,bay,name,notes
 47997,17,Melbourne Airport/Grants Rd (Melbourne Airport),
 47998,18,Melbourne Airport/Grants Rd (Melbourne Airport),
 47999,19,Melbourne Airport/Grants Rd (Melbourne Airport),
-28671,B,Melbourne University/Grattan St (Carlton),no bay A? (possibly 28672)
+28671,A,Melbourne University/Grattan St (Carlton),
+28672,B,Melbourne University/Grattan St (Carlton),
 28670,C,Melbourne University/Grattan St (Carlton),
 28673,D,Melbourne University/Grattan St (Carlton),
 28674,E,Melbourne University/Grattan St (Carlton),
@@ -286,13 +288,13 @@ stop_id,bay,name,notes
 51731,2,Mernda Station/Bridge Inn Rd (Mernda),
 51733,3,Mernda Station/Bridge Inn Rd (Mernda),
 51734,4,Mernda Station/Bridge Inn Rd (Mernda),
-47111,5,Mitcham Station/Calcutta St (Mitcham),
-47112,6,Mitcham Station/Calcutta St (Mitcham),
-47113,7,Mitcham Station/Calcutta St (Mitcham),
-21048,1,Mitcham Station/Colombo St (Mitcham),
-47109,2,Mitcham Station/Colombo St (Mitcham),
-47110,3,Mitcham Station/Colombo St (Mitcham),
-47168,4,Mitcham Station/Colombo St (Mitcham),
+47111,E,Mitcham Station/Calcutta St (Mitcham),Former Bay 5
+47112,F,Mitcham Station/Calcutta St (Mitcham),Former Bay 6
+47113,G,Mitcham Station/Calcutta St (Mitcham),Former Bay 7
+21048,A,Mitcham Station/Colombo St (Mitcham),Former Bay 1
+47109,B,Mitcham Station/Colombo St (Mitcham),Former Bay 2
+47110,C,Mitcham Station/Colombo St (Mitcham),Former Bay 3
+47168,D,Mitcham Station/Colombo St (Mitcham),Former Bay 4
 35756,A,Mitchell St Central - Bay A/Mitchell St (Bendigo),
 35822,B,Mitchell St Central - Bay B/Mitchell St (Bendigo),
 48368,A,Monash University (Clayton),
@@ -347,6 +349,15 @@ stop_id,bay,name,notes
 19804,B,Oakleigh Station/Portman St (Oakleigh),
 19803,C,Oakleigh Station/Portman St (Oakleigh),
 19800,D,Oakleigh Station/Portman St (Oakleigh),
+28801,A,Pakenham Station,
+28802,B,Pakenham Station,
+28803,C,Pakenham Station,
+28800,D,Pakenham Station,
+28799,E,Pakenham Station,
+28798,F,Pakenham Station,
+28797,G,Pakenham Station,
+28796,H,Pakenham Station,
+28795,I,Pakenham Station,
 19231,1,Reservoir Station/High St (Reservoir),
 18864,2,Reservoir Station/High St (Reservoir),
 18865,3,Reservoir Station/High St (Reservoir),
@@ -435,7 +446,7 @@ stop_id,bay,name,notes
 44913,2,The Pines SC,
 20450,3,The Pines SC,
 44916,4,The Pines SC,
-49915,5,The Pines SC,
+44915,5,The Pines SC,
 20448,6,The Pines SC,
 47668,1,Warragul Station/Alfred St (Warragul),
 47669,2,Warragul Station/Alfred St (Warragul),
