@@ -15,6 +15,14 @@ const MTP_THL_AEN_2 = JSON.parse(JSON.stringify(MTP_THL_AEN))
 MTP_ANZ_THL_2.stops.slice(1).forEach(stop => stop.platform = '2')
 MTP_THL_AEN_2.stops.slice(0, -1).forEach(stop => stop.platform = '2')
 
+const MTP_AEN_THL = JSON.parse(JSON.stringify(MTP_THL_AEN))
+MTP_AEN_THL.stops.reverse()
+MTP_AEN_THL.runData.direction.railDirection = 'Up'
+
+const MTP_THL_ANZ = JSON.parse(JSON.stringify(MTP_ANZ_THL))
+MTP_THL_ANZ.stops.reverse()
+MTP_THL_ANZ.runData.direction.railDirection = 'Down'
+
 import appendDoorsData from '../sample/get-doors.mjs'
 
 describe('The door side calculation', () => {
@@ -31,6 +39,9 @@ describe('The door side calculation', () => {
 
   appendDoorsData(MTP_ANZ_THL_2)
   appendDoorsData(MTP_THL_AEN_2)
+
+  appendDoorsData(MTP_AEN_THL)
+  appendDoorsData(MTP_THL_ANZ)
 
   it('Should reverse the door side for Up trips', () => {
     expect(LIL_FSS_VLP.stops[0].doorSide).to.equal('L')
@@ -110,5 +121,20 @@ describe('The door side calculation', () => {
     expect(MTP_THL_AEN_2.stops[2].doorSide).to.equal('L')
     expect(MTP_THL_AEN_2.stops[3].doorSide).to.equal('L')
     expect(MTP_THL_AEN_2.stops[4].doorSide).to.equal('R')
+  })
+
+
+  it('West Footscray to Town Hall', () => {
+    expect(MTP_AEN_THL.stops[0].doorSide).to.equal('L')
+    expect(MTP_AEN_THL.stops[1].doorSide).to.equal('L')
+    expect(MTP_AEN_THL.stops[2].doorSide).to.equal('L')
+    expect(MTP_AEN_THL.stops[3].doorSide).to.equal('L')
+    expect(MTP_AEN_THL.stops[4].doorSide).to.equal('L')
+  })
+
+  it('Town Hall to Hawksburn', () => {
+    expect(MTP_THL_ANZ.stops[0].doorSide).to.equal('L')
+    expect(MTP_THL_ANZ.stops[1].doorSide).to.equal('L')
+    expect(MTP_THL_ANZ.stops[2].doorSide).to.equal('R')
   })
 })
