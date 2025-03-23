@@ -6,6 +6,10 @@ let easternLines = [
   "Mernda", "Hurstbridge", "City Circle"
 ]
 
+let mtpEasternLines = [
+  "Cranbourne", "Pakenham", "Frankston"
+]
+
 function accountForDirection(tripDirection, doorSide) {
   if (tripDirection === 'Down') return doorSide
   return doorSide === 'L' ? 'R' : 'L'
@@ -27,6 +31,13 @@ function getFSSDirection(trip) {
   return upDirection === 'Up' ? 'Down' : 'Up'
 }
 
+function getTHLDirection(trip) {
+  let upDirection = mtpEasternLines.includes(trip.routeData.routeName) ? 'Down' : 'Up'
+  if (trip.runData.direction.railDirection === 'Up') return upDirection
+
+  return upDirection === 'Up' ? 'Down' : 'Up'
+}
+
 export default function appendDoorsData(trip) {
   trip.stops.forEach(stop => {
     let platformInt = parseInt(stop.platform) - 1
@@ -35,6 +46,7 @@ export default function appendDoorsData(trip) {
 
     let direction = trip.runData.direction.railDirection
     if (stop.stationName === 'Flinders Street') direction = getFSSDirection(trip)
+    if (stop.stationName === 'Town Hall') direction = getTHLDirection(trip)
 
     stop.doorSide = accountForDirection(direction, rawDoorSide)
   })
