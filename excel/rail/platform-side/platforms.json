@@ -1324,5 +1324,25 @@
   "L",
   "R",
   "L"
+ ],
+ "Arden": [
+  "R",
+  "L"
+ ],
+ "Parkville": [
+  "R",
+  "L"
+ ],
+ "State Library": [
+  "R",
+  "L"
+ ],
+ "Town Hall": [
+  "R",
+  "L"
+ ],
+ "Anzac": [
+  "L",
+  "R"
  ]
 }

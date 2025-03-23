@@ -1,0 +1,58 @@
+{
+  "runData": {
+    "runRef": "967001",
+    "destination": "West Footscray",
+    "direction": {
+      "directionID": 1,
+      "directionName": "Sunbury",
+      "railDirection": "Down"
+    },
+    "position": null,
+    "vehicle": null,
+    "tdn": "C001",
+    "isRailBus": false,
+    "viaCityLoop": true,
+    "formedBy": null,
+    "forming": null
+  },
+  "routeData": {
+    "ptvRouteID": 14,
+    "routeName": "Sunbury",
+    "routeNumber": null,
+    "gtfsRouteID": "2-SUY"
+  },
+  "stops": [
+    {
+      "stationName": "Town Hall",
+      "platform": "1",
+      "scheduledDeparture": "2024-07-07T19:19:00.000Z",
+      "estimatedDeparture": null
+    },
+    {
+      "stationName": "State Library",
+      "platform": "1",
+      "scheduledDeparture": "2024-07-07T19:21:00.000Z",
+      "estimatedDeparture": null
+    },
+    {
+      "stationName": "Parkville",
+      "platform": "1",
+      "scheduledDeparture": "2024-07-07T19:23:00.000Z",
+      "estimatedDeparture": null
+    },
+    {
+      "stationName": "Arden",
+      "platform": "1",
+      "scheduledDeparture": "2024-07-07T19:25:00.000Z",
+      "estimatedDeparture": null
+    },
+    {
+      "stationName": "West Footscray",
+      "platform": "1",
+      "scheduledDeparture": "2024-07-07T19:30:00.000Z",
+      "estimatedDeparture": null
+    }
+  ],
+  "formedByStops": [],
+  "formingStops": []
+}

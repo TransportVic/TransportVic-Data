@@ -1,0 +1,46 @@
+{
+  "runData": {
+    "runRef": "967000",
+    "destination": "Town Hall",
+    "direction": {
+      "directionID": 1,
+      "directionName": "City (Town Hall)",
+      "railDirection": "Up"
+    },
+    "position": null,
+    "vehicle": null,
+    "tdn": "C000",
+    "isRailBus": false,
+    "viaCityLoop": true,
+    "formedBy": null,
+    "forming": null
+  },
+  "routeData": {
+    "ptvRouteID": 14,
+    "routeName": "Pakenham",
+    "routeNumber": null,
+    "gtfsRouteID": "2-PKM"
+  },
+  "stops": [
+    {
+      "stationName": "Hawksburn",
+      "platform": "3",
+      "scheduledDeparture": "2024-07-07T19:19:00.000Z",
+      "estimatedDeparture": null
+    },
+    {
+      "stationName": "Anzac",
+      "platform": "1",
+      "scheduledDeparture": "2024-07-07T19:21:00.000Z",
+      "estimatedDeparture": null
+    },
+    {
+      "stationName": "Town Hall",
+      "platform": "1",
+      "scheduledDeparture": "2024-07-07T19:23:00.000Z",
+      "estimatedDeparture": null
+    }
+  ],
+  "formedByStops": [],
+  "formingStops": []
+}
