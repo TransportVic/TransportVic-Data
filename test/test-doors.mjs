@@ -10,6 +10,11 @@ import FSS_SUY_VLP from './doors-pattern/fss-suy-vlp.json' with { type: 'json' }
 import MTP_ANZ_THL from './doors-pattern/mtp-anz-thl.json' with { type: 'json' }
 import MTP_THL_AEN from './doors-pattern/mtp-thl-aen.json' with { type: 'json' }
 
+const MTP_ANZ_THL_2 = JSON.parse(JSON.stringify(MTP_ANZ_THL))
+const MTP_THL_AEN_2 = JSON.parse(JSON.stringify(MTP_THL_AEN))
+MTP_ANZ_THL_2.stops.slice(1).forEach(stop => stop.platform = '2')
+MTP_THL_AEN_2.stops.slice(0, -1).forEach(stop => stop.platform = '2')
+
 import appendDoorsData from '../sample/get-doors.mjs'
 
 describe('The door side calculation', () => {
@@ -23,6 +28,9 @@ describe('The door side calculation', () => {
   appendDoorsData(FSS_SUY_VLP)
   appendDoorsData(MTP_ANZ_THL)
   appendDoorsData(MTP_THL_AEN)
+
+  appendDoorsData(MTP_ANZ_THL_2)
+  appendDoorsData(MTP_THL_AEN_2)
 
   it('Should reverse the door side for Up trips', () => {
     expect(LIL_FSS_VLP.stops[0].doorSide).to.equal('L')
@@ -88,5 +96,19 @@ describe('The door side calculation', () => {
     expect(MTP_THL_AEN.stops[2].doorSide).to.equal('R')
     expect(MTP_THL_AEN.stops[3].doorSide).to.equal('R')
     expect(MTP_THL_AEN.stops[4].doorSide).to.equal('R')
+  })
+
+  it('Hawksburn to Town Hall using P2', () => {
+    expect(MTP_ANZ_THL_2.stops[0].doorSide).to.equal('L')
+    expect(MTP_ANZ_THL_2.stops[1].doorSide).to.equal('L')
+    expect(MTP_ANZ_THL_2.stops[2].doorSide).to.equal('L')
+  })
+
+  it('Town Hall to West Footscray using P2', () => {
+    expect(MTP_THL_AEN_2.stops[0].doorSide).to.equal('L')
+    expect(MTP_THL_AEN_2.stops[1].doorSide).to.equal('L')
+    expect(MTP_THL_AEN_2.stops[2].doorSide).to.equal('L')
+    expect(MTP_THL_AEN_2.stops[3].doorSide).to.equal('L')
+    expect(MTP_THL_AEN_2.stops[4].doorSide).to.equal('R')
   })
 })
