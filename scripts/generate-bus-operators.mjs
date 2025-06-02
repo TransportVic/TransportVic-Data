@@ -57,20 +57,19 @@ const operatorColours = operatorDetails.slice(2).reduce((acc, row) => {
 
   const simpleOperatorName = operator.replace(/[^\w]/g, '-').replace(/--+/g, '-').replace(/-$/, '').toLowerCase()
 
-  const css = `--${simpleOperatorName}-odd: #${oddColour};
---${simpleOperatorName}-even: #${evenColour};
---${simpleOperatorName}-text: #${textColour};`.toLowerCase()
+  const css = `.${simpleOperatorName} {
+  --operator-odd: #${oddColour};
+  --operator-even: #${evenColour};
+  --operator-text: #${textColour};
+}`
 
   acc.push(css)
 
   return acc
 }, []).join('\n')
 
-const coloursCss = `:root {
-${operatorColours}
-}`
 
 await writeFile(path.join(operatorsDir, 'metro-operators.json'), JSON.stringify(metroOutput, null, 1))
 await writeFile(path.join(operatorsDir, 'regional-numbered-operators.json'), JSON.stringify(regionalNumberedOutput, null, 1))
 await writeFile(path.join(operatorsDir, 'regional-inter-town-operators.json'), JSON.stringify(interTownOutput, null, 1))
-await writeFile(path.join(operatorsDir, 'bus-operators.css'), coloursCss)
+await writeFile(path.join(operatorsDir, 'bus-operators.css'), operatorColours)
