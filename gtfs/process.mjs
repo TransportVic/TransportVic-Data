@@ -41,10 +41,17 @@ export function createRouteProcessor() {
       
       if (route.routeNumber) {
         let parts
-
+        
+        // White Night
         if (route.routeNumber.match(/^WN\d+/)) return null
+
+        // Numbers with the town name eg Wallan 1, Barmah 8
         else if (parts = route.routeNumber.match(/^[A-Z][a-z]+ (\d+)$/)) route.routeNumber = parts[1]
+
+        // Martin's Albury routes
         else if (parts = route.routeNumber.match(/^NSW(\d+)$/)) route.routeNumber = parts[1]
+
+        // Wallan Link A
         else if (parts = route.routeNumber.match(/Link (\w)$/)) route.routeNumber = parts[1]
       }
 
