@@ -1,2 +1,11 @@
-Data is sourced from https://data.gov.au/data/dataset/vic-suburb-locality-boundaries-geoscape-administrative-boundaries
-Last updated: May 2024
+VIC data is sourced from https://data.gov.au/data/dataset/vic-suburb-locality-boundaries-geoscape-administrative-boundaries
+Last updated: June 2025
+
+SA data is sourced from https://data.gov.au/data/dataset/sa-suburb-locality-boundaries-geoscape-administrative-boundaries
+Last updated: June 2025
+
+NSW data is sourced from https://data.gov.au/data/dataset/nsw-suburb-locality-boundaries-geoscape-administrative-boundaries
+Last updated: June 2025
+
+ACT dat is sourcde from https://data.gov.au/data/dataset/act-suburb-locality-boundaries-geoscape-administrative-boundaries
+Last updated: June 2025

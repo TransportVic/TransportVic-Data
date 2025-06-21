@@ -2,3 +2,4 @@
 /node_modules
 /proprietary
 ~$*.xls*
+/geospatial/suburb-boundaries/raw-data
