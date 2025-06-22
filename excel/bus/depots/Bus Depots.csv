@@ -20,6 +20,7 @@ depot_id,depot_name
 32,Kinetic (Heatherton)
 33,Kinetic (Thomastown)
 35,Kinetic (Sunshine)
+36,Transit Systems (Melton)
 38,CDC Melbourne (Sunshine)
 39,Dysons (Bundoora)
 40,Matyrs Bus Service
@@ -33,7 +34,8 @@ depot_id,depot_name
 48,Panorama
 49,CDC Melbourne (Oakleigh)
 51,Cranbourne Transit
-53,Transit Systems
+52,Ventura (Pakenham)
+53,Transit Systems (Footscray)
 54,Strathmore Transit
 57,Warragul Bus Lines
 58,CDC Geelong
