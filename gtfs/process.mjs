@@ -24,6 +24,16 @@ export function createRouteProcessor() {
         route.routeName = vlineRoutes[route.routeGTFSID]
       }
 
+      if (route.operators === 'Unknown') route.operators = ['V/Line']
+
+      return route
+    },
+    2: function processRoute(route) {
+      if (route.operators === 'Unknown') route.operators = ['Metro']
+      return route
+    },
+    3: function processRoute(route) {
+      if (route.operators === 'Unknown') route.operators = ['Yarra Trams']
       return route
     },
     4: function processRoute(route) {
@@ -32,13 +42,16 @@ export function createRouteProcessor() {
 
       return route
     },
+    5: function processRoute(route) {
+      if (route.operators === 'Unknown') route.operators = ['V/Line']
+      return route
+    },
     6: function processRoute(route) {
-      
       if (route.routeGTFSID.match(/6-w\d\d/)) {
         route.routeGTFSID = '6-WGT'
         route.routeName = 'West Gippsland Transit'
       }
-      
+
       if (route.routeNumber) {
         let parts
         
@@ -55,6 +68,14 @@ export function createRouteProcessor() {
         else if (parts = route.routeNumber.match(/Link (\w)$/)) route.routeNumber = parts[1]
       }
 
+      return route
+    },
+    10: function processRoute(route) {
+      if (route.operators === 'Unknown') route.operators = ['Journey Beyond']
+      return route
+    },
+    11: function processRoute(route) {
+      if (route.operators === 'Unknown') route.operators = ['Skybus']
       return route
     }
   }
