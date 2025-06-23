@@ -24,16 +24,16 @@ export function createRouteProcessor() {
         route.routeName = vlineRoutes[route.routeGTFSID]
       }
 
-      if (route.operators === 'Unknown') route.operators = ['V/Line']
+      if (route.operators[0] === 'Unknown') route.operators = ['V/Line']
 
       return route
     },
     2: function processRoute(route) {
-      if (route.operators === 'Unknown') route.operators = ['Metro']
+      if (route.operators[0] === 'Unknown') route.operators = ['Metro']
       return route
     },
     3: function processRoute(route) {
-      if (route.operators === 'Unknown') route.operators = ['Yarra Trams']
+      if (route.operators[0] === 'Unknown') route.operators = ['Yarra Trams']
       return route
     },
     4: function processRoute(route) {
@@ -43,7 +43,7 @@ export function createRouteProcessor() {
       return route
     },
     5: function processRoute(route) {
-      if (route.operators === 'Unknown') route.operators = ['V/Line']
+      if (route.operators[0] === 'Unknown') route.operators = ['V/Line']
       return route
     },
     6: function processRoute(route) {
@@ -71,11 +71,11 @@ export function createRouteProcessor() {
       return route
     },
     10: function processRoute(route) {
-      if (route.operators === 'Unknown') route.operators = ['Journey Beyond']
+      if (route.operators[0] === 'Unknown') route.operators = ['Journey Beyond']
       return route
     },
     11: function processRoute(route) {
-      if (route.operators === 'Unknown') route.operators = ['Skybus']
+      if (route.operators[0] === 'Unknown') route.operators = ['Skybus']
       return route
     }
   }
