@@ -1,1 +1,1013 @@
-{"type":"FeatureCollection","features":[{"type":"Feature","properties":{"stopGTFSID":37630,"stopName":"Belmore St/Orr St (Yarrawonga)"},"geometry":{"type":"Point","coordinates":[146.004862272354,-36.0130697615623]}},{"type":"Feature","properties":{"stopGTFSID":44679,"stopName":"Yarrawonga District Hospital/Lynch St (Yarrawonga)"},"geometry":{"type":"Point","coordinates":[146.007329550737,-36.0127656507196]}},{"type":"Feature","properties":{"stopGTFSID":44678,"stopName":"Yarrawonga Community Health Centre/Piper St (Yarrawonga)"},"geometry":{"type":"Point","coordinates":[146.007162972973,-36.0110062484058]}},{"type":"Feature","properties":{"stopGTFSID":44665,"stopName":"McNally St/Belmore St (Yarrawonga)"},"geometry":{"type":"Point","coordinates":[146.004707024624,-36.014826495696]}},{"type":"Feature","properties":{"stopGTFSID":44710,"stopName":"Belmore St/Witt St (Yarrawonga)"},"geometry":{"type":"Point","coordinates":[146.004968962783,-36.0089956389369]}},{"type":"Feature","properties":{"stopGTFSID":44698,"stopName":"Belmore St/Irvine Pde (Yarrawonga)"},"geometry":{"type":"Point","coordinates":[146.003921973226,-36.0084279867115]}},{"type":"Feature","properties":{"stopGTFSID":44677,"stopName":"Senior Citizens Centre/23 Hovel St (Yarrawonga)"},"geometry":{"type":"Point","coordinates":[146.003003590304,-36.0117470768645]}},{"type":"Feature","properties":{"stopGTFSID":47470,"stopName":"Orr St/Sharp St (Yarrawonga)"},"geometry":{"type":"Point","coordinates":[146.000068097015,-36.0131020092226]}},{"type":"Feature","properties":{"stopGTFSID":44676,"stopName":"McNally St/Tom St (Yarrawonga)"},"geometry":{"type":"Point","coordinates":[146.001637884328,-36.0153328994604]}},{"type":"Feature","properties":{"stopGTFSID":47462,"stopName":"Sacred Heart School/Coghill St (Yarrawonga)"},"geometry":{"type":"Point","coordinates":[146.009865950373,-36.0095951279917]}},{"type":"Feature","properties":{"stopGTFSID":47461,"stopName":"Orr St/Coghill St (Yarrawonga)"},"geometry":{"type":"Point","coordinates":[146.009722345005,-36.0130919593413]}},{"type":"Feature","properties":{"stopGTFSID":44681,"stopName":"Elizabeth St/Woods Rd (Yarrawonga)"},"geometry":{"type":"Point","coordinates":[146.013148742053,-36.0097303706879]}},{"type":"Feature","properties":{"stopGTFSID":44680,"stopName":"Orr St/Woods Rd (Yarrawonga)"},"geometry":{"type":"Point","coordinates":[146.013243120155,-36.0128414984288]}},{"type":"Feature","properties":{"stopGTFSID":44695,"stopName":"Orr St/Woods Rd (Yarrawonga)"},"geometry":{"type":"Point","coordinates":[146.013353850718,-36.0128604404585]}},{"type":"Feature","properties":{"stopGTFSID":47459,"stopName":"Woods Rd/Telford St (Yarrawonga)"},"geometry":{"type":"Point","coordinates":[146.012590624112,-36.0153334232712]}},{"type":"Feature","properties":{"stopGTFSID":47460,"stopName":"Murphy St/Telford St (Yarrawonga)"},"geometry":{"type":"Point","coordinates":[146.009248211658,-36.0163967327733]}},{"type":"Feature","properties":{"stopGTFSID":47463,"stopName":"Lynch St/Telford St (Yarrawonga)"},"geometry":{"type":"Point","coordinates":[146.007042381615,-36.0170816980514]}},{"type":"Feature","properties":{"stopGTFSID":47464,"stopName":"Duffield St/Telford St (Yarrawonga)"},"geometry":{"type":"Point","coordinates":[146.003455706697,-36.0181428219268]}},{"type":"Feature","properties":{"stopGTFSID":47465,"stopName":"Sharp St/Dunlop St (Yarrawonga)"},"geometry":{"type":"Point","coordinates":[146.000948303388,-36.0198529334101]}},{"type":"Feature","properties":{"stopGTFSID":44675,"stopName":"Warwick St/Thorn St (Yarrawonga)"},"geometry":{"type":"Point","coordinates":[146.002722567277,-36.0208413743447]}},{"type":"Feature","properties":{"stopGTFSID":44670,"stopName":"McClean St/Sharp St (Yarrawonga)"},"geometry":{"type":"Point","coordinates":[146.000389940494,-36.0218857802204]}},{"type":"Feature","properties":{"stopGTFSID":44674,"stopName":"Hargrave Ct/McClean St (Yarrawonga)"},"geometry":{"type":"Point","coordinates":[146.007878563736,-36.0220832023315]}},{"type":"Feature","properties":{"stopGTFSID":44672,"stopName":"Jackson St/McLeod St (Yarrawonga)"},"geometry":{"type":"Point","coordinates":[146.001240075023,-36.0239934714151]}},{"type":"Feature","properties":{"stopGTFSID":44673,"stopName":"Opp 43/45 McLeod St (Yarrawonga)"},"geometry":{"type":"Point","coordinates":[146.006988692779,-36.0240141667959]}},{"type":"Feature","properties":{"stopGTFSID":47466,"stopName":"Pinniger St/South Rd (Yarrawonga)"},"geometry":{"type":"Point","coordinates":[146.006020416595,-36.0259985667347]}},{"type":"Feature","properties":{"stopGTFSID":47467,"stopName":"Weston Cl/South Rd (Yarrawonga)"},"geometry":{"type":"Point","coordinates":[146.011258707805,-36.0260148271459]}},{"type":"Feature","properties":{"stopGTFSID":44682,"stopName":"Parsons Cres/Witt St (Yarrawonga)"},"geometry":{"type":"Point","coordinates":[146.018173789026,-36.0089602161694]}},{"type":"Feature","properties":{"stopGTFSID":44694,"stopName":"Parsons Cres/Witt St (Yarrawonga)"},"geometry":{"type":"Point","coordinates":[146.017351416652,-36.0090616673933]}},{"type":"Feature","properties":{"stopGTFSID":44693,"stopName":"Mitchel Dr/Derry Dr (Yarrawonga)"},"geometry":{"type":"Point","coordinates":[146.020431258702,-36.0094564977415]}},{"type":"Feature","properties":{"stopGTFSID":44692,"stopName":"Derry Dr/Zorro Dr (Yarrawonga)"},"geometry":{"type":"Point","coordinates":[146.021435134182,-36.0117275878692]}},{"type":"Feature","properties":{"stopGTFSID":44683,"stopName":"Kathryn Cres/Witt St (Yarrawonga)"},"geometry":{"type":"Point","coordinates":[146.020752509546,-36.0068085577519]}},{"type":"Feature","properties":{"stopGTFSID":44684,"stopName":"Anchorage Way/Hawkins Dr (Yarrawonga)"},"geometry":{"type":"Point","coordinates":[146.021278354002,-36.0055596919241]}},{"type":"Feature","properties":{"stopGTFSID":44685,"stopName":"Hollywood Cres/La Bamba Dr (Yarrawonga)"},"geometry":{"type":"Point","coordinates":[146.024230014168,-36.0082433216463]}},{"type":"Feature","properties":{"stopGTFSID":23225,"stopName":"Jane Rd/Fiona Dr (Yarrawonga)"},"geometry":{"type":"Point","coordinates":[146.025957706465,-36.0067066945546]}},{"type":"Feature","properties":{"stopGTFSID":47458,"stopName":"Botts Rd/Jane Rd (Yarrawonga)"},"geometry":{"type":"Point","coordinates":[146.030728104892,-36.0067723874267]}},{"type":"Feature","properties":{"stopGTFSID":47456,"stopName":"Silverwoods Bvd/Robinson Way (Yarrawonga)"},"geometry":{"type":"Point","coordinates":[146.038142170397,-36.0075172549955]}},{"type":"Feature","properties":{"stopGTFSID":47457,"stopName":"Silverwoods Bvd/Phillip Hyland Dr (Yarrawonga)"},"geometry":{"type":"Point","coordinates":[146.03671098652,-36.0102374756627]}},{"type":"Feature","properties":{"stopGTFSID":47455,"stopName":"Henderson St/Hogans Rd (Yarrawonga)"},"geometry":{"type":"Point","coordinates":[146.049224338681,-36.0077408509348]}},{"type":"Feature","properties":{"stopGTFSID":44691,"stopName":"Hogans Rd/Rosemary Ct (Yarrawonga)"},"geometry":{"type":"Point","coordinates":[146.050305589872,-36.0128792612761]}},{"type":"Feature","properties":{"stopGTFSID":44690,"stopName":"Campbellfield Dr/Rosemary Ct (Yarrawonga)"},"geometry":{"type":"Point","coordinates":[146.055997642823,-36.0119955985793]}},{"type":"Feature","properties":{"stopGTFSID":44689,"stopName":"Braejems Walk/Rosemary Ct (Yarrawonga)"},"geometry":{"type":"Point","coordinates":[146.057450677001,-36.0157755239242]}},{"type":"Feature","properties":{"stopGTFSID":44688,"stopName":"Rosemary Ct (Yarrawonga)"},"geometry":{"type":"Point","coordinates":[146.058882454918,-36.0185545389006]}},{"type":"Feature","properties":{"stopGTFSID":47483,"stopName":"28 Linthorpe Dr (Yarrawonga)"},"geometry":{"type":"Point","coordinates":[146.048687691719,-36.0043828118354]}},{"type":"Feature","properties":{"stopGTFSID":44687,"stopName":"Woodside Walk/Stevenson Ct (Yarrawonga)"},"geometry":{"type":"Point","coordinates":[146.061930323821,-36.0207601790585]}},{"type":"Feature","properties":{"stopGTFSID":44686,"stopName":"73 Stevenson Ct (Yarrawonga)"},"geometry":{"type":"Point","coordinates":[146.065031718398,-36.023146470195]}},{"type":"Feature","properties":{"stopGTFSID":44666,"stopName":"Police Station/Murray Valley Hwy (Yarrawonga)"},"geometry":{"type":"Point","coordinates":[145.995057681826,-36.0205519993036]}},{"type":"Feature","properties":{"stopGTFSID":44669,"stopName":"Murray Valley Resort/Murray Valley Hwy (Yarrawonga)"},"geometry":{"type":"Point","coordinates":[145.99500403068,-36.0204073019787]}},{"type":"Feature","properties":{"stopGTFSID":47449,"stopName":"Benalla Rd/Benalla-Yarrawonga Rd (Yarrawonga)"},"geometry":{"type":"Point","coordinates":[145.99542086673,-36.0269109538649]}},{"type":"Feature","properties":{"stopGTFSID":47469,"stopName":"Murray Valley Hwy/Tregany Ct (Yarrawonga)"},"geometry":{"type":"Point","coordinates":[145.988580952322,-36.0219490399766]}},{"type":"Feature","properties":{"stopGTFSID":47468,"stopName":"Murray Valley Hwy/Cullens Rd (Yarrawonga)"},"geometry":{"type":"Point","coordinates":[145.982011355392,-36.0219204964949]}},{"type":"Feature","properties":{"stopGTFSID":23224,"stopName":"West End Caravan Park/Murray Valley Hwy (Yarrawonga)"},"geometry":{"type":"Point","coordinates":[145.977047293413,-36.0221757636947]}},{"type":"Feature","properties":{"stopGTFSID":44667,"stopName":"Jelara Caravan Park/Brears Rd (Yarrawonga)"},"geometry":{"type":"Point","coordinates":[145.97271369114,-36.019172630457]}},{"type":"Feature","properties":{"stopGTFSID":44699,"stopName":"Foster Ct/Melbourne St (Mulwala (NSW))"},"geometry":{"type":"Point","coordinates":[146.00105146794,-36.0002450755155]}},{"type":"Feature","properties":{"stopGTFSID":44709,"stopName":"Foster Ct/Melbourne St (Mulwala (NSW))"},"geometry":{"type":"Point","coordinates":[146.000862306083,-36.0002885775604]}},{"type":"Feature","properties":{"stopGTFSID":44708,"stopName":"Mulwala Water Ski Club/Melbourne (East) St (Mulwala (NSW))"},"geometry":{"type":"Point","coordinates":[146.001619244596,-35.9939299220999]}},{"type":"Feature","properties":{"stopGTFSID":44700,"stopName":"Mulwala Water Ski Club/Melbourne (West) St (Mulwala (NSW))"},"geometry":{"type":"Point","coordinates":[146.001452056625,-35.9939916391724]}},{"type":"Feature","properties":{"stopGTFSID":47477,"stopName":"Green St/Lucan St (Mulwala (NSW))"},"geometry":{"type":"Point","coordinates":[145.995212396669,-35.9943722808801]}},{"type":"Feature","properties":{"stopGTFSID":47471,"stopName":"Dunmore St/Melbourne St (Mulwala (NSW))"},"geometry":{"type":"Point","coordinates":[146.003221445577,-35.9909140283876]}},{"type":"Feature","properties":{"stopGTFSID":47476,"stopName":"Manners St/Ward St (Mulwala (NSW))"},"geometry":{"type":"Point","coordinates":[145.998739727841,-35.9900292450713]}},{"type":"Feature","properties":{"stopGTFSID":37629,"stopName":"Melbourne St/Inglis St (Mulwala (NSW))"},"geometry":{"type":"Point","coordinates":[146.005095275378,-35.9892256478555]}},{"type":"Feature","properties":{"stopGTFSID":44707,"stopName":"Melbourne St/Inglis St (Mulwala (NSW))"},"geometry":{"type":"Point","coordinates":[146.005184239281,-35.9892083545727]}},{"type":"Feature","properties":{"stopGTFSID":23227,"stopName":"Erne St/Sturt St (Mulwala (NSW))"},"geometry":{"type":"Point","coordinates":[146.004073130249,-35.9867018314954]}},{"type":"Feature","properties":{"stopGTFSID":47474,"stopName":"Romney St/Inglis St (Mulwala (NSW))"},"geometry":{"type":"Point","coordinates":[145.998479695421,-35.9851496711605]}},{"type":"Feature","properties":{"stopGTFSID":47475,"stopName":"Lake Mulwala Lifestyle Village/Erne St (Mulwala (NSW))"},"geometry":{"type":"Point","coordinates":[146.002945984203,-35.9854753711253]}},{"type":"Feature","properties":{"stopGTFSID":47473,"stopName":"Payne St/Havelock St (Mulwala (NSW))"},"geometry":{"type":"Point","coordinates":[146.004726994433,-35.9841017665084]}},{"type":"Feature","properties":{"stopGTFSID":44701,"stopName":"Havelock St/Melbourne St (Mulwala (NSW))"},"geometry":{"type":"Point","coordinates":[146.008259381292,-35.9863668745819]}},{"type":"Feature","properties":{"stopGTFSID":44706,"stopName":"Edward St/Sturt St (Mulwala (NSW))"},"geometry":{"type":"Point","coordinates":[146.007577927955,-35.9832057985286]}},{"type":"Feature","properties":{"stopGTFSID":44702,"stopName":"Edward St/Melbourne St (Mulwala (NSW))"},"geometry":{"type":"Point","coordinates":[146.009910826446,-35.9847036240026]}},{"type":"Feature","properties":{"stopGTFSID":44705,"stopName":"Opp 32 Corowa Rd (Mulwala (NSW))"},"geometry":{"type":"Point","coordinates":[146.015018560315,-35.9816172720466]}},{"type":"Feature","properties":{"stopGTFSID":47472,"stopName":"Shore St/Savernake Rd (Mulwala (NSW))"},"geometry":{"type":"Point","coordinates":[146.012322796693,-35.9798641228699]}},{"type":"Feature","properties":{"stopGTFSID":44703,"stopName":"Amaroo Ct/Corowa Rd (Mulwala (NSW))"},"geometry":{"type":"Point","coordinates":[146.022514215717,-35.9773420909163]}},{"type":"Feature","properties":{"stopGTFSID":44704,"stopName":"Heather Cct/Tocumwal Rd (Mulwala (NSW))"},"geometry":{"type":"Point","coordinates":[146.026518705013,-35.9727947373712]}}]}
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": 37630,
+        "stopName": "Belmore St/Orr St (Yarrawonga)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.004862272354,
+          -36.0130697615623
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": 44679,
+        "stopName": "Yarrawonga District Hospital/Lynch St (Yarrawonga)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.007329550737,
+          -36.0127656507196
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": 44678,
+        "stopName": "Yarrawonga Community Health Centre/Piper St (Yarrawonga)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.007162972973,
+          -36.0110062484058
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": 44665,
+        "stopName": "McNally St/Belmore St (Yarrawonga)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.004707024624,
+          -36.014826495696
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": 44710,
+        "stopName": "Belmore St/Witt St (Yarrawonga)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.004968962783,
+          -36.0089956389369
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": 44698,
+        "stopName": "Belmore St/Irvine Pde (Yarrawonga)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.003921973226,
+          -36.0084279867115
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": 44677,
+        "stopName": "Senior Citizens Centre/23 Hovel St (Yarrawonga)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.003003590304,
+          -36.0117470768645
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": 47470,
+        "stopName": "Orr St/Sharp St (Yarrawonga)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.000068097015,
+          -36.0131020092226
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": 44676,
+        "stopName": "McNally St/Tom St (Yarrawonga)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.001637884328,
+          -36.0153328994604
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": 47462,
+        "stopName": "Sacred Heart School/Coghill St (Yarrawonga)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.009865950373,
+          -36.0095951279917
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": 47461,
+        "stopName": "Orr St/Coghill St (Yarrawonga)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.009722345005,
+          -36.0130919593413
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": 44681,
+        "stopName": "Elizabeth St/Woods Rd (Yarrawonga)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.013148742053,
+          -36.0097303706879
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": 44680,
+        "stopName": "Orr St/Woods Rd (Yarrawonga)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.013243120155,
+          -36.0128414984288
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": 44695,
+        "stopName": "Orr St/Woods Rd (Yarrawonga)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.013353850718,
+          -36.0128604404585
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": 47459,
+        "stopName": "Woods Rd/Telford St (Yarrawonga)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.012590624112,
+          -36.0153334232712
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": 47460,
+        "stopName": "Murphy St/Telford St (Yarrawonga)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.009248211658,
+          -36.0163967327733
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": 47463,
+        "stopName": "Lynch St/Telford St (Yarrawonga)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.007042381615,
+          -36.0170816980514
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": 47464,
+        "stopName": "Duffield St/Telford St (Yarrawonga)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.003455706697,
+          -36.0181428219268
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": 47465,
+        "stopName": "Sharp St/Dunlop St (Yarrawonga)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.000948303388,
+          -36.0198529334101
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": 44675,
+        "stopName": "Warwick St/Thorn St (Yarrawonga)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.002722567277,
+          -36.0208413743447
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": 44670,
+        "stopName": "McClean St/Sharp St (Yarrawonga)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.000389940494,
+          -36.0218857802204
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": 44674,
+        "stopName": "Hargrave Ct/McClean St (Yarrawonga)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.007878563736,
+          -36.0220832023315
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": 44672,
+        "stopName": "Jackson St/McLeod St (Yarrawonga)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.001240075023,
+          -36.0239934714151
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": 44673,
+        "stopName": "Opp 43/45 McLeod St (Yarrawonga)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.006988692779,
+          -36.0240141667959
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": 47466,
+        "stopName": "Pinniger St/South Rd (Yarrawonga)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.006020416595,
+          -36.0259985667347
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": 47467,
+        "stopName": "Weston Cl/South Rd (Yarrawonga)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.011258707805,
+          -36.0260148271459
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": 44682,
+        "stopName": "Parsons Cres/Witt St (Yarrawonga)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.018173789026,
+          -36.0089602161694
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": 44694,
+        "stopName": "Parsons Cres/Witt St (Yarrawonga)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.017351416652,
+          -36.0090616673933
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": 44693,
+        "stopName": "Mitchel Dr/Derry Dr (Yarrawonga)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.020431258702,
+          -36.0094564977415
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": 44692,
+        "stopName": "Derry Dr/Zorro Dr (Yarrawonga)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.021435134182,
+          -36.0117275878692
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": 44683,
+        "stopName": "Kathryn Cres/Witt St (Yarrawonga)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.020752509546,
+          -36.0068085577519
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": 44684,
+        "stopName": "Anchorage Way/Hawkins Dr (Yarrawonga)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.021278354002,
+          -36.0055596919241
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": 44685,
+        "stopName": "Hollywood Cres/La Bamba Dr (Yarrawonga)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.024230014168,
+          -36.0082433216463
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": 23225,
+        "stopName": "Jane Rd/Fiona Dr (Yarrawonga)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.025957706465,
+          -36.0067066945546
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": 47458,
+        "stopName": "Botts Rd/Jane Rd (Yarrawonga)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.030728104892,
+          -36.0067723874267
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": 47456,
+        "stopName": "Silverwoods Bvd/Robinson Way (Yarrawonga)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.038142170397,
+          -36.0075172549955
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": 47457,
+        "stopName": "Silverwoods Bvd/Phillip Hyland Dr (Yarrawonga)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.03671098652,
+          -36.0102374756627
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": 47455,
+        "stopName": "Henderson St/Hogans Rd (Yarrawonga)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.049224338681,
+          -36.0077408509348
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": 44691,
+        "stopName": "Hogans Rd/Rosemary Ct (Yarrawonga)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.050305589872,
+          -36.0128792612761
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": 44690,
+        "stopName": "Campbellfield Dr/Rosemary Ct (Yarrawonga)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.055997642823,
+          -36.0119955985793
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": 44689,
+        "stopName": "Braejems Walk/Rosemary Ct (Yarrawonga)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.057450677001,
+          -36.0157755239242
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": 44688,
+        "stopName": "Rosemary Ct (Yarrawonga)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.058882454918,
+          -36.0185545389006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": 47483,
+        "stopName": "28 Linthorpe Dr (Yarrawonga)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.048687691719,
+          -36.0043828118354
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": 44687,
+        "stopName": "Woodside Walk/Stevenson Ct (Yarrawonga)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.061930323821,
+          -36.0207601790585
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": 44686,
+        "stopName": "73 Stevenson Ct (Yarrawonga)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.065031718398,
+          -36.023146470195
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": 44666,
+        "stopName": "Police Station/Murray Valley Hwy (Yarrawonga)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.995057681826,
+          -36.0205519993036
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": 44669,
+        "stopName": "Murray Valley Resort/Murray Valley Hwy (Yarrawonga)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.99500403068,
+          -36.0204073019787
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": 47449,
+        "stopName": "Benalla Rd/Benalla-Yarrawonga Rd (Yarrawonga)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.99542086673,
+          -36.0269109538649
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": 47469,
+        "stopName": "Murray Valley Hwy/Tregany Ct (Yarrawonga)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.988580952322,
+          -36.0219490399766
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": 47468,
+        "stopName": "Murray Valley Hwy/Cullens Rd (Yarrawonga)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.982011355392,
+          -36.0219204964949
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": 23224,
+        "stopName": "West End Caravan Park/Murray Valley Hwy (Yarrawonga)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.977047293413,
+          -36.0221757636947
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": 44667,
+        "stopName": "Jelara Caravan Park/Brears Rd (Yarrawonga)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.97271369114,
+          -36.019172630457
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": 44699,
+        "stopName": "Foster Ct/Melbourne St (Mulwala (NSW))"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.00105146794,
+          -36.0002450755155
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": 44709,
+        "stopName": "Foster Ct/Melbourne St (Mulwala (NSW))"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.000862306083,
+          -36.0002885775604
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": 44708,
+        "stopName": "Mulwala Water Ski Club/Melbourne (East) St (Mulwala (NSW))"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.001619244596,
+          -35.9939299220999
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": 44700,
+        "stopName": "Mulwala Water Ski Club/Melbourne (West) St (Mulwala (NSW))"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.001452056625,
+          -35.9939916391724
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": 47477,
+        "stopName": "Green St/Lucan St (Mulwala (NSW))"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.995212396669,
+          -35.9943722808801
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": 47471,
+        "stopName": "Dunmore St/Melbourne St (Mulwala (NSW))"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.003221445577,
+          -35.9909140283876
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": 47476,
+        "stopName": "Manners St/Ward St (Mulwala (NSW))"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.998739727841,
+          -35.9900292450713
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": 37629,
+        "stopName": "Melbourne St/Inglis St (Mulwala (NSW))"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.005095275378,
+          -35.9892256478555
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": 44707,
+        "stopName": "Melbourne St/Inglis St (Mulwala (NSW))"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.005184239281,
+          -35.9892083545727
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": 23227,
+        "stopName": "Erne St/Sturt St (Mulwala (NSW))"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.004073130249,
+          -35.9867018314954
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": 47474,
+        "stopName": "Romney St/Inglis St (Mulwala (NSW))"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.998479695421,
+          -35.9851496711605
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": 47475,
+        "stopName": "Lake Mulwala Lifestyle Village/Erne St (Mulwala (NSW))"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.002945984203,
+          -35.9854753711253
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": 47473,
+        "stopName": "Payne St/Havelock St (Mulwala (NSW))"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.004726994433,
+          -35.9841017665084
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": 44701,
+        "stopName": "Havelock St/Melbourne St (Mulwala (NSW))"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.008259381292,
+          -35.9863668745819
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": 44706,
+        "stopName": "Edward St/Sturt St (Mulwala (NSW))"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.007577927955,
+          -35.9832057985286
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": 44702,
+        "stopName": "Edward St/Melbourne St (Mulwala (NSW))"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.009910826446,
+          -35.9847036240026
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": 44705,
+        "stopName": "Opp 32 Corowa Rd (Mulwala (NSW))"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.015018560315,
+          -35.9816172720466
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": 47472,
+        "stopName": "Shore St/Savernake Rd (Mulwala (NSW))"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.012322796693,
+          -35.9798641228699
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": 44703,
+        "stopName": "Amaroo Ct/Corowa Rd (Mulwala (NSW))"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.022514215717,
+          -35.9773420909163
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stopGTFSID": 44704,
+        "stopName": "Heather Cct/Tocumwal Rd (Mulwala (NSW))"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.026518705013,
+          -35.9727947373712
+        ]
+      }
+    }
+  ]
+}
