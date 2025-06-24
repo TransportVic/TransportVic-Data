@@ -1,7 +1,11 @@
 import { default as distance } from '@turf/distance'
-import vnetMapping from '../geospatial/vnet/vnet-mapping.json' with { type: 'json' }
+import vnetStopMapping from '../geospatial/vnet/vnet-mapping.json' with { type: 'json' }
+import vnetTripMapping from '../geospatial/vnet/coach-service-ids.json' with { type: 'json' }
 import vlineRoutes from '../excel/rail/vline-route-names/routes.json' with { type: 'json' }
 import metroOperators from '../excel/bus/operators/metro-operators.json' with { type: 'json' }
+import { dateUtils } from '@transportme/transportvic-utils'
+
+const DAY_CACHE = {}
 
 /**
  * Processes GTFS route data
@@ -147,8 +151,22 @@ export async function createTripProcessor(database) {
       }
 
       trip.stopTimings.forEach(stop => {
-        stop.vnetName = vnetMapping[stop.stopGTFSID]
+        stop.vnetName = vnetStopMapping[stop.stopGTFSID]
       })
+
+      if (!DAY_CACHE[trip.operationDays[0]]) {
+        DAY_CACHE[trip.operationDays[0]] = dateUtils.getDayOfWeek(dateUtils.parseDate(trip.operationDays[0]))
+      }
+      let dayOfWeek = DAY_CACHE[trip.operationDays[0]]
+
+      let matchingTrip = vnetTripMapping.find(rule => {
+        let stopsMatch = trip.origin === rule.origin && trip.destination === rule.destination
+        let timesMatch = trip.departureTime === rule.departureTime
+
+        return stopsMatch && timesMatch && rule.operationDays.includes(dayOfWeek)
+      })
+
+      if (matchingTrip) trip.runID = matchingTrip.runID
 
       return trip
     },
