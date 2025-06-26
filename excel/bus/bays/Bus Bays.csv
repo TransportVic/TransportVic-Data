@@ -323,8 +323,9 @@ stop_id,bay,name,notes
 18850,8,Moonee Ponds Interchange/Mt Alexander Rd (Moonee Ponds),
 47703,9,Moonee Ponds Interchange/Mt Alexander Rd (Moonee Ponds),
 21294,A,Mooroolbark Station/Brice Ave (Mooroolbark),
-42981,B,Mooroolbark Station/Brice Ave (Mooroolbark),Missing in PTV Data
-42982,C,Mooroolbark Station/Brice Ave (Mooroolbark),Missing in PTV Data
+42981,B,Mooroolbark Station/Brice Ave (Mooroolbark),
+49281,B,Mooroolbark Station/Brice Ave (Mooroolbark),Typo in bus stop ID
+42982,C,Mooroolbark Station/Brice Ave (Mooroolbark),Decomissioned
 32029,1,Morwell Bus Interchange/Commercial Rd (Morwell),
 32028,2,Morwell Bus Interchange/Commercial Rd (Morwell),
 32027,3,Morwell Bus Interchange/Commercial Rd (Morwell),

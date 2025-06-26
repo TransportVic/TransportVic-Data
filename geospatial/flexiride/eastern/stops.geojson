@@ -1236,14 +1236,14 @@
     {
       "type": "Feature",
       "properties": {
-        "stopGTFSID": "42982",
+        "stopGTFSID": "21294",
         "stopName": "Mooroolbark Railway Station/Brice Ave (Mooroolbark)"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.312341,
-          -37.784961
+          145.31318404,
+          -37.78483212
         ]
       }
     },
@@ -1698,14 +1698,14 @@
     {
       "type": "Feature",
       "properties": {
-        "stopGTFSID": "40202",
-        "stopName": "Croydon Railway Station/Railway Gr (Croydon)"
+        "stopGTFSID": "28722",
+        "stopName": "Croydon Railway Station/Railway Avenue (Croydon)"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.28029,
-          -37.79571
+          145.280819982,
+          -37.795423390
         ]
       }
     }
