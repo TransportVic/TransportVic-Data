@@ -141,11 +141,11 @@ export default [
   ["RIV.P2", "WSN.P2", false, 159/2+6+106+235+161/2],
   ["WSN.P1", "RIV.P2", false, 161/2+235+76+158/2],
 
-  ["CAM.W206", "RIV.W14D", false, 737+325+182+62.5 - 74.5],
+  ["CAM.W206", "RIV.W14D", false, 737+325+182+62.5 - 74.5 - 100], // - 100M to bias it to use this track for Down trains
   ["RIV.W14D", "RIV.P2", true, 118.5 + 159/2],
   ["RIV.P1", "RIV.W14U", false, 158/2 + 200.3],
   ["RIV.W14U", "RIV.W14D", true, 57],
-  ["RIV.W14U", "CAM.W243", true, 160 + 7 + 331 + 338 + 83 + 7 - 200.3],
+  ["CAM.W243", "RIV.W14U", true, 160 + 7 + 331 + 338 + 83 + 7 - 200.3],
 
   ["AUB.P3", "CAM.W204", false, 157/2+4+4+442+223+295+135 - 51.1],
   ["AUB.P2", "CAM.W224D", true, 157+110+8+157+151+223+295 - 32.6],

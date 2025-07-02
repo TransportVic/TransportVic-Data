@@ -17,9 +17,12 @@ for (let path of paths) {
   graph.addEdge(path[0], path[1], { weight: path[3], bidirectional: path[2] })
 }
 
-let origin = 'LIL.P2'
-let destination = 'UNN.P3'
+let origin = 'RIV.P2'
+let destination = 'CAM.P1'
 
 let { pred, dist } = dijkstra(graph, origin, destination)
 if (!pred[destination]) console.log('No path found')
-else console.log(backtrack(graph, pred, destination).map(station => station.getName()))
+else {
+  console.log(backtrack(graph, pred, destination).map(station => station.getName()))
+  console.log('Distance:', dist[destination])
+}
