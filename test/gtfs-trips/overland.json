@@ -1,0 +1,339 @@
+[{
+  "_id": "6896c2539655fb9b50967e4d",
+  "mode": "regional train",
+  "routeName": "Melbourne",
+  "routeNumber": "The Overland",
+  "routeGTFSID": "10-GSR",
+  "operationDays": [
+    "20250810"
+  ],
+  "tripID": "1.T3.10-GSR-mjp-3.1.R",
+  "shapeID": "10-GSR-mjp-3.1.R",
+  "block": null,
+  "gtfsDirection": 1,
+  "stopTimings": [
+    {
+      "stopName": "Adelaide Railway Station",
+      "stopNumber": null,
+      "suburb": "Keswick Terminal (SA)",
+      "stopGTFSID": "sa:rail:ADE",
+      "arrivalTime": null,
+      "arrivalTimeMinutes": null,
+      "departureTime": "08:15",
+      "departureTimeMinutes": 495,
+      "stopConditions": {
+        "pickup": 0,
+        "dropoff": 1
+      },
+      "stopDistance": "0.00"
+    },
+    {
+      "stopName": "Murray Bridge Railway Station",
+      "stopNumber": null,
+      "suburb": "Murray Bridge (SA)",
+      "stopGTFSID": "sa:rail:MUR",
+      "arrivalTime": "10:03",
+      "arrivalTimeMinutes": 603,
+      "departureTime": "10:05",
+      "departureTimeMinutes": 605,
+      "stopConditions": {
+        "pickup": 0,
+        "dropoff": 0
+      },
+      "stopDistance": "93145.97"
+    },
+    {
+      "stopName": "Bordertown Railway Station",
+      "stopNumber": null,
+      "suburb": "Bordertown (SA)",
+      "stopGTFSID": "sa:rail:BOR",
+      "arrivalTime": "12:02",
+      "arrivalTimeMinutes": 722,
+      "departureTime": "12:04",
+      "departureTimeMinutes": 724,
+      "stopConditions": {
+        "pickup": 0,
+        "dropoff": 0
+      },
+      "stopDistance": "292830.52"
+    },
+    {
+      "stopName": "Nhill Railway Station",
+      "stopNumber": null,
+      "suburb": "Nhill",
+      "stopGTFSID": "vic:rail:NHL",
+      "arrivalTime": "12:59",
+      "arrivalTimeMinutes": 779,
+      "departureTime": "13:01",
+      "departureTimeMinutes": 781,
+      "stopConditions": {
+        "pickup": 0,
+        "dropoff": 0
+      },
+      "stopDistance": "375903.31"
+    },
+    {
+      "stopName": "Dimboola Railway Station",
+      "stopNumber": null,
+      "suburb": "Dimboola",
+      "stopGTFSID": "vic:rail:DIM",
+      "arrivalTime": "13:26",
+      "arrivalTimeMinutes": 806,
+      "departureTime": "13:34",
+      "departureTimeMinutes": 814,
+      "stopConditions": {
+        "pickup": 0,
+        "dropoff": 0
+      },
+      "stopDistance": "414046.36"
+    },
+    {
+      "stopName": "Horsham Railway Station",
+      "stopNumber": null,
+      "suburb": "Horsham",
+      "stopGTFSID": "vic:rail:HRM",
+      "arrivalTime": "13:59",
+      "arrivalTimeMinutes": 839,
+      "departureTime": "14:01",
+      "departureTimeMinutes": 841,
+      "stopConditions": {
+        "pickup": 0,
+        "dropoff": 0
+      },
+      "stopDistance": "448275.51"
+    },
+    {
+      "stopName": "Stawell Railway Station",
+      "stopNumber": null,
+      "suburb": "Stawell",
+      "stopGTFSID": "vic:rail:STL",
+      "arrivalTime": "14:53",
+      "arrivalTimeMinutes": 893,
+      "departureTime": "14:55",
+      "departureTimeMinutes": 895,
+      "stopConditions": {
+        "pickup": 0,
+        "dropoff": 0
+      },
+      "stopDistance": "534469.95"
+    },
+    {
+      "stopName": "Ararat Railway Station",
+      "stopNumber": null,
+      "suburb": "Ararat",
+      "stopGTFSID": "vic:rail:ART",
+      "arrivalTime": "15:17",
+      "arrivalTimeMinutes": 917,
+      "departureTime": "15:19",
+      "departureTimeMinutes": 919,
+      "stopConditions": {
+        "pickup": 0,
+        "dropoff": 0
+      },
+      "stopDistance": "564921.54"
+    },
+    {
+      "stopName": "North Shore Railway Station",
+      "stopNumber": null,
+      "suburb": "North Shore",
+      "stopGTFSID": "vic:rail:NSH",
+      "arrivalTime": "17:21",
+      "arrivalTimeMinutes": 1041,
+      "departureTime": "17:21",
+      "departureTimeMinutes": 1041,
+      "stopConditions": {
+        "pickup": 1,
+        "dropoff": 0
+      },
+      "stopDistance": "743295.03"
+    },
+    {
+      "stopName": "Southern Cross Railway Station",
+      "stopNumber": null,
+      "suburb": "Docklands",
+      "stopGTFSID": "vic:rail:SSS",
+      "arrivalTime": "18:50",
+      "arrivalTimeMinutes": 1130,
+      "departureTime": null,
+      "departureTimeMinutes": null,
+      "stopConditions": {
+        "pickup": 1,
+        "dropoff": 0
+      },
+      "stopDistance": "816271.23"
+    }
+  ],
+  "origin": "Adelaide Railway Station",
+  "departureTime": "08:15",
+  "destination": "Southern Cross Railway Station",
+  "destinationArrivalTime": "18:50"
+}, {
+  "_id": "6896c2539655fb9b50967e45",
+  "mode": "regional train",
+  "routeName": "Melbourne",
+  "routeNumber": "The Overland",
+  "routeGTFSID": "10-GSR",
+  "operationDays": [
+    "20250811"
+  ],
+  "tripID": "1.T0.10-GSR-mjp-4.1.H",
+  "shapeID": "10-GSR-mjp-4.1.H",
+  "block": null,
+  "gtfsDirection": 0,
+  "stopTimings": [
+    {
+      "stopName": "Southern Cross Railway Station",
+      "stopNumber": null,
+      "suburb": "Docklands",
+      "stopGTFSID": "vic:rail:SSS",
+      "arrivalTime": null,
+      "arrivalTimeMinutes": null,
+      "departureTime": "08:05",
+      "departureTimeMinutes": 485,
+      "stopConditions": {
+        "pickup": 0,
+        "dropoff": 1
+      },
+      "stopDistance": "0.00"
+    },
+    {
+      "stopName": "North Shore Railway Station",
+      "stopNumber": null,
+      "suburb": "North Shore",
+      "stopGTFSID": "vic:rail:NSH",
+      "arrivalTime": "09:35",
+      "arrivalTimeMinutes": 575,
+      "departureTime": "09:35",
+      "departureTimeMinutes": 575,
+      "stopConditions": {
+        "pickup": 0,
+        "dropoff": 1
+      },
+      "stopDistance": "72976.21"
+    },
+    {
+      "stopName": "Ararat Railway Station",
+      "stopNumber": null,
+      "suburb": "Ararat",
+      "stopGTFSID": "vic:rail:ART",
+      "arrivalTime": "11:33",
+      "arrivalTimeMinutes": 693,
+      "departureTime": "11:35",
+      "departureTimeMinutes": 695,
+      "stopConditions": {
+        "pickup": 0,
+        "dropoff": 0
+      },
+      "stopDistance": "251349.70"
+    },
+    {
+      "stopName": "Stawell Railway Station",
+      "stopNumber": null,
+      "suburb": "Stawell",
+      "stopGTFSID": "vic:rail:STL",
+      "arrivalTime": "11:58",
+      "arrivalTimeMinutes": 718,
+      "departureTime": "12:00",
+      "departureTimeMinutes": 720,
+      "stopConditions": {
+        "pickup": 0,
+        "dropoff": 0
+      },
+      "stopDistance": "281801.28"
+    },
+    {
+      "stopName": "Horsham Railway Station",
+      "stopNumber": null,
+      "suburb": "Horsham",
+      "stopGTFSID": "vic:rail:HRM",
+      "arrivalTime": "12:49",
+      "arrivalTimeMinutes": 769,
+      "departureTime": "12:51",
+      "departureTimeMinutes": 771,
+      "stopConditions": {
+        "pickup": 0,
+        "dropoff": 0
+      },
+      "stopDistance": "367995.72"
+    },
+    {
+      "stopName": "Dimboola Railway Station",
+      "stopNumber": null,
+      "suburb": "Dimboola",
+      "stopGTFSID": "vic:rail:DIM",
+      "arrivalTime": "13:15",
+      "arrivalTimeMinutes": 795,
+      "departureTime": "13:20",
+      "departureTimeMinutes": 800,
+      "stopConditions": {
+        "pickup": 0,
+        "dropoff": 0
+      },
+      "stopDistance": "402224.88"
+    },
+    {
+      "stopName": "Nhill Railway Station",
+      "stopNumber": null,
+      "suburb": "Nhill",
+      "stopGTFSID": "vic:rail:NHL",
+      "arrivalTime": "13:45",
+      "arrivalTimeMinutes": 825,
+      "departureTime": "13:47",
+      "departureTimeMinutes": 827,
+      "stopConditions": {
+        "pickup": 0,
+        "dropoff": 0
+      },
+      "stopDistance": "440367.92"
+    },
+    {
+      "stopName": "Bordertown Railway Station",
+      "stopNumber": null,
+      "suburb": "Bordertown (SA)",
+      "stopGTFSID": "sa:rail:BOR",
+      "arrivalTime": "14:39",
+      "arrivalTimeMinutes": 879,
+      "departureTime": "14:41",
+      "departureTimeMinutes": 881,
+      "stopConditions": {
+        "pickup": 0,
+        "dropoff": 0
+      },
+      "stopDistance": "523440.72"
+    },
+    {
+      "stopName": "Murray Bridge Railway Station",
+      "stopNumber": null,
+      "suburb": "Murray Bridge (SA)",
+      "stopGTFSID": "sa:rail:MUR",
+      "arrivalTime": "16:38",
+      "arrivalTimeMinutes": 998,
+      "departureTime": "16:40",
+      "departureTimeMinutes": 1000,
+      "stopConditions": {
+        "pickup": 0,
+        "dropoff": 0
+      },
+      "stopDistance": "723125.26"
+    },
+    {
+      "stopName": "Adelaide Railway Station",
+      "stopNumber": null,
+      "suburb": "Keswick Terminal (SA)",
+      "stopGTFSID": "sa:rail:ADE",
+      "arrivalTime": "18:30",
+      "arrivalTimeMinutes": 1110,
+      "departureTime": null,
+      "departureTimeMinutes": null,
+      "stopConditions": {
+        "pickup": 1,
+        "dropoff": 0
+      },
+      "stopDistance": "816271.23"
+    }
+  ],
+  "origin": "Southern Cross Railway Station",
+  "departureTime": "08:05",
+  "destination": "Adelaide Railway Station",
+  "destinationArrivalTime": "18:30"
+}]

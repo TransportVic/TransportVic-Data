@@ -183,6 +183,9 @@ export async function createTripProcessor(database) {
       }
 
       return trip
+    },
+    10: function processTrip(trip) {
+      return trip
     }
   }
 }
