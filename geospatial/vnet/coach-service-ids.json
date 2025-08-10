@@ -1215,20 +1215,12 @@
   "arrivalTime": "16:21"
 },
 {
-  "operationDays": [ "Sat" ],
+  "operationDays": [ "Sat", "Sun" ],
   "runID": "C140",
   "origin": "Information Centre/Grampians Road",
   "destination": "Stawell Town Hall/Main Street",
-  "departureTime": "14:22",
-  "arrivalTime": "15:20"
-},
-{
-  "operationDays": [ "Sun" ],
-  "runID": "C140",
-  "origin": "Information Centre/Grampians Road",
-  "destination": "Stawell Town Hall/Main Street",
-  "departureTime": "14:22",
-  "arrivalTime": "15:20"
+  "departureTime": "14:23",
+  "arrivalTime": "15:21"
 },
 {
   "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
@@ -1239,20 +1231,12 @@
   "arrivalTime": "13:37"
 },
 {
-  "operationDays": [ "Sat" ],
+  "operationDays": [ "Sat", "Sun" ],
   "runID": "C141",
   "origin": "Stawell Town Hall/Main Street",
   "destination": "Information Centre/Grampians Road",
-  "departureTime": "11:25",
-  "arrivalTime": "12:25"
-},
-{
-  "operationDays": [ "Sun" ],
-  "runID": "C141",
-  "origin": "Stawell Town Hall/Main Street",
-  "destination": "Information Centre/Grampians Road",
-  "departureTime": "11:25",
-  "arrivalTime": "12:25"
+  "departureTime": "11:10",
+  "arrivalTime": "12:10"
 },
 {
   "operationDays": [ "Tue", "Fri" ],
@@ -1347,16 +1331,16 @@
   "runID": "C150",
   "origin": "Coach Terminal/24 Roberts Avenue",
   "destination": "Ballarat Railway Station/Lydiard Street",
-  "departureTime": "07:58",
-  "arrivalTime": "11:08"
+  "departureTime": "07:59",
+  "arrivalTime": "11:09"
 },
 {
   "operationDays": [ "Sun" ],
   "runID": "C150",
   "origin": "Coach Terminal/24 Roberts Avenue",
   "destination": "Ararat Railway Station/High Street",
-  "departureTime": "14:04",
-  "arrivalTime": "16:01"
+  "departureTime": "14:05",
+  "arrivalTime": "16:02"
 },
 {
   "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
@@ -1371,16 +1355,16 @@
   "runID": "C152",
   "origin": "Information Centre/Western Highway",
   "destination": "Ararat Railway Station/High Street",
-  "departureTime": "04:40",
-  "arrivalTime": "07:00"
+  "departureTime": "04:24",
+  "arrivalTime": "06:44"
 },
 {
   "operationDays": [ "Sun" ],
   "runID": "C152",
   "origin": "Information Centre/Western Highway",
   "destination": "Ararat Railway Station/High Street",
-  "departureTime": "05:38",
-  "arrivalTime": "08:00"
+  "departureTime": "05:41",
+  "arrivalTime": "08:03"
 },
 {
   "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],

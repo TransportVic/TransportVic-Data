@@ -134,6 +134,8 @@ const VLINE_COACH_DUPLICATES = [
 
 VLINE_COACH_DUPLICATES.forEach(trip => trip.timesUsed = 0)
 
+vnetTripMapping.forEach(trip => trip.timesUsed = 0)
+
 export async function createTripProcessor(database, extraFunctions = {}) {
   let stops = await database.getCollection('stops')
   let timetables = await database.getCollection('gtfs-timetables')
@@ -167,7 +169,10 @@ export async function createTripProcessor(database, extraFunctions = {}) {
         return stopsMatch && timesMatch && rule.operationDays.includes(dayOfWeek)
       })
 
-      if (matchingTrip) trip.runID = matchingTrip.runID
+      if (matchingTrip) {
+        trip.runID = matchingTrip.runID
+        matchingTrip.timesUsed++
+      }
 
       if (extraFunctions.checkRRB && !trip.runID) {
         let nspTrip = await extraFunctions.checkRRB(trip, trip.operationDays[0], timetables)
@@ -208,4 +213,8 @@ export async function createTripProcessor(database, extraFunctions = {}) {
 
 export function getVLineRuleStats() {
   return VLINE_COACH_DUPLICATES
+}
+
+export function getVLineCoachStats() {
+  return vnetTripMapping
 }
