@@ -1,7 +1,7 @@
 [{
   "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
   "runID": "C001",
-  "origin": "Woodend Railway Station/Corinella Road",
+  "origin": "Woodend Railway Station/Station Street",
   "destination": "CFA/Bridport Street",
   "departureTime": "08:13",
   "arrivalTime": "08:58"
@@ -9,7 +9,7 @@
 {
   "operationDays": [ "Sat" ],
   "runID": "C001",
-  "origin": "Woodend Railway Station/Corinella Road",
+  "origin": "Woodend Railway Station/Station Street",
   "destination": "CFA/Bridport Street",
   "departureTime": "10:14",
   "arrivalTime": "10:59"
@@ -18,7 +18,7 @@
   "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
   "runID": "C002",
   "origin": "CFA/Bridport Street",
-  "destination": "Woodend Railway Station/Corinella Road",
+  "destination": "Woodend Railway Station/Station Street",
   "departureTime": "06:18",
   "arrivalTime": "07:03"
 },
@@ -26,7 +26,7 @@
   "operationDays": [ "Sat" ],
   "runID": "C002",
   "origin": "CFA/Bridport Street",
-  "destination": "Woodend Railway Station/Corinella Road",
+  "destination": "Woodend Railway Station/Station Street",
   "departureTime": "09:22",
   "arrivalTime": "10:07"
 },
@@ -34,14 +34,14 @@
   "operationDays": [ "Sun" ],
   "runID": "C002",
   "origin": "CFA/Bridport Street",
-  "destination": "Woodend Railway Station/Corinella Road",
+  "destination": "Woodend Railway Station/Station Street",
   "departureTime": "09:22",
   "arrivalTime": "10:07"
 },
 {
   "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
   "runID": "C003",
-  "origin": "Woodend Railway Station/Corinella Road",
+  "origin": "Woodend Railway Station/Station Street",
   "destination": "CFA/Bridport Street",
   "departureTime": "18:33",
   "arrivalTime": "19:18"
@@ -49,7 +49,7 @@
 {
   "operationDays": [ "Sat" ],
   "runID": "C003",
-  "origin": "Woodend Railway Station/Corinella Road",
+  "origin": "Woodend Railway Station/Station Street",
   "destination": "CFA/Bridport Street",
   "departureTime": "19:15",
   "arrivalTime": "20:00"
@@ -57,7 +57,7 @@
 {
   "operationDays": [ "Sun" ],
   "runID": "C003",
-  "origin": "Woodend Railway Station/Corinella Road",
+  "origin": "Woodend Railway Station/Station Street",
   "destination": "CFA/Bridport Street",
   "departureTime": "10:14",
   "arrivalTime": "10:59"
@@ -66,7 +66,7 @@
   "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
   "runID": "C004",
   "origin": "CFA/Bridport Street",
-  "destination": "Woodend Railway Station/Corinella Road",
+  "destination": "Woodend Railway Station/Station Street",
   "departureTime": "17:23",
   "arrivalTime": "18:08"
 },
@@ -74,14 +74,14 @@
   "operationDays": [ "Sat" ],
   "runID": "C004",
   "origin": "CFA/Bridport Street",
-  "destination": "Woodend Railway Station/Corinella Road",
+  "destination": "Woodend Railway Station/Station Street",
   "departureTime": "17:18",
   "arrivalTime": "18:03"
 },
 {
   "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
   "runID": "C005",
-  "origin": "Woodend Railway Station/Corinella Road",
+  "origin": "Woodend Railway Station/Station Street",
   "destination": "CFA/Bridport Street",
   "departureTime": "11:15",
   "arrivalTime": "12:00"
@@ -90,14 +90,14 @@
   "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
   "runID": "C006",
   "origin": "CFA/Bridport Street",
-  "destination": "Woodend Railway Station/Corinella Road",
+  "destination": "Woodend Railway Station/Station Street",
   "departureTime": "10:23",
   "arrivalTime": "11:08"
 },
 {
   "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
   "runID": "C007",
-  "origin": "Woodend Railway Station/Corinella Road",
+  "origin": "Woodend Railway Station/Station Street",
   "destination": "CFA/Bridport Street",
   "departureTime": "16:16",
   "arrivalTime": "17:01"
@@ -105,7 +105,7 @@
 {
   "operationDays": [ "Sat" ],
   "runID": "C007",
-  "origin": "Woodend Railway Station/Corinella Road",
+  "origin": "Woodend Railway Station/Station Street",
   "destination": "CFA/Bridport Street",
   "departureTime": "16:15",
   "arrivalTime": "17:00"
@@ -113,7 +113,7 @@
 {
   "operationDays": [ "Sun" ],
   "runID": "C007",
-  "origin": "Woodend Railway Station/Corinella Road",
+  "origin": "Woodend Railway Station/Station Street",
   "destination": "CFA/Bridport Street",
   "departureTime": "16:15",
   "arrivalTime": "17:00"
@@ -122,7 +122,7 @@
   "operationDays": [ "Mon", "Tue", "Wed", "Thu", "Fri" ],
   "runID": "C008",
   "origin": "CFA/Bridport Street",
-  "destination": "Woodend Railway Station/Corinella Road",
+  "destination": "Woodend Railway Station/Station Street",
   "departureTime": "15:18",
   "arrivalTime": "16:03"
 },
@@ -130,7 +130,7 @@
   "operationDays": [ "Sat" ],
   "runID": "C008",
   "origin": "CFA/Bridport Street",
-  "destination": "Woodend Railway Station/Corinella Road",
+  "destination": "Woodend Railway Station/Station Street",
   "departureTime": "14:18",
   "arrivalTime": "15:03"
 },
@@ -138,7 +138,7 @@
   "operationDays": [ "Sun" ],
   "runID": "C008",
   "origin": "CFA/Bridport Street",
-  "destination": "Woodend Railway Station/Corinella Road",
+  "destination": "Woodend Railway Station/Station Street",
   "departureTime": "14:18",
   "arrivalTime": "15:03"
 },

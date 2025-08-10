@@ -134,11 +134,12 @@ const VLINE_COACH_DUPLICATES = [
 
 VLINE_COACH_DUPLICATES.forEach(trip => trip.timesUsed = 0)
 
-export async function createTripProcessor(database) {
+export async function createTripProcessor(database, extraFunctions = {}) {
   let stops = await database.getCollection('stops')
+  let timetables = await database.getCollection('gtfs-timetables')
 
   return {
-    5: function processTrip(trip) {
+    5: async function processTrip(trip) {
       let tripRule = VLINE_COACH_DUPLICATES.find(rule => {
         let stopsMatch = trip.origin === rule.origin && trip.destination === rule.destination
         if (rule.departureTime) return trip.departureTime === rule.departureTime && stopsMatch
@@ -167,6 +168,15 @@ export async function createTripProcessor(database) {
       })
 
       if (matchingTrip) trip.runID = matchingTrip.runID
+
+      if (extraFunctions.checkRRB && !trip.runID) {
+        let nspTrip = await extraFunctions.checkRRB(trip, trip.operationDays[0], timetables)
+        if (nspTrip) {
+          trip.isRailReplacementBus = true
+          trip.routeName = nspTrip.routeName
+          trip.railRunID = nspTrip.runID
+        }
+      }
 
       return trip
     },
