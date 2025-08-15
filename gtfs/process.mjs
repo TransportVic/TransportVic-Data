@@ -137,7 +137,7 @@ VLINE_COACH_DUPLICATES.forEach(trip => trip.timesUsed = 0)
 vnetTripMapping.forEach(trip => trip.timesUsed = 0)
 
 export async function createTripProcessor(database, extraFunctions = {}) {
-  let stops = await database.getCollection('stops')
+  let stops = await database.getCollection('gtfs-stops')
   let timetables = await database.getCollection('gtfs-timetables')
 
   return {
