@@ -1,6 +1,5 @@
 import { default as distance } from '@turf/distance'
 import vnetStopMapping from '../geospatial/vnet/vnet-mapping.json' with { type: 'json' }
-import vnetTripMapping from '../geospatial/vnet/coach-service-ids.json' with { type: 'json' }
 import vlineRoutes from '../excel/rail/vline-route-names/routes.json' with { type: 'json' }
 import metroOperators from '../excel/bus/operators/metro-operators.json' with { type: 'json' }
 import { dateUtils } from '@transportme/transportvic-utils'
@@ -51,7 +50,7 @@ export function createRouteProcessor() {
       return route
     },
     6: function processRoute(route) {
-      if (route.routeGTFSID.match(/6-w\d\d/)) {
+      if (route.routeGTFSID.match(/6-w\d\d/) || (route.routeGTFSID.match(/6-V\d\d/) && !route.routeGTFSID.startsWith('6-V63'))) {
         route.routeGTFSID = '6-WGT'
         route.routeName = 'West Gippsland Transit'
       }
@@ -134,9 +133,7 @@ const VLINE_COACH_DUPLICATES = [
 
 VLINE_COACH_DUPLICATES.forEach(trip => trip.timesUsed = 0)
 
-vnetTripMapping.forEach(trip => trip.timesUsed = 0)
-
-export async function createTripProcessor(database, extraFunctions = {}) {
+export async function createTripProcessor(database) {
   let stops = await database.getCollection('gtfs-stops')
   let timetables = await database.getCollection('gtfs-timetables')
 
@@ -156,32 +153,6 @@ export async function createTripProcessor(database, extraFunctions = {}) {
       trip.stopTimings.forEach(stop => {
         stop.vnetName = vnetStopMapping[stop.stopGTFSID]
       })
-
-      if (!DAY_CACHE[trip.operationDays[0]]) {
-        DAY_CACHE[trip.operationDays[0]] = dateUtils.getDayOfWeek(dateUtils.parseDate(trip.operationDays[0]))
-      }
-      let dayOfWeek = DAY_CACHE[trip.operationDays[0]]
-
-      let matchingTrip = vnetTripMapping.find(rule => {
-        let stopsMatch = trip.origin === rule.origin && trip.destination === rule.destination
-        let timesMatch = trip.departureTime === rule.departureTime
-
-        return stopsMatch && timesMatch && rule.operationDays.includes(dayOfWeek)
-      })
-
-      if (matchingTrip) {
-        trip.runID = matchingTrip.runID
-        matchingTrip.timesUsed++
-      }
-
-      if (extraFunctions.checkRRB && !trip.runID) {
-        let nspTrip = await extraFunctions.checkRRB(trip, trip.operationDays[0], timetables)
-        if (nspTrip) {
-          trip.isRailReplacementBus = true
-          trip.routeName = nspTrip.routeName
-          trip.railRunID = nspTrip.runID
-        }
-      }
 
       return trip
     },
@@ -213,8 +184,4 @@ export async function createTripProcessor(database, extraFunctions = {}) {
 
 export function getVLineRuleStats() {
   return VLINE_COACH_DUPLICATES
-}
-
-export function getVLineCoachStats() {
-  return vnetTripMapping
 }
