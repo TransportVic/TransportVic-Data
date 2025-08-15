@@ -4,7 +4,10 @@ import vlineRoutes from '../excel/rail/vline-route-names/routes.json' with { typ
 import metroOperators from '../excel/bus/operators/metro-operators.json' with { type: 'json' }
 import { dateUtils } from '@transportme/transportvic-utils'
 
-const DAY_CACHE = {}
+const VLINE_ROUTES = {
+  ...vlineRoutes,
+  ...Object.keys(vlineRoutes).reduce((acc, railID) => ({ ...acc, [`5-${railID.slice(-3)}`]: vlineRoutes[railID] }), {})
+}
 
 /**
  * Processes GTFS route data
@@ -12,6 +15,7 @@ const DAY_CACHE = {}
  * The following alterations are applied:
  * - West Gippsland Transit routes are merged into a single 6-WGT route.
  * - V/Line Pakenham (1-vPK) is dropped from the data
+ * - V/Line Apollo Bay (5-GVL) is dropped from the data
  * - White Night routes are dropped
  * - Metro Bus operators are applied
  * - Regional bus numbers are modified to remove any town names
@@ -23,8 +27,8 @@ export function createRouteProcessor() {
   return {
     1: function processRoute(route) {
       if (route.routeGTFSID === '1-vPK') return null
-      if (vlineRoutes[route.routeGTFSID]) {
-        route.routeName = vlineRoutes[route.routeGTFSID]
+      if (VLINE_ROUTES[route.routeGTFSID]) {
+        route.routeName = VLINE_ROUTES[route.routeGTFSID]
       }
 
       if (route.operators[0] === 'Unknown') route.operators = ['V/Line']
@@ -46,6 +50,7 @@ export function createRouteProcessor() {
       return route
     },
     5: function processRoute(route) {
+      if (route.routeGTFSID === '5-GVL') return null
       if (route.operators[0] === 'Unknown') route.operators = ['V/Line']
       return route
     },
@@ -153,6 +158,15 @@ export async function createTripProcessor(database) {
       trip.stopTimings.forEach(stop => {
         stop.vnetName = vnetStopMapping[stop.stopGTFSID]
       })
+
+      if (trip.runID && trip.runID.match(/^\d{4}[A-Zc]/)) {
+        if (VLINE_ROUTES[trip.routeGTFSID]) {
+          trip.routeName = VLINE_ROUTES[trip.routeGTFSID]
+        }
+
+        trip.isRailReplacementBus = true
+        trip.railRunID = trip.runID.slice(0, 4)
+      }
 
       return trip
     },
