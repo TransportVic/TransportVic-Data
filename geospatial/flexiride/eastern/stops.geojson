@@ -145,7 +145,7 @@
       "type": "Feature",
       "properties": {
         "stopGTFSID": "13339",
-        "stopName": "Rowville Community Centre"
+        "stopName": "Rowville Community Centre/Fulham Rd (Rowville)"
       },
       "geometry": {
         "type": "Point",
@@ -453,7 +453,7 @@
       "type": "Feature",
       "properties": {
         "stopGTFSID": "15184",
-        "stopName": "Rowville Community Centre"
+        "stopName": "Rowville Community Centre/Fulham Rd (Rowville)"
       },
       "geometry": {
         "type": "Point",
@@ -509,7 +509,7 @@
       "type": "Feature",
       "properties": {
         "stopGTFSID": "15206",
-        "stopName": "Major Cres"
+        "stopName": "Major Cres/Sullivan Ave (Lysterfield)"
       },
       "geometry": {
         "type": "Point",
@@ -607,7 +607,7 @@
       "type": "Feature",
       "properties": {
         "stopGTFSID": "15252",
-        "stopName": "Kelletts Rd"
+        "stopName": "Lakesfield Dr/Kelletts Rd (Lysterfield)"
       },
       "geometry": {
         "type": "Point",
@@ -1209,7 +1209,7 @@
       "type": "Feature",
       "properties": {
         "stopGTFSID": "21002",
-        "stopName": "Ferntree Gully Railway Station/Station St (Ferntree Gully)"
+        "stopName": "Ferntree Gully Station/Station St (Ferntree Gully)"
       },
       "geometry": {
         "type": "Point",
@@ -1237,7 +1237,7 @@
       "type": "Feature",
       "properties": {
         "stopGTFSID": "21294",
-        "stopName": "Mooroolbark Railway Station/Brice Ave (Mooroolbark)"
+        "stopName": "Mooroolbark Station/Brice Ave (Mooroolbark)"
       },
       "geometry": {
         "type": "Point",
