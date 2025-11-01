@@ -155,6 +155,46 @@ export async function createTripProcessor(database) {
   let timetables = await database.getCollection('gtfs-timetables')
 
   return {
+    3: async function processTrip(trip) {
+      const bsm = trip.stopTimings.find(stop => stop.stopGTFSID === '19497') // Bourke Street Mall
+      const csq = trip.stopTimings.find(stop => stop.stopGTFSID === '19498') // City Square
+      const fssIndex = trip.stopTimings.findIndex(stop => stop.stopGTFSID === '19499') // Flinders St/Fed Square
+
+      if (bsm && (fssIndex !== -1) && !csq) {
+        const time = bsm.departureTimeMinutes + 3
+
+        let hours = Math.floor(time / 60)
+        let minutes = time % 60
+        let mainTime = ''
+
+        hours %= 24
+        if (hours < 10) mainTime += '0'
+        mainTime += hours
+        mainTime += ':'
+        if (minutes < 10) mainTime += '0'
+        mainTime += minutes
+
+        const csqData = {
+          "stopName" : "City Square/Swanston Street",
+          "stopNumber" : "11",
+          "suburb" : "Melbourne",
+          "stopGTFSID" : "19498",
+          "arrivalTime" : mainTime,
+          "arrivalTimeMinutes" : time,
+          "departureTime" : mainTime,
+          "departureTimeMinutes" : time,
+          "stopConditions" : {
+            "pickup" : 0,
+            "dropoff" : 0
+          },
+          "stopDistance" : bsm + (8212.413043615-7858.09538952478)
+        }
+
+        trip.stopTimings.splice(fssIndex, 0, csqData)
+      }
+
+      return trip
+    },
     5: async function processTrip(trip) {
       let tripRule = VLINE_COACH_DUPLICATES.find(rule => {
         let stopsMatch = trip.origin === rule.origin && trip.destination === rule.destination
