@@ -44,6 +44,11 @@ export function createRouteProcessor() {
       return route
     },
     4: function processRoute(route) {
+      if (route.routeGTFSID.match(/4-w\d\d/) || (route.routeGTFSID.match(/4-V\d\d/))) {
+        route.routeGTFSID = '4-WGT'
+        route.routeName = 'West Gippsland Transit'
+      }
+
       if (metroOperators[route.routeNumber]) route.operators = metroOperators[route.routeNumber]
       else console.log('Could not map operator for metro route', route.routeNumber, route.routeName)
 
@@ -55,11 +60,6 @@ export function createRouteProcessor() {
       return route
     },
     6: function processRoute(route) {
-      if (route.routeGTFSID.match(/6-w\d\d/) || (route.routeGTFSID.match(/6-V\d\d/) && !route.routeGTFSID.startsWith('6-V63'))) {
-        route.routeGTFSID = '6-WGT'
-        route.routeName = 'West Gippsland Transit'
-      }
-
       if (route.routeNumber) {
         let parts
         
@@ -223,7 +223,7 @@ export async function createTripProcessor(database) {
       return trip
     },
     6: async function processTrip(trip) {
-      if (trip.routeGTFSID === '6-WGT') {
+      if (trip.routeGTFSID === '4-WGT') {
         let originStop = await stops.findDocument({ 'bays.stopGTFSID': trip.stopTimings[0].stopGTFSID })
         let destStop = await stops.findDocument({ 'bays.stopGTFSID': trip.stopTimings.slice(-1)[0].stopGTFSID })
 
