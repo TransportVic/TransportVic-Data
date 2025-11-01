@@ -161,7 +161,7 @@ export async function createTripProcessor(database) {
       const fssIndex = trip.stopTimings.findIndex(stop => stop.stopGTFSID === '19499') // Flinders St/Fed Square
 
       if (bsm && (fssIndex !== -1) && !csq) {
-        const time = bsm.departureTimeMinutes + 3
+        const time = bsm.departureTimeMinutes + 2
 
         let hours = Math.floor(time / 60)
         let minutes = time % 60
@@ -187,7 +187,7 @@ export async function createTripProcessor(database) {
             "pickup" : 0,
             "dropoff" : 0
           },
-          "stopDistance" : bsm + (8212.413043615-7858.09538952478)
+          "stopDistance" : bsm.stopDistance + (8212.413043615-7858.09538952478)
         }
 
         trip.stopTimings.splice(fssIndex, 0, csqData)

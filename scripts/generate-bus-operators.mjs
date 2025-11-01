@@ -17,6 +17,7 @@ async function readSheet(sheet) {
 }
 
 const metroOperators = await readSheet('Metro')
+const mykiRegionalOperators = await readSheet('Regional - Myki')
 const numberedRegionalOperators = await readSheet('Regional - Numbered')
 const interTownOperators = await readSheet('Regional - Inter Town Link')
 const operatorDetails = await readSheet('Operator Details')
@@ -28,6 +29,14 @@ const metroOutput = metroOperators.slice(1).reduce((acc, row) => {
 }, {})
 
 const regionalNumberedOutput = numberedRegionalOperators.slice(1).reduce((acc, row) => {
+  const [region, route, operator] = row
+  if (!acc[region]) acc[region] = {}
+  acc[region][route] = operator
+  
+  return acc
+}, {})
+
+const regionalMykiOutput = mykiRegionalOperators.slice(1).reduce((acc, row) => {
   const [region, route, operator] = row
   if (!acc[region]) acc[region] = {}
   acc[region][route] = operator
@@ -71,5 +80,6 @@ const operatorColours = operatorDetails.slice(2).reduce((acc, row) => {
 
 await writeFile(path.join(operatorsDir, 'metro-operators.json'), JSON.stringify(metroOutput, null, 1))
 await writeFile(path.join(operatorsDir, 'regional-numbered-operators.json'), JSON.stringify(regionalNumberedOutput, null, 1))
+await writeFile(path.join(operatorsDir, 'regional-myki-operators.json'), JSON.stringify(regionalMykiOutput, null, 1))
 await writeFile(path.join(operatorsDir, 'regional-inter-town-operators.json'), JSON.stringify(interTownOutput, null, 1))
 await writeFile(path.join(operatorsDir, 'bus-operators.css'), operatorColours)
