@@ -49,6 +49,13 @@ export function createRouteProcessor() {
         route.routeName = 'West Gippsland Transit'
       }
 
+      let parts
+      if (parts = route.routeGTFSID.match(/4-WN(\d)/)) {
+        route.routeNumber = parts[1]
+      } else if (route.routeName.match(/wallan/i) && route.routeName.match(/link a/i)) {
+        route.routeNumber = 'A'
+      }
+
       if (metroOperators[route.routeNumber]) route.operators = metroOperators[route.routeNumber]
       else console.log('Could not map operator for metro route', route.routeNumber, route.routeName)
 
@@ -191,6 +198,14 @@ export async function createTripProcessor(database) {
         }
 
         trip.stopTimings.splice(fssIndex, 0, csqData)
+      }
+
+      return trip
+    },
+    4: async function processTrip(trip) {
+      // Past 4pm
+      if (trip.routeGTFSID === '4-WN3' && trip.stopTimings[0].departureTimeMinutes > 960) {
+        trip.routeNumber = 'B'
       }
 
       return trip
