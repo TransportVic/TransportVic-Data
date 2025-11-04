@@ -29,8 +29,8 @@ depot_id,depot_name
 42,Dysons (Reservoir)
 43,CDC Melbourne (Tullamarine)
 44,McKenzies Bus Service
-45,Christians (Bendigo)
-46,Christians (Bendigo)
+45,Christians (Bendigo (Kangaroo Flat))
+46,Christians (Bendigo (Spring Gully))
 47,Moreland Bus Lines
 48,Panorama
 49,CDC Melbourne (Oakleigh)
@@ -43,13 +43,13 @@ depot_id,depot_name
 59,CDC Ballarat
 60,CDC Melbourne (Wyndham)
 61,CDC Melbourne (Westmeadows)
-64,La Trobe Valley Bus Lines
-65,La Trobe Valley Bus Lines
-66,La Trobe Valley Bus Lines
-67,McHarry's Bus Lines
-68,McHarry's Bus Lines
-69,McHarry's Bus Lines
-70,McHarry's Bus Lines
+64,La Trobe Valley Bus Lines (Moe)
+65,La Trobe Valley Bus Lines (Morwell)
+66,La Trobe Valley Bus Lines (Traralgon)
+67,McHarry's Bus Lines (Breakwater)
+68,McHarry's Bus Lines (Drysdale)
+69,McHarry's Bus Lines (Ocean Grove)
+70,McHarry's Bus Lines (Torquay)
 78,Mitchell Transit (Seymour)
 79,Mitchell Transit (Kilmore)
 80,Mitchell Transit (Wallan)
