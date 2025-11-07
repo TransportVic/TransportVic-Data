@@ -365,9 +365,9 @@ export default {
     levelAccess: false
   },
   '4174': {
-    tramTrackerID: undefined,
-    tramTrackerName: undefined,
-    levelAccess: undefined
+    tramTrackerID: '9012',
+    tramTrackerName: 'McKimmies Road & Plenty Road',
+    levelAccess: false
   },
   '4175': {
     tramTrackerID: '2870',
@@ -1955,9 +1955,9 @@ export default {
     levelAccess: true
   },
   '17877': {
-    tramTrackerID: undefined,
-    tramTrackerName: undefined,
-    levelAccess: undefined
+    tramTrackerID: '8007',
+    tramTrackerName: 'Flinders Street Railway Station',
+    levelAccess: false
   },
   '17878': {
     tramTrackerID: '3212',
@@ -2354,6 +2354,11 @@ export default {
     tramTrackerName: 'Nicholson Street & Victoria Parade',
     levelAccess: false
   },
+  '18051': {
+    tramTrackerID: '3412',
+    tramTrackerName: "St. Vincent's Plaza",
+    levelAccess: true
+  },
   '18052': {
     tramTrackerID: '3596',
     tramTrackerName: 'Central Pier & Harbour Esplanade',
@@ -2695,9 +2700,9 @@ export default {
     levelAccess: true
   },
   '18201': {
-    tramTrackerID: undefined,
-    tramTrackerName: undefined,
-    levelAccess: undefined
+    tramTrackerID: '3064',
+    tramTrackerName: 'Flagstaff Railway Station',
+    levelAccess: true
   },
   '18203': {
     tramTrackerID: '3067',
@@ -2720,9 +2725,9 @@ export default {
     levelAccess: true
   },
   '18208': {
-    tramTrackerID: undefined,
-    tramTrackerName: undefined,
-    levelAccess: undefined
+    tramTrackerID: '3166',
+    tramTrackerName: 'Flagstaff Station',
+    levelAccess: true
   },
   '18210': {
     tramTrackerID: '3164',
@@ -2730,14 +2735,14 @@ export default {
     levelAccess: true
   },
   '18211': {
-    tramTrackerID: undefined,
-    tramTrackerName: undefined,
-    levelAccess: undefined
+    tramTrackerID: '3163',
+    tramTrackerName: 'Collins Street & William Street',
+    levelAccess: true
   },
   '18214': {
-    tramTrackerID: undefined,
-    tramTrackerName: undefined,
-    levelAccess: undefined
+    tramTrackerID: '3160',
+    tramTrackerName: 'Flinders St & Queensbridge St',
+    levelAccess: false
   },
   '18215': {
     tramTrackerID: '3159',
@@ -2896,7 +2901,7 @@ export default {
   },
   '18362': {
     tramTrackerID: '2894',
-    tramTrackerName: 'City View Road & Doncaster Road',
+    tramTrackerName: 'CityView Road & Doncaster Road',
     levelAccess: false
   },
   '18363': {
@@ -3290,9 +3295,9 @@ export default {
     levelAccess: false
   },
   '18465': {
-    tramTrackerID: undefined,
-    tramTrackerName: undefined,
-    levelAccess: undefined
+    tramTrackerID: '3058',
+    tramTrackerName: 'Flinders Street & Queensbridge Street',
+    levelAccess: false
   },
   '18468': {
     tramTrackerID: '1082',
@@ -3300,9 +3305,9 @@ export default {
     levelAccess: false
   },
   '18469': {
-    tramTrackerID: undefined,
-    tramTrackerName: undefined,
-    levelAccess: undefined
+    tramTrackerID: '3061',
+    tramTrackerName: 'Collins Street & William Street',
+    levelAccess: true
   },
   '18479': {
     tramTrackerID: '1750',
@@ -3360,9 +3365,9 @@ export default {
     levelAccess: false
   },
   '18491': {
-    tramTrackerID: undefined,
-    tramTrackerName: undefined,
-    levelAccess: undefined
+    tramTrackerID: '2015',
+    tramTrackerName: 'Wests Rd & Raleigh Rd',
+    levelAccess: false
   },
   '18492': {
     tramTrackerID: '4249',
@@ -3565,19 +3570,19 @@ export default {
     levelAccess: false
   },
   '18544': {
-    tramTrackerID: undefined,
-    tramTrackerName: undefined,
-    levelAccess: undefined
+    tramTrackerID: '2253',
+    tramTrackerName: 'Elliott Ave & Royal Park',
+    levelAccess: true
   },
   '18545': {
-    tramTrackerID: undefined,
-    tramTrackerName: undefined,
-    levelAccess: undefined
+    tramTrackerID: '2254',
+    tramTrackerName: 'State Netball Hockey Centre',
+    levelAccess: true
   },
   '18546': {
-    tramTrackerID: undefined,
-    tramTrackerName: undefined,
-    levelAccess: undefined
+    tramTrackerID: '2255',
+    tramTrackerName: 'Melbourne Zoo',
+    levelAccess: true
   },
   '18547': {
     tramTrackerID: '2256',
@@ -3585,9 +3590,9 @@ export default {
     levelAccess: true
   },
   '18548': {
-    tramTrackerID: undefined,
-    tramTrackerName: undefined,
-    levelAccess: undefined
+    tramTrackerID: '2257',
+    tramTrackerName: 'Park St & Royal Park',
+    levelAccess: false
   },
   '18550': {
     tramTrackerID: '2260',
@@ -3885,9 +3890,9 @@ export default {
     levelAccess: false
   },
   '18622': {
-    tramTrackerID: undefined,
-    tramTrackerName: undefined,
-    levelAccess: undefined
+    tramTrackerID: '4036',
+    tramTrackerName: 'Prahran & Chapel Street',
+    levelAccess: false
   },
   '18623': {
     tramTrackerID: '2446',
@@ -4031,7 +4036,7 @@ export default {
   },
   '18660': {
     tramTrackerID: '1239',
-    tramTrackerName: 'Cardigan Street & Victoria Avenue',
+    tramTrackerName: 'Merton Street & Victoria Avenue',
     levelAccess: true
   },
   '18661': {
@@ -4165,9 +4170,9 @@ export default {
     levelAccess: false
   },
   '18725': {
-    tramTrackerID: undefined,
-    tramTrackerName: undefined,
-    levelAccess: undefined
+    tramTrackerID: '9002',
+    tramTrackerName: 'Moreland Station',
+    levelAccess: false
   },
   '18726': {
     tramTrackerID: '2206',
@@ -5421,7 +5426,7 @@ export default {
   },
   '19312': {
     tramTrackerID: '2239',
-    tramTrackerName: 'Cardigan Street & Montague Street',
+    tramTrackerName: 'Merton Street & Victoria Avenue',
     levelAccess: true
   },
   '19313': {
@@ -5505,9 +5510,9 @@ export default {
     levelAccess: false
   },
   '19338': {
-    tramTrackerID: undefined,
-    tramTrackerName: undefined,
-    levelAccess: undefined
+    tramTrackerID: '8005',
+    tramTrackerName: 'Glenferrie Road & Toorak Road',
+    levelAccess: true
   },
   '19340': {
     tramTrackerID: '1224',
@@ -6150,9 +6155,9 @@ export default {
     levelAccess: true
   },
   '19489': {
-    tramTrackerID: '3160',
-    tramTrackerName: 'Flinders Street & Queensbridge Street',
-    levelAccess: false
+    tramTrackerID: '3001',
+    tramTrackerName: 'Melbourne University',
+    levelAccess: true
   },
   '19491': {
     tramTrackerID: '3003',
@@ -6160,13 +6165,13 @@ export default {
     levelAccess: true
   },
   '19492': {
-    tramTrackerID: '3163',
-    tramTrackerName: 'Collins Street & William Street',
+    tramTrackerID: '3004',
+    tramTrackerName: 'Queensberry Street & Swanston Street',
     levelAccess: true
   },
   '19494': {
-    tramTrackerID: '3166',
-    tramTrackerName: 'Flagstaff Railway Station',
+    tramTrackerID: '3007',
+    tramTrackerName: 'RMIT University',
     levelAccess: true
   },
   '19495': {
@@ -6193,11 +6198,6 @@ export default {
     tramTrackerID: '3014',
     tramTrackerName: 'Arts Precinct',
     levelAccess: true
-  },
-  '19502': {
-    tramTrackerID: undefined,
-    tramTrackerName: undefined,
-    levelAccess: undefined
   },
   '19504': {
     tramTrackerID: '3019',
@@ -6258,11 +6258,6 @@ export default {
     tramTrackerID: '1029',
     tramTrackerName: 'Union Street & St. Kilda Road',
     levelAccess: true
-  },
-  '19571': {
-    tramTrackerID: undefined,
-    tramTrackerName: undefined,
-    levelAccess: undefined
   },
   '19572': {
     tramTrackerID: '1026',
@@ -6498,11 +6493,6 @@ export default {
     tramTrackerID: '3119',
     tramTrackerName: 'Shrine of Remembrance',
     levelAccess: true
-  },
-  '19681': {
-    tramTrackerID: undefined,
-    tramTrackerName: undefined,
-    levelAccess: undefined
   },
   '19684': {
     tramTrackerID: '3114',
@@ -6935,9 +6925,9 @@ export default {
     levelAccess: false
   },
   '19781': {
-    tramTrackerID: undefined,
-    tramTrackerName: undefined,
-    levelAccess: undefined
+    tramTrackerID: '1758',
+    tramTrackerName: 'Box Hill Central',
+    levelAccess: true
   },
   '19782': {
     tramTrackerID: '1757',
@@ -7115,9 +7105,9 @@ export default {
     levelAccess: true
   },
   '20522': {
-    tramTrackerID: undefined,
-    tramTrackerName: undefined,
-    levelAccess: undefined
+    tramTrackerID: '8013',
+    tramTrackerName: 'Acland Street',
+    levelAccess: true
   },
   '20523': {
     tramTrackerID: '1448',
@@ -7486,7 +7476,7 @@ export default {
   },
   '20979': {
     tramTrackerID: '3813',
-    tramTrackerName: 'Spring Street',
+    tramTrackerName: 'Spring St & Bourke St',
     levelAccess: false
   },
   '20980': {
@@ -7855,9 +7845,9 @@ export default {
     levelAccess: true
   },
   '21127': {
-    tramTrackerID: undefined,
-    tramTrackerName: undefined,
-    levelAccess: undefined
+    tramTrackerID: '1975',
+    tramTrackerName: 'Vermont South & Burwood Highway',
+    levelAccess: true
   },
   '21196': {
     tramTrackerID: '1312',
@@ -8045,9 +8035,9 @@ export default {
     levelAccess: true
   },
   '46864': {
-    tramTrackerID: undefined,
-    tramTrackerName: undefined,
-    levelAccess: undefined
+    tramTrackerID: '3351',
+    tramTrackerName: 'Spencer St & Latrobe St',
+    levelAccess: true
   },
   '46865': {
     tramTrackerID: '3553',
@@ -8070,19 +8060,19 @@ export default {
     levelAccess: true
   },
   '46869': {
-    tramTrackerID: undefined,
-    tramTrackerName: undefined,
-    levelAccess: undefined
+    tramTrackerID: '2852',
+    tramTrackerName: 'Tyler Street & Plenty Road',
+    levelAccess: true
   },
   '46871': {
-    tramTrackerID: undefined,
-    tramTrackerName: undefined,
-    levelAccess: undefined
+    tramTrackerID: '2352',
+    tramTrackerName: "St. Vincent's Plaza",
+    levelAccess: true
   },
   '46872': {
-    tramTrackerID: '3396',
+    tramTrackerID: '8018',
     tramTrackerName: 'Victoria Harbour Docklands',
-    levelAccess: true
+    levelAccess: false
   },
   '46873': {
     tramTrackerID: '3397',
@@ -8090,17 +8080,17 @@ export default {
     levelAccess: true
   },
   '46874': {
-    tramTrackerID: undefined,
-    tramTrackerName: undefined,
-    levelAccess: undefined
+    tramTrackerID: '8008',
+    tramTrackerName: 'Waterfront City, Docklands',
+    levelAccess: true
   },
   '46875': {
-    tramTrackerID: '1975',
+    tramTrackerID: '9009',
     tramTrackerName: 'Vermont South & Burwood Highway',
     levelAccess: true
   },
   '46876': {
-    tramTrackerID: '4036',
+    tramTrackerID: '8012',
     tramTrackerName: 'Prahran & Chapel Street',
     levelAccess: false
   },
@@ -8110,7 +8100,7 @@ export default {
     levelAccess: true
   },
   '46878': {
-    tramTrackerID: '1758',
+    tramTrackerID: '9014',
     tramTrackerName: 'Box Hill Central',
     levelAccess: true
   },
@@ -8135,9 +8125,9 @@ export default {
     levelAccess: false
   },
   '47493': {
-    tramTrackerID: undefined,
-    tramTrackerName: undefined,
-    levelAccess: undefined
+    tramTrackerID: '3396',
+    tramTrackerName: 'Victoria Harbour Docklands',
+    levelAccess: true
   },
   '49275': {
     tramTrackerID: '1271',
