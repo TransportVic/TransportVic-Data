@@ -5,7 +5,7 @@
       "type": "Feature",
       "properties": {
         "stopGTFSID": 37630,
-        "stopName": "Belmore St/Orr St (Yarrawonga)"
+        "stopName": "Town Hall/Orr St (Yarrawonga)"
       },
       "geometry": {
         "type": "Point",
