@@ -81,6 +81,8 @@ export default {
         trip.routeGTFSID = '6-M32'
       }
 
+      trip.gtfsDirection = 0
+
       return trip
     },
     // 250: Merbein - Mildura
@@ -101,7 +103,9 @@ export default {
         trip.routeNumber = '300'
         trip.routeGTFSID = '6-M30'
       }
-    
+
+      trip.gtfsDirection = 0
+
       return trip
     },
     // 100: Mildura - Red Cliffs
@@ -122,6 +126,8 @@ export default {
         trip.routeNumber = '100'
         trip.routeGTFSID = '6-M10'
       }
+
+      trip.gtfsDirection = 0
 
       return trip
     }
