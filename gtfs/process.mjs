@@ -104,6 +104,13 @@ export async function createStopProcessor() {
       }
       if (stop.stopGTFSID === '4649' && stop.fullStopName === 'Clayton Railway Station/Haughton Road') return null
       return stop
+    },
+    6: function processStop(stop) {
+      if (stop.stopGTFSID === '37229') {
+        stop.fullStopName = 'Flora Avenue/Eleventh Street'
+      } else if (stop.fullStopName === 'Flora') {
+        stop.fullStopName = 'Flora Avenue/Eighth Street'
+      }
     }
   }
 }
