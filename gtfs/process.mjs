@@ -88,13 +88,28 @@ export function createRouteProcessor() {
       return route
     },
     11: function processRoute(route) {
-      if (route.operators[0] === 'Unknown') route.operators = ['Skybus']
+      if (route.operators[0] === 'Unknown') route.operators = ['SkyBus']
+      route.routeName = route.routeName.replace(' Stn', '') + ' SkyBus'
 
-      route.routeName += ' SkyBus'
       return route
     }
   }
 }
+
+const WALPEUP = {
+  type: 'Point',
+  coordinates: [
+    142.02396078037899, -35.13599577131276
+  ]
+}
+
+const UNDERBOOL = {
+  type: 'Point',
+  coordinates: [
+    141.8110141365467, -35.16992749794159
+  ]
+}
+
 
 export async function createStopProcessor() {
   return {
@@ -111,6 +126,16 @@ export async function createStopProcessor() {
       } else if (stop.fullStopName === 'Flora') {
         stop.fullStopName = 'Flora Avenue/Eighth Street'
       }
+
+      if (stop.fullStopName === 'General Store/Mallee Highway') {
+        console.log(distance(WALPEUP, stop.location))
+        if (distance(WALPEUP, stop.location) < 0.5) {
+          stop.fullStopName = 'Walpeup General Store/Mallee Highway'
+        } else if (distance(UNDERBOOL, stop.location) < 0.5) {
+          stop.fullStopName = 'Underbool General Store/Mallee Highway'
+        }
+      }
+
       return stop
     }
   }
