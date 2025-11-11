@@ -3,6 +3,7 @@ import vnetStopMapping from '../geospatial/vnet/vnet-mapping.json' with { type: 
 import vlineRoutes from '../excel/rail/vline-route-names/routes.json' with { type: 'json' }
 import metroOperators from '../excel/bus/operators/metro-operators.json' with { type: 'json' }
 import { dateUtils } from '@transportme/transportvic-utils'
+import milduraBusData from './mildura-bus-data.mjs'
 
 const VLINE_ROUTES = {
   ...vlineRoutes,
@@ -78,9 +79,6 @@ export function createRouteProcessor() {
 
         // Martin's Albury routes
         else if (parts = route.routeNumber.match(/^NSW(\d+)$/)) route.routeNumber = parts[1]
-
-        // Wallan Link A
-        else if (parts = route.routeNumber.match(/Link (\w)$/)) route.routeNumber = parts[1]
       }
 
       return route
@@ -111,6 +109,7 @@ export async function createStopProcessor() {
       } else if (stop.fullStopName === 'Flora') {
         stop.fullStopName = 'Flora Avenue/Eighth Street'
       }
+      return stop
     }
   }
 }
@@ -254,6 +253,10 @@ export async function createTripProcessor(database) {
 
         // Origin closer to Pakenham than destination: Down trip
         trip.gtfsDirection = originDist < destDist ? 0 : 1
+      }
+
+      if (milduraBusData.tripMapping[trip.routeGTFSID]) {
+        return milduraBusData.tripMapping[trip.routeGTFSID](trip, stops)
       }
 
       return trip
