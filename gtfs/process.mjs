@@ -89,6 +89,8 @@ export function createRouteProcessor() {
     },
     11: function processRoute(route) {
       if (route.operators[0] === 'Unknown') route.operators = ['Skybus']
+
+      route.routeName += ' SkyBus'
       return route
     }
   }
@@ -126,27 +128,17 @@ const VLINE_COACH_DUPLICATES = [
   {
     origin: 'Drouin Railway Station/Princes Way',
     destination: 'Traralgon Railway Station/Princes Street',
-    departureTime: '05:45'
+    departureTime: '05:40'
   },
   {
     origin: 'Garfield Railway Station/Nar Nar Goon-Longwarry Road',
     destination: 'Traralgon Plaza Shopping Centre/Franklin Street',
-    departureTime: '06:45'
-  },
-  {
-    origin: 'Pakenham Railway Station/Railway Avenue',
-    destination: 'Garfield Railway Station/Nar Nar Goon-Longwarry Road',
-    departureTime: '17:25'
+    departureTime: '06:43'
   },
   {
     origin: 'Warragul Railway Station/Alfred Street',
     destination: 'Moe Railway Station/Lloyd Street',
     departureTime: '18:45'
-  },
-  {
-    origin: 'Warragul Railway Station/Queen Street',
-    destination: 'Pakenham Railway Station/Railway Avenue',
-    departureTime: '16:35'
   },
   {
     origin: 'Garfield Railway Station/Nar Nar Goon-Longwarry Road',
@@ -158,7 +150,7 @@ const VLINE_COACH_DUPLICATES = [
   {
     origin: 'Cowes Transit Centre/Church Street',
     destination: 'Anderson Bus Interchange/Bass Highway'
-  },
+  }
 ]
 
 VLINE_COACH_DUPLICATES.forEach(trip => trip.timesUsed = 0)
