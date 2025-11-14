@@ -110,6 +110,15 @@ const UNDERBOOL = {
   ]
 }
 
+function checkOUY_PIN_GeneralStore(stop) {
+  if (stop.fullStopName === 'General Store/Mallee Highway') {
+    if (distance(WALPEUP, stop.location) < 0.5) {
+      stop.fullStopName = 'Walpeup General Store/Mallee Highway'
+    } else if (distance(UNDERBOOL, stop.location) < 0.5) {
+      stop.fullStopName = 'Underbool General Store/Mallee Highway'
+    }
+  }
+}
 
 export async function createStopProcessor() {
   return {
@@ -118,6 +127,9 @@ export async function createStopProcessor() {
         stop.parentStopGTFSID = null
       }
       if (stop.stopGTFSID === '4649' && stop.fullStopName === 'Clayton Railway Station/Haughton Road') return null
+
+      checkOUY_PIN_GeneralStore(stop)
+
       return stop
     },
     6: function processStop(stop) {
@@ -127,14 +139,7 @@ export async function createStopProcessor() {
         stop.fullStopName = 'Flora Avenue/Eighth Street'
       }
 
-      if (stop.fullStopName === 'General Store/Mallee Highway') {
-        console.log(distance(WALPEUP, stop.location))
-        if (distance(WALPEUP, stop.location) < 0.5) {
-          stop.fullStopName = 'Walpeup General Store/Mallee Highway'
-        } else if (distance(UNDERBOOL, stop.location) < 0.5) {
-          stop.fullStopName = 'Underbool General Store/Mallee Highway'
-        }
-      }
+      checkOUY_PIN_GeneralStore(stop)
 
       return stop
     }
