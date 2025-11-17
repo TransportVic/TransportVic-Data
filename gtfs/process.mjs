@@ -254,7 +254,7 @@ export async function createTripProcessor(database) {
         stop.vnetName = vnetStopMapping[stop.stopGTFSID]
       })
 
-      if (trip.runID && trip.runID.match(/^\d{4}[a-zC]/)) {
+      if (trip.runID && trip.runID.match(/^\d{4}[a-zA-Z]/)) {
         if (VLINE_ROUTES[trip.routeGTFSID]) {
           trip.routeName = VLINE_ROUTES[trip.routeGTFSID]
         }
