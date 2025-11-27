@@ -1,46 +1,71 @@
 {
-  "runData": {
-    "runRef": "967000",
-    "destination": "Town Hall",
-    "direction": {
-      "directionID": 1,
-      "directionName": "City (Town Hall)",
-      "railDirection": "Up"
-    },
-    "position": null,
-    "vehicle": null,
-    "tdn": "C000",
-    "isRailBus": false,
-    "viaCityLoop": true,
-    "formedBy": null,
-    "forming": null
-  },
-  "routeData": {
-    "ptvRouteID": 14,
-    "routeName": "Pakenham",
-    "routeNumber": null,
-    "gtfsRouteID": "2-PKM"
-  },
-  "stops": [
+  "mode": "metro train",
+  "routeName": "Pakenham",
+  "routeNumber": null,
+  "routeGTFSID": "2-PKM",
+  "operationDays": [
+    "20251130"
+  ],
+  "calendarID": "T3",
+  "tripID": "02-PKM--27-T3-C802",
+  "shapeID": "2-PKM-vpt-27.31.R",
+  "block": "2087",
+  "gtfsDirection": 1,
+  "runID": "C802",
+  "isRailReplacementBus": false,
+  "direction": "Up",
+  "stopTimings": [
     {
-      "stationName": "Hawksburn",
-      "platform": "3",
-      "scheduledDeparture": "2024-07-07T19:19:00.000Z",
-      "estimatedDeparture": null
-    },
-    {
-      "stationName": "Anzac",
-      "platform": "1",
-      "scheduledDeparture": "2024-07-07T19:21:00.000Z",
-      "estimatedDeparture": null
+      "stopName": "Malvern Railway Station",
+      "stopNumber": null,
+      "suburb": "Malvern",
+      "stopGTFSID": "vic:rail:MAL",
+      "arrivalTime": "10:39",
+      "arrivalTimeMinutes": 639,
+      "departureTime": "10:39",
+      "departureTimeMinutes": 639,
+      "stopConditions": {
+        "pickup": 0,
+        "dropoff": 0
+      },
+      "stopDistance": 21097.46,
+      "platform": "3"
     },
     {
-      "stationName": "Town Hall",
-      "platform": "1",
-      "scheduledDeparture": "2024-07-07T19:23:00.000Z",
-      "estimatedDeparture": null
+      "stopName": "Anzac Railway Station",
+      "stopNumber": null,
+      "suburb": "Melbourne",
+      "stopGTFSID": "vic:rail:AZC",
+      "arrivalTime": "10:47",
+      "arrivalTimeMinutes": 647,
+      "departureTime": "10:47",
+      "departureTimeMinutes": 647,
+      "stopConditions": {
+        "pickup": 0,
+        "dropoff": 0
+      },
+      "stopDistance": 27544.43,
+      "platform": "1"
+    },
+    {
+      "stopName": "Town Hall Railway Station",
+      "stopNumber": null,
+      "suburb": "Melbourne",
+      "stopGTFSID": "vic:rail:THL",
+      "arrivalTime": "10:51",
+      "arrivalTimeMinutes": 651,
+      "departureTime": "10:51",
+      "departureTimeMinutes": 651,
+      "stopConditions": {
+        "pickup": 1,
+        "dropoff": 0
+      },
+      "stopDistance": 29574.87,
+      "platform": "1"
     }
   ],
-  "formedByStops": [],
-  "formingStops": []
+  "origin": "Malvern Railway Station",
+  "departureTime": "10:39",
+  "destination": "Town Hall Railway Station",
+  "destinationArrivalTime": "10:51"
 }

@@ -1,167 +1,386 @@
 {
-  "runData": {
-    "runRef": "951027",
-    "destination": "Belgrave",
-    "direction": {
-      "directionID": 3,
-      "directionName": "Belgrave",
-      "railDirection": "Down"
-    },
-    "position": null,
-    "vehicle": null,
-    "tdn": "3027",
-    "isRailBus": false,
-    "viaCityLoop": false,
-    "formedBy": {
-      "tdn": "3928",
-      "runRef": "951928"
-    },
-    "forming": {
-      "tdn": "3002",
-      "runRef": "951002"
-    }
-  },
-  "routeData": {
-    "ptvRouteID": 2,
-    "routeName": "Belgrave",
-    "routeNumber": null,
-    "gtfsRouteID": "2-BEL"
-  },
-  "stops": [
+  "mode": "metro train",
+  "routeGTFSID": "2-BEG",
+  "operationDays": "20250802",
+  "tripID": null,
+  "shapeID": null,
+  "block": null,
+  "gtfsDirection": null,
+  "runID": "3077",
+  "isRailReplacementBus": false,
+  "vehicle": null,
+  "direction": "Down",
+  "routeName": "Belgrave",
+  "routeNumber": null,
+  "origin": "Flinders Street Railway Station",
+  "destination": "Belgrave Railway Station",
+  "departureTime": "25:09",
+  "destinationArrivalTime": "26:14",
+  "stopTimings": [
     {
-      "stationName": "Flinders Street",
+      "stopName": "Flinders Street Railway Station",
+      "stopNumber": null,
+      "suburb": "Melbourne",
+      "stopGTFSID": "vic:rail:FSS",
+      "arrivalTime": "01:09",
+      "arrivalTimeMinutes": 1509,
+      "departureTime": "01:09",
+      "departureTimeMinutes": 1509,
+      "estimatedDepartureTime": null,
+      "scheduledDepartureTime": "2025-08-02T15:09:00.000Z",
+      "actualDepartureTimeMS": 1754147340000,
       "platform": "2",
-      "scheduledDeparture": "2024-07-08T01:26:00.000Z",
-      "estimatedDeparture": "2024-07-08T01:25:40.000Z"
+      "cancelled": false,
+      "additional": false,
+      "stopConditions": {
+        "pickup": 0,
+        "dropoff": 1
+      }
     },
     {
-      "stationName": "Richmond",
+      "stopName": "Richmond Railway Station",
+      "stopNumber": null,
+      "suburb": "Richmond",
+      "stopGTFSID": "vic:rail:RMD",
+      "arrivalTime": "01:12",
+      "arrivalTimeMinutes": 1512,
+      "departureTime": "01:12",
+      "departureTimeMinutes": 1512,
+      "estimatedDepartureTime": null,
+      "scheduledDepartureTime": "2025-08-02T15:12:00.000Z",
+      "actualDepartureTimeMS": 1754147520000,
       "platform": "9",
-      "scheduledDeparture": "2024-07-08T01:29:00.000Z",
-      "estimatedDeparture": "2024-07-08T01:29:00.000Z"
+      "cancelled": false,
+      "additional": false,
+      "stopConditions": {
+        "pickup": 0,
+        "dropoff": 0
+      }
     },
     {
-      "stationName": "Glenferrie",
+      "stopName": "Glenferrie Railway Station",
+      "stopNumber": null,
+      "suburb": "Hawthorn",
+      "stopGTFSID": "vic:rail:GFE",
+      "arrivalTime": "01:19",
+      "arrivalTimeMinutes": 1519,
+      "departureTime": "01:19",
+      "departureTimeMinutes": 1519,
+      "estimatedDepartureTime": null,
+      "scheduledDepartureTime": "2025-08-02T15:19:00.000Z",
+      "actualDepartureTimeMS": 1754147940000,
       "platform": "3",
-      "scheduledDeparture": "2024-07-08T01:34:00.000Z",
-      "estimatedDeparture": "2024-07-08T01:36:00.000Z"
+      "cancelled": false,
+      "additional": false,
+      "stopConditions": {
+        "pickup": 0,
+        "dropoff": 0
+      }
     },
     {
-      "stationName": "Camberwell",
+      "stopName": "Camberwell Railway Station",
+      "stopNumber": null,
+      "suburb": "Camberwell",
+      "stopGTFSID": "vic:rail:CAM",
+      "arrivalTime": "01:23",
+      "arrivalTimeMinutes": 1523,
+      "departureTime": "01:23",
+      "departureTimeMinutes": 1523,
+      "estimatedDepartureTime": null,
+      "scheduledDepartureTime": "2025-08-02T15:23:00.000Z",
+      "actualDepartureTimeMS": 1754148180000,
       "platform": "3",
-      "scheduledDeparture": "2024-07-08T01:38:00.000Z",
-      "estimatedDeparture": "2024-07-08T01:39:00.000Z"
+      "cancelled": false,
+      "additional": false,
+      "stopConditions": {
+        "pickup": 0,
+        "dropoff": 0
+      }
     },
     {
-      "stationName": "Box Hill",
+      "stopName": "Box Hill Railway Station",
+      "stopNumber": null,
+      "suburb": "Box Hill",
+      "stopGTFSID": "vic:rail:BOX",
+      "arrivalTime": "01:34",
+      "arrivalTimeMinutes": 1534,
+      "departureTime": "01:34",
+      "departureTimeMinutes": 1534,
+      "estimatedDepartureTime": null,
+      "scheduledDepartureTime": "2025-08-02T15:34:00.000Z",
+      "actualDepartureTimeMS": 1754148840000,
       "platform": "4",
-      "scheduledDeparture": "2024-07-08T01:46:00.000Z",
-      "estimatedDeparture": "2024-07-08T01:46:00.000Z"
+      "cancelled": false,
+      "additional": false,
+      "stopConditions": {
+        "pickup": 0,
+        "dropoff": 0
+      }
     },
     {
-      "stationName": "Blackburn",
+      "stopName": "Blackburn Railway Station",
+      "stopNumber": null,
+      "suburb": "Blackburn",
+      "stopGTFSID": "vic:rail:BBN",
+      "arrivalTime": "01:39",
+      "arrivalTimeMinutes": 1539,
+      "departureTime": "01:39",
+      "departureTimeMinutes": 1539,
+      "estimatedDepartureTime": null,
+      "scheduledDepartureTime": "2025-08-02T15:39:00.000Z",
+      "actualDepartureTimeMS": 1754149140000,
       "platform": "3",
-      "scheduledDeparture": "2024-07-08T01:50:00.000Z",
-      "estimatedDeparture": "2024-07-08T01:50:00.000Z"
+      "cancelled": false,
+      "additional": false,
+      "stopConditions": {
+        "pickup": 0,
+        "dropoff": 0
+      }
     },
     {
-      "stationName": "Nunawading",
+      "stopName": "Nunawading Railway Station",
+      "stopNumber": null,
+      "suburb": "Nunawading",
+      "stopGTFSID": "vic:rail:NWG",
+      "arrivalTime": "01:42",
+      "arrivalTimeMinutes": 1542,
+      "departureTime": "01:42",
+      "departureTimeMinutes": 1542,
+      "estimatedDepartureTime": null,
+      "scheduledDepartureTime": "2025-08-02T15:42:00.000Z",
+      "actualDepartureTimeMS": 1754149320000,
       "platform": "2",
-      "scheduledDeparture": "2024-07-08T01:53:00.000Z",
-      "estimatedDeparture": "2024-07-08T01:53:00.000Z"
+      "cancelled": false,
+      "additional": false,
+      "stopConditions": {
+        "pickup": 0,
+        "dropoff": 0
+      }
     },
     {
-      "stationName": "Mitcham",
+      "stopName": "Mitcham Railway Station",
+      "stopNumber": null,
+      "suburb": "Mitcham",
+      "stopGTFSID": "vic:rail:MCH",
+      "arrivalTime": "01:44",
+      "arrivalTimeMinutes": 1544,
+      "departureTime": "01:44",
+      "departureTimeMinutes": 1544,
+      "estimatedDepartureTime": null,
+      "scheduledDepartureTime": "2025-08-02T15:44:00.000Z",
+      "actualDepartureTimeMS": 1754149440000,
       "platform": "2",
-      "scheduledDeparture": "2024-07-08T01:55:00.000Z",
-      "estimatedDeparture": "2024-07-08T01:56:00.000Z"
+      "cancelled": false,
+      "additional": false,
+      "stopConditions": {
+        "pickup": 0,
+        "dropoff": 0
+      }
     },
     {
-      "stationName": "Heatherdale",
+      "stopName": "Heatherdale Railway Station",
+      "stopNumber": null,
+      "suburb": "Ringwood",
+      "stopGTFSID": "vic:rail:HTD",
+      "arrivalTime": "01:47",
+      "arrivalTimeMinutes": 1547,
+      "departureTime": "01:47",
+      "departureTimeMinutes": 1547,
+      "estimatedDepartureTime": null,
+      "scheduledDepartureTime": "2025-08-02T15:47:00.000Z",
+      "actualDepartureTimeMS": 1754149620000,
       "platform": "2",
-      "scheduledDeparture": "2024-07-08T01:58:00.000Z",
-      "estimatedDeparture": "2024-07-08T01:58:00.000Z"
+      "cancelled": false,
+      "additional": false,
+      "stopConditions": {
+        "pickup": 0,
+        "dropoff": 0
+      }
     },
     {
-      "stationName": "Ringwood",
+      "stopName": "Ringwood Railway Station",
+      "stopNumber": null,
+      "suburb": "Ringwood",
+      "stopGTFSID": "vic:rail:RWD",
+      "arrivalTime": "01:49",
+      "arrivalTimeMinutes": 1549,
+      "departureTime": "01:49",
+      "departureTimeMinutes": 1549,
+      "estimatedDepartureTime": null,
+      "scheduledDepartureTime": "2025-08-02T15:49:00.000Z",
+      "actualDepartureTimeMS": 1754149740000,
       "platform": "3",
-      "scheduledDeparture": "2024-07-08T02:01:00.000Z",
-      "estimatedDeparture": "2024-07-08T02:01:00.000Z"
+      "cancelled": false,
+      "additional": false,
+      "stopConditions": {
+        "pickup": 0,
+        "dropoff": 0
+      }
     },
     {
-      "stationName": "Heathmont",
+      "stopName": "Heathmont Railway Station",
+      "stopNumber": null,
+      "suburb": "Heathmont",
+      "stopGTFSID": "vic:rail:HMT",
+      "arrivalTime": "01:52",
+      "arrivalTimeMinutes": 1552,
+      "departureTime": "01:52",
+      "departureTimeMinutes": 1552,
+      "estimatedDepartureTime": null,
+      "scheduledDepartureTime": "2025-08-02T15:52:00.000Z",
+      "actualDepartureTimeMS": 1754149920000,
       "platform": "2",
-      "scheduledDeparture": "2024-07-08T02:04:00.000Z",
-      "estimatedDeparture": "2024-07-08T02:04:00.000Z"
+      "cancelled": false,
+      "additional": false,
+      "stopConditions": {
+        "pickup": 0,
+        "dropoff": 0
+      }
     },
     {
-      "stationName": "Bayswater",
+      "stopName": "Bayswater Railway Station",
+      "stopNumber": null,
+      "suburb": "Bayswater",
+      "stopGTFSID": "vic:rail:BAY",
+      "arrivalTime": "01:55",
+      "arrivalTimeMinutes": 1555,
+      "departureTime": "01:55",
+      "departureTimeMinutes": 1555,
+      "estimatedDepartureTime": null,
+      "scheduledDepartureTime": "2025-08-02T15:55:00.000Z",
+      "actualDepartureTimeMS": 1754150100000,
       "platform": "2",
-      "scheduledDeparture": "2024-07-08T02:07:00.000Z",
-      "estimatedDeparture": "2024-07-08T02:07:00.000Z"
+      "cancelled": false,
+      "additional": false,
+      "stopConditions": {
+        "pickup": 0,
+        "dropoff": 0
+      }
     },
     {
-      "stationName": "Boronia",
+      "stopName": "Boronia Railway Station",
+      "stopNumber": null,
+      "suburb": "Boronia",
+      "stopGTFSID": "vic:rail:BOR",
+      "arrivalTime": "01:58",
+      "arrivalTimeMinutes": 1558,
+      "departureTime": "01:58",
+      "departureTimeMinutes": 1558,
+      "estimatedDepartureTime": null,
+      "scheduledDepartureTime": "2025-08-02T15:58:00.000Z",
+      "actualDepartureTimeMS": 1754150280000,
       "platform": "2",
-      "scheduledDeparture": "2024-07-08T02:10:00.000Z",
-      "estimatedDeparture": "2024-07-08T02:11:00.000Z"
+      "cancelled": false,
+      "additional": false,
+      "stopConditions": {
+        "pickup": 0,
+        "dropoff": 0
+      }
     },
     {
-      "stationName": "Ferntree Gully",
+      "stopName": "Ferntree Gully Railway Station",
+      "stopNumber": null,
+      "suburb": "Ferntree Gully",
+      "stopGTFSID": "vic:rail:FTG",
+      "arrivalTime": "02:01",
+      "arrivalTimeMinutes": 1561,
+      "departureTime": "02:01",
+      "departureTimeMinutes": 1561,
+      "estimatedDepartureTime": null,
+      "scheduledDepartureTime": "2025-08-02T16:01:00.000Z",
+      "actualDepartureTimeMS": 1754150460000,
       "platform": "2",
-      "scheduledDeparture": "2024-07-08T02:13:00.000Z",
-      "estimatedDeparture": "2024-07-08T02:14:00.000Z"
+      "cancelled": false,
+      "additional": false,
+      "stopConditions": {
+        "pickup": 0,
+        "dropoff": 0
+      }
     },
     {
-      "stationName": "Upper Ferntree Gully",
+      "stopName": "Upper Ferntree Gully Railway Station",
+      "stopNumber": null,
+      "suburb": "Upper Ferntree Gully",
+      "stopGTFSID": "vic:rail:UFG",
+      "arrivalTime": "02:05",
+      "arrivalTimeMinutes": 1565,
+      "departureTime": "02:05",
+      "departureTimeMinutes": 1565,
+      "estimatedDepartureTime": null,
+      "scheduledDepartureTime": "2025-08-02T16:05:00.000Z",
+      "actualDepartureTimeMS": 1754150700000,
       "platform": "2",
-      "scheduledDeparture": "2024-07-08T02:17:00.000Z",
-      "estimatedDeparture": "2024-07-08T02:17:00.000Z"
+      "cancelled": false,
+      "additional": false,
+      "stopConditions": {
+        "pickup": 0,
+        "dropoff": 0
+      }
     },
     {
-      "stationName": "Upwey",
+      "stopName": "Upwey Railway Station",
+      "stopNumber": null,
+      "suburb": "Upwey",
+      "stopGTFSID": "vic:rail:UPW",
+      "arrivalTime": "02:08",
+      "arrivalTimeMinutes": 1568,
+      "departureTime": "02:08",
+      "departureTimeMinutes": 1568,
+      "estimatedDepartureTime": null,
+      "scheduledDepartureTime": "2025-08-02T16:08:00.000Z",
+      "actualDepartureTimeMS": 1754150880000,
       "platform": "2",
-      "scheduledDeparture": "2024-07-08T02:21:00.000Z",
-      "estimatedDeparture": "2024-07-08T02:21:00.000Z"
+      "cancelled": false,
+      "additional": false,
+      "stopConditions": {
+        "pickup": 0,
+        "dropoff": 0
+      }
     },
     {
-      "stationName": "Tecoma",
+      "stopName": "Tecoma Railway Station",
+      "stopNumber": null,
+      "suburb": "Tecoma",
+      "stopGTFSID": "vic:rail:TCM",
+      "arrivalTime": "02:11",
+      "arrivalTimeMinutes": 1571,
+      "departureTime": "02:11",
+      "departureTimeMinutes": 1571,
+      "estimatedDepartureTime": null,
+      "scheduledDepartureTime": "2025-08-02T16:11:00.000Z",
+      "actualDepartureTimeMS": 1754151060000,
       "platform": "1",
-      "scheduledDeparture": "2024-07-08T02:23:00.000Z",
-      "estimatedDeparture": "2024-07-08T02:23:00.000Z"
+      "cancelled": false,
+      "additional": false,
+      "stopConditions": {
+        "pickup": 0,
+        "dropoff": 0
+      }
     },
     {
-      "stationName": "Belgrave",
+      "stopName": "Belgrave Railway Station",
+      "stopNumber": null,
+      "suburb": "Belgrave",
+      "stopGTFSID": "vic:rail:BEG",
+      "arrivalTime": "02:14",
+      "arrivalTimeMinutes": 1574,
+      "departureTime": "02:14",
+      "departureTimeMinutes": 1574,
+      "estimatedDepartureTime": null,
+      "scheduledDepartureTime": "2025-08-02T16:14:00.000Z",
+      "actualDepartureTimeMS": 1754151240000,
       "platform": "2",
-      "scheduledDeparture": "2024-07-08T02:26:00.000Z",
-      "estimatedDeparture": null
+      "cancelled": false,
+      "additional": false,
+      "stopConditions": {
+        "pickup": 1,
+        "dropoff": 0
+      }
     }
   ],
-  "formedByStops": [
-    {
-      "stationName": "Parliament",
-      "platform": "4",
-      "scheduledDeparture": "2024-07-08T01:07:00.000Z",
-      "estimatedDeparture": "2024-07-08T01:09:00.000Z"
-    },
-    {
-      "stationName": "Melbourne Central",
-      "platform": "4",
-      "scheduledDeparture": "2024-07-08T01:09:00.000Z",
-      "estimatedDeparture": "2024-07-08T01:11:00.000Z"
-    },
-    {
-      "stationName": "Flagstaff",
-      "platform": "4",
-      "scheduledDeparture": "2024-07-08T01:10:00.000Z",
-      "estimatedDeparture": "2024-07-08T01:12:27.000Z"
-    },
-    {
-      "stationName": "Southern Cross",
-      "platform": "10",
-      "scheduledDeparture": "2024-07-08T01:12:00.000Z",
-      "estimatedDeparture": "2024-07-08T01:16:00.000Z"
-    }
-  ],
-  "formingStops": []
+  "formedBy": "3076",
+  "forming": "3084",
+  "cancelled": false,
+  "additional": false,
+  "lastUpdated": 1754176283315
 }

@@ -1,58 +1,108 @@
 {
-  "runData": {
-    "runRef": "967001",
-    "destination": "West Footscray",
-    "direction": {
-      "directionID": 1,
-      "directionName": "Sunbury",
-      "railDirection": "Down"
-    },
-    "position": null,
-    "vehicle": null,
-    "tdn": "C001",
-    "isRailBus": false,
-    "viaCityLoop": true,
-    "formedBy": null,
-    "forming": null
-  },
-  "routeData": {
-    "ptvRouteID": 14,
-    "routeName": "Sunbury",
-    "routeNumber": null,
-    "gtfsRouteID": "2-SUY"
-  },
-  "stops": [
+  "_id": "691fc24a2e23e5a88d5385ab",
+  "mode": "metro train",
+  "routeName": "Sunbury",
+  "routeNumber": null,
+  "routeGTFSID": "2-SUY",
+  "operationDays": [
+    "20251130"
+  ],
+  "calendarID": "T3",
+  "tripID": "02-SUY--27-T3-Z601",
+  "shapeID": "2-SUY-vpt-27.28.H",
+  "block": "2038",
+  "gtfsDirection": 0,
+  "runID": "Z601",
+  "isRailReplacementBus": false,
+  "direction": "Down",
+  "stopTimings": [
     {
-      "stationName": "Town Hall",
-      "platform": "1",
-      "scheduledDeparture": "2024-07-07T19:19:00.000Z",
-      "estimatedDeparture": null
-    },
-    {
-      "stationName": "State Library",
-      "platform": "1",
-      "scheduledDeparture": "2024-07-07T19:21:00.000Z",
-      "estimatedDeparture": null
+      "stopName": "Town Hall Railway Station",
+      "stopNumber": null,
+      "suburb": "Melbourne",
+      "stopGTFSID": "vic:rail:THL",
+      "arrivalTime": "10:16",
+      "arrivalTimeMinutes": 616,
+      "departureTime": "10:16",
+      "departureTimeMinutes": 616,
+      "stopConditions": {
+        "pickup": 0,
+        "dropoff": 1
+      },
+      "stopDistance": 0,
+      "platform": "1"
     },
     {
-      "stationName": "Parkville",
-      "platform": "1",
-      "scheduledDeparture": "2024-07-07T19:23:00.000Z",
-      "estimatedDeparture": null
+      "stopName": "State Library Railway Station",
+      "stopNumber": null,
+      "suburb": "Melbourne",
+      "stopGTFSID": "vic:rail:STL",
+      "arrivalTime": "10:18",
+      "arrivalTimeMinutes": 618,
+      "departureTime": "10:18",
+      "departureTimeMinutes": 618,
+      "stopConditions": {
+        "pickup": 0,
+        "dropoff": 0
+      },
+      "stopDistance": 928.34,
+      "platform": "1"
     },
     {
-      "stationName": "Arden",
-      "platform": "1",
-      "scheduledDeparture": "2024-07-07T19:25:00.000Z",
-      "estimatedDeparture": null
+      "stopName": "Parkville Railway Station",
+      "stopNumber": null,
+      "suburb": "Carlton",
+      "stopGTFSID": "vic:rail:PKV",
+      "arrivalTime": "10:21",
+      "arrivalTimeMinutes": 621,
+      "departureTime": "10:21",
+      "departureTimeMinutes": 621,
+      "stopConditions": {
+        "pickup": 0,
+        "dropoff": 0
+      },
+      "stopDistance": 2153.94,
+      "platform": "1"
     },
     {
-      "stationName": "West Footscray",
-      "platform": "1",
-      "scheduledDeparture": "2024-07-07T19:30:00.000Z",
-      "estimatedDeparture": null
+      "stopName": "Arden Railway Station",
+      "stopNumber": null,
+      "suburb": "North Melbourne",
+      "stopGTFSID": "vic:rail:ARN",
+      "arrivalTime": "10:23",
+      "arrivalTimeMinutes": 623,
+      "departureTime": "10:23",
+      "departureTimeMinutes": 623,
+      "stopConditions": {
+        "pickup": 0,
+        "dropoff": 0
+      },
+      "stopDistance": 3884.22,
+      "platform": "1"
+    },
+    {
+      "stopName": "West Footscray Railway Station",
+      "stopNumber": null,
+      "suburb": "West Footscray",
+      "stopGTFSID": "vic:rail:WFY",
+      "arrivalTime": "10:33",
+      "arrivalTimeMinutes": 633,
+      "departureTime": "10:33",
+      "departureTimeMinutes": 633,
+      "stopConditions": {
+        "pickup": 1,
+        "dropoff": 0
+      },
+      "stopDistance": 9049.2,
+      "platform": "1"
     }
   ],
-  "formedByStops": [],
-  "formingStops": []
+  "origin": "Town Hall Railway Station",
+  "departureTime": "10:16",
+  "destination": "West Footscray Railway Station",
+  "destinationArrivalTime": "10:33",
+  "trueOrigin": "Town Hall Railway Station",
+  "trueDestination": "West Footscray Railway Station",
+  "trueDepartureTime": "10:16",
+  "trueDestinationArrivalTime": "10:33"
 }

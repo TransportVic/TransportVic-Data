@@ -1,202 +1,471 @@
 {
-  "runData": {
-    "runRef": "949873",
-    "destination": "Hurstbridge",
-    "direction": {
-      "directionID": 7,
-      "directionName": "Hurstbridge",
-      "railDirection": "Down"
-    },
-    "position": null,
-    "vehicle": null,
-    "tdn": "1873",
-    "isRailBus": false,
-    "viaCityLoop": true,
-    "formedBy": {
-      "tdn": "1076",
-      "runRef": "949076"
-    },
-    "forming": {
-      "tdn": "1292",
-      "runRef": "949292"
-    }
-  },
-  "routeData": {
-    "ptvRouteID": 8,
-    "routeName": "Hurstbridge",
-    "routeNumber": null,
-    "gtfsRouteID": "2-HBG"
-  },
-  "stops": [
+  "mode": "metro train",
+  "routeName": "Hurstbridge",
+  "routeNumber": null,
+  "routeGTFSID": "2-HBE",
+  "operationDays": [
+    "20251120"
+  ],
+  "calendarID": "T5",
+  "tripID": "02-HBE--24-T5-1873",
+  "shapeID": "2-HBE-vpt-24.6.H",
+  "block": "10209",
+  "gtfsDirection": 0,
+  "runID": "1873",
+  "isRailReplacementBus": false,
+  "direction": "Down",
+  "stopTimings": [
     {
-      "stationName": "Flinders Street",
-      "platform": "1",
-      "scheduledDeparture": "2024-07-08T01:59:00.000Z",
-      "estimatedDeparture": "2024-07-08T01:58:40.000Z"
+      "stopName": "Flinders Street Railway Station",
+      "stopNumber": null,
+      "suburb": "Melbourne",
+      "stopGTFSID": "vic:rail:FSS",
+      "arrivalTime": "11:59",
+      "arrivalTimeMinutes": 719,
+      "departureTime": "11:59",
+      "departureTimeMinutes": 719,
+      "stopConditions": {
+        "pickup": 0,
+        "dropoff": 1
+      },
+      "stopDistance": 0,
+      "platform": "1"
     },
     {
-      "stationName": "Southern Cross",
-      "platform": "9",
-      "scheduledDeparture": "2024-07-08T02:02:00.000Z",
-      "estimatedDeparture": "2024-07-08T02:03:00.000Z"
+      "stopName": "Southern Cross Railway Station",
+      "stopNumber": null,
+      "suburb": "Docklands",
+      "stopGTFSID": "vic:rail:SSS",
+      "arrivalTime": "12:02",
+      "arrivalTimeMinutes": 722,
+      "departureTime": "12:02",
+      "departureTimeMinutes": 722,
+      "stopConditions": {
+        "pickup": 0,
+        "dropoff": 0
+      },
+      "stopDistance": 1513.63,
+      "platform": "9"
     },
     {
-      "stationName": "Flagstaff",
-      "platform": "1",
-      "scheduledDeparture": "2024-07-08T02:04:00.000Z",
-      "estimatedDeparture": "2024-07-08T02:05:03.000Z"
+      "stopName": "Flagstaff Railway Station",
+      "stopNumber": null,
+      "suburb": "Melbourne",
+      "stopGTFSID": "vic:rail:FGS",
+      "arrivalTime": "12:04",
+      "arrivalTimeMinutes": 724,
+      "departureTime": "12:04",
+      "departureTimeMinutes": 724,
+      "stopConditions": {
+        "pickup": 0,
+        "dropoff": 0
+      },
+      "stopDistance": 2552.79,
+      "platform": "1"
     },
     {
-      "stationName": "Melbourne Central",
-      "platform": "1",
-      "scheduledDeparture": "2024-07-08T02:06:00.000Z",
-      "estimatedDeparture": "2024-07-08T02:06:00.000Z"
+      "stopName": "Melbourne Central Railway Station",
+      "stopNumber": null,
+      "suburb": "Melbourne",
+      "stopGTFSID": "vic:rail:MCE",
+      "arrivalTime": "12:06",
+      "arrivalTimeMinutes": 726,
+      "departureTime": "12:06",
+      "departureTimeMinutes": 726,
+      "stopConditions": {
+        "pickup": 0,
+        "dropoff": 0
+      },
+      "stopDistance": 3200.18,
+      "platform": "1"
     },
     {
-      "stationName": "Parliament",
-      "platform": "1",
-      "scheduledDeparture": "2024-07-08T02:08:00.000Z",
-      "estimatedDeparture": "2024-07-08T02:09:00.000Z"
+      "stopName": "Parliament Railway Station",
+      "stopNumber": null,
+      "suburb": "East Melbourne",
+      "stopGTFSID": "vic:rail:PAR",
+      "arrivalTime": "12:08",
+      "arrivalTimeMinutes": 728,
+      "departureTime": "12:08",
+      "departureTimeMinutes": 728,
+      "stopConditions": {
+        "pickup": 0,
+        "dropoff": 0
+      },
+      "stopDistance": 4317.78,
+      "platform": "1"
     },
     {
-      "stationName": "Jolimont",
-      "platform": "2",
-      "scheduledDeparture": "2024-07-08T02:11:00.000Z",
-      "estimatedDeparture": "2024-07-08T02:11:00.000Z"
+      "stopName": "Jolimont Railway Station",
+      "stopNumber": null,
+      "suburb": "East Melbourne",
+      "stopGTFSID": "vic:rail:JLI",
+      "arrivalTime": "12:11",
+      "arrivalTimeMinutes": 731,
+      "departureTime": "12:11",
+      "departureTimeMinutes": 731,
+      "stopConditions": {
+        "pickup": 0,
+        "dropoff": 0
+      },
+      "stopDistance": 5601.74,
+      "platform": "2"
     },
     {
-      "stationName": "West Richmond",
-      "platform": "2",
-      "scheduledDeparture": "2024-07-08T02:12:00.000Z",
-      "estimatedDeparture": "2024-07-08T02:13:00.000Z"
+      "stopName": "West Richmond Railway Station",
+      "stopNumber": null,
+      "suburb": "Richmond",
+      "stopGTFSID": "vic:rail:WRM",
+      "arrivalTime": "12:12",
+      "arrivalTimeMinutes": 732,
+      "departureTime": "12:12",
+      "departureTimeMinutes": 732,
+      "stopConditions": {
+        "pickup": 0,
+        "dropoff": 0
+      },
+      "stopDistance": 6358.18,
+      "platform": "2"
     },
     {
-      "stationName": "North Richmond",
-      "platform": "2",
-      "scheduledDeparture": "2024-07-08T02:14:00.000Z",
-      "estimatedDeparture": "2024-07-08T02:15:00.000Z"
+      "stopName": "North Richmond Railway Station",
+      "stopNumber": null,
+      "suburb": "Richmond",
+      "stopGTFSID": "vic:rail:NRM",
+      "arrivalTime": "12:14",
+      "arrivalTimeMinutes": 734,
+      "departureTime": "12:14",
+      "departureTimeMinutes": 734,
+      "stopConditions": {
+        "pickup": 0,
+        "dropoff": 0
+      },
+      "stopDistance": 6879.12,
+      "platform": "2"
     },
     {
-      "stationName": "Collingwood",
-      "platform": "2",
-      "scheduledDeparture": "2024-07-08T02:15:00.000Z",
-      "estimatedDeparture": "2024-07-08T02:17:00.000Z"
+      "stopName": "Collingwood Railway Station",
+      "stopNumber": null,
+      "suburb": "Abbotsford",
+      "stopGTFSID": "vic:rail:CWD",
+      "arrivalTime": "12:15",
+      "arrivalTimeMinutes": 735,
+      "departureTime": "12:15",
+      "departureTimeMinutes": 735,
+      "stopConditions": {
+        "pickup": 0,
+        "dropoff": 0
+      },
+      "stopDistance": 7544.91,
+      "platform": "2"
     },
     {
-      "stationName": "Victoria Park",
-      "platform": "2",
-      "scheduledDeparture": "2024-07-08T02:17:00.000Z",
-      "estimatedDeparture": "2024-07-08T02:18:00.000Z"
+      "stopName": "Victoria Park Railway Station",
+      "stopNumber": null,
+      "suburb": "Abbotsford",
+      "stopGTFSID": "vic:rail:VPK",
+      "arrivalTime": "12:17",
+      "arrivalTimeMinutes": 737,
+      "departureTime": "12:17",
+      "departureTimeMinutes": 737,
+      "stopConditions": {
+        "pickup": 0,
+        "dropoff": 0
+      },
+      "stopDistance": 8130.84,
+      "platform": "2"
     },
     {
-      "stationName": "Clifton Hill",
-      "platform": "2",
-      "scheduledDeparture": "2024-07-08T02:19:00.000Z",
-      "estimatedDeparture": "2024-07-08T02:21:00.000Z"
+      "stopName": "Clifton Hill Railway Station",
+      "stopNumber": null,
+      "suburb": "Clifton Hill",
+      "stopGTFSID": "vic:rail:CHL",
+      "arrivalTime": "12:19",
+      "arrivalTimeMinutes": 739,
+      "departureTime": "12:19",
+      "departureTimeMinutes": 739,
+      "stopConditions": {
+        "pickup": 0,
+        "dropoff": 0
+      },
+      "stopDistance": 9321.88,
+      "platform": "2"
     },
     {
-      "stationName": "Westgarth",
-      "platform": "2",
-      "scheduledDeparture": "2024-07-08T02:21:00.000Z",
-      "estimatedDeparture": "2024-07-08T02:23:00.000Z"
+      "stopName": "Westgarth Railway Station",
+      "stopNumber": null,
+      "suburb": "Northcote",
+      "stopGTFSID": "vic:rail:WTG",
+      "arrivalTime": "12:21",
+      "arrivalTimeMinutes": 741,
+      "departureTime": "12:21",
+      "departureTimeMinutes": 741,
+      "stopConditions": {
+        "pickup": 0,
+        "dropoff": 0
+      },
+      "stopDistance": 10271.19,
+      "platform": "2"
     },
     {
-      "stationName": "Dennis",
-      "platform": "2",
-      "scheduledDeparture": "2024-07-08T02:23:00.000Z",
-      "estimatedDeparture": "2024-07-08T02:24:00.000Z"
+      "stopName": "Dennis Railway Station",
+      "stopNumber": null,
+      "suburb": "Northcote",
+      "stopGTFSID": "vic:rail:DEN",
+      "arrivalTime": "12:23",
+      "arrivalTimeMinutes": 743,
+      "departureTime": "12:23",
+      "departureTimeMinutes": 743,
+      "stopConditions": {
+        "pickup": 0,
+        "dropoff": 0
+      },
+      "stopDistance": 11110.3,
+      "platform": "2"
     },
     {
-      "stationName": "Fairfield",
-      "platform": "2",
-      "scheduledDeparture": "2024-07-08T02:25:00.000Z",
-      "estimatedDeparture": "2024-07-08T02:26:00.000Z"
+      "stopName": "Fairfield Railway Station",
+      "stopNumber": null,
+      "suburb": "Fairfield",
+      "stopGTFSID": "vic:rail:FFD",
+      "arrivalTime": "12:25",
+      "arrivalTimeMinutes": 745,
+      "departureTime": "12:25",
+      "departureTimeMinutes": 745,
+      "stopConditions": {
+        "pickup": 0,
+        "dropoff": 0
+      },
+      "stopDistance": 11879.48,
+      "platform": "2"
     },
     {
-      "stationName": "Alphington",
-      "platform": "2",
-      "scheduledDeparture": "2024-07-08T02:27:00.000Z",
-      "estimatedDeparture": "2024-07-08T02:28:00.000Z"
+      "stopName": "Alphington Railway Station",
+      "stopNumber": null,
+      "suburb": "Alphington",
+      "stopGTFSID": "vic:rail:ALP",
+      "arrivalTime": "12:27",
+      "arrivalTimeMinutes": 747,
+      "departureTime": "12:27",
+      "departureTimeMinutes": 747,
+      "stopConditions": {
+        "pickup": 0,
+        "dropoff": 0
+      },
+      "stopDistance": 13145.02,
+      "platform": "2"
     },
     {
-      "stationName": "Darebin",
-      "platform": "2",
-      "scheduledDeparture": "2024-07-08T02:28:00.000Z",
-      "estimatedDeparture": "2024-07-08T02:30:00.000Z"
+      "stopName": "Darebin Railway Station",
+      "stopNumber": null,
+      "suburb": "Ivanhoe",
+      "stopGTFSID": "vic:rail:DBN",
+      "arrivalTime": "12:28",
+      "arrivalTimeMinutes": 748,
+      "departureTime": "12:28",
+      "departureTimeMinutes": 748,
+      "stopConditions": {
+        "pickup": 0,
+        "dropoff": 0
+      },
+      "stopDistance": 13915.23,
+      "platform": "2"
     },
     {
-      "stationName": "Ivanhoe",
-      "platform": "2",
-      "scheduledDeparture": "2024-07-08T02:30:00.000Z",
-      "estimatedDeparture": "2024-07-08T02:32:00.000Z"
+      "stopName": "Ivanhoe Railway Station",
+      "stopNumber": null,
+      "suburb": "Ivanhoe",
+      "stopGTFSID": "vic:rail:IVA",
+      "arrivalTime": "12:30",
+      "arrivalTimeMinutes": 750,
+      "departureTime": "12:30",
+      "departureTimeMinutes": 750,
+      "stopConditions": {
+        "pickup": 0,
+        "dropoff": 0
+      },
+      "stopDistance": 14838.4,
+      "platform": "2"
     },
     {
-      "stationName": "Eaglemont",
-      "platform": "2",
-      "scheduledDeparture": "2024-07-08T02:32:00.000Z",
-      "estimatedDeparture": "2024-07-08T02:33:00.000Z"
+      "stopName": "Eaglemont Railway Station",
+      "stopNumber": null,
+      "suburb": "Eaglemont",
+      "stopGTFSID": "vic:rail:EAG",
+      "arrivalTime": "12:32",
+      "arrivalTimeMinutes": 752,
+      "departureTime": "12:32",
+      "departureTimeMinutes": 752,
+      "stopConditions": {
+        "pickup": 0,
+        "dropoff": 0
+      },
+      "stopDistance": 15781.56,
+      "platform": "2"
     },
     {
-      "stationName": "Heidelberg",
-      "platform": "2",
-      "scheduledDeparture": "2024-07-08T02:34:00.000Z",
-      "estimatedDeparture": "2024-07-08T02:35:00.000Z"
+      "stopName": "Heidelberg Railway Station",
+      "stopNumber": null,
+      "suburb": "Heidelberg",
+      "stopGTFSID": "vic:rail:HDB",
+      "arrivalTime": "12:34",
+      "arrivalTimeMinutes": 754,
+      "departureTime": "12:34",
+      "departureTimeMinutes": 754,
+      "stopConditions": {
+        "pickup": 0,
+        "dropoff": 0
+      },
+      "stopDistance": 16743.44,
+      "platform": "2"
     },
     {
-      "stationName": "Rosanna",
-      "platform": "2",
-      "scheduledDeparture": "2024-07-08T02:37:00.000Z",
-      "estimatedDeparture": "2024-07-08T02:38:00.000Z"
+      "stopName": "Rosanna Railway Station",
+      "stopNumber": null,
+      "suburb": "Rosanna",
+      "stopGTFSID": "vic:rail:ROS",
+      "arrivalTime": "12:37",
+      "arrivalTimeMinutes": 757,
+      "departureTime": "12:37",
+      "departureTimeMinutes": 757,
+      "stopConditions": {
+        "pickup": 0,
+        "dropoff": 0
+      },
+      "stopDistance": 18489.12,
+      "platform": "2"
     },
     {
-      "stationName": "Macleod",
-      "platform": "2",
-      "scheduledDeparture": "2024-07-08T02:39:00.000Z",
-      "estimatedDeparture": "2024-07-08T02:41:00.000Z"
+      "stopName": "Macleod Railway Station",
+      "stopNumber": null,
+      "suburb": "Macleod",
+      "stopGTFSID": "vic:rail:MCD",
+      "arrivalTime": "12:39",
+      "arrivalTimeMinutes": 759,
+      "departureTime": "12:39",
+      "departureTimeMinutes": 759,
+      "stopConditions": {
+        "pickup": 0,
+        "dropoff": 0
+      },
+      "stopDistance": 20450.02,
+      "platform": "2"
     },
     {
-      "stationName": "Watsonia",
-      "platform": "2",
-      "scheduledDeparture": "2024-07-08T02:42:00.000Z",
-      "estimatedDeparture": "2024-07-08T02:44:00.000Z"
+      "stopName": "Watsonia Railway Station",
+      "stopNumber": null,
+      "suburb": "Watsonia",
+      "stopGTFSID": "vic:rail:WAT",
+      "arrivalTime": "12:42",
+      "arrivalTimeMinutes": 762,
+      "departureTime": "12:42",
+      "departureTimeMinutes": 762,
+      "stopConditions": {
+        "pickup": 0,
+        "dropoff": 0
+      },
+      "stopDistance": 22646.94,
+      "platform": "2"
     },
     {
-      "stationName": "Greensborough",
-      "platform": "2",
-      "scheduledDeparture": "2024-07-08T02:46:00.000Z",
-      "estimatedDeparture": "2024-07-08T02:48:00.000Z"
+      "stopName": "Greensborough Railway Station",
+      "stopNumber": null,
+      "suburb": "Greensborough",
+      "stopGTFSID": "vic:rail:GRN",
+      "arrivalTime": "12:46",
+      "arrivalTimeMinutes": 766,
+      "departureTime": "12:46",
+      "departureTimeMinutes": 766,
+      "stopConditions": {
+        "pickup": 0,
+        "dropoff": 0
+      },
+      "stopDistance": 25632.77,
+      "platform": "2"
     },
     {
-      "stationName": "Montmorency",
-      "platform": "2",
-      "scheduledDeparture": "2024-07-08T02:49:00.000Z",
-      "estimatedDeparture": "2024-07-08T02:51:00.000Z"
+      "stopName": "Montmorency Railway Station",
+      "stopNumber": null,
+      "suburb": "Montmorency",
+      "stopGTFSID": "vic:rail:MMY",
+      "arrivalTime": "12:49",
+      "arrivalTimeMinutes": 769,
+      "departureTime": "12:49",
+      "departureTimeMinutes": 769,
+      "stopConditions": {
+        "pickup": 0,
+        "dropoff": 0
+      },
+      "stopDistance": 27401.99,
+      "platform": "2"
     },
     {
-      "stationName": "Eltham",
-      "platform": "1",
-      "scheduledDeparture": "2024-07-08T02:57:00.000Z",
-      "estimatedDeparture": "2024-07-08T02:57:00.000Z"
+      "stopName": "Eltham Railway Station",
+      "stopNumber": null,
+      "suburb": "Eltham",
+      "stopGTFSID": "vic:rail:ELT",
+      "arrivalTime": "12:53",
+      "arrivalTimeMinutes": 773,
+      "departureTime": "12:57",
+      "departureTimeMinutes": 777,
+      "stopConditions": {
+        "pickup": 0,
+        "dropoff": 0
+      },
+      "stopDistance": 30082.97,
+      "platform": "1"
     },
     {
-      "stationName": "Diamond Creek",
-      "platform": "1",
-      "scheduledDeparture": "2024-07-08T03:04:00.000Z",
-      "estimatedDeparture": "2024-07-08T03:04:00.000Z"
+      "stopName": "Diamond Creek Railway Station",
+      "stopNumber": null,
+      "suburb": "Diamond Creek",
+      "stopGTFSID": "vic:rail:DCK",
+      "arrivalTime": "13:04",
+      "arrivalTimeMinutes": 784,
+      "departureTime": "13:04",
+      "departureTimeMinutes": 784,
+      "stopConditions": {
+        "pickup": 0,
+        "dropoff": 0
+      },
+      "stopDistance": 35322.11,
+      "platform": "1"
     },
     {
-      "stationName": "Wattle Glen",
-      "platform": "1",
-      "scheduledDeparture": "2024-07-08T03:07:00.000Z",
-      "estimatedDeparture": null
+      "stopName": "Wattle Glen Railway Station",
+      "stopNumber": null,
+      "suburb": "Wattle Glen",
+      "stopGTFSID": "vic:rail:WTT",
+      "arrivalTime": "13:07",
+      "arrivalTimeMinutes": 787,
+      "departureTime": "13:07",
+      "departureTimeMinutes": 787,
+      "stopConditions": {
+        "pickup": 0,
+        "dropoff": 0
+      },
+      "stopDistance": 37720.69,
+      "platform": "1"
     },
     {
-      "stationName": "Hurstbridge",
-      "platform": "1",
-      "scheduledDeparture": "2024-07-08T03:12:00.000Z",
-      "estimatedDeparture": null
+      "stopName": "Hurstbridge Railway Station",
+      "stopNumber": null,
+      "suburb": "Hurstbridge",
+      "stopGTFSID": "vic:rail:HBE",
+      "arrivalTime": "13:12",
+      "arrivalTimeMinutes": 792,
+      "departureTime": "13:12",
+      "departureTimeMinutes": 792,
+      "stopConditions": {
+        "pickup": 1,
+        "dropoff": 0
+      },
+      "stopDistance": 40689.71,
+      "platform": "1"
     }
   ],
-  "formedByStops": [],
-  "formingStops": []
+  "origin": "Flinders Street Railway Station",
+  "departureTime": "11:59",
+  "destination": "Hurstbridge Railway Station",
+  "destinationArrivalTime": "13:12"
 }

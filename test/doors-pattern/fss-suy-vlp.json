@@ -1,143 +1,383 @@
 {
-  "runData": {
-    "runRef": "954605",
-    "destination": "Sunbury",
-    "direction": {
-      "directionID": 13,
-      "directionName": "Sunbury",
-      "railDirection": "Down"
-    },
-    "position": null,
-    "vehicle": null,
-    "tdn": "6605",
-    "isRailBus": false,
-    "viaCityLoop": true,
-    "formedBy": {
-      "tdn": "5208",
-      "runRef": "953208"
-    },
-    "forming": {
-      "tdn": "6016",
-      "runRef": "954016"
-    }
-  },
-  "routeData": {
-    "ptvRouteID": 14,
-    "routeName": "Sunbury",
-    "routeNumber": null,
-    "gtfsRouteID": "2-SYM"
-  },
-  "stops": [
+  "mode": "metro train",
+  "routeName": "Sunbury",
+  "routeNumber": null,
+  "routeGTFSID": "2-SUY",
+  "operationDays": "20251128",
+  "calendarID": "T6_1",
+  "tripID": "02-SUY--27-T6-6667",
+  "shapeID": "2-SUY-vpt-27.48.H",
+  "block": "3796",
+  "gtfsDirection": 0,
+  "runID": "6667",
+  "isRailReplacementBus": false,
+  "direction": "Down",
+  "stopTimings": [
     {
-      "stationName": "Flinders Street",
+      "stopName": "Flinders Street Railway Station",
+      "stopNumber": null,
+      "suburb": "Melbourne",
+      "stopGTFSID": "vic:rail:FSS",
+      "arrivalTime": "00:29",
+      "arrivalTimeMinutes": 1469,
+      "departureTime": "00:29",
+      "departureTimeMinutes": 1469,
+      "stopConditions": {
+        "pickup": 0,
+        "dropoff": 1
+      },
+      "stopDistance": 0,
       "platform": "5",
-      "scheduledDeparture": "2024-07-08T04:20:00.000Z",
-      "estimatedDeparture": "2024-07-08T04:19:40.000Z"
+      "scheduledDepartureTime": "2025-11-28T13:29:00.000Z",
+      "scheduledDepartureTimeMS": 1764336540000,
+      "actualDepartureTimeMS": 1764336540000,
+      "estimatedDepartureTime": null,
+      "cancelled": false
     },
     {
-      "stationName": "Parliament",
+      "stopName": "Parliament Railway Station",
+      "stopNumber": null,
+      "suburb": "Melbourne",
+      "stopGTFSID": "vic:rail:PAR",
+      "arrivalTime": "00:31",
+      "arrivalTimeMinutes": 1471,
+      "departureTime": "00:31",
+      "departureTimeMinutes": 1471,
+      "stopConditions": {
+        "pickup": 0,
+        "dropoff": 0
+      },
+      "stopDistance": 1300.42,
       "platform": "3",
-      "scheduledDeparture": "2024-07-08T04:23:00.000Z",
-      "estimatedDeparture": "2024-07-08T04:23:00.000Z"
+      "scheduledDepartureTime": "2025-11-28T13:31:00.000Z",
+      "scheduledDepartureTimeMS": 1764336660000,
+      "actualDepartureTimeMS": 1764336660000,
+      "estimatedDepartureTime": null,
+      "cancelled": false
     },
     {
-      "stationName": "Melbourne Central",
+      "stopName": "Melbourne Central Railway Station",
+      "stopNumber": null,
+      "suburb": "Melbourne",
+      "stopGTFSID": "vic:rail:MCE",
+      "arrivalTime": "00:33",
+      "arrivalTimeMinutes": 1473,
+      "departureTime": "00:33",
+      "departureTimeMinutes": 1473,
+      "stopConditions": {
+        "pickup": 0,
+        "dropoff": 0
+      },
+      "stopDistance": 2408.46,
       "platform": "3",
-      "scheduledDeparture": "2024-07-08T04:25:00.000Z",
-      "estimatedDeparture": "2024-07-08T04:25:00.000Z"
+      "scheduledDepartureTime": "2025-11-28T13:33:00.000Z",
+      "scheduledDepartureTimeMS": 1764336780000,
+      "actualDepartureTimeMS": 1764336780000,
+      "estimatedDepartureTime": null,
+      "cancelled": false
     },
     {
-      "stationName": "Flagstaff",
+      "stopName": "Flagstaff Railway Station",
+      "stopNumber": null,
+      "suburb": "Melbourne",
+      "stopGTFSID": "vic:rail:FGS",
+      "arrivalTime": "00:35",
+      "arrivalTimeMinutes": 1475,
+      "departureTime": "00:35",
+      "departureTimeMinutes": 1475,
+      "stopConditions": {
+        "pickup": 0,
+        "dropoff": 0
+      },
+      "stopDistance": 3094.39,
       "platform": "3",
-      "scheduledDeparture": "2024-07-08T04:27:00.000Z",
-      "estimatedDeparture": "2024-07-08T04:27:00.000Z"
+      "scheduledDepartureTime": "2025-11-28T13:35:00.000Z",
+      "scheduledDepartureTimeMS": 1764336900000,
+      "actualDepartureTimeMS": 1764336900000,
+      "estimatedDepartureTime": null,
+      "cancelled": false
     },
     {
-      "stationName": "North Melbourne",
+      "stopName": "North Melbourne Railway Station",
+      "stopNumber": null,
+      "suburb": "West Melbourne",
+      "stopGTFSID": "vic:rail:NME",
+      "arrivalTime": "00:38",
+      "arrivalTimeMinutes": 1478,
+      "departureTime": "00:38",
+      "departureTimeMinutes": 1478,
+      "stopConditions": {
+        "pickup": 0,
+        "dropoff": 0
+      },
+      "stopDistance": 4593.45,
       "platform": "4",
-      "scheduledDeparture": "2024-07-08T04:30:00.000Z",
-      "estimatedDeparture": "2024-07-08T04:29:47.000Z"
+      "scheduledDepartureTime": "2025-11-28T13:38:00.000Z",
+      "scheduledDepartureTimeMS": 1764337080000,
+      "actualDepartureTimeMS": 1764337080000,
+      "estimatedDepartureTime": null,
+      "cancelled": false
     },
     {
-      "stationName": "Footscray",
+      "stopName": "Footscray Railway Station",
+      "stopNumber": null,
+      "suburb": "Footscray",
+      "stopGTFSID": "vic:rail:FSY",
+      "arrivalTime": "00:42",
+      "arrivalTimeMinutes": 1482,
+      "departureTime": "00:42",
+      "departureTimeMinutes": 1482,
+      "stopConditions": {
+        "pickup": 0,
+        "dropoff": 0
+      },
+      "stopDistance": 8522.37,
       "platform": "2",
-      "scheduledDeparture": "2024-07-08T04:34:00.000Z",
-      "estimatedDeparture": "2024-07-08T04:35:00.000Z"
+      "scheduledDepartureTime": "2025-11-28T13:42:00.000Z",
+      "scheduledDepartureTimeMS": 1764337320000,
+      "actualDepartureTimeMS": 1764337320000,
+      "estimatedDepartureTime": null,
+      "cancelled": false
     },
     {
-      "stationName": "Middle Footscray",
+      "stopName": "Middle Footscray Railway Station",
+      "stopNumber": null,
+      "suburb": "Footscray",
+      "stopGTFSID": "vic:rail:MFY",
+      "arrivalTime": "00:44",
+      "arrivalTimeMinutes": 1484,
+      "departureTime": "00:44",
+      "departureTimeMinutes": 1484,
+      "stopConditions": {
+        "pickup": 0,
+        "dropoff": 0
+      },
+      "stopDistance": 9521.6,
       "platform": "2",
-      "scheduledDeparture": "2024-07-08T04:36:00.000Z",
-      "estimatedDeparture": "2024-07-08T04:36:00.000Z"
+      "scheduledDepartureTime": "2025-11-28T13:44:00.000Z",
+      "scheduledDepartureTimeMS": 1764337440000,
+      "actualDepartureTimeMS": 1764337440000,
+      "estimatedDepartureTime": null,
+      "cancelled": false
     },
     {
-      "stationName": "West Footscray",
+      "stopName": "West Footscray Railway Station",
+      "stopNumber": null,
+      "suburb": "West Footscray",
+      "stopGTFSID": "vic:rail:WFY",
+      "arrivalTime": "00:45",
+      "arrivalTimeMinutes": 1485,
+      "departureTime": "00:45",
+      "departureTimeMinutes": 1485,
+      "stopConditions": {
+        "pickup": 0,
+        "dropoff": 0
+      },
+      "stopDistance": 10217.83,
       "platform": "3",
-      "scheduledDeparture": "2024-07-08T04:37:00.000Z",
-      "estimatedDeparture": "2024-07-08T04:39:37.000Z"
+      "scheduledDepartureTime": "2025-11-28T13:45:00.000Z",
+      "scheduledDepartureTimeMS": 1764337500000,
+      "actualDepartureTimeMS": 1764337500000,
+      "estimatedDepartureTime": null,
+      "cancelled": false
     },
     {
-      "stationName": "Tottenham",
+      "stopName": "Tottenham Railway Station",
+      "stopNumber": null,
+      "suburb": "West Footscray",
+      "stopGTFSID": "vic:rail:TOT",
+      "arrivalTime": "00:48",
+      "arrivalTimeMinutes": 1488,
+      "departureTime": "00:48",
+      "departureTimeMinutes": 1488,
+      "stopConditions": {
+        "pickup": 0,
+        "dropoff": 0
+      },
+      "stopDistance": 11975.1,
       "platform": "2",
-      "scheduledDeparture": "2024-07-08T04:40:00.000Z",
-      "estimatedDeparture": "2024-07-08T04:40:00.000Z"
+      "scheduledDepartureTime": "2025-11-28T13:48:00.000Z",
+      "scheduledDepartureTimeMS": 1764337680000,
+      "actualDepartureTimeMS": 1764337680000,
+      "estimatedDepartureTime": null,
+      "cancelled": false
     },
     {
-      "stationName": "Sunshine",
+      "stopName": "Sunshine Railway Station",
+      "stopNumber": null,
+      "suburb": "Sunshine",
+      "stopGTFSID": "vic:rail:SUN",
+      "arrivalTime": "00:52",
+      "arrivalTimeMinutes": 1492,
+      "departureTime": "00:52",
+      "departureTimeMinutes": 1492,
+      "stopConditions": {
+        "pickup": 0,
+        "dropoff": 0
+      },
+      "stopDistance": 15114.93,
       "platform": "2",
-      "scheduledDeparture": "2024-07-08T04:44:00.000Z",
-      "estimatedDeparture": "2024-07-08T04:45:00.000Z"
+      "scheduledDepartureTime": "2025-11-28T13:52:00.000Z",
+      "scheduledDepartureTimeMS": 1764337920000,
+      "actualDepartureTimeMS": 1764337920000,
+      "estimatedDepartureTime": null,
+      "cancelled": false
     },
     {
-      "stationName": "Albion",
+      "stopName": "Albion Railway Station",
+      "stopNumber": null,
+      "suburb": "Albion",
+      "stopGTFSID": "vic:rail:ALB",
+      "arrivalTime": "00:54",
+      "arrivalTimeMinutes": 1494,
+      "departureTime": "00:54",
+      "departureTimeMinutes": 1494,
+      "stopConditions": {
+        "pickup": 0,
+        "dropoff": 0
+      },
+      "stopDistance": 16514.75,
       "platform": "2",
-      "scheduledDeparture": "2024-07-08T04:46:00.000Z",
-      "estimatedDeparture": "2024-07-08T04:47:00.000Z"
+      "scheduledDepartureTime": "2025-11-28T13:54:00.000Z",
+      "scheduledDepartureTimeMS": 1764338040000,
+      "actualDepartureTimeMS": 1764338040000,
+      "estimatedDepartureTime": null,
+      "cancelled": false
     },
     {
-      "stationName": "Ginifer",
+      "stopName": "Ginifer Railway Station",
+      "stopNumber": null,
+      "suburb": "St. Albans",
+      "stopGTFSID": "vic:rail:GIN",
+      "arrivalTime": "00:57",
+      "arrivalTimeMinutes": 1497,
+      "departureTime": "00:57",
+      "departureTimeMinutes": 1497,
+      "stopConditions": {
+        "pickup": 0,
+        "dropoff": 0
+      },
+      "stopDistance": 18870.12,
       "platform": "2",
-      "scheduledDeparture": "2024-07-08T04:49:00.000Z",
-      "estimatedDeparture": "2024-07-08T04:51:00.000Z"
+      "scheduledDepartureTime": "2025-11-28T13:57:00.000Z",
+      "scheduledDepartureTimeMS": 1764338220000,
+      "actualDepartureTimeMS": 1764338220000,
+      "estimatedDepartureTime": null,
+      "cancelled": false
     },
     {
-      "stationName": "St. Albans",
+      "stopName": "St. Albans Railway Station",
+      "stopNumber": null,
+      "suburb": "St. Albans",
+      "stopGTFSID": "vic:rail:SAB",
+      "arrivalTime": "01:00",
+      "arrivalTimeMinutes": 1500,
+      "departureTime": "01:00",
+      "departureTimeMinutes": 1500,
+      "stopConditions": {
+        "pickup": 0,
+        "dropoff": 0
+      },
+      "stopDistance": 20754.59,
       "platform": "2",
-      "scheduledDeparture": "2024-07-08T04:52:00.000Z",
-      "estimatedDeparture": "2024-07-08T04:53:00.000Z"
+      "scheduledDepartureTime": "2025-11-28T14:00:00.000Z",
+      "scheduledDepartureTimeMS": 1764338400000,
+      "actualDepartureTimeMS": 1764338400000,
+      "estimatedDepartureTime": null,
+      "cancelled": false
     },
     {
-      "stationName": "Keilor Plains",
+      "stopName": "Keilor Plains Railway Station",
+      "stopNumber": null,
+      "suburb": "St. Albans",
+      "stopGTFSID": "vic:rail:KPL",
+      "arrivalTime": "01:02",
+      "arrivalTimeMinutes": 1502,
+      "departureTime": "01:02",
+      "departureTimeMinutes": 1502,
+      "stopConditions": {
+        "pickup": 0,
+        "dropoff": 0
+      },
+      "stopDistance": 22539.42,
       "platform": "2",
-      "scheduledDeparture": "2024-07-08T04:54:00.000Z",
-      "estimatedDeparture": "2024-07-08T04:56:00.000Z"
+      "scheduledDepartureTime": "2025-11-28T14:02:00.000Z",
+      "scheduledDepartureTimeMS": 1764338520000,
+      "actualDepartureTimeMS": 1764338520000,
+      "estimatedDepartureTime": null,
+      "cancelled": false
     },
     {
-      "stationName": "Watergardens",
+      "stopName": "Watergardens Railway Station",
+      "stopNumber": null,
+      "suburb": "Sydenham",
+      "stopGTFSID": "vic:rail:WGS",
+      "arrivalTime": "01:06",
+      "arrivalTimeMinutes": 1506,
+      "departureTime": "01:06",
+      "departureTimeMinutes": 1506,
+      "stopConditions": {
+        "pickup": 0,
+        "dropoff": 0
+      },
+      "stopDistance": 26187.62,
       "platform": "3",
-      "scheduledDeparture": "2024-07-08T04:59:00.000Z",
-      "estimatedDeparture": "2024-07-08T05:00:00.000Z"
+      "scheduledDepartureTime": "2025-11-28T14:06:00.000Z",
+      "scheduledDepartureTimeMS": 1764338760000,
+      "actualDepartureTimeMS": 1764338760000,
+      "estimatedDepartureTime": null,
+      "cancelled": false
     },
     {
-      "stationName": "Diggers Rest",
+      "stopName": "Diggers Rest Railway Station",
+      "stopNumber": null,
+      "suburb": "Diggers Rest",
+      "stopGTFSID": "vic:rail:DRT",
+      "arrivalTime": "01:13",
+      "arrivalTimeMinutes": 1513,
+      "departureTime": "01:13",
+      "departureTimeMinutes": 1513,
+      "stopConditions": {
+        "pickup": 0,
+        "dropoff": 0
+      },
+      "stopDistance": 35659.43,
       "platform": "2",
-      "scheduledDeparture": "2024-07-08T05:06:00.000Z",
-      "estimatedDeparture": "2024-07-08T05:08:00.000Z"
+      "scheduledDepartureTime": "2025-11-28T14:13:00.000Z",
+      "scheduledDepartureTimeMS": 1764339180000,
+      "actualDepartureTimeMS": 1764339180000,
+      "estimatedDepartureTime": null,
+      "cancelled": false
     },
     {
-      "stationName": "Sunbury",
+      "stopName": "Sunbury Railway Station",
+      "stopNumber": null,
+      "suburb": "Sunbury",
+      "stopGTFSID": "vic:rail:SUY",
+      "arrivalTime": "01:19",
+      "arrivalTimeMinutes": 1519,
+      "departureTime": "01:19",
+      "departureTimeMinutes": 1519,
+      "stopConditions": {
+        "pickup": 1,
+        "dropoff": 0
+      },
+      "stopDistance": 41279.1,
       "platform": "1",
-      "scheduledDeparture": "2024-07-08T05:12:00.000Z",
-      "estimatedDeparture": null
+      "scheduledDepartureTime": "2025-11-28T14:19:00.000Z",
+      "scheduledDepartureTimeMS": 1764339540000,
+      "actualDepartureTimeMS": 1764339540000,
+      "estimatedDepartureTime": null,
+      "cancelled": false
     }
   ],
-  "formedByStops": [
-    {
-      "stationName": "Southern Cross",
-      "platform": "11",
-      "scheduledDeparture": "2024-07-08T04:14:00.000Z",
-      "estimatedDeparture": "2024-07-08T04:14:00.000Z"
-    }
-  ],
-  "formingStops": []
+  "origin": "Flinders Street Railway Station",
+  "departureTime": "24:29",
+  "destination": "Sunbury Railway Station",
+  "destinationArrivalTime": "25:19",
+  "trueOrigin": "Flinders Street Railway Station",
+  "trueDestination": "Sunbury Railway Station",
+  "trueDepartureTime": "24:29",
+  "trueDestinationArrivalTime": "25:19",
+  "formedBy": "5290"
 }
