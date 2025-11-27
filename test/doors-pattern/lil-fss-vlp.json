@@ -56,27 +56,6 @@
       "cancelled": false
     },
     {
-      "stopName": "Croydon Railway Station",
-      "stopNumber": null,
-      "suburb": "Croydon",
-      "stopGTFSID": "vic:rail:CDN",
-      "arrivalTime": "11:48",
-      "arrivalTimeMinutes": 708,
-      "departureTime": "11:48",
-      "departureTimeMinutes": 708,
-      "stopConditions": {
-        "pickup": 0,
-        "dropoff": 0
-      },
-      "stopDistance": 8044.98,
-      "platform": "1",
-      "scheduledDepartureTime": "2025-11-28T00:48:00.000Z",
-      "scheduledDepartureTimeMS": 1764290880000,
-      "actualDepartureTimeMS": 1764290880000,
-      "estimatedDepartureTime": null,
-      "cancelled": false
-    },
-    {
       "stopName": "Ringwood East Railway Station",
       "stopNumber": null,
       "suburb": "Ringwood East",
