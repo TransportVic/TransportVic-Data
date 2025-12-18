@@ -249,10 +249,11 @@ stop_id,bay,name,notes
 6666,3,La Trobe University (Bundoora),
 6667,4,La Trobe University (Bundoora),
 6668,5,La Trobe University (Bundoora),
-20947,4,Laverton Station/Maher Rd (Laverton),
-20942,1,Laverton Station/Railway Ave (Laverton),
-20945,2,Laverton Station/Railway Ave (Laverton),
-20944,3,Laverton Station/Railway Ave (Laverton),
+20947,E,Laverton Station/Maher Rd (Laverton),Former Bay 4
+29119,D,Laverton Station/Maher Rd (Laverton),
+20942,A,Laverton Station/Railway Ave (Laverton),Former Bay 1
+20945,B,Laverton Station/Railway Ave (Laverton),Former Bay 2
+20944,C,Laverton Station/Railway Ave (Laverton),Former Bay 3
 23444,11,Leeds St/Hopkins St (Footscray),need to check
 22609,12,Leeds St/Hopkins St (Footscray),need to check
 40954,6,Leeds St/Paisley St (Footscray),need to check
@@ -426,14 +427,14 @@ stop_id,bay,name,notes
 18762,11,Sunshine Station/Dickson St (Sunshine),
 18764,12,Sunshine Station/Dickson St (Sunshine),
 22342,13,Sunshine Station/Dickson St (Sunshine),
-50255,1,Tarneit Railway Station,removed
-50256,2,Tarneit Railway Station,Flexiride stop
-50257,3,Tarneit Railway Station,removed
-50258,4,Tarneit Railway Station,removed
-50259,5,Tarneit Railway Station,removed
-27986,6,Tarneit Railway Station,removed
-50260,7,Tarneit Railway Station,removed
-27985,8,Tarneit Railway Station,removed
+50255,I,Tarneit Railway Station,Former Bay 1
+50256,J,Tarneit Railway Station,Flexiride stop
+50257,K,Tarneit Railway Station,Former Bay 3
+50258,L,Tarneit Railway Station,Former Bay 4
+50259,5,Tarneit Railway Station,"Former Bay 5, removed?"
+27986,6,Tarneit Railway Station,"Former Bay 6, removed?"
+50260,7,Tarneit Railway Station,"Former Bay 7, removed?"
+27985,8,Tarneit Railway Station,"Former Bay 8, removed?"
 27539,9,Tarneit Railway Station,Flexiride stop
 28543,A,Tarneit Station (Tarneit),new interchange
 28542,B,Tarneit Station (Tarneit),
@@ -468,13 +469,14 @@ stop_id,bay,name,notes
 47126,7,Werribee Plaza/Derrimut Rd (Hoppers Crossing),
 47700,8,Werribee Plaza/Derrimut Rd (Hoppers Crossing),
 47701,9,Werribee Plaza/Derrimut Rd (Hoppers Crossing),
-20965,1,Werribee Station/Manly St (Werribee),
-20972,2,Werribee Station/Manly St (Werribee),
-20970,3,Werribee Station/Manly St (Werribee),
-20968,4,Werribee Station/Manly St (Werribee),
-20967,5,Werribee Station/Manly St (Werribee),
-20971,6,Werribee Station/Manly St (Werribee),
-44766,7,Werribee Station/Manly St (Werribee),
+27984,H,Werribee Station/Manly St (Werribee),
+20965,G,Werribee Station/Manly St (Werribee),Former Bay 1
+20972,F,Werribee Station/Manly St (Werribee),Former Bay 2
+20970,E,Werribee Station/Manly St (Werribee),Former Bay 3
+20968,D,Werribee Station/Manly St (Werribee),Former Bay 4
+20967,C,Werribee Station/Manly St (Werribee),Former Bay 5
+20971,B,Werribee Station/Manly St (Werribee),Former Bay 6
+44766,A,Werribee Station/Manly St (Werribee),Former Bay 7
 46697,1,Williams Landing Station (Williams Landing),
 46696,2,Williams Landing Station (Williams Landing),
 46698,3,Williams Landing Station (Williams Landing),
