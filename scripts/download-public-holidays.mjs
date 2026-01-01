@@ -25,7 +25,15 @@ const fullPath = new URL(linkPath, ICAL_URL_BASE)
 const icalData = await (await fetch(fullPath)).text()
 await fs.writeFile(path.join(calendarDir, 'vic-holidays.ics'), icalData)
 
+const now = new Date()
+
+const matchedDates = icalData
+  .match(/DTEND;VALUE=DATE:(\d+)/g)
+  .map(d => d.match(/DTEND;VALUE=DATE:(\d+)/)[1])
+  .sort()
+
 await fs.writeFile(path.join(calendarDir, 'note.txt'), `Data is sourced from https://www.vic.gov.au/ical
-Last updated: ${new Date().toLocaleString()}`)
+Last updated: ${now.getMonth() + 1}/${now.getFullYear()}
+Data extent: ${matchedDates[matchedDates.length - 1]}`)
 
 process.exit(0)
