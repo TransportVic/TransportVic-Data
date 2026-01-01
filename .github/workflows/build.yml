@@ -72,6 +72,9 @@ jobs:
     - name: Generate geospatial data
       run: node scripts/kml-to-geojson.mjs
 
+    - name: Update calendars
+      run: node scripts/download-public-holidays.mjs
+
     - uses: stefanzweifel/git-auto-commit-action@v5
       with:
         commit_message: ':robot: build data files'
