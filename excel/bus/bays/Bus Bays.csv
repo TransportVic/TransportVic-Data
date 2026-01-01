@@ -13,8 +13,8 @@ stop_id,bay,name,notes
 49016,1,Ballarat Bus Interchange (Soldiers Hill),
 49017,2,Ballarat Bus Interchange (Soldiers Hill),
 49018,3,Ballarat Bus Interchange (Soldiers Hill),need to check
-40183,1,Bayswater Station/Station St (Bayswater),
-40182,2,Bayswater Station/Station St (Bayswater),
+40182,1,Bayswater Station/Station St (Bayswater),
+40183,2,Bayswater Station/Station St (Bayswater),
 19583,1,Belgrave Station/Belgrave-Gembrook Rd (Belgrave),
 19582,2,Belgrave Station/Belgrave-Gembrook Rd (Belgrave),
 19581,3,Belgrave Station/Belgrave-Gembrook Rd (Belgrave),
@@ -144,13 +144,13 @@ stop_id,bay,name,notes
 51132,1,Diamond Creek Station/Station St (Diamond Creek),
 51133,2,Diamond Creek Station/Station St (Diamond Creek),
 51134,3,Diamond Creek Station/Station St (Diamond Creek),
-19474,1,Doncaster SC/Williamsons Rd (Doncaster),
-19483,2,Doncaster SC/Williamsons Rd (Doncaster),
-19273,3,Doncaster SC/Williamsons Rd (Doncaster),
-19485,4,Doncaster SC/Williamsons Rd (Doncaster),
-19476,5,Doncaster SC/Williamsons Rd (Doncaster),
-19486,6,Doncaster SC/Williamsons Rd (Doncaster),
-19488,7,Doncaster SC/Williamsons Rd (Doncaster),
+19474,A,Doncaster SC/Williamsons Rd (Doncaster),Former Bay 1
+19483,B,Doncaster SC/Williamsons Rd (Doncaster),Former Bay 2
+19273,C,Doncaster SC/Williamsons Rd (Doncaster),Former Bay 3
+19485,D,Doncaster SC/Williamsons Rd (Doncaster),Former Bay 4
+19476,E,Doncaster SC/Williamsons Rd (Doncaster),Former Bay 5
+19486,F,Doncaster SC/Williamsons Rd (Doncaster),Former Bay 6
+19488,G,Doncaster SC/Williamsons Rd (Doncaster),Former Bay 7
 48851,A,Donnybrook Station (Donnybrook),
 48850,B,Donnybrook Station (Donnybrook),
 43683,1,Eltham Station/Main Rd (Eltham),
@@ -205,7 +205,7 @@ stop_id,bay,name,notes
 21013,3,Glen Waverley Station/Railway Pde (Glen Waverley),
 21014,4,Glen Waverley Station/Railway Pde (Glen Waverley),
 21015,5,Glen Waverley Station/Railway Pde (Glen Waverley),
-21016,6,Glen Waverley Station/Railway Pde (Glen Waverley),
+21016,7,Glen Waverley Station/Railway Pde (Glen Waverley),
 21017,8,Glen Waverley Station/Railway Pde (Glen Waverley),
 21018,9,Glen Waverley Station/Railway Pde (Glen Waverley),
 21019,10,Glen Waverley Station/Railway Pde (Glen Waverley),
@@ -336,7 +336,7 @@ stop_id,bay,name,notes
 18742,3,Newport Interchange/Mason St (Newport),
 18741,5,Newport Interchange/Mason St (Newport),
 21176,5,Nicholson St/Paisley St (Footscray),need to check
-47158,1,Northland SC/Murray Rd (Preston),Incorrectly signed as Bay 1. Was not updated to letters along with the rest of the bays
+47158,A,Northland SC/Murray Rd (Preston),
 47159,B,Northland SC/Murray Rd (Preston),
 47160,C,Northland SC/Murray Rd (Preston),
 47161,D,Northland SC/Murray Rd (Preston),
