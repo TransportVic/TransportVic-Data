@@ -1,3 +1,5 @@
+import { default as distance } from '@turf/distance'
+
 const WALPEUP = {
   type: 'Point',
   coordinates: [
