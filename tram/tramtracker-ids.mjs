@@ -2009,6 +2009,11 @@ export default {
     tramTrackerName: 'Parliament Railway Station',
     levelAccess: true
   },
+  '17893': {
+    tramTrackerID: '3311',
+    tramTrackerName: 'Victoria Pde & Nicholson St',
+    levelAccess: false
+  },
   '17894': {
     tramTrackerID: '3312',
     tramTrackerName: 'Melbourne Museum',
