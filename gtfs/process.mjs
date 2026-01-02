@@ -4,10 +4,48 @@ import vlineRoutes from '../excel/rail/vline-route-names/routes.json' with { typ
 import metroOperators from '../excel/bus/operators/metro-operators.json' with { type: 'json' }
 import { dateUtils } from '@transportme/transportvic-utils'
 import milduraBusData from './mildura-bus-data.mjs'
+import fs from 'fs/promises'
+import path from 'path'
+import url from 'url'
+import { GTFS_CONSTANTS } from '@transportme/transportvic-utils'
+
+const __filename = url.fileURLToPath(import.meta.url)
+const __dirname = path.dirname(__filename)
+
+const processorsDir = path.join(__dirname, 'processors')
 
 const VLINE_ROUTES = {
   ...vlineRoutes,
   ...Object.keys(vlineRoutes).reduce((acc, railID) => ({ ...acc, [`5-${railID.slice(-3)}`]: vlineRoutes[railID] }), {})
+}
+
+async function createProcessor(type) {
+  const processors = {}
+  for (const mode of Object.keys(GTFS_CONSTANTS.GTFS_MODES)) {
+    try {
+      const dirPath = path.join(processorsDir, type, mode)
+      const files = (await fs.readdir(dirPath)).sort()
+
+      const modeProcessors = []
+      for (const file of files) {
+        const module = await import(path.join(dirPath, file))
+        modeProcessors.push(module.default)
+      }
+
+      if (files.length) {
+        processors[mode] = async data => {
+          let currentData = data
+          for (const fn of modeProcessors) {
+            currentData = fn(currentData)
+            if (!currentData) return null
+          }
+          return currentData
+        }
+      }
+    } catch (e) {}
+  }
+
+  return processors
 }
 
 /**
@@ -24,7 +62,10 @@ const VLINE_ROUTES = {
  * @param {GTFSRoute} route Route data
  * @returns {GTFSRoute} Updated route data
  */
-export function createRouteProcessor() {
+export async function createRouteProcessor() {
+  return await createProcessor('route')
+
+
   return {
     1: function processRoute(route) {
       if (route.routeGTFSID === '1-vPK') return null
