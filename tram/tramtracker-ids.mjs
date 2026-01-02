@@ -1877,7 +1877,7 @@ export default {
   '17857': {
     tramTrackerID: '3818',
     tramTrackerName: 'Peel Street & Victoria Street',
-    levelAccess: false
+    levelAccess: true
   },
   '17858': {
     tramTrackerID: '3819',
@@ -1912,7 +1912,7 @@ export default {
   '17864': {
     tramTrackerID: '3918',
     tramTrackerName: 'Peel Street & Victoria Street',
-    levelAccess: false
+    levelAccess: true
   },
   '17866': {
     tramTrackerID: '3809',
@@ -2232,7 +2232,7 @@ export default {
   '17948': {
     tramTrackerID: '1333',
     tramTrackerName: 'Melbourne Showgrounds & Union Road',
-    levelAccess: false
+    levelAccess: true
   },
   '17949': {
     tramTrackerID: '1332',
@@ -2731,7 +2731,7 @@ export default {
   },
   '18208': {
     tramTrackerID: '3166',
-    tramTrackerName: 'Flagstaff Station',
+    tramTrackerName: 'Flagstaff Railway Station',
     levelAccess: true
   },
   '18210': {
@@ -2746,7 +2746,7 @@ export default {
   },
   '18214': {
     tramTrackerID: '3160',
-    tramTrackerName: 'Flinders St & Queensbridge St',
+    tramTrackerName: 'Flinders Street & Queensbridge Street',
     levelAccess: false
   },
   '18215': {
@@ -3371,7 +3371,7 @@ export default {
   },
   '18491': {
     tramTrackerID: '2015',
-    tramTrackerName: 'Wests Rd & Raleigh Rd',
+    tramTrackerName: 'Wests Road & Raleigh Road',
     levelAccess: false
   },
   '18492': {
@@ -8040,8 +8040,8 @@ export default {
     levelAccess: true
   },
   '46864': {
-    tramTrackerID: '3351',
-    tramTrackerName: 'Spencer St & Latrobe St',
+    tramTrackerID: '3551',
+    tramTrackerName: 'Spencer Street & Latrobe Street',
     levelAccess: true
   },
   '46865': {
