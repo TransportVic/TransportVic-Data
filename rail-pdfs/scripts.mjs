@@ -33,10 +33,19 @@ export default {
     ],
     [
       ...resolvePaths([
+        'ballarat-melton-upgrade/307-Maryborough-temp-timetable-web-110126-v1.pdf',
         'ballarat-melton-upgrade/307-Maryborough-temp-timetable-web-12-160126-v1.pdf',
         'ballarat-melton-upgrade/307-Maryborough-temp-timetable-web-17-180126-v1.pdf',
         'ballarat-melton-upgrade/307-Maryborough-temp-timetable-web-19-230126-v1.pdf',
-        'ballarat-melton-upgrade/307-Maryborough-temp-timetable-web-110126-v1.pdf',
+      ])
+    ], [
+      '--restrict-origin-dest=Watergardens Railway Station',
+      '--restrict-origin-dest=Melton Railway Station',
+      ...resolvePaths([
+        'ballarat-melton-upgrade/307-Melton-temp-timetable-web-110126-v1.pdf',
+        'ballarat-melton-upgrade/307-Melton-temp-timetable-web-12-160126-v1.pdf',
+        'ballarat-melton-upgrade/307-Melton-temp-timetable-web-17-180126-v1.pdf',
+        'ballarat-melton-upgrade/307-Melton-temp-timetable-web-19-230126-v1.pdf',
       ])
     ], [
       '--coach-only',
