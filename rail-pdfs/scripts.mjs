@@ -53,6 +53,26 @@ export default {
       '--change-op-day=Saturday=17 January',
       '--change-op-day=Sunday=11 & 18 January',
       resolvePaths(['geelong-west-tarneit/110-Warrnambool-Temp-BLOB-11-23Jan2026-v1.pdf'])[0]
+    ], [
+      '--restrict-origin-dest=Waurn Ponds Railway Station',
+      '--restrict-origin-dest=Warrnambool Railway Station',
+      '--change-op-day=Monday to Friday=12 & 13 & 14 & 15 & 16 & 19 & 20 & 21 & 22 & 23 January',
+      '--change-op-day=Saturday=17 January',
+      '--change-op-day=Sunday=11 & 18 January',
+      resolvePaths(['geelong-west-tarneit/110-Warrnambool-Temp-BLOB-11-23Jan2026-v1.pdf'])[0]
     ]
-  ]
+  ],
+  supercede: [{
+    routeName: ['Warrnambool', 'Geelong'],
+    operationDays: [
+      '20260111', '20260112', '20260113', '20260114', '20260115', '20260116', '20260117',
+      '20260118', '20260119', '20260120', '20260121', '20260122', '20260123'
+    ]
+  }, {
+    routeName: ['Ballarat', 'Ararat', 'Maryborough'],
+    operationDays: [
+      '20260111', '20260112', '20260113', '20260114', '20260115', '20260116', '20260117',
+      '20260118', '20260119', '20260120', '20260121', '20260122', '20260123'
+    ]
+  }]
 }
