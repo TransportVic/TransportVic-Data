@@ -11,6 +11,7 @@ const processorsDir = path.join(__dirname, 'processors')
 
 async function createProcessor(type, database) {
   const stops = database ? database.getCollection('gtfs-stops') : null
+  const routes = database ? database.getCollection('gtfs-routes') : null
 
   const processors = {}
   for (const mode of Object.keys(GTFS_CONSTANTS.GTFS_MODES)) {
@@ -28,7 +29,7 @@ async function createProcessor(type, database) {
         processors[mode] = async data => {
           let currentData = data
           for (const fn of modeProcessors) {
-            currentData = await fn(currentData, stops)
+            currentData = await fn(currentData, stops, routes)
             if (!currentData) return null
           }
           return currentData
@@ -54,12 +55,12 @@ async function createProcessor(type, database) {
  * @param {GTFSRoute} route Route data
  * @returns {GTFSRoute} Updated route data
  */
-export async function createRouteProcessor() {
-  return await createProcessor('route')
+export async function createRouteProcessor(database) {
+  return await createProcessor('route', database)
 }
 
-export async function createStopProcessor() {
-  return await createProcessor('stop')
+export async function createStopProcessor(database) {
+  return await createProcessor('stop', database)
 }
 
 export async function createTripProcessor(database) {
