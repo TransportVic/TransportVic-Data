@@ -57,7 +57,7 @@ export default {
       '--restrict-origin-dest=Waurn Ponds Railway Station',
       '--restrict-origin-dest=Warrnambool Railway Station',
       '--change-op-day=Monday to Friday=12 & 13 & 14 & 15 & 16 & 19 & 20 & 21 & 22 & 23 January',
-      '--change-op-day=Saturday=17 January',
+      '--change-op-day=Saturday=Saturday 17 January',
       '--change-op-day=Sunday=11 & 18 January',
       resolvePaths(['geelong-west-tarneit/110-Warrnambool-Temp-BLOB-11-23Jan2026-v1.pdf'])[0]
     ]
