@@ -6,7 +6,7 @@ export default function processStop(stop) {
   }
 
   // Stations, which are the faulty parents, should be dropped
-  if (stop.stopType === 'station') return null
+  if (stop.locationType === '1') return null
 
   return stop
 }
