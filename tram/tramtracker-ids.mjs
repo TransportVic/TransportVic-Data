@@ -8178,5 +8178,79 @@ export default {
     tramTrackerID: '2561',
     tramTrackerName: 'Fawkner Park',
     levelAccess: true
+  },
+
+  '46895': {
+    tramTrackerID: '1290',
+    tramTrackerName: 'Bank St & Mt Alexander Rd',
+    levelAccess: false
+  },
+  '46896': {
+    tramTrackerID: '2290',
+    tramTrackerName: 'Bank St & Mt Alexander Rd',
+    levelAccess: false
+  },
+
+  '46892': {
+    tramTrackerID: '1322',
+    tramTrackerName: 'Boundary Road & Racecourse Road',
+    levelAccess: false
+  },
+
+  '46899': {
+    tramTrackerID: '1298',
+    tramTrackerName: 'Buckley Street & Pascoe Vale Road',
+    levelAccess: false
+  },
+
+  '46903': {
+    tramTrackerID: '2340',
+    tramTrackerName: 'Epsom Road & Maribyrnong Road',
+    levelAccess: false
+  },
+
+  '46900': {
+    tramTrackerID: '2299',
+    tramTrackerName: 'Fletcher Street & Pascoe Vale Road',
+    levelAccess: false
+  },
+
+  '46901': {
+    tramTrackerID: '1301',
+    tramTrackerName: 'Nicholson Street & Fletcher Street',
+    levelAccess: false
+  },
+  '46902': {
+    tramTrackerID: '2301',
+    tramTrackerName: 'Nicholson Street & Fletcher Street',
+    levelAccess: false
+  },
+
+  '18523': {
+    tramTrackerID: '2333',
+    tramTrackerName: 'Melbourne Showgrounds & Epsom Road',
+    levelAccess: true
+  },
+
+  '46897': {
+    tramTrackerID: '1296',
+    tramTrackerName: 'Queens Park & Pascoe Vale Road',
+    levelAccess: false
+  },
+  '46898': {
+    tramTrackerID: '2296',
+    tramTrackerName: 'Queens Park & Pascoe Vale Road',
+    levelAccess: false
+  },
+
+  '46894': {
+    tramTrackerID: '1328',
+    tramTrackerName: 'Smithfield Road & Racecourse Road',
+    levelAccess: false
+  },
+  '46893': {
+    tramTrackerID: '2328',
+    tramTrackerName: 'Smithfield Road & Racecourse Road',
+    levelAccess: false
   }
 }
