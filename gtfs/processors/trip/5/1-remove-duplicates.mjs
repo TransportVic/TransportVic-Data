@@ -1,24 +1,24 @@
 const VLINE_COACH_DUPLICATES = [
   // West Gippsland Transit trips
   {
-    origin: 'Drouin Railway Station/Princes Way',
-    destination: 'Traralgon Railway Station/Princes Street',
+    origin: 'Drouin Railway Station',
+    destination: 'Traralgon Railway Station',
     departureTime: '05:40'
   },
   {
-    origin: 'Garfield Railway Station/Nar Nar Goon-Longwarry Road',
+    origin: 'Garfield Railway Station',
     destination: 'Traralgon Plaza Shopping Centre/Franklin Street',
     departureTime: '06:43'
   },
   {
-    origin: 'Warragul Railway Station/Alfred Street',
-    destination: 'Moe Railway Station/Lloyd Street',
-    departureTime: '18:45'
+    origin: 'Warragul Railway Station',
+    destination: 'Moe Railway Station',
+    departureTime: '18:55'
   },
   {
-    origin: 'Garfield Railway Station/Nar Nar Goon-Longwarry Road',
-    destination: 'Nar Nar Goon Railway Station/Carney Street',
-    departureTime: '18:25'
+    origin: 'Garfield Railway Station',
+    destination: 'Nar Nar Goon Railway Station',
+    departureTime: '18:34'
   },
 
   // Duplicate trips from Cowes - Anderson - Wonthaggi
